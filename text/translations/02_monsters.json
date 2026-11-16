@@ -1,0 +1,1472 @@
+[
+  {
+    "id": 21,
+    "desc_idx": 3,
+    "str_idx": 1,
+    "jp": "ベビードラゴンの名前を入力してください{BREAK}",
+    "en": "Enter the Baby Dragon's name.{BREAK}"
+  },
+  {
+    "id": 69,
+    "desc_idx": 12,
+    "str_idx": 2,
+    "jp": "モンスターブックを見るのか?{BREAK}",
+    "en": "View the Monster Book?{BREAK}"
+  },
+  {
+    "id": 216,
+    "desc_idx": 24,
+    "str_idx": 1,
+    "jp": "    モンスターをしょうかんできません{BREAK}",
+    "en": "    Cannot summon monsters.{BREAK}"
+  },
+  {
+    "id": 226,
+    "desc_idx": 26,
+    "str_idx": 7,
+    "jp": "モンスター{BREAK}",
+    "en": "Monster{BREAK}"
+  },
+  {
+    "id": 365,
+    "desc_idx": 88,
+    "str_idx": 1,
+    "jp": "テキを仲間モンスターにする（はなれたテキにも有効）{BREAK}",
+    "en": "Tames a foe (works at range).{BREAK}"
+  },
+  {
+    "id": 422,
+    "desc_idx": 117,
+    "str_idx": 0,
+    "jp": "プーニャ{BREAK}",
+    "en": "Poona{BREAK}"
+  },
+  {
+    "id": 423,
+    "desc_idx": 117,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん{BREAK}",
+    "en": "Summon ally monster.{BREAK}"
+  },
+  {
+    "id": 424,
+    "desc_idx": 118,
+    "str_idx": 0,
+    "jp": "キラービー{BREAK}",
+    "en": "Killer Bee{BREAK}"
+  },
+  {
+    "id": 425,
+    "desc_idx": 118,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん{BREAK}",
+    "en": "Summon ally monster.{BREAK}"
+  },
+  {
+    "id": 426,
+    "desc_idx": 119,
+    "str_idx": 0,
+    "jp": "スケルトン{BREAK}",
+    "en": "Skeleton{BREAK}"
+  },
+  {
+    "id": 427,
+    "desc_idx": 119,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん{BREAK}",
+    "en": "Summon ally monster.{BREAK}"
+  },
+  {
+    "id": 429,
+    "desc_idx": 120,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん{BREAK}",
+    "en": "Summon ally monster.{BREAK}"
+  },
+  {
+    "id": 431,
+    "desc_idx": 121,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん{BREAK}",
+    "en": "Summon ally monster.{BREAK}"
+  },
+  {
+    "id": 433,
+    "desc_idx": 122,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん{BREAK}",
+    "en": "Summon ally monster.{BREAK}"
+  },
+  {
+    "id": 435,
+    "desc_idx": 123,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん{BREAK}",
+    "en": "Summon ally monster.{BREAK}"
+  },
+  {
+    "id": 437,
+    "desc_idx": 124,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん{BREAK}",
+    "en": "Summon ally monster.{BREAK}"
+  },
+  {
+    "id": 438,
+    "desc_idx": 125,
+    "str_idx": 0,
+    "jp": "ドラゴン{BREAK}",
+    "en": "Dragon{BREAK}"
+  },
+  {
+    "id": 439,
+    "desc_idx": 125,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん{BREAK}",
+    "en": "Summon ally monster.{BREAK}"
+  },
+  {
+    "id": 441,
+    "desc_idx": 126,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん{BREAK}",
+    "en": "Summon ally monster.{BREAK}"
+  },
+  {
+    "id": 442,
+    "desc_idx": 127,
+    "str_idx": 0,
+    "jp": "マッドブル{BREAK}",
+    "en": "Mad Bull{BREAK}"
+  },
+  {
+    "id": 443,
+    "desc_idx": 127,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん{BREAK}",
+    "en": "Summon ally monster.{BREAK}"
+  },
+  {
+    "id": 445,
+    "desc_idx": 128,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん{BREAK}",
+    "en": "Summon ally monster.{BREAK}"
+  },
+  {
+    "id": 447,
+    "desc_idx": 129,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん{BREAK}",
+    "en": "Summon ally monster.{BREAK}"
+  },
+  {
+    "id": 448,
+    "desc_idx": 130,
+    "str_idx": 0,
+    "jp": "キングドラゴン{BREAK}",
+    "en": "King Dragon{BREAK}"
+  },
+  {
+    "id": 449,
+    "desc_idx": 130,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん{BREAK}",
+    "en": "Summon ally monster.{BREAK}"
+  },
+  {
+    "id": 450,
+    "desc_idx": 131,
+    "str_idx": 0,
+    "jp": "ベビードラゴン{BREAK}",
+    "en": "Baby Dragon{BREAK}"
+  },
+  {
+    "id": 451,
+    "desc_idx": 131,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん{BREAK}",
+    "en": "Summon ally monster.{BREAK}"
+  },
+  {
+    "id": 453,
+    "desc_idx": 132,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん{BREAK}",
+    "en": "Summon ally monster.{BREAK}"
+  },
+  {
+    "id": 455,
+    "desc_idx": 133,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん{BREAK}",
+    "en": "Summon ally monster.{BREAK}"
+  },
+  {
+    "id": 457,
+    "desc_idx": 134,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん{BREAK}",
+    "en": "Summon ally monster.{BREAK}"
+  },
+  {
+    "id": 459,
+    "desc_idx": 135,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん{BREAK}",
+    "en": "Summon ally monster.{BREAK}"
+  },
+  {
+    "id": 461,
+    "desc_idx": 136,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん{BREAK}",
+    "en": "Summon ally monster.{BREAK}"
+  },
+  {
+    "id": 463,
+    "desc_idx": 137,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん{BREAK}",
+    "en": "Summon ally monster.{BREAK}"
+  },
+  {
+    "id": 465,
+    "desc_idx": 138,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん{BREAK}",
+    "en": "Summon ally monster.{BREAK}"
+  },
+  {
+    "id": 481,
+    "desc_idx": 146,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん{BREAK}",
+    "en": "Summon ally monster.{BREAK}"
+  },
+  {
+    "id": 483,
+    "desc_idx": 147,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん{BREAK}",
+    "en": "Summon ally monster.{BREAK}"
+  },
+  {
+    "id": 485,
+    "desc_idx": 148,
+    "str_idx": 1,
+    "jp": "仲間モンスターをよび出す{BREAK}",
+    "en": "Summons an ally monster.{BREAK}"
+  },
+  {
+    "id": 487,
+    "desc_idx": 149,
+    "str_idx": 1,
+    "jp": "仲間モンスターをよび出す{BREAK}",
+    "en": "Summons an ally monster.{BREAK}"
+  },
+  {
+    "id": 521,
+    "desc_idx": 151,
+    "str_idx": 0,
+    "jp": "プーニャ{BREAK}",
+    "en": "Poona{BREAK}"
+  },
+  {
+    "id": 523,
+    "desc_idx": 152,
+    "str_idx": 0,
+    "jp": "キラービー{BREAK}",
+    "en": "Killer Bee{BREAK}"
+  },
+  {
+    "id": 524,
+    "desc_idx": 152,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキに攻撃（小）{BREAK}",
+    "en": "Summon ally; light attack.{BREAK}"
+  },
+  {
+    "id": 525,
+    "desc_idx": 153,
+    "str_idx": 0,
+    "jp": "スケルトン{BREAK}",
+    "en": "Skeleton{BREAK}"
+  },
+  {
+    "id": 526,
+    "desc_idx": 153,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキに攻撃（小）{BREAK}",
+    "en": "Summon ally; light attack.{BREAK}"
+  },
+  {
+    "id": 528,
+    "desc_idx": 154,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキに攻撃（小）{BREAK}",
+    "en": "Summon ally; light attack.{BREAK}"
+  },
+  {
+    "id": 530,
+    "desc_idx": 155,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキに攻撃（小）{BREAK}",
+    "en": "Summon ally; light attack.{BREAK}"
+  },
+  {
+    "id": 532,
+    "desc_idx": 156,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（小）{BREAK}",
+    "en": "Ally summon: boost ranged attack (Small){BREAK}"
+  },
+  {
+    "id": 534,
+    "desc_idx": 157,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん{BREAK}",
+    "en": "Summon ally monster.{BREAK}"
+  },
+  {
+    "id": 537,
+    "desc_idx": 159,
+    "str_idx": 0,
+    "jp": "ドラゴン{BREAK}",
+    "en": "Dragon{BREAK}"
+  },
+  {
+    "id": 538,
+    "desc_idx": 159,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（小）{BREAK}",
+    "en": "Ally summon: boost ranged attack (Small){BREAK}"
+  },
+  {
+    "id": 540,
+    "desc_idx": 160,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキに攻撃（小）{BREAK}",
+    "en": "Summon ally; light attack.{BREAK}"
+  },
+  {
+    "id": 541,
+    "desc_idx": 161,
+    "str_idx": 0,
+    "jp": "マッドブル{BREAK}",
+    "en": "Mad Bull{BREAK}"
+  },
+  {
+    "id": 542,
+    "desc_idx": 161,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキに攻撃（小）{BREAK}",
+    "en": "Summon ally; light attack.{BREAK}"
+  },
+  {
+    "id": 544,
+    "desc_idx": 162,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（小）{BREAK}",
+    "en": "Ally summon: boost ranged attack (Small){BREAK}"
+  },
+  {
+    "id": 547,
+    "desc_idx": 164,
+    "str_idx": 0,
+    "jp": "キングドラゴン{BREAK}",
+    "en": "King Dragon{BREAK}"
+  },
+  {
+    "id": 548,
+    "desc_idx": 164,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキに攻撃（小）{BREAK}",
+    "en": "Summon ally; light attack.{BREAK}"
+  },
+  {
+    "id": 549,
+    "desc_idx": 165,
+    "str_idx": 0,
+    "jp": "ベビードラゴン{BREAK}",
+    "en": "Baby Dragon{BREAK}"
+  },
+  {
+    "id": 550,
+    "desc_idx": 165,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（小）{BREAK}",
+    "en": "Ally summon: boost ranged attack (Small){BREAK}"
+  },
+  {
+    "id": 556,
+    "desc_idx": 168,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・防御力（小）{BREAK}",
+    "en": "Summon ally; small DEF boost.{BREAK}"
+  },
+  {
+    "id": 566,
+    "desc_idx": 173,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキを2回攻撃（かくりつ小）{BREAK}",
+    "en": "Ally summon: double attack (Low chance){BREAK}"
+  },
+  {
+    "id": 609,
+    "desc_idx": 175,
+    "str_idx": 0,
+    "jp": "プーニャ{BREAK}",
+    "en": "Poona{BREAK}"
+  },
+  {
+    "id": 611,
+    "desc_idx": 176,
+    "str_idx": 0,
+    "jp": "キラービー{BREAK}",
+    "en": "Killer Bee{BREAK}"
+  },
+  {
+    "id": 612,
+    "desc_idx": 176,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキに攻撃（中）{BREAK}",
+    "en": "Summon ally; medium attack.{BREAK}"
+  },
+  {
+    "id": 613,
+    "desc_idx": 177,
+    "str_idx": 0,
+    "jp": "スケルトン{BREAK}",
+    "en": "Skeleton{BREAK}"
+  },
+  {
+    "id": 614,
+    "desc_idx": 177,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキに攻撃（中）{BREAK}",
+    "en": "Summon ally; medium attack.{BREAK}"
+  },
+  {
+    "id": 616,
+    "desc_idx": 178,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキに攻撃（中）{BREAK}",
+    "en": "Summon ally; medium attack.{BREAK}"
+  },
+  {
+    "id": 618,
+    "desc_idx": 179,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキに攻撃（中）{BREAK}",
+    "en": "Summon ally; medium attack.{BREAK}"
+  },
+  {
+    "id": 620,
+    "desc_idx": 180,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（中）{BREAK}",
+    "en": "Ally summon: boost ranged attack (Med){BREAK}"
+  },
+  {
+    "id": 625,
+    "desc_idx": 183,
+    "str_idx": 0,
+    "jp": "ドラゴン{BREAK}",
+    "en": "Dragon{BREAK}"
+  },
+  {
+    "id": 626,
+    "desc_idx": 183,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（中）{BREAK}",
+    "en": "Ally summon: boost ranged attack (Med){BREAK}"
+  },
+  {
+    "id": 628,
+    "desc_idx": 184,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキに攻撃（中）{BREAK}",
+    "en": "Summon ally; medium attack.{BREAK}"
+  },
+  {
+    "id": 629,
+    "desc_idx": 185,
+    "str_idx": 0,
+    "jp": "マッドブル{BREAK}",
+    "en": "Mad Bull{BREAK}"
+  },
+  {
+    "id": 630,
+    "desc_idx": 185,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキに攻撃（中）{BREAK}",
+    "en": "Summon ally; medium attack.{BREAK}"
+  },
+  {
+    "id": 632,
+    "desc_idx": 186,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（中）{BREAK}",
+    "en": "Ally summon: boost ranged attack (Med){BREAK}"
+  },
+  {
+    "id": 635,
+    "desc_idx": 188,
+    "str_idx": 0,
+    "jp": "キングドラゴン{BREAK}",
+    "en": "King Dragon{BREAK}"
+  },
+  {
+    "id": 636,
+    "desc_idx": 188,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキに攻撃（中）{BREAK}",
+    "en": "Summon ally; medium attack.{BREAK}"
+  },
+  {
+    "id": 637,
+    "desc_idx": 189,
+    "str_idx": 0,
+    "jp": "ベビードラゴン{BREAK}",
+    "en": "Baby Dragon{BREAK}"
+  },
+  {
+    "id": 638,
+    "desc_idx": 189,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（中）{BREAK}",
+    "en": "Ally summon: boost ranged attack (Med){BREAK}"
+  },
+  {
+    "id": 644,
+    "desc_idx": 192,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・防御力（中）{BREAK}",
+    "en": "Summon ally; medium DEF boost.{BREAK}"
+  },
+  {
+    "id": 654,
+    "desc_idx": 197,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・プレイヤーのHPを回復（小）{BREAK}",
+    "en": "Ally summon: heal player HP (Small){BREAK}"
+  },
+  {
+    "id": 676,
+    "desc_idx": 199,
+    "str_idx": 0,
+    "jp": "プーニャ{BREAK}",
+    "en": "Poona{BREAK}"
+  },
+  {
+    "id": 678,
+    "desc_idx": 200,
+    "str_idx": 0,
+    "jp": "キラービー{BREAK}",
+    "en": "Killer Bee{BREAK}"
+  },
+  {
+    "id": 679,
+    "desc_idx": 200,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキに攻撃（大）{BREAK}",
+    "en": "Summon ally; heavy attack.{BREAK}"
+  },
+  {
+    "id": 680,
+    "desc_idx": 201,
+    "str_idx": 0,
+    "jp": "スケルトン{BREAK}",
+    "en": "Skeleton{BREAK}"
+  },
+  {
+    "id": 681,
+    "desc_idx": 201,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキに攻撃（大）{BREAK}",
+    "en": "Summon ally; heavy attack.{BREAK}"
+  },
+  {
+    "id": 683,
+    "desc_idx": 202,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキに攻撃（大）{BREAK}",
+    "en": "Summon ally; heavy attack.{BREAK}"
+  },
+  {
+    "id": 685,
+    "desc_idx": 203,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキに攻撃（大）{BREAK}",
+    "en": "Summon ally; heavy attack.{BREAK}"
+  },
+  {
+    "id": 687,
+    "desc_idx": 204,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（大）{BREAK}",
+    "en": "Ally summon: boost ranged attack (Large){BREAK}"
+  },
+  {
+    "id": 692,
+    "desc_idx": 207,
+    "str_idx": 0,
+    "jp": "ドラゴン{BREAK}",
+    "en": "Dragon{BREAK}"
+  },
+  {
+    "id": 693,
+    "desc_idx": 207,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（大）{BREAK}",
+    "en": "Ally summon: boost ranged attack (Large){BREAK}"
+  },
+  {
+    "id": 695,
+    "desc_idx": 208,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキに攻撃（大）{BREAK}",
+    "en": "Summon ally; heavy attack.{BREAK}"
+  },
+  {
+    "id": 696,
+    "desc_idx": 209,
+    "str_idx": 0,
+    "jp": "マッドブル{BREAK}",
+    "en": "Mad Bull{BREAK}"
+  },
+  {
+    "id": 697,
+    "desc_idx": 209,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキに攻撃（大）{BREAK}",
+    "en": "Summon ally; heavy attack.{BREAK}"
+  },
+  {
+    "id": 699,
+    "desc_idx": 210,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（大）{BREAK}",
+    "en": "Ally summon: boost ranged attack (Large){BREAK}"
+  },
+  {
+    "id": 702,
+    "desc_idx": 212,
+    "str_idx": 0,
+    "jp": "キングドラゴン{BREAK}",
+    "en": "King Dragon{BREAK}"
+  },
+  {
+    "id": 703,
+    "desc_idx": 212,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキに攻撃（大）{BREAK}",
+    "en": "Summon ally; heavy attack.{BREAK}"
+  },
+  {
+    "id": 704,
+    "desc_idx": 213,
+    "str_idx": 0,
+    "jp": "ベビードラゴン{BREAK}",
+    "en": "Baby Dragon{BREAK}"
+  },
+  {
+    "id": 705,
+    "desc_idx": 213,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（大）{BREAK}",
+    "en": "Ally summon: boost ranged attack (Large){BREAK}"
+  },
+  {
+    "id": 711,
+    "desc_idx": 216,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・防御力（大）{BREAK}",
+    "en": "Summon ally; high DEF boost.{BREAK}"
+  },
+  {
+    "id": 719,
+    "desc_idx": 220,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキを2回攻撃（かくりつ中）{BREAK}",
+    "en": "Ally summon: double attack (Med chance){BREAK}"
+  },
+  {
+    "id": 721,
+    "desc_idx": 221,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・プレイヤーのHPを回復（中）{BREAK}",
+    "en": "Ally summon: heal player HP (Med){BREAK}"
+  },
+  {
+    "id": 738,
+    "desc_idx": 223,
+    "str_idx": 0,
+    "jp": "キングプーニャ{BREAK}",
+    "en": "King Poona{BREAK}"
+  },
+  {
+    "id": 740,
+    "desc_idx": 224,
+    "str_idx": 0,
+    "jp": "クィーンビー{BREAK}",
+    "en": "Queen Bee{BREAK}"
+  },
+  {
+    "id": 741,
+    "desc_idx": 224,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキに攻撃（SP）{BREAK}",
+    "en": "Summon ally; SP attack.{BREAK}"
+  },
+  {
+    "id": 742,
+    "desc_idx": 225,
+    "str_idx": 0,
+    "jp": "スケルトンロード{BREAK}",
+    "en": "Skel. Lord{BREAK}"
+  },
+  {
+    "id": 743,
+    "desc_idx": 225,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキに攻撃（SP）{BREAK}",
+    "en": "Summon ally; SP attack.{BREAK}"
+  },
+  {
+    "id": 745,
+    "desc_idx": 226,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキに攻撃（SP）{BREAK}",
+    "en": "Summon ally; SP attack.{BREAK}"
+  },
+  {
+    "id": 747,
+    "desc_idx": 227,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキに攻撃（SP）{BREAK}",
+    "en": "Summon ally; SP attack.{BREAK}"
+  },
+  {
+    "id": 749,
+    "desc_idx": 228,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（SP）{BREAK}",
+    "en": "Ally summon: boost ranged attack (SP){BREAK}"
+  },
+  {
+    "id": 754,
+    "desc_idx": 231,
+    "str_idx": 0,
+    "jp": "ウィングドラゴン{BREAK}",
+    "en": "Wing Dragon{BREAK}"
+  },
+  {
+    "id": 755,
+    "desc_idx": 231,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（SP）{BREAK}",
+    "en": "Ally summon: boost ranged attack (SP){BREAK}"
+  },
+  {
+    "id": 757,
+    "desc_idx": 232,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキに攻撃（SP）{BREAK}",
+    "en": "Summon ally; SP attack.{BREAK}"
+  },
+  {
+    "id": 759,
+    "desc_idx": 233,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキに攻撃（SP）{BREAK}",
+    "en": "Summon ally; SP attack.{BREAK}"
+  },
+  {
+    "id": 761,
+    "desc_idx": 234,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（SP）{BREAK}",
+    "en": "Ally summon: boost ranged attack (SP){BREAK}"
+  },
+  {
+    "id": 764,
+    "desc_idx": 236,
+    "str_idx": 0,
+    "jp": "ゴッドドラゴン{BREAK}",
+    "en": "God Dragon{BREAK}"
+  },
+  {
+    "id": 765,
+    "desc_idx": 236,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキに攻撃（SP）{BREAK}",
+    "en": "Summon ally; SP attack.{BREAK}"
+  },
+  {
+    "id": 766,
+    "desc_idx": 237,
+    "str_idx": 0,
+    "jp": "プリンスドラゴン{BREAK}",
+    "en": "Prince Dragon{BREAK}"
+  },
+  {
+    "id": 767,
+    "desc_idx": 237,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（SP）{BREAK}",
+    "en": "Ally summon: boost ranged attack (SP){BREAK}"
+  },
+  {
+    "id": 773,
+    "desc_idx": 240,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・防御力（SP）{BREAK}",
+    "en": "Summon ally; SP DEF boost.{BREAK}"
+  },
+  {
+    "id": 781,
+    "desc_idx": 244,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキを2回攻撃（かくりつ大）{BREAK}",
+    "en": "Ally summon: double attack (High chance){BREAK}"
+  },
+  {
+    "id": 783,
+    "desc_idx": 245,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・プレイヤーのHPを回復（大）{BREAK}",
+    "en": "Ally summon: heal player HP (Large){BREAK}"
+  },
+  {
+    "id": 785,
+    "desc_idx": 246,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・プレイヤーのHPを回復（SP）{BREAK}",
+    "en": "Ally summon: heal player HP (SP){BREAK}"
+  },
+  {
+    "id": 787,
+    "desc_idx": 247,
+    "str_idx": 1,
+    "jp": "仲間キングモンスターをよび出す{BREAK}",
+    "en": "Summons an ally King Monster.{BREAK}"
+  },
+  {
+    "id": 789,
+    "desc_idx": 248,
+    "str_idx": 1,
+    "jp": "仲間モンスターをよび出す{BREAK}",
+    "en": "Summons an ally monster.{BREAK}"
+  },
+  {
+    "id": 800,
+    "desc_idx": 254,
+    "str_idx": 0,
+    "jp": "プーニャばかりのかんたんなダンジョン{BREAK}",
+    "en": "An easy dungeon full of Punyas.{BREAK}"
+  },
+  {
+    "id": 801,
+    "desc_idx": 255,
+    "str_idx": 0,
+    "jp": "キラービーばかりなので気楽にいこう!{BREAK}",
+    "en": "Just Killer Bees here, so take it easy!{BREAK}"
+  },
+  {
+    "id": 803,
+    "desc_idx": 257,
+    "str_idx": 0,
+    "jp": "よわいモンスターばかりだ{BREAK}",
+    "en": "Only weak monsters here.{BREAK}"
+  },
+  {
+    "id": 805,
+    "desc_idx": 259,
+    "str_idx": 0,
+    "jp": "モンスターの数は多いけど落ち着いていこう!{BREAK}",
+    "en": "Many monsters here, stay calm!{BREAK}"
+  },
+  {
+    "id": 807,
+    "desc_idx": 261,
+    "str_idx": 0,
+    "jp": "手強いモンスターがたくさん眠っているぞ{BREAK}",
+    "en": "Many tough monsters are sleeping.{BREAK}"
+  },
+  {
+    "id": 857,
+    "desc_idx": 269,
+    "str_idx": 0,
+    "jp": "はじめから強いモンスターが出てくるので気を付けよう{BREAK}",
+    "en": "Watch out for strong foes early on!{BREAK}"
+  },
+  {
+    "id": 869,
+    "desc_idx": 281,
+    "str_idx": 0,
+    "jp": "神聖なる神殿には強力なモンスターがいっぱいだ{BREAK}",
+    "en": "The sacred temple holds strong foes.{BREAK}"
+  },
+  {
+    "id": 873,
+    "desc_idx": 285,
+    "str_idx": 0,
+    "jp": "モンスターのはげしい攻撃に気を付けよう{BREAK}",
+    "en": "Watch out for fierce monster attacks!{BREAK}"
+  },
+  {
+    "id": 876,
+    "desc_idx": 288,
+    "str_idx": 0,
+    "jp": "2フロアーしかないけどモンスターは強力だ{BREAK}",
+    "en": "Only 2 floors, but tough monsters!{BREAK}"
+  },
+  {
+    "id": 902,
+    "desc_idx": 291,
+    "str_idx": 0,
+    "jp": "スケルトン以外のモンスターに要注意!{BREAK}",
+    "en": "Watch out for foes besides Skeletons!{BREAK}"
+  },
+  {
+    "id": 907,
+    "desc_idx": 296,
+    "str_idx": 0,
+    "jp": "キラービーけいのモンスターが多いぞ{BREAK}",
+    "en": "Lots of Killer Bee monsters here.{BREAK}"
+  },
+  {
+    "id": 914,
+    "desc_idx": 299,
+    "str_idx": 0,
+    "jp": "攻撃力の高いマッドブルには気を付けよう{BREAK}",
+    "en": "Watch out for hard-hitting Mad Bulls!{BREAK}"
+  },
+  {
+    "id": 924,
+    "desc_idx": 309,
+    "str_idx": 0,
+    "jp": "広いフロアーにたくさんのモンスターがうごめいているぞ{BREAK}",
+    "en": "Swarms of monsters roam the wide floors.{BREAK}"
+  },
+  {
+    "id": 927,
+    "desc_idx": 312,
+    "str_idx": 0,
+    "jp": "モンスターの強さのバラつきに注意しよう{BREAK}",
+    "en": "Watch out for varied foe strength.{BREAK}"
+  },
+  {
+    "id": 929,
+    "desc_idx": 314,
+    "str_idx": 0,
+    "jp": "せまいフロアーにモンスターがたくさんいるぞ{BREAK}",
+    "en": "Many monsters in tight floors!{BREAK}"
+  },
+  {
+    "id": 933,
+    "desc_idx": 318,
+    "str_idx": 0,
+    "jp": "たくさんのタイプのモンスターが出現するぞ{BREAK}",
+    "en": "Many types of monsters appear!{BREAK}"
+  },
+  {
+    "id": 934,
+    "desc_idx": 319,
+    "str_idx": 0,
+    "jp": "眠っているモンスターがいないぞ{BREAK}",
+    "en": "No monsters are sleeping here.{BREAK}"
+  },
+  {
+    "id": 937,
+    "desc_idx": 322,
+    "str_idx": 0,
+    "jp": "発生してくるモンスターに気を付けよう{BREAK}",
+    "en": "Watch out for spawning monsters!{BREAK}"
+  },
+  {
+    "id": 949,
+    "desc_idx": 334,
+    "str_idx": 0,
+    "jp": "ドラゴン族の眠るダンジョンだ!{BREAK}",
+    "en": "A dungeon where dragons slumber!{BREAK}"
+  },
+  {
+    "id": 1023,
+    "desc_idx": 397,
+    "str_idx": 2,
+    "jp": "モンスターを全てたおせ!{BREAK}",
+    "en": "Defeat all monsters!{BREAK}"
+  },
+  {
+    "id": 1026,
+    "desc_idx": 398,
+    "str_idx": 0,
+    "jp": "プーニャの森{BREAK}",
+    "en": "Punya Woods{BREAK}"
+  },
+  {
+    "id": 1027,
+    "desc_idx": 398,
+    "str_idx": 1,
+    "jp": "キラービーの森{BREAK}",
+    "en": "Killer Bee Woods{BREAK}"
+  },
+  {
+    "id": 1112,
+    "desc_idx": 398,
+    "str_idx": 86,
+    "jp": "ドラゴンフォレスト{BREAK}",
+    "en": "Dragon Forest{BREAK}"
+  },
+  {
+    "id": 1132,
+    "desc_idx": 399,
+    "str_idx": 0,
+    "jp": "モンスターのヒーリングにてこずるぞ{BREAK}",
+    "en": "Monster healing is troublesome!{BREAK}"
+  },
+  {
+    "id": 1189,
+    "desc_idx": 454,
+    "str_idx": 0,
+    "jp": "キラービーの森を.無事に通り抜ければ.依頼は完了だ,{BREAK}",
+    "en": "Make it safely through Killer Bee{NEWLINE}Woods to complete this quest.{BREAK}"
+  },
+  {
+    "id": 1272,
+    "desc_idx": 471,
+    "str_idx": 0,
+    "jp": "プーニャ{BREAK}",
+    "en": "Poona{BREAK}"
+  },
+  {
+    "id": 1274,
+    "desc_idx": 472,
+    "str_idx": 0,
+    "jp": "プーニャ{BREAK}",
+    "en": "Poona{BREAK}"
+  },
+  {
+    "id": 1276,
+    "desc_idx": 473,
+    "str_idx": 0,
+    "jp": "キラービー{BREAK}",
+    "en": "Killer Bee{BREAK}"
+  },
+  {
+    "id": 1280,
+    "desc_idx": 475,
+    "str_idx": 0,
+    "jp": "スケルトン{BREAK}",
+    "en": "Skeleton{BREAK}"
+  },
+  {
+    "id": 1288,
+    "desc_idx": 479,
+    "str_idx": 0,
+    "jp": "ベビードラゴン{BREAK}",
+    "en": "Baby Dragon{BREAK}"
+  },
+  {
+    "id": 1294,
+    "desc_idx": 482,
+    "str_idx": 0,
+    "jp": "キラービーぐん{BREAK}",
+    "en": "Killer Bee Swarm{BREAK}"
+  },
+  {
+    "id": 1306,
+    "desc_idx": 488,
+    "str_idx": 0,
+    "jp": "ドラゴン{BREAK}",
+    "en": "Dragon{BREAK}"
+  },
+  {
+    "id": 1314,
+    "desc_idx": 492,
+    "str_idx": 0,
+    "jp": "マッドブル{BREAK}",
+    "en": "Mad Bull{BREAK}"
+  },
+  {
+    "id": 1324,
+    "desc_idx": 497,
+    "str_idx": 0,
+    "jp": "キングドラゴン{BREAK}",
+    "en": "King Dragon{BREAK}"
+  },
+  {
+    "id": 1328,
+    "desc_idx": 499,
+    "str_idx": 0,
+    "jp": "プーニャ{BREAK}",
+    "en": "Poona{BREAK}"
+  },
+  {
+    "id": 1330,
+    "desc_idx": 500,
+    "str_idx": 0,
+    "jp": "キングプーニャ{BREAK}",
+    "en": "King Poona{BREAK}"
+  },
+  {
+    "id": 1332,
+    "desc_idx": 501,
+    "str_idx": 0,
+    "jp": "キラービー{BREAK}",
+    "en": "Killer Bee{BREAK}"
+  },
+  {
+    "id": 1334,
+    "desc_idx": 502,
+    "str_idx": 0,
+    "jp": "クィーンビー{BREAK}",
+    "en": "Queen Bee{BREAK}"
+  },
+  {
+    "id": 1340,
+    "desc_idx": 505,
+    "str_idx": 0,
+    "jp": "スケルトン{BREAK}",
+    "en": "Skeleton{BREAK}"
+  },
+  {
+    "id": 1342,
+    "desc_idx": 506,
+    "str_idx": 0,
+    "jp": "スケルトンロード{BREAK}",
+    "en": "Skel. Lord{BREAK}"
+  },
+  {
+    "id": 1356,
+    "desc_idx": 513,
+    "str_idx": 0,
+    "jp": "ベビードラゴン{BREAK}",
+    "en": "Baby Dragon{BREAK}"
+  },
+  {
+    "id": 1358,
+    "desc_idx": 514,
+    "str_idx": 0,
+    "jp": "プリンスドラゴン{BREAK}",
+    "en": "Prince Dragon{BREAK}"
+  },
+  {
+    "id": 1384,
+    "desc_idx": 527,
+    "str_idx": 0,
+    "jp": "ドラゴン{BREAK}",
+    "en": "Dragon{BREAK}"
+  },
+  {
+    "id": 1386,
+    "desc_idx": 528,
+    "str_idx": 0,
+    "jp": "ウィングドラゴン{BREAK}",
+    "en": "Wing Dragon{BREAK}"
+  },
+  {
+    "id": 1400,
+    "desc_idx": 535,
+    "str_idx": 0,
+    "jp": "マッドブル{BREAK}",
+    "en": "Mad Bull{BREAK}"
+  },
+  {
+    "id": 1420,
+    "desc_idx": 545,
+    "str_idx": 0,
+    "jp": "キングドラゴン{BREAK}",
+    "en": "King Dragon{BREAK}"
+  },
+  {
+    "id": 1422,
+    "desc_idx": 546,
+    "str_idx": 0,
+    "jp": "ゴッドドラゴン{BREAK}",
+    "en": "God Dragon{BREAK}"
+  },
+  {
+    "id": 1424,
+    "desc_idx": 547,
+    "str_idx": 0,
+    "jp": "プーニャ{BREAK}",
+    "en": "Poona{BREAK}"
+  },
+  {
+    "id": 1426,
+    "desc_idx": 548,
+    "str_idx": 0,
+    "jp": "キラービー{BREAK}",
+    "en": "Killer Bee{BREAK}"
+  },
+  {
+    "id": 1430,
+    "desc_idx": 550,
+    "str_idx": 0,
+    "jp": "スケルトン{BREAK}",
+    "en": "Skeleton{BREAK}"
+  },
+  {
+    "id": 1438,
+    "desc_idx": 554,
+    "str_idx": 0,
+    "jp": "ベビードラゴン{BREAK}",
+    "en": "Baby Dragon{BREAK}"
+  },
+  {
+    "id": 1452,
+    "desc_idx": 561,
+    "str_idx": 0,
+    "jp": "ドラゴン{BREAK}",
+    "en": "Dragon{BREAK}"
+  },
+  {
+    "id": 1460,
+    "desc_idx": 565,
+    "str_idx": 0,
+    "jp": "マッドブル{BREAK}",
+    "en": "Mad Bull{BREAK}"
+  },
+  {
+    "id": 1469,
+    "desc_idx": 570,
+    "str_idx": 0,
+    "jp": "キングドラゴン{BREAK}",
+    "en": "King Dragon{BREAK}"
+  },
+  {
+    "id": 1471,
+    "desc_idx": 571,
+    "str_idx": 0,
+    "jp": "キングプーニャ{BREAK}",
+    "en": "King Poona{BREAK}"
+  },
+  {
+    "id": 1473,
+    "desc_idx": 572,
+    "str_idx": 0,
+    "jp": "クィーンビー{BREAK}",
+    "en": "Queen Bee{BREAK}"
+  },
+  {
+    "id": 1477,
+    "desc_idx": 574,
+    "str_idx": 0,
+    "jp": "スケルトンロード{BREAK}",
+    "en": "Skel. Lord{BREAK}"
+  },
+  {
+    "id": 1485,
+    "desc_idx": 578,
+    "str_idx": 0,
+    "jp": "プリンスドラゴン{BREAK}",
+    "en": "Prince Dragon{BREAK}"
+  },
+  {
+    "id": 1499,
+    "desc_idx": 585,
+    "str_idx": 0,
+    "jp": "ウィングドラゴン{BREAK}",
+    "en": "Wing Dragon{BREAK}"
+  },
+  {
+    "id": 1517,
+    "desc_idx": 594,
+    "str_idx": 0,
+    "jp": "ゴッドドラゴン{BREAK}",
+    "en": "God Dragon{BREAK}"
+  },
+  {
+    "id": 1556,
+    "desc_idx": 599,
+    "str_idx": 3,
+    "jp": "そのボスモンスターを.倒して来てもらえないか?{BREAK}",
+    "en": "Could you defeat that boss monster?{BREAK}"
+  },
+  {
+    "id": 1557,
+    "desc_idx": 599,
+    "str_idx": 4,
+    "jp": "そのボスモンスターを.倒して来てもらえないか?{BREAK}",
+    "en": "Could you defeat that boss monster?{BREAK}"
+  },
+  {
+    "id": 2563,
+    "desc_idx": 713,
+    "str_idx": 7,
+    "jp": "{CTRL:F9}ああッ! プーニャのボウシだぞー!{END}",
+    "en": "{CTRL:F9}Whoa! A Punya hat!{END}"
+  },
+  {
+    "id": 2826,
+    "desc_idx": 733,
+    "str_idx": 2,
+    "jp": "モンスターを退治してくれる人かね?{END}",
+    "en": "Are you here to slay the monsters?{END}"
+  },
+  {
+    "id": 3085,
+    "desc_idx": 746,
+    "str_idx": 6,
+    "jp": "モンスターがこの船に乗り込んで来やがったんだ!{END}",
+    "en": "Monsters boarded this ship!{END}"
+  },
+  {
+    "id": 3171,
+    "desc_idx": 752,
+    "str_idx": 10,
+    "jp": "お前が モンスターゲートを封印すると ほざいたからだ!{END}",
+    "en": "Because you boasted about sealing the Monster Gate!{END}"
+  },
+  {
+    "id": 3526,
+    "desc_idx": 770,
+    "str_idx": 8,
+    "jp": "モンスターゲートを封印したいからですけど,{END}",
+    "en": "Because we want to seal the Monster Gate.{END}"
+  },
+  {
+    "id": 4080,
+    "desc_idx": 803,
+    "str_idx": 1,
+    "jp": "仲間モンスターしょうかん・テキを2回攻撃（かくりつSP）{BREAK}",
+    "en": "Summon ally monster; 2x attack (Chance SP).{BREAK}"
+  },
+  {
+    "id": 4082,
+    "desc_idx": 804,
+    "str_idx": 1,
+    "jp": "仲間キングモンスターをよび出す{BREAK}",
+    "en": "Summons an ally King Monster.{BREAK}"
+  },
+  {
+    "id": 4084,
+    "desc_idx": 805,
+    "str_idx": 1,
+    "jp": "仲間キングモンスターをよび出す{BREAK}",
+    "en": "Summons an ally King Monster.{BREAK}"
+  },
+  {
+    "id": 4103,
+    "desc_idx": 815,
+    "str_idx": 1,
+    "jp": "モンスターだらけ・・・でも眠ってる{BREAK}",
+    "en": "Full of monsters... but sleeping.{BREAK}"
+  },
+  {
+    "id": 4119,
+    "desc_idx": 823,
+    "str_idx": 1,
+    "jp": "まさにドラゴンのそうくつだ!{BREAK}",
+    "en": "A true nest of Dragons!{BREAK}"
+  },
+  {
+    "id": 4121,
+    "desc_idx": 824,
+    "str_idx": 1,
+    "jp": "モンスターのヒーリングにてこずるぞ!{BREAK}",
+    "en": "Foes heal HP, be careful!{BREAK}"
+  },
+  {
+    "id": 4125,
+    "desc_idx": 826,
+    "str_idx": 1,
+    "jp": "きょうぼうなモンスターが生息する{BREAK}",
+    "en": "Ferocious monsters dwell here.{BREAK}"
+  },
+  {
+    "id": 4135,
+    "desc_idx": 831,
+    "str_idx": 1,
+    "jp": "モンスターぐんだんとの果てしない戦いだ!{BREAK}",
+    "en": "An endless battle with the monster army!{BREAK}"
+  },
+  {
+    "id": 4366,
+    "desc_idx": 941,
+    "str_idx": 1,
+    "jp": "モンスターが眠っている{BREAK}",
+    "en": "Monsters are sleeping.{BREAK}"
+  },
+  {
+    "id": 4376,
+    "desc_idx": 946,
+    "str_idx": 1,
+    "jp": "モンスターがよわいね{BREAK}",
+    "en": "Monsters here are weak.{BREAK}"
+  },
+  {
+    "id": 4382,
+    "desc_idx": 949,
+    "str_idx": 1,
+    "jp": "モンスターが強すぎるぞ{BREAK}",
+    "en": "The monsters are too strong!{BREAK}"
+  },
+  {
+    "id": 4406,
+    "desc_idx": 961,
+    "str_idx": 1,
+    "jp": "モンスターが少ないね{BREAK}",
+    "en": "Few monsters around here.{BREAK}"
+  },
+  {
+    "id": 4422,
+    "desc_idx": 969,
+    "str_idx": 1,
+    "jp": "モンスターのいっせい攻撃に注意{BREAK}",
+    "en": "Watch out for monster ambushes!{BREAK}"
+  },
+  {
+    "id": 4440,
+    "desc_idx": 978,
+    "str_idx": 1,
+    "jp": "モンスターが眠っている{BREAK}",
+    "en": "Monsters are sleeping.{BREAK}"
+  },
+  {
+    "id": 4448,
+    "desc_idx": 982,
+    "str_idx": 1,
+    "jp": "いやなモンスターがいっぱい{BREAK}",
+    "en": "Full of nasty monsters!{BREAK}"
+  },
+  {
+    "id": 4460,
+    "desc_idx": 988,
+    "str_idx": 1,
+    "jp": "強れつな毒ぬまにモンスターがせいぞろいだ!{BREAK}",
+    "en": "Monsters line a deadly poison swamp!{BREAK}"
+  },
+  {
+    "id": 4462,
+    "desc_idx": 989,
+    "str_idx": 1,
+    "jp": "これぞモンスターゲート最終章!{BREAK}",
+    "en": "This is Monster Gate's final chapter!{BREAK}"
+  },
+  {
+    "id": 4498,
+    "desc_idx": 1005,
+    "str_idx": 2,
+    "jp": "モンスタースロットであそびますか?{BREAK}",
+    "en": "Play Monster Slots?{BREAK}"
+  },
+  {
+    "id": 4499,
+    "desc_idx": 1005,
+    "str_idx": 3,
+    "jp": "ハイレベルモンスタースロットであそびますか?{BREAK}",
+    "en": "Play High Monster Slots?{BREAK}"
+  },
+  {
+    "id": 4528,
+    "desc_idx": 1012,
+    "str_idx": 1,
+    "jp": "  これ以上.モンスターをしょうかんできません{BREAK}",
+    "en": "  Cannot summon any more monsters.{BREAK}"
+  }
+]

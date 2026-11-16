@@ -1,0 +1,793 @@
+[
+  {
+    "id": 2,
+    "desc_idx": 0,
+    "str_idx": 2,
+    "jp": "のカード{VAR:20}枚.{BREAK}",
+    "en": " card x{VAR:20}.{BREAK}"
+  },
+  {
+    "id": 3,
+    "desc_idx": 0,
+    "str_idx": 3,
+    "jp": "のカード{VAR:20}枚だぜ,{BREAK}",
+    "en": " card x{VAR:20}!{BREAK}"
+  },
+  {
+    "id": 81,
+    "desc_idx": 13,
+    "str_idx": 1,
+    "jp": "マジックカードを集めるんだ,{BREAK}",
+    "en": "Collect Magic Cards!{BREAK}"
+  },
+  {
+    "id": 99,
+    "desc_idx": 13,
+    "str_idx": 19,
+    "jp": "脱出すればマジックカードを次の冒険で使えるよ,{BREAK}",
+    "en": "Escape to keep your Magic Cards for the next run.{BREAK}"
+  },
+  {
+    "id": 134,
+    "desc_idx": 16,
+    "str_idx": 7,
+    "jp": "クリアボーナスとしてカードをかくとくしました,{BREAK}",
+    "en": "Got a card as a clear bonus!{BREAK}"
+  },
+  {
+    "id": 136,
+    "desc_idx": 16,
+    "str_idx": 9,
+    "jp": "すでにそのカードを所有しています,{BREAK}",
+    "en": "You already own that card.{BREAK}"
+  },
+  {
+    "id": 137,
+    "desc_idx": 16,
+    "str_idx": 10,
+    "jp": "のカードをかくとくしました,{BREAK}",
+    "en": " card obtained!{BREAK}"
+  },
+  {
+    "id": 139,
+    "desc_idx": 16,
+    "str_idx": 12,
+    "jp": "セイントソード{BREAK}",
+    "en": "Saint Sword{BREAK}"
+  },
+  {
+    "id": 143,
+    "desc_idx": 16,
+    "str_idx": 16,
+    "jp": "リフレクトシールド{BREAK}",
+    "en": "Mirror Shield{BREAK}"
+  },
+  {
+    "id": 153,
+    "desc_idx": 19,
+    "str_idx": 0,
+    "jp": "これで「究極のカード」が全部そろったぞ!!{END}",
+    "en": "Now you have all the Ultimate Cards!!{END}"
+  },
+  {
+    "id": 193,
+    "desc_idx": 21,
+    "str_idx": 18,
+    "jp": "カード数を決めよう,{BREAK}",
+    "en": "Set Card count.{BREAK}"
+  },
+  {
+    "id": 195,
+    "desc_idx": 21,
+    "str_idx": 20,
+    "jp": "カードはどうする?{BREAK}",
+    "en": "Card settings?{BREAK}"
+  },
+  {
+    "id": 200,
+    "desc_idx": 21,
+    "str_idx": 25,
+    "jp": "全てのカードが出現します{BREAK}",
+    "en": "All cards will appear.{BREAK}"
+  },
+  {
+    "id": 201,
+    "desc_idx": 21,
+    "str_idx": 26,
+    "jp": "装備カードと回復カードが出現します{BREAK}",
+    "en": "Equip & Heal cards appear.{BREAK}"
+  },
+  {
+    "id": 202,
+    "desc_idx": 21,
+    "str_idx": 27,
+    "jp": "攻撃カードと補助カードと回復カードが出現します{BREAK}",
+    "en": "Attack, Support & Heal cards appear.{BREAK}"
+  },
+  {
+    "id": 203,
+    "desc_idx": 21,
+    "str_idx": 28,
+    "jp": "回復カードのみ出現します{BREAK}",
+    "en": "Only Heal cards appear.{BREAK}"
+  },
+  {
+    "id": 205,
+    "desc_idx": 21,
+    "str_idx": 30,
+    "jp": "ワンダーのカードが出現するかどうかを設定します{BREAK}",
+    "en": "Toggle Wonder Card appearances.{BREAK}"
+  },
+  {
+    "id": 213,
+    "desc_idx": 23,
+    "str_idx": 3,
+    "jp": "手持ちのカードをかくにんできるぞ,{NEWLINE}{BREAK}",
+    "en": "Check the cards you currently hold.{NEWLINE}{BREAK}"
+  },
+  {
+    "id": 221,
+    "desc_idx": 26,
+    "str_idx": 2,
+    "jp": "マジックカードをえらんでください{BREAK}",
+    "en": "Select a Magic Card.{BREAK}"
+  },
+  {
+    "id": 227,
+    "desc_idx": 26,
+    "str_idx": 8,
+    "jp": "カードをえらびます{BREAK}",
+    "en": "Choose cards.{BREAK}"
+  },
+  {
+    "id": 228,
+    "desc_idx": 26,
+    "str_idx": 9,
+    "jp": "カードをかくにんします{BREAK}",
+    "en": "Check cards.{BREAK}"
+  },
+  {
+    "id": 250,
+    "desc_idx": 31,
+    "str_idx": 0,
+    "jp": "ポーション{VAR:40}{BREAK}",
+    "en": "Potion {VAR:40}{BREAK}"
+  },
+  {
+    "id": 252,
+    "desc_idx": 32,
+    "str_idx": 0,
+    "jp": "ファイアー{BREAK}",
+    "en": "Fire{BREAK}"
+  },
+  {
+    "id": 254,
+    "desc_idx": 33,
+    "str_idx": 0,
+    "jp": "マルチファイアー{BREAK}",
+    "en": "Multi-Fire{BREAK}"
+  },
+  {
+    "id": 278,
+    "desc_idx": 45,
+    "str_idx": 0,
+    "jp": "ポーション{VAR:40}{BREAK}",
+    "en": "Potion {VAR:40}{BREAK}"
+  },
+  {
+    "id": 280,
+    "desc_idx": 46,
+    "str_idx": 0,
+    "jp": "ポーション{VAR:40}{BREAK}",
+    "en": "Potion {VAR:40}{BREAK}"
+  },
+  {
+    "id": 282,
+    "desc_idx": 47,
+    "str_idx": 0,
+    "jp": "ポーション{VAR:40}{BREAK}",
+    "en": "Potion {VAR:40}{BREAK}"
+  },
+  {
+    "id": 284,
+    "desc_idx": 48,
+    "str_idx": 0,
+    "jp": "ポーションMAX{BREAK}",
+    "en": "Potion MAX{BREAK}"
+  },
+  {
+    "id": 286,
+    "desc_idx": 49,
+    "str_idx": 0,
+    "jp": "ポーションSP{BREAK}",
+    "en": "Potion SP{BREAK}"
+  },
+  {
+    "id": 288,
+    "desc_idx": 50,
+    "str_idx": 0,
+    "jp": "ファイアー{BREAK}",
+    "en": "Fire{BREAK}"
+  },
+  {
+    "id": 290,
+    "desc_idx": 51,
+    "str_idx": 0,
+    "jp": "マルチファイアー{BREAK}",
+    "en": "Multi-Fire{BREAK}"
+  },
+  {
+    "id": 292,
+    "desc_idx": 52,
+    "str_idx": 0,
+    "jp": "サンダー{BREAK}",
+    "en": "Thunder{BREAK}"
+  },
+  {
+    "id": 294,
+    "desc_idx": 53,
+    "str_idx": 0,
+    "jp": "マルチサンダー{BREAK}",
+    "en": "Multi-Thunder{BREAK}"
+  },
+  {
+    "id": 296,
+    "desc_idx": 54,
+    "str_idx": 0,
+    "jp": "メテオ{BREAK}",
+    "en": "Meteor{BREAK}"
+  },
+  {
+    "id": 298,
+    "desc_idx": 55,
+    "str_idx": 0,
+    "jp": "マルチメテオ{BREAK}",
+    "en": "Multi-Meteor{BREAK}"
+  },
+  {
+    "id": 326,
+    "desc_idx": 69,
+    "str_idx": 0,
+    "jp": "ヒール100{BREAK}",
+    "en": "Heal 100{BREAK}"
+  },
+  {
+    "id": 328,
+    "desc_idx": 70,
+    "str_idx": 0,
+    "jp": "ヒール200{BREAK}",
+    "en": "Heal 200{BREAK}"
+  },
+  {
+    "id": 330,
+    "desc_idx": 71,
+    "str_idx": 0,
+    "jp": "ヒール300{BREAK}",
+    "en": "Heal 300{BREAK}"
+  },
+  {
+    "id": 332,
+    "desc_idx": 72,
+    "str_idx": 0,
+    "jp": "ロングソード{BREAK}",
+    "en": "Long Sword{BREAK}"
+  },
+  {
+    "id": 334,
+    "desc_idx": 73,
+    "str_idx": 0,
+    "jp": "グレートソード{BREAK}",
+    "en": "Great Sword{BREAK}"
+  },
+  {
+    "id": 336,
+    "desc_idx": 74,
+    "str_idx": 0,
+    "jp": "パワーシールド{BREAK}",
+    "en": "Power Shield{BREAK}"
+  },
+  {
+    "id": 338,
+    "desc_idx": 75,
+    "str_idx": 0,
+    "jp": "グレートシールド{BREAK}",
+    "en": "Great Shield{BREAK}"
+  },
+  {
+    "id": 341,
+    "desc_idx": 76,
+    "str_idx": 1,
+    "jp": "装備するとモンスターカードを見つけやすくなる{BREAK}",
+    "en": "Equip to find Monster Cards easier.{BREAK}"
+  },
+  {
+    "id": 343,
+    "desc_idx": 77,
+    "str_idx": 1,
+    "jp": "装備するとポーションが仲間にも有効になる{BREAK}",
+    "en": "Equip: Potions also heal allies.{BREAK}"
+  },
+  {
+    "id": 347,
+    "desc_idx": 79,
+    "str_idx": 1,
+    "jp": "装備するとカードの使用MPが半分になる{BREAK}",
+    "en": "Equip to halve card MP cost.{BREAK}"
+  },
+  {
+    "id": 349,
+    "desc_idx": 80,
+    "str_idx": 1,
+    "jp": "持てるカードの数が1つ増える{BREAK}",
+    "en": "Increases card capacity by 1.{BREAK}"
+  },
+  {
+    "id": 351,
+    "desc_idx": 81,
+    "str_idx": 1,
+    "jp": "持てるカードの数が2つ増える{BREAK}",
+    "en": "Increases card capacity by 2.{BREAK}"
+  },
+  {
+    "id": 368,
+    "desc_idx": 90,
+    "str_idx": 0,
+    "jp": "マジックポーション{BREAK}",
+    "en": "Magic Potion{BREAK}"
+  },
+  {
+    "id": 374,
+    "desc_idx": 93,
+    "str_idx": 0,
+    "jp": "ゴールドソード{BREAK}",
+    "en": "Gold Sword{BREAK}"
+  },
+  {
+    "id": 377,
+    "desc_idx": 94,
+    "str_idx": 1,
+    "jp": "カードホルダーのアイテムを1枚ゲット{BREAK}",
+    "en": "Take 1 card from Card Holder.{BREAK}"
+  },
+  {
+    "id": 379,
+    "desc_idx": 95,
+    "str_idx": 1,
+    "jp": "カードホルダーのアイテムを2枚ゲット{BREAK}",
+    "en": "Take 2 cards from Card Holder.{BREAK}"
+  },
+  {
+    "id": 390,
+    "desc_idx": 101,
+    "str_idx": 0,
+    "jp": "セイントソード{BREAK}",
+    "en": "Saint Sword{BREAK}"
+  },
+  {
+    "id": 393,
+    "desc_idx": 102,
+    "str_idx": 1,
+    "jp": "はなれたテキにマルチファイアーの効果（4MP必要）{BREAK}",
+    "en": "Multi-Fire at range (costs 4 MP).{BREAK}"
+  },
+  {
+    "id": 398,
+    "desc_idx": 105,
+    "str_idx": 0,
+    "jp": "リフレクトシールド{BREAK}",
+    "en": "Mirror Shield{BREAK}"
+  },
+  {
+    "id": 402,
+    "desc_idx": 107,
+    "str_idx": 0,
+    "jp": "ゴールドシールド{BREAK}",
+    "en": "Gold Shield{BREAK}"
+  },
+  {
+    "id": 467,
+    "desc_idx": 139,
+    "str_idx": 1,
+    "jp": "ファイアーけいカードの持ちこみをきんし{BREAK}",
+    "en": "Fire cards prohibited.{BREAK}"
+  },
+  {
+    "id": 469,
+    "desc_idx": 140,
+    "str_idx": 1,
+    "jp": "サンダーけいカードの持ちこみをきんし{BREAK}",
+    "en": "Thunder cards prohibited.{BREAK}"
+  },
+  {
+    "id": 471,
+    "desc_idx": 141,
+    "str_idx": 1,
+    "jp": "メテオけいカードの持ちこみをきんし{BREAK}",
+    "en": "Meteor cards prohibited.{BREAK}"
+  },
+  {
+    "id": 473,
+    "desc_idx": 142,
+    "str_idx": 1,
+    "jp": "ポーションけいカードの持ちこみをきんし{BREAK}",
+    "en": "Potion cards prohibited.{BREAK}"
+  },
+  {
+    "id": 475,
+    "desc_idx": 143,
+    "str_idx": 1,
+    "jp": "ヒールけいカードの持ちこみをきんし{BREAK}",
+    "en": "Heal cards prohibited.{BREAK}"
+  },
+  {
+    "id": 477,
+    "desc_idx": 144,
+    "str_idx": 1,
+    "jp": "ソードけいカードの持ちこみをきんし{BREAK}",
+    "en": "Sword cards prohibited.{BREAK}"
+  },
+  {
+    "id": 479,
+    "desc_idx": 145,
+    "str_idx": 1,
+    "jp": "シールドけいカードの持ちこみをきんし{BREAK}",
+    "en": "Shield cards prohibited.{BREAK}"
+  },
+  {
+    "id": 806,
+    "desc_idx": 260,
+    "str_idx": 0,
+    "jp": "ポーションをたっぷり持って.ちょうせんしよう!{BREAK}",
+    "en": "Stock up on Potions before entering!{BREAK}"
+  },
+  {
+    "id": 856,
+    "desc_idx": 268,
+    "str_idx": 0,
+    "jp": "カジノを使ってカードをゲットしよう!{BREAK}",
+    "en": "Use the Casino to get cards!{BREAK}"
+  },
+  {
+    "id": 860,
+    "desc_idx": 272,
+    "str_idx": 0,
+    "jp": "ポケット数が少ないのでカードをしんちょうにえらぼう!{BREAK}",
+    "en": "Small pocket size! Pick cards carefully!{BREAK}"
+  },
+  {
+    "id": 862,
+    "desc_idx": 274,
+    "str_idx": 0,
+    "jp": "まずはカードを拾うことからはじめよう!{BREAK}",
+    "en": "Start by picking up cards!{BREAK}"
+  },
+  {
+    "id": 864,
+    "desc_idx": 276,
+    "str_idx": 0,
+    "jp": "ヒールのカードを使えばダメージをかるくできるぞ!{BREAK}",
+    "en": "Use Heal cards to reduce damage!{BREAK}"
+  },
+  {
+    "id": 865,
+    "desc_idx": 277,
+    "str_idx": 0,
+    "jp": "まわりがよく見えるのでマルチけいカードが有効だぞ!{BREAK}",
+    "en": "Clear view! Multi cards work great!{BREAK}"
+  },
+  {
+    "id": 870,
+    "desc_idx": 282,
+    "str_idx": 0,
+    "jp": "回復けいカードを多めに持っていこう!{BREAK}",
+    "en": "Bring plenty of Heal cards!{BREAK}"
+  },
+  {
+    "id": 908,
+    "desc_idx": 297,
+    "str_idx": 0,
+    "jp": "カジノでカードを補おう!{BREAK}",
+    "en": "Stock up on cards at the Casino!{BREAK}"
+  },
+  {
+    "id": 918,
+    "desc_idx": 303,
+    "str_idx": 0,
+    "jp": "攻撃カードを探そう!{BREAK}",
+    "en": "Search for Attack cards!{BREAK}"
+  },
+  {
+    "id": 919,
+    "desc_idx": 304,
+    "str_idx": 0,
+    "jp": "ソードけいカードが見つかりやすいぞ!{BREAK}",
+    "en": "Sword cards are easy to find here!{BREAK}"
+  },
+  {
+    "id": 920,
+    "desc_idx": 305,
+    "str_idx": 0,
+    "jp": "階段が消えるのでカードを拾い忘れないようにしよう{BREAK}",
+    "en": "Stairs vanish-grab cards first!{BREAK}"
+  },
+  {
+    "id": 922,
+    "desc_idx": 307,
+    "str_idx": 0,
+    "jp": "ファイアーけい.サンダーけいのカードが持ち込めないぞ{BREAK}",
+    "en": "Fire & Thunder cards cannot be brought in.{BREAK}"
+  },
+  {
+    "id": 923,
+    "desc_idx": 308,
+    "str_idx": 0,
+    "jp": "ポーションけいのカードが持ち込めないぞ{BREAK}",
+    "en": "Potion cards cannot be brought in.{BREAK}"
+  },
+  {
+    "id": 930,
+    "desc_idx": 315,
+    "str_idx": 0,
+    "jp": "ソードけい.シールドけいが持ち込めないぞ{BREAK}",
+    "en": "Swords and Shields cannot be brought in.{BREAK}"
+  },
+  {
+    "id": 935,
+    "desc_idx": 320,
+    "str_idx": 0,
+    "jp": "ヒールけいカードが持ち込めないぞ{BREAK}",
+    "en": "Heal cards cannot be brought in.{BREAK}"
+  },
+  {
+    "id": 964,
+    "desc_idx": 348,
+    "str_idx": 1,
+    "jp": "今回の依頼の賞品はヒール300のカード1枚だぜ,{BREAK}",
+    "en": "Reward: 1x Heal 300 card!{BREAK}"
+  },
+  {
+    "id": 989,
+    "desc_idx": 373,
+    "str_idx": 0,
+    "jp": "今回の依頼の賞品はポーションのカード3枚だぜ,{BREAK}",
+    "en": "Reward: 3x Potion cards!{BREAK}"
+  },
+  {
+    "id": 995,
+    "desc_idx": 378,
+    "str_idx": 0,
+    "jp": "今回の依頼の賞品はバリアのカード1枚だぜ,{BREAK}",
+    "en": "Reward: 1x Barrier card!{BREAK}"
+  },
+  {
+    "id": 997,
+    "desc_idx": 380,
+    "str_idx": 0,
+    "jp": "今回の依頼の賞品は死神のカード1枚だぜ,{BREAK}",
+    "en": "Reward: 1x Grim Reaper card!{BREAK}"
+  },
+  {
+    "id": 998,
+    "desc_idx": 381,
+    "str_idx": 0,
+    "jp": "今回の依頼の賞品はインビジブルのカード1枚だぜ,{BREAK}",
+    "en": "Reward: 1x Invisible card!{BREAK}"
+  },
+  {
+    "id": 999,
+    "desc_idx": 382,
+    "str_idx": 0,
+    "jp": "今回の依頼の賞品はホーリーライトのカード1枚だぜ,{BREAK}",
+    "en": "Reward: 1x Holy Light card!{BREAK}"
+  },
+  {
+    "id": 1000,
+    "desc_idx": 383,
+    "str_idx": 0,
+    "jp": "今回の依頼の賞品はホッピーのカード5枚だぜ,{BREAK}",
+    "en": "Reward: 5x Hoppy cards!{BREAK}"
+  },
+  {
+    "id": 1004,
+    "desc_idx": 385,
+    "str_idx": 2,
+    "jp": "今回の依頼の賞品はパワーシールドのカード1枚だぜ,{BREAK}",
+    "en": "Reward: 1x Power Shield card!{BREAK}"
+  },
+  {
+    "id": 1007,
+    "desc_idx": 386,
+    "str_idx": 2,
+    "jp": "今回の依頼の賞品はゴールドシールドのカード1枚だぜ,{BREAK}",
+    "en": "Job reward: 1 Gold Shield card.{BREAK}"
+  },
+  {
+    "id": 1010,
+    "desc_idx": 387,
+    "str_idx": 2,
+    "jp": "今回の依頼の賞品はグレートシールドのカード1枚だぜ,{BREAK}",
+    "en": "Job reward: 1 Great Shield card.{BREAK}"
+  },
+  {
+    "id": 1012,
+    "desc_idx": 388,
+    "str_idx": 1,
+    "jp": "今回の依頼の賞品はキングドラゴンのカード1枚だぜ,{BREAK}",
+    "en": "Reward: 1x King Dragon card!{BREAK}"
+  },
+  {
+    "id": 1013,
+    "desc_idx": 389,
+    "str_idx": 0,
+    "jp": "今回の依頼の賞品はハリケーンのカード1枚だぜ,{BREAK}",
+    "en": "Reward: 1x Hurricane card!{BREAK}"
+  },
+  {
+    "id": 1588,
+    "desc_idx": 603,
+    "str_idx": 5,
+    "jp": "{CTRL:F9}そりゃヒールだ!{END}",
+    "en": "{CTRL:F9}That's Heal!{END}"
+  },
+  {
+    "id": 2102,
+    "desc_idx": 663,
+    "str_idx": 4,
+    "jp": "あいにく手持ちのカードだけじゃ足りなくてね,{END}",
+    "en": "Sadly, the cards I have aren't enough.{END}"
+  },
+  {
+    "id": 2120,
+    "desc_idx": 665,
+    "str_idx": 4,
+    "jp": "メテオのカードを持ってこい!{BREAK}",
+    "en": "Bring a Meteor card!{BREAK}"
+  },
+  {
+    "id": 2121,
+    "desc_idx": 665,
+    "str_idx": 5,
+    "jp": "メテオのカードを持ってこい!{BREAK}",
+    "en": "Bring a Meteor card!{BREAK}"
+  },
+  {
+    "id": 2212,
+    "desc_idx": 672,
+    "str_idx": 11,
+    "jp": "家宝の「リフレクトシールド」のカードも差し上げます,{END}",
+    "en": "Please take our family heirloom, the Reflect Shield card.{END}"
+  },
+  {
+    "id": 4101,
+    "desc_idx": 814,
+    "str_idx": 1,
+    "jp": "ケムンパはファイアーで倒そう!{BREAK}",
+    "en": "Defeat Kemunpa with Fire!{BREAK}"
+  },
+  {
+    "id": 4111,
+    "desc_idx": 819,
+    "str_idx": 1,
+    "jp": "ポーションをたっぷり持って.ちょうせんしよう!{BREAK}",
+    "en": "Stock up on Potions before entering!{BREAK}"
+  },
+  {
+    "id": 4201,
+    "desc_idx": 869,
+    "str_idx": 0,
+    "jp": "カードをかくとくしました!{BREAK}",
+    "en": "Got a card!{BREAK}"
+  },
+  {
+    "id": 4202,
+    "desc_idx": 869,
+    "str_idx": 1,
+    "jp": "持ちきれないカードはホルダーにおくります,{BREAK}",
+    "en": "Extra cards go to Card Holder.{BREAK}"
+  },
+  {
+    "id": 4203,
+    "desc_idx": 869,
+    "str_idx": 2,
+    "jp": "かくとくしたカードはホルダーにおくります,{BREAK}",
+    "en": "Sent card to Holder.{BREAK}"
+  },
+  {
+    "id": 4210,
+    "desc_idx": 870,
+    "str_idx": 6,
+    "jp": "      がそろうとマジックカードがもらえます,{BREAK}",
+    "en": "      3 cards win a card!{BREAK}"
+  },
+  {
+    "id": 4211,
+    "desc_idx": 870,
+    "str_idx": 7,
+    "jp": "カードが持ちきれなくなると.新たにかく得した{BREAK}",
+    "en": "When your hand is full, newly obtained{BREAK}"
+  },
+  {
+    "id": 4212,
+    "desc_idx": 870,
+    "str_idx": 8,
+    "jp": "マジックカードはカードホルダーに保管されます,{BREAK}",
+    "en": "Magic Cards are stored in Card Holder.{BREAK}"
+  },
+  {
+    "id": 4378,
+    "desc_idx": 947,
+    "str_idx": 1,
+    "jp": "強テキだらけ! カードは6枚せいげんだ{BREAK}",
+    "en": "Tough foes! Max 6 cards allowed.{BREAK}"
+  },
+  {
+    "id": 4380,
+    "desc_idx": 948,
+    "str_idx": 1,
+    "jp": "めずらしいカードが見つかるぞ!{BREAK}",
+    "en": "Rare cards can be found here!{BREAK}"
+  },
+  {
+    "id": 4400,
+    "desc_idx": 958,
+    "str_idx": 1,
+    "jp": "ポーションが足りなくなるぞ{BREAK}",
+    "en": "You'll run short on Potions!{BREAK}"
+  },
+  {
+    "id": 4414,
+    "desc_idx": 965,
+    "str_idx": 1,
+    "jp": "カードが6枚しか持てないのだ{BREAK}",
+    "en": "You can only carry 6 cards.{BREAK}"
+  },
+  {
+    "id": 4428,
+    "desc_idx": 972,
+    "str_idx": 1,
+    "jp": "マルチカードをうまく使おう!{BREAK}",
+    "en": "Use Multi cards wisely!{BREAK}"
+  },
+  {
+    "id": 4466,
+    "desc_idx": 991,
+    "str_idx": 1,
+    "jp": "モンスターカードが見つかるかも?{BREAK}",
+    "en": "You might find a Monster Card?{BREAK}"
+  },
+  {
+    "id": 4483,
+    "desc_idx": 1001,
+    "str_idx": 0,
+    "jp": "カードを使っても効果がありませんがよろしいですか?{BREAK}",
+    "en": "Card will have no effect. Use anyway?{BREAK}"
+  },
+  {
+    "id": 4484,
+    "desc_idx": 1002,
+    "str_idx": 0,
+    "jp": "カードを1枚しか取れませんがよろしいですか?{BREAK}",
+    "en": "You can only take 1 card. Continue?{BREAK}"
+  },
+  {
+    "id": 4507,
+    "desc_idx": 1009,
+    "str_idx": 1,
+    "jp": "どのカードを買いますか?{BREAK}",
+    "en": "Which card will you buy?{BREAK}"
+  },
+  {
+    "id": 4508,
+    "desc_idx": 1009,
+    "str_idx": 2,
+    "jp": "どのカードを売りますか?{BREAK}",
+    "en": "Which card will you sell?{BREAK}"
+  },
+  {
+    "id": 4514,
+    "desc_idx": 1009,
+    "str_idx": 8,
+    "jp": "売ることのできるマジックカードがありません{BREAK}",
+    "en": "No Magic Cards to sell.{BREAK}"
+  }
+]
