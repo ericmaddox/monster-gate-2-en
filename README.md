@@ -3,7 +3,7 @@
 An unofficial English fan-translation project for Konami's *Monster Gate 2: Dai Inaru Dungeon* (*モンスターゲート2 大いなるダンジョン*, 2003, Game Code `A6GJ`) on the Game Boy Advance.
 
 > [!NOTE]
-> **Version 1.0.0 (Release):** All 4,543 game strings (1,017 script descriptors), 8×16 & 8×8 fonts, 107 unique Card HUD/List name sprites, the English character naming screen, opening intro slides, level-clear `CARD GET!` graphic, and all UI/menu/banner graphics are translated and verified. If you encounter any bugs, text clipping, or untranslated elements, please report them on the [Issues page](https://github.com/ericmaddox/monster-gate-2-en/issues).
+> **Version 1.0.0 (Release):** All 4,543 game strings (1,017 script descriptors), 8×16 & 8×8 fonts, 107 unique Card HUD/List name sprites, the English character naming screen, opening intro slides, level-clear `CARD GET!` graphic, and all UI/menu/banner graphics are translated. If you encounter any bugs, text clipping, or untranslated elements, please report them on the [Issues page](https://github.com/ericmaddox/monster-gate-2-en/issues).
 
 ---
 
