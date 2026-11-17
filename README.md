@@ -3,7 +3,27 @@
 An unofficial English fan-translation project for Konami's *Monster Gate 2: Dai Inaru Dungeon* (*モンスターゲート2 大いなるダンジョン*, 2003, Game Code `A6GJ`) on the Game Boy Advance.
 
 > [!NOTE]
-> **Version 1.0.0 (Release):** All 4,543 game strings (1,017 script descriptors), 8×16 & 8×8 fonts, 107 unique Card HUD/List name sprites, the English character naming screen, opening intro slides, and all UI/menu/banner graphics are translated and verified. If you encounter any bugs, text clipping, or untranslated elements, please report them on the [Issues page](https://github.com/ericmaddox/monster-gate-2-en/issues).
+> **Version 1.0.0 (Release):** All 4,543 game strings (1,017 script descriptors), 8×16 & 8×8 fonts, 107 unique Card HUD/List name sprites, the English character naming screen, opening intro slides, level-clear `CARD GET!` graphic, and all UI/menu/banner graphics are translated and verified. If you encounter any bugs, text clipping, or untranslated elements, please report them on the [Issues page](https://github.com/ericmaddox/monster-gate-2-en/issues).
+
+---
+
+## Screenshots
+
+| Title Screen | Character Select | Character Naming |
+| :---: | :---: | :---: |
+| ![Title Screen](images/title.png) | ![Character Select](images/player_select.png) | ![Character Naming](images/player_name.png) |
+
+| Story Cutscene | Guild Menu | Quest Dialogue |
+| :---: | :---: | :---: |
+| ![Story Cutscene](images/cut_scene_1.png) | ![Guild Menu](images/guild_menu.png) | ![Quest Dialogue](images/quest_dialog.png) |
+
+| Quest Briefing | World Map | Dungeon Gameplay 1 |
+| :---: | :---: | :---: |
+| ![Quest Briefing](images/quest_dialog_2.png) | ![World Map](images/world_map.png) | ![Dungeon Gameplay 1](images/gameplay_1.png) |
+
+| Dungeon Gameplay 2 | Dungeon Gameplay 3 | Dungeon Gameplay 4 |
+| :---: | :---: | :---: |
+| ![Dungeon Gameplay 2](images/gameplay_2.png) | ![Dungeon Gameplay 3](images/gameplay_3.png) | ![Dungeon Gameplay 4](images/gameplay_4.png) |
 
 ---
 
@@ -15,9 +35,9 @@ Apply the patch **only** to a clean, unmodified Japanese *Monster Gate 2* (`A6GJ
 | --- | --- | --- |
 | **Game Title / Code** | `MONSTERGATE2` / `A6GJ` | `MONSTERGATE2` / `A6GJ` |
 | **File Size** | `8,388,608` bytes (8 MB) | `16,777,216` bytes (16 MB) |
-| **CRC32** | `05AC7685` | `1C83C16A` |
-| **MD5** | `2C5221FBCBD75A985D68451CF7FA6C8E` | `FD217DA939C684BB000E713EB128B724` |
-| **SHA-1** | `A2C5E2AAC656A953A339ADC22C672BE86DF515FE` | `64C17B6B5A30D41FE6614E071425FF1FDA7B5617` |
+| **CRC32** | `05AC7685` | `E0246534` |
+| **MD5** | `2C5221FBCBD75A985D68451CF7FA6C8E` | `179FB03E1FB21F97BA8D4DE874DB25E1` |
+| **SHA-1** | `A2C5E2AAC656A953A339ADC22C672BE86DF515FE` | `F61B833CF9C820AB36608381B3DED62DE86211C4` |
 
 ---
 
@@ -41,13 +61,14 @@ Apply the patch **only** to a clean, unmodified Japanese *Monster Gate 2* (`A6GJ
   - Character Select UI, class buttons & difficulty pills (`0x6BE064`, `0x2B5BD0`, `0x1C98F8`)
   - Mode Menu & Badges (`0x671318`, `0x6C70AC`), Deck Setup BG (`0x66A244`), Data Select (`0x103E58`), Option (`0x102278`), Link (`0x688014`)
   - Dean Village & 11 Town banners/menus (`0x115D48`–`0x118208`), Guild Menu & Quest headers (`0x126FF4`, `0x1278B8`), Card Categories (`0x125CAC`), Monster Book (`0x1868F8`), Shop (`0x0F5128`)
-  - Dungeon Pause (`0x3A3E6C`), Dungeon `ADVICE` tab (`0x0E113C`), widened Advice boxes (`0x046386`–`0x046E32`), and `Yes/No` cursor spacing (`0x01CFE0`, `0x04DFC8`, `0x0781F4`, `0x089DAE`).
+  - Dungeon Pause (`0x3A3E6C`), Dungeon `ADVICE` tab (`0x0E113C`), widened Advice boxes (`0x046386`–`0x046E32`), level-clear `CARD GET!` sprite (`0x2A7124`–`0x2A7924`), and `Yes/No` cursor spacing (`0x01CFE0`, `0x04DFC8`, `0x0781F4`, `0x089DAE`).
 
 ---
 
 ## Repository Contents
 
 - `patches/monster_gate_2_en_v1.0.zip` — Release archive containing `.bps` and `.ips` patches
+- `images/` — Showcase screenshots of the English translation
 - `text/` — Raw Japanese text dump (`raw_dump.json`) and categorized English translations (`01_items_cards.json`, `02_monsters.json`, `03_dialogue.json`, `04_system_ui.json`, `all_strings.json`)
 - `font/` — Extracted/patched 8×16 and 8×8 font binaries, glyph tables, and contact sheet
 - `graphics/` — Generated English naming-screen tile bank (`keyboard_tiles.bin`)
