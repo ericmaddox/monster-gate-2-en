@@ -1,6 +1,6 @@
 # Release Notes
 
-## v1.0.0 — Full English Translation Release
+## v1.0.0 — English Translation Release
 
 ### Highlights
 - **Complete Script & UI Text:** All **4,543** strings across **1,017** text descriptors translated into English, preserving all MG2 control codes (`{BREAK}`, `{END}`, `{NEWLINE}`, `{VAR:XX}`, `{F6:XX}`, `{F7:XXXX}`, `{WAIT:XX}`, `{CTRL:XX}`), with full line-wrapping and box-fit alignment (including `desc 13` Dungeon Advice, `desc 249` Dungeon Escape, and `desc 8/854..858` Character Select).
