@@ -4,7 +4,7 @@
     "desc_idx": 0,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は{VAR:20}コインだぜ,{BREAK}",
-    "en": "Reward for this quest: {VAR:20} Coins.{BREAK}"
+    "en": "Reward: {VAR:20} Coins.{BREAK}"
   },
   {
     "id": 1,
@@ -18,7 +18,7 @@
     "desc_idx": 1,
     "str_idx": 0,
     "jp": "どこにもいないぞ?{END}",
-    "en": "They're nowhere to be found!{END}"
+    "en": "They're nowhere to be{NEWLINE}found!{END}"
   },
   {
     "id": 6,
@@ -53,14 +53,14 @@
     "desc_idx": 3,
     "str_idx": 0,
     "jp": "主人公の名前を入力してください{BREAK}",
-    "en": "Enter the hero's name.{BREAK}"
+    "en": "Hero's name:{BREAK}"
   },
   {
     "id": 22,
     "desc_idx": 3,
     "str_idx": 2,
     "jp": "プレイヤーの名前を入力してください{BREAK}",
-    "en": "Enter the player's name.{BREAK}"
+    "en": "Player's name:{BREAK}"
   },
   {
     "id": 23,
@@ -109,7 +109,7 @@
     "desc_idx": 5,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は500コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 500 Coins.{BREAK}"
+    "en": "Reward: 500 Coins.{BREAK}"
   },
   {
     "id": 30,
@@ -151,7 +151,7 @@
     "desc_idx": 7,
     "str_idx": 1,
     "jp": "こんなの落ちてたぞー!{END}",
-    "en": "Look what I found on the ground!{END}"
+    "en": "Look what I found on the{NEWLINE}ground!{END}"
   },
   {
     "id": 42,
@@ -172,28 +172,28 @@
     "desc_idx": 9,
     "str_idx": 1,
     "jp": "データさくじょがめんに移動します{BREAK}",
-    "en": "Going to the Delete Data screen.{BREAK}"
+    "en": "Go to Delete Data screen.{BREAK}"
   },
   {
     "id": 51,
     "desc_idx": 9,
     "str_idx": 2,
     "jp": "データコピーがめんに移動します{BREAK}",
-    "en": "Going to the Copy Data screen.{BREAK}"
+    "en": "Go to Copy Data screen.{BREAK}"
   },
   {
     "id": 52,
     "desc_idx": 10,
     "str_idx": 0,
     "jp": "せかいせいはをめざしてお友達と戦おう!{BREAK}",
-    "en": "Battle friends to conquer the world!{BREAK}"
+    "en": "Battle friends! Conquer all!{BREAK}"
   },
   {
     "id": 53,
     "desc_idx": 10,
     "str_idx": 1,
     "jp": "だれが最初にクリアできるかきょうそうだ!{BREAK}",
-    "en": "Race to see who clears it first!{BREAK}"
+    "en": "Race to clear it first!{BREAK}"
   },
   {
     "id": 54,
@@ -207,7 +207,7 @@
     "desc_idx": 11,
     "str_idx": 7,
     "jp": "子供のとくちょうも教えてくれ,{END}",
-    "en": "Tell me what the kid looks like too.{END}"
+    "en": "Tell me what the kid{NEWLINE}looks like too.{END}"
   },
   {
     "id": 67,
@@ -235,14 +235,14 @@
     "desc_idx": 12,
     "str_idx": 6,
     "jp": "じゃあ.そう依頼主に言っとくぜ,{BREAK}",
-    "en": "Alright, I'll let the client know.{BREAK}"
+    "en": "Okay, I'll tell the client.{BREAK}"
   },
   {
     "id": 75,
     "desc_idx": 12,
     "str_idx": 8,
     "jp": "今度から.受けた依頼はすぐに解決してやれよ,{BREAK}",
-    "en": "Next time, finish the quest you took right away.{BREAK}"
+    "en": "Finish the quest you took{NEWLINE}right away next time.{BREAK}"
   },
   {
     "id": 76,
@@ -263,21 +263,21 @@
     "desc_idx": 12,
     "str_idx": 11,
     "jp": "依頼のかけ持ちはいけねェな,{BREAK}",
-    "en": "You can't take two quests at once.{BREAK}"
+    "en": "Only one quest at a time.{BREAK}"
   },
   {
     "id": 79,
     "desc_idx": 12,
     "str_idx": 12,
     "jp": "今のところ仕事はないみたいだぜ,{BREAK}",
-    "en": "Looks like there's no work right now.{BREAK}"
+    "en": "No jobs available right now.{BREAK}"
   },
   {
     "id": 80,
     "desc_idx": 13,
     "str_idx": 0,
     "jp": "✚ボタンで主人公が動くよ,{BREAK}",
-    "en": "Use {G:284} to move the hero.{BREAK}"
+    "en": "Use {G:284} to move the{NEWLINE}hero.{BREAK}"
   },
   {
     "id": 83,
@@ -305,42 +305,42 @@
     "desc_idx": 13,
     "str_idx": 12,
     "jp": "テキの方向を向いて攻撃だ,{BREAK}",
-    "en": "Face the enemy and attack!{BREAK}"
+    "en": "Face the enemy & attack!{BREAK}"
   },
   {
     "id": 93,
     "desc_idx": 13,
     "str_idx": 13,
     "jp": "テキが多い時は通路に戻ろう,{BREAK}",
-    "en": "Fall back to a hallway if outnumbered.{BREAK}"
+    "en": "Fall back to a hallway{NEWLINE}if you're outnumbered.{BREAK}"
   },
   {
     "id": 94,
     "desc_idx": 13,
     "str_idx": 14,
     "jp": "これでテキは1体,{NEWLINE}攻撃しよう!{BREAK}",
-    "en": "One enemy left!{NEWLINE}Attack it!{BREAK}"
+    "en": "One enemy left!{NEWLINE}Finish it off!{BREAK}"
   },
   {
     "id": 96,
     "desc_idx": 13,
     "str_idx": 16,
     "jp": "深く行くほどテキが強くなるから気をつけてね,{BREAK}",
-    "en": "Enemies get stronger deeper in. Be careful!{BREAK}"
+    "en": "Foes get stronger deeper{NEWLINE}in. Be careful!{BREAK}"
   },
   {
     "id": 101,
     "desc_idx": 13,
     "str_idx": 21,
     "jp": "HPが残り少ない!がんばれ,{BREAK}",
-    "en": "HP is low! Hang in there!{BREAK}"
+    "en": "HP is low! Stay strong!{BREAK}"
   },
   {
     "id": 106,
     "desc_idx": 13,
     "str_idx": 26,
     "jp": "テキと戦っていくうちに強くなってくるぞ,{BREAK}",
-    "en": "You'll grow stronger as you fight enemies.{BREAK}"
+    "en": "You'll grow stronger as{NEWLINE}you fight enemies.{BREAK}"
   },
   {
     "id": 115,
@@ -452,21 +452,21 @@
     "desc_idx": 16,
     "str_idx": 5,
     "jp": "このシークレットワードは.すでに入力されています{BREAK}",
-    "en": "This Secret Word has already been entered.{BREAK}"
+    "en": "Secret Word already used.{BREAK}"
   },
   {
     "id": 133,
     "desc_idx": 16,
     "str_idx": 6,
     "jp": "かくししょくぎょう・魔人が使用かのうになりました{BREAK}",
-    "en": "Secret class \"Majin\" is now available!{BREAK}"
+    "en": "Class \"Majin\" is unlocked!{BREAK}"
   },
   {
     "id": 135,
     "desc_idx": 16,
     "str_idx": 8,
     "jp": "かくししょくぎょう・レジェンドが使用かのうになりました{BREAK}",
-    "en": "Hidden class 'Legend' is now unlocked!{BREAK}"
+    "en": "Hidden class 'Legend' open!{BREAK}"
   },
   {
     "id": 138,
@@ -550,7 +550,7 @@
     "desc_idx": 18,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は500コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 500 Coins.{BREAK}"
+    "en": "Reward: 500 Coins.{BREAK}"
   },
   {
     "id": 157,
@@ -571,7 +571,7 @@
     "desc_idx": 19,
     "str_idx": 11,
     "jp": "えんぎでもねェよなあ,{END}",
-    "en": "That's bad luck, isn't it?{END}"
+    "en": "That's bad luck, isn't{NEWLINE}it?{END}"
   },
   {
     "id": 169,
@@ -620,7 +620,7 @@
     "desc_idx": 21,
     "str_idx": 6,
     "jp": "全員のエントリーが終了したらⒶボタンを押してください{BREAK}",
-    "en": "Press {G:290} once everyone has entered.{BREAK}"
+    "en": "Press {G:290} when all are ready.{BREAK}"
   },
   {
     "id": 182,
@@ -725,7 +725,7 @@
     "desc_idx": 21,
     "str_idx": 29,
     "jp": "全体マップが見えるかどうかを設定します{BREAK}",
-    "en": "Toggle visibility of the full map.{BREAK}"
+    "en": "Toggle full map visibility.{BREAK}"
   },
   {
     "id": 206,
@@ -739,7 +739,7 @@
     "desc_idx": 21,
     "str_idx": 32,
     "jp": "対戦相手の姿が見えるかどうか設定します{BREAK}",
-    "en": "Toggle visibility of opponents.{BREAK}"
+    "en": "Toggle opponent visibility.{BREAK}"
   },
   {
     "id": 210,
@@ -767,7 +767,7 @@
     "desc_idx": 24,
     "str_idx": 0,
     "jp": "仲間のプリーストが消えると依頼が達成できないので{BREAK}",
-    "en": "If your Priest ally disappears, you'll fail the quest,{BREAK}"
+    "en": "If your Priest ally falls,{NEWLINE}the quest will fail,{BREAK}"
   },
   {
     "id": 219,
@@ -858,14 +858,14 @@
     "desc_idx": 32,
     "str_idx": 1,
     "jp": "テキに{VAR:40}ダメージ（はなれたテキにも有効）{BREAK}",
-    "en": "Deals {VAR:40} DMG to enemy (works at range){BREAK}"
+    "en": "{VAR:40} DMG to foe (ranged){BREAK}"
   },
   {
     "id": 255,
     "desc_idx": 33,
     "str_idx": 1,
     "jp": "見えている全テキに{VAR:40}ダメージ!{BREAK}",
-    "en": "Deals {VAR:40} DMG to all visible foes!{BREAK}"
+    "en": "{VAR:40} DMG to all visible foes!{BREAK}"
   },
   {
     "id": 256,
@@ -879,7 +879,7 @@
     "desc_idx": 34,
     "str_idx": 1,
     "jp": "テキを眠らせる（はなれたテキにも有効）{BREAK}",
-    "en": "Puts a foe to sleep (works at range).{BREAK}"
+    "en": "Sleeps a foe (ranged).{BREAK}"
   },
   {
     "id": 258,
@@ -893,7 +893,7 @@
     "desc_idx": 35,
     "str_idx": 1,
     "jp": "見えている全テキを眠らせる{BREAK}",
-    "en": "Puts all visible foes to sleep.{BREAK}"
+    "en": "Sleeps all visible foes.{BREAK}"
   },
   {
     "id": 260,
@@ -907,7 +907,7 @@
     "desc_idx": 36,
     "str_idx": 1,
     "jp": "テキを混乱させる（はなれたテキにも有効）{BREAK}",
-    "en": "Confuses a foe (works at range).{BREAK}"
+    "en": "Confuses a foe (ranged).{BREAK}"
   },
   {
     "id": 262,
@@ -935,7 +935,7 @@
     "desc_idx": 38,
     "str_idx": 1,
     "jp": "テキの動きを遅くする（はなれたテキにも有効）{BREAK}",
-    "en": "Slows a foe (works at range).{BREAK}"
+    "en": "Slows a foe (ranged).{BREAK}"
   },
   {
     "id": 266,
@@ -977,7 +977,7 @@
     "desc_idx": 41,
     "str_idx": 1,
     "jp": "一定時間動きが速くなる{BREAK}",
-    "en": "Speeds up movement for a while.{BREAK}"
+    "en": "Temporarily speeds up move.{BREAK}"
   },
   {
     "id": 272,
@@ -1061,42 +1061,42 @@
     "desc_idx": 50,
     "str_idx": 1,
     "jp": "テキに{VAR:40}ダメージ（はなれたテキにも有効）{BREAK}",
-    "en": "Deals {VAR:40} DMG to enemy (works at range){BREAK}"
+    "en": "{VAR:40} DMG to foe (ranged){BREAK}"
   },
   {
     "id": 291,
     "desc_idx": 51,
     "str_idx": 1,
     "jp": "見えている全テキに{VAR:40}ダメージ!{BREAK}",
-    "en": "Deals {VAR:40} DMG to all visible foes!{BREAK}"
+    "en": "{VAR:40} DMG to all visible foes!{BREAK}"
   },
   {
     "id": 293,
     "desc_idx": 52,
     "str_idx": 1,
     "jp": "テキに{VAR:40}ダメージ（はなれたテキにも有効）{BREAK}",
-    "en": "Deals {VAR:40} DMG to enemy (works at range){BREAK}"
+    "en": "{VAR:40} DMG to foe (ranged){BREAK}"
   },
   {
     "id": 295,
     "desc_idx": 53,
     "str_idx": 1,
     "jp": "見えている全テキに{VAR:40}ダメージ!{BREAK}",
-    "en": "Deals {VAR:40} DMG to all visible foes!{BREAK}"
+    "en": "{VAR:40} DMG to all visible foes!{BREAK}"
   },
   {
     "id": 297,
     "desc_idx": 54,
     "str_idx": 1,
     "jp": "テキに{VAR:40}ダメージ（はなれたテキにも有効）{BREAK}",
-    "en": "Deals {VAR:40} DMG to enemy (works at range){BREAK}"
+    "en": "{VAR:40} DMG to foe (ranged){BREAK}"
   },
   {
     "id": 299,
     "desc_idx": 55,
     "str_idx": 1,
     "jp": "見えている全テキに{VAR:40}ダメージ!{BREAK}",
-    "en": "Deals {VAR:40} DMG to all visible foes!{BREAK}"
+    "en": "{VAR:40} DMG to all visible foes!{BREAK}"
   },
   {
     "id": 300,
@@ -1124,7 +1124,7 @@
     "desc_idx": 57,
     "str_idx": 1,
     "jp": "テキを眠らせる（はなれたテキにも有効）{BREAK}",
-    "en": "Puts a foe to sleep (works at range).{BREAK}"
+    "en": "Sleeps a foe (ranged).{BREAK}"
   },
   {
     "id": 304,
@@ -1138,7 +1138,7 @@
     "desc_idx": 58,
     "str_idx": 1,
     "jp": "見えている全テキを眠らせる{BREAK}",
-    "en": "Puts all visible foes to sleep.{BREAK}"
+    "en": "Sleeps all visible foes.{BREAK}"
   },
   {
     "id": 306,
@@ -1152,7 +1152,7 @@
     "desc_idx": 59,
     "str_idx": 1,
     "jp": "テキを混乱させる（はなれたテキにも有効）{BREAK}",
-    "en": "Confuses a foe (works at range).{BREAK}"
+    "en": "Confuses a foe (ranged).{BREAK}"
   },
   {
     "id": 308,
@@ -1180,7 +1180,7 @@
     "desc_idx": 61,
     "str_idx": 1,
     "jp": "テキの動きを遅くする（はなれたテキにも有効）{BREAK}",
-    "en": "Slows a foe (works at range).{BREAK}"
+    "en": "Slows a foe (ranged).{BREAK}"
   },
   {
     "id": 312,
@@ -1222,7 +1222,7 @@
     "desc_idx": 64,
     "str_idx": 1,
     "jp": "フロアー内にて視界が広がる{BREAK}",
-    "en": "Expands vision on the current floor.{BREAK}"
+    "en": "Expands vision on floor.{BREAK}"
   },
   {
     "id": 318,
@@ -1236,7 +1236,7 @@
     "desc_idx": 65,
     "str_idx": 1,
     "jp": "フロアーのマップを完成する{BREAK}",
-    "en": "Reveals the entire floor map.{BREAK}"
+    "en": "Reveals entire floor map.{BREAK}"
   },
   {
     "id": 320,
@@ -1250,7 +1250,7 @@
     "desc_idx": 66,
     "str_idx": 1,
     "jp": "フロアーのテキの位置を把握する{BREAK}",
-    "en": "Shows all foe locations on the floor.{BREAK}"
+    "en": "Shows all foes on the floor.{BREAK}"
   },
   {
     "id": 322,
@@ -1264,7 +1264,7 @@
     "desc_idx": 67,
     "str_idx": 1,
     "jp": "一定時間動きが速くなる{BREAK}",
-    "en": "Speeds up movement for a while.{BREAK}"
+    "en": "Temporarily speeds up move.{BREAK}"
   },
   {
     "id": 324,
@@ -1278,28 +1278,28 @@
     "desc_idx": 68,
     "str_idx": 1,
     "jp": "一定時間ムテキになる{BREAK}",
-    "en": "Become invincible for a while.{BREAK}"
+    "en": "Become invincible briefly.{BREAK}"
   },
   {
     "id": 327,
     "desc_idx": 69,
     "str_idx": 1,
     "jp": "歩きながらHPを回復できる（{VAR:40}ターン）{BREAK}",
-    "en": "Recover HP while walking ({VAR:40} turns){BREAK}"
+    "en": "Heal HP walking ({VAR:40} turns){BREAK}"
   },
   {
     "id": 329,
     "desc_idx": 70,
     "str_idx": 1,
     "jp": "歩きながらHPを回復できる（{VAR:40}ターン）{BREAK}",
-    "en": "Recover HP while walking ({VAR:40} turns){BREAK}"
+    "en": "Heal HP walking ({VAR:40} turns){BREAK}"
   },
   {
     "id": 331,
     "desc_idx": 71,
     "str_idx": 1,
     "jp": "歩きながらHPを回復できる（{VAR:40}ターン）{BREAK}",
-    "en": "Recover HP while walking ({VAR:40} turns){BREAK}"
+    "en": "Heal HP walking ({VAR:40} turns){BREAK}"
   },
   {
     "id": 333,
@@ -1355,7 +1355,7 @@
     "desc_idx": 78,
     "str_idx": 1,
     "jp": "装備すると死んでも1度だけ復活できる{BREAK}",
-    "en": "Equip: Revive once upon death.{BREAK}"
+    "en": "Equip: Revive once upon{NEWLINE}death.{BREAK}"
   },
   {
     "id": 346,
@@ -1404,7 +1404,7 @@
     "desc_idx": 83,
     "str_idx": 1,
     "jp": "フロアー内の別の場所に移動する{BREAK}",
-    "en": "Warp to another spot on the floor.{BREAK}"
+    "en": "Warp to another spot on the{NEWLINE}floor.{BREAK}"
   },
   {
     "id": 356,
@@ -1432,7 +1432,7 @@
     "desc_idx": 85,
     "str_idx": 1,
     "jp": "かく得コインをその場で所持コインに変える{BREAK}",
-    "en": "Converts earned coins immediately.{BREAK}"
+    "en": "Converts earned coins{NEWLINE}immediately.{BREAK}"
   },
   {
     "id": 360,
@@ -1509,14 +1509,14 @@
     "desc_idx": 92,
     "str_idx": 1,
     "jp": "見えている全テキを毒化する（5ダメージ%ターン）{BREAK}",
-    "en": "Poisons all visible foes (5 DMG/turn).{BREAK}"
+    "en": "Poisons all visible foes (5{NEWLINE}DMG/turn).{BREAK}"
   },
   {
     "id": 375,
     "desc_idx": 93,
     "str_idx": 1,
     "jp": "自分より強いテキを倒すとより多くのコインを得る{BREAK}",
-    "en": "Earn bonus coins from stronger foes.{BREAK}"
+    "en": "Earn bonus coins from{NEWLINE}stronger foes.{BREAK}"
   },
   {
     "id": 376,
@@ -1544,7 +1544,7 @@
     "desc_idx": 96,
     "str_idx": 1,
     "jp": "そのダンジョンに限り希望のキャラクターにチェンジできる{BREAK}",
-    "en": "Change to chosen character for this dungeon{BREAK}"
+    "en": "Change to chosen character{NEWLINE}for this dungeon{BREAK}"
   },
   {
     "id": 382,
@@ -1558,7 +1558,7 @@
     "desc_idx": 97,
     "str_idx": 1,
     "jp": "装備するとはじめての部屋で回復が2倍になる{BREAK}",
-    "en": "Doubles healing in new rooms.{BREAK}"
+    "en": "Doubles healing in new{NEWLINE}rooms.{BREAK}"
   },
   {
     "id": 384,
@@ -1572,7 +1572,7 @@
     "desc_idx": 98,
     "str_idx": 1,
     "jp": "テキを必ず倒す（使用時に能力が下がる）{BREAK}",
-    "en": "Instantly defeats a foe (lowers stats).{BREAK}"
+    "en": "Instantly defeats a foe{NEWLINE}(lowers stats).{BREAK}"
   },
   {
     "id": 386,
@@ -1600,14 +1600,14 @@
     "desc_idx": 100,
     "str_idx": 1,
     "jp": "一定のかくりつでテキの攻撃をむこうかする{BREAK}",
-    "en": "Chance to negate enemy attacks.{BREAK}"
+    "en": "Chance to negate enemy{NEWLINE}attacks.{BREAK}"
   },
   {
     "id": 391,
     "desc_idx": 101,
     "str_idx": 1,
     "jp": "テキを倒すと一定ポイントHP回復（+攻撃力アップ）{BREAK}",
-    "en": "Defeating foes heals HP (+ATK up).{BREAK}"
+    "en": "Defeating foes heals HP{NEWLINE}(+ATK up).{BREAK}"
   },
   {
     "id": 392,
@@ -1628,7 +1628,7 @@
     "desc_idx": 103,
     "str_idx": 1,
     "jp": "トウメイになってテキからえんきょり攻撃をうけなくなる{BREAK}",
-    "en": "Turn invisible; immune to ranged attacks{BREAK}"
+    "en": "Turn invisible; immune to{NEWLINE}ranged attacks{BREAK}"
   },
   {
     "id": 396,
@@ -1642,14 +1642,14 @@
     "desc_idx": 104,
     "str_idx": 1,
     "jp": "見えている全テキを他の部屋へとばす{BREAK}",
-    "en": "Warps all visible foes to other rooms.{BREAK}"
+    "en": "Warps all visible foes to{NEWLINE}other rooms.{BREAK}"
   },
   {
     "id": 399,
     "desc_idx": 105,
     "str_idx": 1,
     "jp": "うけたダメージの一部をテキにはんしゃ（+防御力アップ）{BREAK}",
-    "en": "Reflect part of damage taken (+DEF up){BREAK}"
+    "en": "Reflect part of damage taken{NEWLINE}(+DEF up){BREAK}"
   },
   {
     "id": 400,
@@ -1663,14 +1663,14 @@
     "desc_idx": 106,
     "str_idx": 1,
     "jp": "使うと対戦相手に何かが起こる!{BREAK}",
-    "en": "Triggers an effect on your rival!{BREAK}"
+    "en": "Triggers an effect on your{NEWLINE}rival!{BREAK}"
   },
   {
     "id": 403,
     "desc_idx": 107,
     "str_idx": 1,
     "jp": "自分より強いテキを倒すとより多くのコインを得る{BREAK}",
-    "en": "Earn bonus coins from stronger foes.{BREAK}"
+    "en": "Earn bonus coins from{NEWLINE}stronger foes.{BREAK}"
   },
   {
     "id": 404,
@@ -1684,7 +1684,7 @@
     "desc_idx": 108,
     "str_idx": 1,
     "jp": "装備するとつねにマップの効果がある{BREAK}",
-    "en": "Equip for permanent Map effect.{BREAK}"
+    "en": "Equip for permanent Map{NEWLINE}effect.{BREAK}"
   },
   {
     "id": 406,
@@ -1698,7 +1698,7 @@
     "desc_idx": 109,
     "str_idx": 1,
     "jp": "装備するとつねにブライトの効果がある{BREAK}",
-    "en": "Equip for permanent Bright effect.{BREAK}"
+    "en": "Equip for permanent Bright{NEWLINE}effect.{BREAK}"
   },
   {
     "id": 408,
@@ -1712,7 +1712,7 @@
     "desc_idx": 110,
     "str_idx": 1,
     "jp": "装備するとつねにサーチの効果がある{BREAK}",
-    "en": "Equip for permanent Search effect.{BREAK}"
+    "en": "Equip for permanent Search{NEWLINE}effect.{BREAK}"
   },
   {
     "id": 410,
@@ -1726,7 +1726,7 @@
     "desc_idx": 111,
     "str_idx": 1,
     "jp": "自分より強いテキを倒すとより多くのコインを得る{BREAK}",
-    "en": "Earn bonus coins from stronger foes.{BREAK}"
+    "en": "Earn bonus coins from{NEWLINE}stronger foes.{BREAK}"
   },
   {
     "id": 412,
@@ -1957,7 +1957,7 @@
     "desc_idx": 150,
     "str_idx": 7,
     "jp": "あの村の連中は気がついていると思っていたのだがな,{END}",
-    "en": "I thought those villagers had already noticed, though.{END}"
+    "en": "I thought those villagers{NEWLINE}had already noticed,{WAIT:3C}{CTRL:F2}though.{END}"
   },
   {
     "id": 499,
@@ -1985,7 +1985,7 @@
     "desc_idx": 151,
     "str_idx": 1,
     "jp": "プレイヤーが部屋に入った時のHP・MPの回復UP（小）{BREAK}",
-    "en": "Boost room-entry HP/MP heal (Small){BREAK}"
+    "en": "Boost room HP/MP heal{NEWLINE}(Small){BREAK}"
   },
   {
     "id": 527,
@@ -2055,7 +2055,7 @@
     "desc_idx": 163,
     "str_idx": 1,
     "jp": "プレイヤーの必殺の一撃が出やすくなる（小）{BREAK}",
-    "en": "Raises player critical rate (S).{BREAK}"
+    "en": "Raises player critical rate{NEWLINE}(S).{BREAK}"
   },
   {
     "id": 551,
@@ -2069,7 +2069,7 @@
     "desc_idx": 166,
     "str_idx": 1,
     "jp": "死亡した時マルチポイズンの効果（かくりつ小）{BREAK}",
-    "en": "Low Multi-Poison chance on death.{BREAK}"
+    "en": "Low Multi-Poison chance on{NEWLINE}death.{BREAK}"
   },
   {
     "id": 553,
@@ -2132,7 +2132,7 @@
     "desc_idx": 171,
     "str_idx": 1,
     "jp": "プレイヤーが死亡した時生き返らせる（かくりつ小）{BREAK}",
-    "en": "Revives player on death (Low).{BREAK}"
+    "en": "Revives player on death{NEWLINE}(Low).{BREAK}"
   },
   {
     "id": 563,
@@ -2202,7 +2202,7 @@
     "desc_idx": 174,
     "str_idx": 34,
     "jp": "すぐにたき火もできるぞー!{END}",
-    "en": "I can start a campfire anytime!{END}"
+    "en": "I can start a campfire{NEWLINE}anytime!{END}"
   },
   {
     "id": 607,
@@ -2216,7 +2216,7 @@
     "desc_idx": 175,
     "str_idx": 1,
     "jp": "プレイヤーが部屋に入った時のHP・MPの回復UP（中）{BREAK}",
-    "en": "Boost room-entry HP/MP heal (Med){BREAK}"
+    "en": "Boost room HP/MP heal (Med){BREAK}"
   },
   {
     "id": 615,
@@ -2265,7 +2265,7 @@
     "desc_idx": 182,
     "str_idx": 1,
     "jp": "攻撃した時スリープの効果（かくりつ中）{BREAK}",
-    "en": "Medium chance to Sleep on hit.{BREAK}"
+    "en": "Medium chance to Sleep on{NEWLINE}hit.{BREAK}"
   },
   {
     "id": 627,
@@ -2293,7 +2293,7 @@
     "desc_idx": 187,
     "str_idx": 1,
     "jp": "プレイヤーの必殺の一撃が出やすくなる（中）{BREAK}",
-    "en": "Raises player critical rate (M).{BREAK}"
+    "en": "Raises player critical rate{NEWLINE}(M).{BREAK}"
   },
   {
     "id": 639,
@@ -2307,7 +2307,7 @@
     "desc_idx": 190,
     "str_idx": 1,
     "jp": "死亡した時マルチポイズンの効果（かくりつ中）{BREAK}",
-    "en": "Med Multi-Poison chance on death.{BREAK}"
+    "en": "Med Multi-Poison chance on{NEWLINE}death.{BREAK}"
   },
   {
     "id": 641,
@@ -2356,7 +2356,7 @@
     "desc_idx": 194,
     "str_idx": 1,
     "jp": "攻撃した時ポイズンの効果（かくりつ中）{BREAK}",
-    "en": "Medium chance to Poison on hit.{BREAK}"
+    "en": "Medium chance to Poison on{NEWLINE}hit.{BREAK}"
   },
   {
     "id": 649,
@@ -2370,7 +2370,7 @@
     "desc_idx": 195,
     "str_idx": 1,
     "jp": "プレイヤーが死亡した時生き返らせる（かくりつ中）{BREAK}",
-    "en": "Revives player on death (Med).{BREAK}"
+    "en": "Revives player on death{NEWLINE}(Med).{BREAK}"
   },
   {
     "id": 651,
@@ -2426,14 +2426,14 @@
     "desc_idx": 198,
     "str_idx": 15,
     "jp": "くだらぬ事に手間をかけるな,{END}",
-    "en": "Don't waste time on trivialities.{END}"
+    "en": "Don't waste time on{NEWLINE}trivialities.{END}"
   },
   {
     "id": 677,
     "desc_idx": 199,
     "str_idx": 1,
     "jp": "プレイヤーが部屋に入った時のHP・MPの回復UP（大）{BREAK}",
-    "en": "Boost room-entry HP/MP heal (Large){BREAK}"
+    "en": "Boost room HP/MP heal{NEWLINE}(Large){BREAK}"
   },
   {
     "id": 682,
@@ -2510,7 +2510,7 @@
     "desc_idx": 211,
     "str_idx": 1,
     "jp": "プレイヤーの必殺の一撃が出やすくなる（大）{BREAK}",
-    "en": "Raises player critical rate (L).{BREAK}"
+    "en": "Raises player critical rate{NEWLINE}(L).{BREAK}"
   },
   {
     "id": 706,
@@ -2524,7 +2524,7 @@
     "desc_idx": 214,
     "str_idx": 1,
     "jp": "死亡した時マルチポイズンの効果（かくりつ大）{BREAK}",
-    "en": "High Multi-Poison chance on death.{BREAK}"
+    "en": "High Multi-Poison chance on{NEWLINE}death.{BREAK}"
   },
   {
     "id": 708,
@@ -2573,7 +2573,7 @@
     "desc_idx": 218,
     "str_idx": 1,
     "jp": "攻撃した時ポイズンの効果（かくりつ大）{BREAK}",
-    "en": "High chance to Poison on hit.{BREAK}"
+    "en": "High chance to Poison on{NEWLINE}hit.{BREAK}"
   },
   {
     "id": 716,
@@ -2587,7 +2587,7 @@
     "desc_idx": 219,
     "str_idx": 1,
     "jp": "プレイヤーが死亡した時生き返らせる（かくりつ大）{BREAK}",
-    "en": "Revives player on death (High).{BREAK}"
+    "en": "Revives player on death{NEWLINE}(High).{BREAK}"
   },
   {
     "id": 718,
@@ -2636,7 +2636,7 @@
     "desc_idx": 223,
     "str_idx": 1,
     "jp": "プレイヤーが部屋に入った時のHP・MPの回復UP（SP）{BREAK}",
-    "en": "Boost room-entry HP/MP heal (SP){BREAK}"
+    "en": "Boost room HP/MP heal (SP){BREAK}"
   },
   {
     "id": 744,
@@ -2720,7 +2720,7 @@
     "desc_idx": 235,
     "str_idx": 1,
     "jp": "プレイヤーの必殺の一撃が出やすくなる（かくりつSP）{BREAK}",
-    "en": "Boost player critical hit rate (SP){BREAK}"
+    "en": "Boost player crit rate (SP){BREAK}"
   },
   {
     "id": 768,
@@ -2734,7 +2734,7 @@
     "desc_idx": 238,
     "str_idx": 1,
     "jp": "死亡した時マルチポイズンの効果（かくりつSP）{BREAK}",
-    "en": "SP Multi-Poison chance on death.{BREAK}"
+    "en": "SP Multi-Poison chance on{NEWLINE}death.{BREAK}"
   },
   {
     "id": 770,
@@ -2839,7 +2839,7 @@
     "desc_idx": 249,
     "str_idx": 0,
     "jp": " 脱出してもよろしいですか?     はい   いいえ{BREAK}",
-    "en": " Escape the dungeon?     Yes   No{BREAK}"
+    "en": " Escape dungeon?   Yes  No{BREAK}"
   },
   {
     "id": 791,
@@ -2895,7 +2895,7 @@
     "desc_idx": 256,
     "str_idx": 0,
     "jp": "たくさん出てくるゴブリンに要注意!{BREAK}",
-    "en": "Watch out for swarms of Goblins!{BREAK}"
+    "en": "Watch out for swarms of{NEWLINE}Goblins!{BREAK}"
   },
   {
     "id": 804,
@@ -2930,21 +2930,21 @@
     "desc_idx": 263,
     "str_idx": 0,
     "jp": "2フロアーしかないけど広い毒ぬまなので気を付けよう{BREAK}",
-    "en": "Only 2 floors, but watch the wide poison bog.{BREAK}"
+    "en": "Only 2 floors, but watch the{NEWLINE}wide poison bog.{BREAK}"
   },
   {
     "id": 852,
     "desc_idx": 264,
     "str_idx": 0,
     "jp": "広いうえにマップが見えないので迷いやすいぞ{BREAK}",
-    "en": "Huge and mapless, so it's easy to get lost.{BREAK}"
+    "en": "Huge and mapless, so it's{NEWLINE}easy to get lost.{BREAK}"
   },
   {
     "id": 853,
     "desc_idx": 265,
     "str_idx": 0,
     "jp": "時々でるキョウキの一撃に気を付けよう{BREAK}",
-    "en": "Watch out for occasional Fierce Blows.{BREAK}"
+    "en": "Watch out for occasional{NEWLINE}Fierce Blows.{BREAK}"
   },
   {
     "id": 854,
@@ -2965,70 +2965,70 @@
     "desc_idx": 270,
     "str_idx": 0,
     "jp": "スイスイすべる氷の床をうまく使おう!{BREAK}",
-    "en": "Use the slippery ice floors to your advantage!{BREAK}"
+    "en": "Use the slippery ice floors{NEWLINE}to your advantage!{BREAK}"
   },
   {
     "id": 859,
     "desc_idx": 271,
     "str_idx": 0,
     "jp": "通路すべてがすべる床で危険だぞ{BREAK}",
-    "en": "Every hallway is slippery ice. Be careful!{BREAK}"
+    "en": "Every hallway is slippery{NEWLINE}ice. Be careful!{BREAK}"
   },
   {
     "id": 861,
     "desc_idx": 273,
     "str_idx": 0,
     "jp": "ホッピーは通路で待ちぶせて戦おう!{BREAK}",
-    "en": "Ambush Hoppys in the hallways!{BREAK}"
+    "en": "Ambush Hoppys in the{NEWLINE}hallways!{BREAK}"
   },
   {
     "id": 863,
     "desc_idx": 275,
     "str_idx": 0,
     "jp": "キョウキの一撃と消える階段に注意しよう{BREAK}",
-    "en": "Beware Fierce Blows and vanishing stairs.{BREAK}"
+    "en": "Beware Fierce Blows and{NEWLINE}vanishing stairs.{BREAK}"
   },
   {
     "id": 866,
     "desc_idx": 278,
     "str_idx": 0,
     "jp": "20階だての大きな灯台だ{BREAK}",
-    "en": "A massive 20-story lighthouse.{BREAK}"
+    "en": "A massive 20-story{NEWLINE}lighthouse.{BREAK}"
   },
   {
     "id": 867,
     "desc_idx": 279,
     "str_idx": 0,
     "jp": "山の途中まで続く長いどうくつだ{BREAK}",
-    "en": "A long cave leading partway up the mountain.{BREAK}"
+    "en": "A long cave leading partway{NEWLINE}up the mountain.{BREAK}"
   },
   {
     "id": 868,
     "desc_idx": 280,
     "str_idx": 0,
     "jp": "頂上へと続く長い山道だ{BREAK}",
-    "en": "A long mountain trail to the summit.{BREAK}"
+    "en": "A long mountain trail to the{NEWLINE}summit.{BREAK}"
   },
   {
     "id": 871,
     "desc_idx": 283,
     "str_idx": 0,
     "jp": "ふくざつなフロアーをじっくり攻めよう!{BREAK}",
-    "en": "Take your time through these complex floors!{BREAK}"
+    "en": "Take your time through these{NEWLINE}complex floors!{BREAK}"
   },
   {
     "id": 872,
     "desc_idx": 284,
     "str_idx": 0,
     "jp": "すべる床が多いので気を付けよう{BREAK}",
-    "en": "Watch out for lots of slippery floors.{BREAK}"
+    "en": "Watch out for lots of{NEWLINE}slippery floors.{BREAK}"
   },
   {
     "id": 874,
     "desc_idx": 286,
     "str_idx": 0,
     "jp": "広く険しく大変な城だ{BREAK}",
-    "en": "A vast, perilous, and grueling castle.{BREAK}"
+    "en": "A vast, perilous, and{NEWLINE}grueling castle.{BREAK}"
   },
   {
     "id": 875,
@@ -3042,7 +3042,7 @@
     "desc_idx": 289,
     "str_idx": 0,
     "jp": "カジノをうまく使ってクリアを目指そう!{BREAK}",
-    "en": "Use the Casino wisely to clear it!{BREAK}"
+    "en": "Use the Casino wisely to{NEWLINE}clear it!{BREAK}"
   },
   {
     "id": 880,
@@ -3056,21 +3056,21 @@
     "desc_idx": 290,
     "str_idx": 21,
     "jp": "はやくキノコ食べにいこーよー!{END}",
-    "en": "Let's hurry and go eat mushrooms!{END}"
+    "en": "Let's hurry and go eat{NEWLINE}mushrooms!{END}"
   },
   {
     "id": 903,
     "desc_idx": 292,
     "str_idx": 0,
     "jp": "会心の一撃が出やすいぞ!{BREAK}",
-    "en": "Critical hits happen often here!{BREAK}"
+    "en": "Critical hits happen often{NEWLINE}here!{BREAK}"
   },
   {
     "id": 904,
     "desc_idx": 293,
     "str_idx": 0,
     "jp": "ケムンパばかりだと思っていたら:{BREAK}",
-    "en": "Just when you thought it was all Kemunpas...{BREAK}"
+    "en": "Just when you thought it was{NEWLINE}all Kemunpas...{BREAK}"
   },
   {
     "id": 905,
@@ -3084,7 +3084,7 @@
     "desc_idx": 295,
     "str_idx": 0,
     "jp": "HPに気を配りながらすすもう!{BREAK}",
-    "en": "Keep an eye on your HP as you advance!{BREAK}"
+    "en": "Keep an eye on your HP as{NEWLINE}you advance!{BREAK}"
   },
   {
     "id": 915,
@@ -3098,28 +3098,28 @@
     "desc_idx": 301,
     "str_idx": 0,
     "jp": "たくさんのゴブリンにかこまれないように注意しよう{BREAK}",
-    "en": "Don't get surrounded by Goblins!{BREAK}"
+    "en": "Don't get surrounded by{NEWLINE}Goblins!{BREAK}"
   },
   {
     "id": 917,
     "desc_idx": 302,
     "str_idx": 0,
     "jp": "宝石がたくさん落ちているぞ{BREAK}",
-    "en": "Tons of gems are lying around!{BREAK}"
+    "en": "Tons of gems are lying{NEWLINE}around!{BREAK}"
   },
   {
     "id": 921,
     "desc_idx": 306,
     "str_idx": 0,
     "jp": "最終フロアーには貴重品がいっぱいだぞ!{BREAK}",
-    "en": "The final floor is packed with valuables!{BREAK}"
+    "en": "The final floor is packed{NEWLINE}with valuables!{BREAK}"
   },
   {
     "id": 925,
     "desc_idx": 310,
     "str_idx": 0,
     "jp": "いろいろな呪いがかけられたダンジョン{BREAK}",
-    "en": "A dungeon afflicted with various curses.{BREAK}"
+    "en": "A dungeon afflicted with{NEWLINE}various curses.{BREAK}"
   },
   {
     "id": 926,
@@ -3133,14 +3133,14 @@
     "desc_idx": 313,
     "str_idx": 0,
     "jp": "会心の一撃が出やすいけどキョウキの一撃も出やすいぞ{BREAK}",
-    "en": "High crit rate, but Fierce Blows are common too!{BREAK}"
+    "en": "High crit rate, but Fierce{NEWLINE}Blows are common too!{BREAK}"
   },
   {
     "id": 931,
     "desc_idx": 316,
     "str_idx": 0,
     "jp": "ブライト効果を有効に活用しよう{BREAK}",
-    "en": "Make good use of Bright effects!{BREAK}"
+    "en": "Make good use of Bright{NEWLINE}effects!{BREAK}"
   },
   {
     "id": 932,
@@ -3161,7 +3161,7 @@
     "desc_idx": 323,
     "str_idx": 0,
     "jp": "見通しが良い山だ{BREAK}",
-    "en": "A mountain with clear visibility.{BREAK}"
+    "en": "A mountain with clear{NEWLINE}visibility.{BREAK}"
   },
   {
     "id": 939,
@@ -3175,392 +3175,392 @@
     "desc_idx": 325,
     "str_idx": 0,
     "jp": "ハンマーシェルが行く手をはばむ{BREAK}",
-    "en": "Hammershells block your path.{BREAK}"
+    "en": "Hammershells block your{NEWLINE}path.{BREAK}"
   },
   {
     "id": 941,
     "desc_idx": 326,
     "str_idx": 0,
     "jp": "行動するたびにダメージをうけてしまうダンジョン{BREAK}",
-    "en": "You take damage with every action here.{BREAK}"
+    "en": "You take damage with every{NEWLINE}action here.{BREAK}"
   },
   {
     "id": 942,
     "desc_idx": 327,
     "str_idx": 0,
     "jp": "死神が早めに出現するので要注意!{BREAK}",
-    "en": "Watch out! The Reaper appears early here!{BREAK}"
+    "en": "Watch out! The Reaper{NEWLINE}appears early here!{BREAK}"
   },
   {
     "id": 943,
     "desc_idx": 328,
     "str_idx": 0,
     "jp": "迷宮の賢者作の究極のダンジョン{BREAK}",
-    "en": "The ultimate dungeon crafted by the Maze Sage.{BREAK}"
+    "en": "The ultimate dungeon crafted{NEWLINE}by the Maze Sage.{BREAK}"
   },
   {
     "id": 944,
     "desc_idx": 329,
     "str_idx": 0,
     "jp": "ホッピーが多く生息する谷でなかなか強くなれないぞ{BREAK}",
-    "en": "A valley full of Hoppys where leveling is slow.{BREAK}"
+    "en": "A valley full of Hoppys{NEWLINE}where leveling is slow.{BREAK}"
   },
   {
     "id": 945,
     "desc_idx": 330,
     "str_idx": 0,
     "jp": "ブロッサが大りょう発生しているダンジョン{BREAK}",
-    "en": "A dungeon overrun by Blossas.{BREAK}"
+    "en": "A dungeon overrun by{NEWLINE}Blossas.{BREAK}"
   },
   {
     "id": 946,
     "desc_idx": 331,
     "str_idx": 0,
     "jp": "スピードバトル感覚でアタックしよう!{BREAK}",
-    "en": "Attack it like a Speed Battle!{BREAK}"
+    "en": "Attack it like a Speed{NEWLINE}Battle!{BREAK}"
   },
   {
     "id": 947,
     "desc_idx": 332,
     "str_idx": 0,
     "jp": "スピードバトル感覚で攻めていこう!{BREAK}",
-    "en": "Push forward like a Speed Battle!{BREAK}"
+    "en": "Push forward like a Speed{NEWLINE}Battle!{BREAK}"
   },
   {
     "id": 948,
     "desc_idx": 333,
     "str_idx": 0,
     "jp": "スピードバトル感覚でクリアしよう!{BREAK}",
-    "en": "Clear it like a Speed Battle!{BREAK}"
+    "en": "Clear it like a Speed{NEWLINE}Battle!{BREAK}"
   },
   {
     "id": 950,
     "desc_idx": 335,
     "str_idx": 0,
     "jp": "フェアリーの住むといわれているダンジョン{BREAK}",
-    "en": "A dungeon said to be home to Fairies.{BREAK}"
+    "en": "A dungeon said to be home to{NEWLINE}Fairies.{BREAK}"
   },
   {
     "id": 951,
     "desc_idx": 336,
     "str_idx": 0,
     "jp": "フェアリーワールドの風をつかさどる神殿{BREAK}",
-    "en": "The Fairy World temple governing Wind.{BREAK}"
+    "en": "The Fairy World temple{NEWLINE}governing Wind.{BREAK}"
   },
   {
     "id": 952,
     "desc_idx": 337,
     "str_idx": 0,
     "jp": "フェアリーワールドの炎をつかさどる神殿{BREAK}",
-    "en": "The Fairy World temple governing Fire.{BREAK}"
+    "en": "The Fairy World temple{NEWLINE}governing Fire.{BREAK}"
   },
   {
     "id": 953,
     "desc_idx": 338,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は10コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 10 Coins.{BREAK}"
+    "en": "Reward for this quest: 10{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 954,
     "desc_idx": 339,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は0コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 0 Coins.{BREAK}"
+    "en": "Reward for this quest: 0{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 955,
     "desc_idx": 340,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は20コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 20 Coins.{BREAK}"
+    "en": "Reward for this quest: 20{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 956,
     "desc_idx": 341,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は30コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 30 Coins.{BREAK}"
+    "en": "Reward for this quest: 30{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 957,
     "desc_idx": 342,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は40コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 40 Coins.{BREAK}"
+    "en": "Reward for this quest: 40{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 958,
     "desc_idx": 343,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は50コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 50 Coins.{BREAK}"
+    "en": "Reward for this quest: 50{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 959,
     "desc_idx": 344,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は200コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 200 Coins.{BREAK}"
+    "en": "Reward for this quest: 200{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 960,
     "desc_idx": 345,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は100コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 100 Coins.{BREAK}"
+    "en": "Reward for this quest: 100{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 961,
     "desc_idx": 346,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は120コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 120 Coins.{BREAK}"
+    "en": "Reward for this quest: 120{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 962,
     "desc_idx": 347,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は160コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 160 Coins.{BREAK}"
+    "en": "Reward for this quest: 160{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 965,
     "desc_idx": 349,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は40コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 40 Coins.{BREAK}"
+    "en": "Reward for this quest: 40{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 966,
     "desc_idx": 350,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は100コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 100 Coins.{BREAK}"
+    "en": "Reward for this quest: 100{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 967,
     "desc_idx": 351,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は480コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 480 Coins.{BREAK}"
+    "en": "Reward for this quest: 480{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 968,
     "desc_idx": 352,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は250コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 250 Coins.{BREAK}"
+    "en": "Reward for this quest: 250{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 969,
     "desc_idx": 353,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は400コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 400 Coins.{BREAK}"
+    "en": "Reward for this quest: 400{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 970,
     "desc_idx": 354,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は1200コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 1200 Coins.{BREAK}"
+    "en": "Reward for this quest: 1200{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 971,
     "desc_idx": 355,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は550コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 550 Coins.{BREAK}"
+    "en": "Reward for this quest: 550{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 972,
     "desc_idx": 356,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は150コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 150 Coins.{BREAK}"
+    "en": "Reward for this quest: 150{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 973,
     "desc_idx": 357,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は200コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 200 Coins.{BREAK}"
+    "en": "Reward for this quest: 200{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 974,
     "desc_idx": 358,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は700コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 700 Coins.{BREAK}"
+    "en": "Reward for this quest: 700{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 975,
     "desc_idx": 359,
     "str_idx": 0,
     "jp": "今回の依頼の賞金はコインだぜ,{BREAK}",
-    "en": "Reward for this quest: Coins.{BREAK}"
+    "en": "Reward for this quest:{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 976,
     "desc_idx": 360,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は320コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 320 Coins.{BREAK}"
+    "en": "Reward for this quest: 320{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 977,
     "desc_idx": 361,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は100コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 100 Coins.{BREAK}"
+    "en": "Reward for this quest: 100{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 979,
     "desc_idx": 363,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は180コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 180 Coins.{BREAK}"
+    "en": "Reward for this quest: 180{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 980,
     "desc_idx": 364,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は240コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 240 Coins.{BREAK}"
+    "en": "Reward for this quest: 240{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 981,
     "desc_idx": 365,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は30コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 30 Coins.{BREAK}"
+    "en": "Reward for this quest: 30{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 982,
     "desc_idx": 366,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は100コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 100 Coins.{BREAK}"
+    "en": "Reward for this quest: 100{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 983,
     "desc_idx": 367,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は170コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 170 Coins.{BREAK}"
+    "en": "Reward for this quest: 170{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 984,
     "desc_idx": 368,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は150コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 150 Coins.{BREAK}"
+    "en": "Reward for this quest: 150{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 985,
     "desc_idx": 369,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は300コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 300 Coins.{BREAK}"
+    "en": "Reward for this quest: 300{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 986,
     "desc_idx": 370,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は530コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 530 Coins.{BREAK}"
+    "en": "Reward for this quest: 530{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 987,
     "desc_idx": 371,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は200コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 200 Coins.{BREAK}"
+    "en": "Reward for this quest: 200{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 988,
     "desc_idx": 372,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は10コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 10 Coins.{BREAK}"
+    "en": "Reward for this quest: 10{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 991,
     "desc_idx": 375,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は880コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 880 Coins.{BREAK}"
+    "en": "Reward for this quest: 880{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 993,
     "desc_idx": 376,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は250コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 250 Coins.{BREAK}"
+    "en": "Reward for this quest: 250{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 994,
     "desc_idx": 377,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は660コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 660 Coins.{BREAK}"
+    "en": "Reward for this quest: 660{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 996,
     "desc_idx": 379,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は200コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 200 Coins.{BREAK}"
+    "en": "Reward for this quest: 200{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 1001,
     "desc_idx": 384,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は580コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 580 Coins.{BREAK}"
+    "en": "Reward for this quest: 580{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 1014,
     "desc_idx": 390,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は300コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 300 Coins.{BREAK}"
+    "en": "Reward for this quest: 300{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 1015,
     "desc_idx": 391,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は10コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 10 Coins.{BREAK}"
+    "en": "Reward for this quest: 10{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 1016,
     "desc_idx": 392,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は20コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 20 Coins.{BREAK}"
+    "en": "Reward for this quest: 20{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 1017,
     "desc_idx": 393,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は20コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 20 Coins.{BREAK}"
+    "en": "Reward for this quest: 20{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 1018,
     "desc_idx": 394,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は50コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 50 Coins.{BREAK}"
+    "en": "Reward for this quest: 50{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 1019,
     "desc_idx": 395,
     "str_idx": 0,
     "jp": "今回の依頼の賞金は100コインだぜ,{BREAK}",
-    "en": "Reward for this quest: 100 Coins.{BREAK}"
+    "en": "Reward for this quest: 100{NEWLINE}Coins.{BREAK}"
   },
   {
     "id": 1020,
@@ -4323,84 +4323,84 @@
     "desc_idx": 406,
     "str_idx": 0,
     "jp": "迷いの森で.男の子を助ければ依頼は完了だ,{BREAK}",
-    "en": "Rescue the boy in Lost Woods to clear the quest.{BREAK}"
+    "en": "Rescue the boy in Lost Woods{NEWLINE}to clear the quest.{BREAK}"
   },
   {
     "id": 1145,
     "desc_idx": 412,
     "str_idx": 0,
     "jp": "王様の友人を連れてきたら.依頼は完了だ,{BREAK}",
-    "en": "Bring back the king's friend to clear the quest.{BREAK}"
+    "en": "Bring back the king's friend{NEWLINE}to clear the quest.{BREAK}"
   },
   {
     "id": 1191,
     "desc_idx": 456,
     "str_idx": 0,
     "jp": "強くなりにくいので気を付けよう{BREAK}",
-    "en": "Leveling is slow here, so be careful.{BREAK}"
+    "en": "Leveling is slow here, so{NEWLINE}be careful.{BREAK}"
   },
   {
     "id": 1208,
     "desc_idx": 461,
     "str_idx": 0,
     "jp": "どの依頼の話を聞くんだ?{BREAK}",
-    "en": "Which quest do you want to hear about?{BREAK}"
+    "en": "Which quest do you want to{NEWLINE}hear about?{BREAK}"
   },
   {
     "id": 1219,
     "desc_idx": 462,
     "str_idx": 0,
     "jp": "どの依頼の話を聞くんだ?{BREAK}",
-    "en": "Which quest do you want to hear about?{BREAK}"
+    "en": "Which quest do you want to{NEWLINE}hear about?{BREAK}"
   },
   {
     "id": 1228,
     "desc_idx": 463,
     "str_idx": 0,
     "jp": "どの依頼の話を聞くんだ?{BREAK}",
-    "en": "Which quest do you want to hear about?{BREAK}"
+    "en": "Which quest do you want to{NEWLINE}hear about?{BREAK}"
   },
   {
     "id": 1241,
     "desc_idx": 464,
     "str_idx": 0,
     "jp": "どの依頼の話を聞くんだ?{BREAK}",
-    "en": "Which quest do you want to hear about?{BREAK}"
+    "en": "Which quest do you want to{NEWLINE}hear about?{BREAK}"
   },
   {
     "id": 1246,
     "desc_idx": 465,
     "str_idx": 0,
     "jp": "どの依頼の話を聞くんだ?{BREAK}",
-    "en": "Which quest do you want to hear about?{BREAK}"
+    "en": "Which quest do you want to{NEWLINE}hear about?{BREAK}"
   },
   {
     "id": 1251,
     "desc_idx": 466,
     "str_idx": 0,
     "jp": "どの依頼の話を聞くんだ?{BREAK}",
-    "en": "Which quest do you want to hear about?{BREAK}"
+    "en": "Which quest do you want to{NEWLINE}hear about?{BREAK}"
   },
   {
     "id": 1261,
     "desc_idx": 467,
     "str_idx": 0,
     "jp": "どの依頼の話を聞くんだ?{BREAK}",
-    "en": "Which quest do you want to hear about?{BREAK}"
+    "en": "Which quest do you want to{NEWLINE}hear about?{BREAK}"
   },
   {
     "id": 1264,
     "desc_idx": 468,
     "str_idx": 0,
     "jp": "どの依頼の話を聞くんだ?{BREAK}",
-    "en": "Which quest do you want to hear about?{BREAK}"
+    "en": "Which quest do you want to{NEWLINE}hear about?{BREAK}"
   },
   {
     "id": 1269,
     "desc_idx": 469,
     "str_idx": 0,
     "jp": "迷子の少年を見つけてくれば.依頼は完了だ,{BREAK}",
-    "en": "Find the lost boy to clear the quest.{BREAK}"
+    "en": "Find the lost boy to clear{NEWLINE}the quest.{BREAK}"
   },
   {
     "id": 1270,
@@ -5051,14 +5051,14 @@
     "desc_idx": 597,
     "str_idx": 0,
     "jp": "入り口をふさがれたか,{END}",
-    "en": "Looks like the entrance is blocked.{END}"
+    "en": "Looks like the entrance{NEWLINE}is blocked.{END}"
   },
   {
     "id": 1524,
     "desc_idx": 597,
     "str_idx": 1,
     "jp": "先に出口を見つけておいたほうがいいかもな,{END}",
-    "en": "Maybe we should find the exit first.{END}"
+    "en": "Maybe we should find the{NEWLINE}exit first.{END}"
   },
   {
     "id": 1525,
@@ -5086,28 +5086,28 @@
     "desc_idx": 597,
     "str_idx": 21,
     "jp": "（言葉にせぬと伝わらぬのが人の心じゃぞ,）{END}",
-    "en": "(A person's heart can't be known unless spoken aloud.){END}"
+    "en": "(A person's heart can't{NEWLINE}be known unless spoken{WAIT:3C}{CTRL:F2}aloud.){END}"
   },
   {
     "id": 1546,
     "desc_idx": 597,
     "str_idx": 23,
     "jp": "（ワシはそれが心配じゃよ・・・,）{END}",
-    "en": "(That is what worries me...){END}"
+    "en": "(That is what worries{NEWLINE}me...){END}"
   },
   {
     "id": 1582,
     "desc_idx": 602,
     "str_idx": 5,
     "jp": "ボクがまだ岩いからって.バカにしてるのかい?{END}",
-    "en": "Are you looking down on me just because I'm young?{END}"
+    "en": "Are you looking down on{NEWLINE}me just because I'm{WAIT:3C}{CTRL:F2}young?{END}"
   },
   {
     "id": 1592,
     "desc_idx": 603,
     "str_idx": 9,
     "jp": "しっぱいと無知はちがうぞ,{END}",
-    "en": "Failure and ignorance aren't the same.{END}"
+    "en": "Failure and ignorance{NEWLINE}aren't the same.{END}"
   },
   {
     "id": 1600,
@@ -5135,7 +5135,7 @@
     "desc_idx": 606,
     "str_idx": 3,
     "jp": "{CTRL:F9}あいつの頼みは.断るに断れなくてな,{END}",
-    "en": "{CTRL:F9}I can't exactly turn him down.{END}"
+    "en": "{CTRL:F9}I can't exactly turn him{NEWLINE}down.{END}"
   },
   {
     "id": 1612,
@@ -5156,7 +5156,7 @@
     "desc_idx": 608,
     "str_idx": 1,
     "jp": "ちょうどいいところに来た!{END}",
-    "en": "You came at just the right time!{END}"
+    "en": "You came at just the{NEWLINE}right time!{END}"
   },
   {
     "id": 1631,
@@ -5170,14 +5170,14 @@
     "desc_idx": 610,
     "str_idx": 2,
     "jp": "探しに行ってもらえるか?{BREAK}",
-    "en": "Could you go look for them?{BREAK}"
+    "en": "Could you go look for{NEWLINE}them?{BREAK}"
   },
   {
     "id": 1641,
     "desc_idx": 610,
     "str_idx": 3,
     "jp": "探しに行ってもらえるか?{BREAK}",
-    "en": "Could you go look for them?{BREAK}"
+    "en": "Could you go look for{NEWLINE}them?{BREAK}"
   },
   {
     "id": 1649,
@@ -5191,7 +5191,7 @@
     "desc_idx": 611,
     "str_idx": 5,
     "jp": "お兄ちゃんたち.お姉ちゃんのこと知らないの!?{END}",
-    "en": "You guys don't know my big sis?!{END}"
+    "en": "You guys don't know my{NEWLINE}big sis?!{END}"
   },
   {
     "id": 1657,
@@ -5205,7 +5205,7 @@
     "desc_idx": 612,
     "str_idx": 7,
     "jp": "さっさと依頼の話を聞かせてくれよ,{END}",
-    "en": "Just tell us about the quest already.{END}"
+    "en": "Just tell us about the{NEWLINE}quest already.{END}"
   },
   {
     "id": 1693,
@@ -5233,7 +5233,7 @@
     "desc_idx": 614,
     "str_idx": 2,
     "jp": "心から礼を言わせてもらうぞ,{END}",
-    "en": "You have my heartfelt thanks.{END}"
+    "en": "You have my heartfelt{NEWLINE}thanks.{END}"
   },
   {
     "id": 1710,
@@ -5254,21 +5254,21 @@
     "desc_idx": 615,
     "str_idx": 5,
     "jp": "そのまま二人で逃げるつもり?{END}",
-    "en": "Planning to run off together like that?{END}"
+    "en": "Planning to run off{NEWLINE}together like that?{END}"
   },
   {
     "id": 1725,
     "desc_idx": 615,
     "str_idx": 6,
     "jp": "チャカしてる場合かよ!{END}",
-    "en": "Is this the time to joke around?!{END}"
+    "en": "Is this the time to joke{NEWLINE}around?!{END}"
   },
   {
     "id": 1737,
     "desc_idx": 617,
     "str_idx": 0,
     "jp": "実はおり入って頼みたい事があるのだ,{END}",
-    "en": "Actually, there's something I need to ask you.{END}"
+    "en": "Actually, there's{NEWLINE}something I need to ask{WAIT:3C}{CTRL:F2}you.{END}"
   },
   {
     "id": 1741,
@@ -5282,21 +5282,21 @@
     "desc_idx": 617,
     "str_idx": 8,
     "jp": "オレに.どうしろってんだ?{END}",
-    "en": "What do you want me to do about it?{END}"
+    "en": "What do you want me to do{NEWLINE}about it?{END}"
   },
   {
     "id": 1762,
     "desc_idx": 619,
     "str_idx": 3,
     "jp": "どうだ? 新大陸に一ばん乗りをしてみたくないか?{BREAK}",
-    "en": "How about it? Want to be first to the New World?{BREAK}"
+    "en": "How about it? Want to be{NEWLINE}first to the New World?{BREAK}"
   },
   {
     "id": 1763,
     "desc_idx": 619,
     "str_idx": 4,
     "jp": "どうだ? 新大陸に一ばん乗りをしてみたくないか?{BREAK}",
-    "en": "How about it? Want to be first to the New World?{BREAK}"
+    "en": "How about it? Want to be{NEWLINE}first to the New World?{BREAK}"
   },
   {
     "id": 1773,
@@ -5317,14 +5317,14 @@
     "desc_idx": 623,
     "str_idx": 8,
     "jp": "気が変わったら.また来るさ,{END}",
-    "en": "If you change your mind, come back.{END}"
+    "en": "If you change your mind,{NEWLINE}come back.{END}"
   },
   {
     "id": 1800,
     "desc_idx": 624,
     "str_idx": 5,
     "jp": "がらくたにしか見えないぜ?{END}",
-    "en": "Just looks like junk to me.{END}"
+    "en": "Just looks like junk to{NEWLINE}me.{END}"
   },
   {
     "id": 1808,
@@ -5338,7 +5338,7 @@
     "desc_idx": 626,
     "str_idx": 0,
     "jp": "あんたが王様の知り合いか?{END}",
-    "en": "Are you the king's friend?{END}"
+    "en": "Are you the king's{NEWLINE}friend?{END}"
   },
   {
     "id": 1828,
@@ -5387,14 +5387,14 @@
     "desc_idx": 633,
     "str_idx": 5,
     "jp": "{CTRL:F9}よかった! これであいつも助かる!{END}",
-    "en": "{CTRL:F9}Thank goodness! Now he'll be saved!{END}"
+    "en": "{CTRL:F9}Thank goodness! Now he'll{NEWLINE}be saved!{END}"
   },
   {
     "id": 1892,
     "desc_idx": 633,
     "str_idx": 6,
     "jp": "{CTRL:F9}あんたには.人の血が流れていないのか!?{END}",
-    "en": "{CTRL:F9}Have you got no heart at all?!{END}"
+    "en": "{CTRL:F9}Have you got no heart at{NEWLINE}all?!{END}"
   },
   {
     "id": 1899,
@@ -5415,28 +5415,28 @@
     "desc_idx": 637,
     "str_idx": 0,
     "jp": "グルメを気取っているウチの主人が.いきなり{END}",
-    "en": "My master, who fancies himself a gourmet, suddenly{END}"
+    "en": "My master, who fancies{NEWLINE}himself a gourmet,{WAIT:3C}{CTRL:F2}suddenly{END}"
   },
   {
     "id": 1906,
     "desc_idx": 637,
     "str_idx": 1,
     "jp": "{CTRL:F9}「グランシャークのフカヒレを食べたい!!」{END}",
-    "en": "{CTRL:F9}'I wanna eat Grand Shark fin!!'{END}"
+    "en": "{CTRL:F9}'I wanna eat Grand Shark{NEWLINE}fin!!'{END}"
   },
   {
     "id": 1914,
     "desc_idx": 637,
     "str_idx": 9,
     "jp": "どうか.よろしくおねがいします,{END}",
-    "en": "Please, I'm counting on you.{END}"
+    "en": "Please, I'm counting on{NEWLINE}you.{END}"
   },
   {
     "id": 1927,
     "desc_idx": 640,
     "str_idx": 1,
     "jp": "（ガマンするのに苦労したけどな・・・）{END}",
-    "en": "(Though it was tough holding back...){END}"
+    "en": "(Though it was tough{NEWLINE}holding back...){END}"
   },
   {
     "id": 1936,
@@ -5450,7 +5450,7 @@
     "desc_idx": 643,
     "str_idx": 0,
     "jp": "おばあさんの所におクスリをとどけてほしいの,{END}",
-    "en": "I need you to deliver medicine to Grandma.{END}"
+    "en": "I need you to deliver{NEWLINE}medicine to Grandma.{END}"
   },
   {
     "id": 1948,
@@ -5492,14 +5492,14 @@
     "desc_idx": 649,
     "str_idx": 2,
     "jp": "何とか.そいつを追っぱらってもらえんか?{BREAK}",
-    "en": "Could you somehow drive it away?{BREAK}"
+    "en": "Could you somehow drive{NEWLINE}it away?{BREAK}"
   },
   {
     "id": 1992,
     "desc_idx": 649,
     "str_idx": 3,
     "jp": "何とか.そいつを追っぱらってもらえんか?{BREAK}",
-    "en": "Could you somehow drive it away?{BREAK}"
+    "en": "Could you somehow drive{NEWLINE}it away?{BREAK}"
   },
   {
     "id": 1995,
@@ -5527,21 +5527,21 @@
     "desc_idx": 651,
     "str_idx": 2,
     "jp": "逃げ遅れたのが.お前だったとはな,{END}",
-    "en": "So you're the one who didn't escape in time.{END}"
+    "en": "So you're the one who{NEWLINE}didn't escape in time.{END}"
   },
   {
     "id": 2036,
     "desc_idx": 654,
     "str_idx": 7,
     "jp": "そんなベンリなダンジョンがあるのか?{END}",
-    "en": "There's a dungeon that convenient?{END}"
+    "en": "There's a dungeon that{NEWLINE}convenient?{END}"
   },
   {
     "id": 2044,
     "desc_idx": 655,
     "str_idx": 4,
     "jp": "まるで聞こえてないみたいね,{END}",
-    "en": "Looks like they didn't hear a word.{END}"
+    "en": "Looks like they didn't{NEWLINE}hear a word.{END}"
   },
   {
     "id": 2053,
@@ -5562,7 +5562,7 @@
     "desc_idx": 658,
     "str_idx": 4,
     "jp": "どこかで聞いたような話だな,{END}",
-    "en": "Sounds like a story I've heard somewhere.{END}"
+    "en": "Sounds like a story I've{NEWLINE}heard somewhere.{END}"
   },
   {
     "id": 2081,
@@ -5597,7 +5597,7 @@
     "desc_idx": 663,
     "str_idx": 10,
     "jp": "聞き覚えのある風体だな,{END}",
-    "en": "That appearance sounds familiar.{END}"
+    "en": "That appearance sounds{NEWLINE}familiar.{END}"
   },
   {
     "id": 2111,
@@ -5625,14 +5625,14 @@
     "desc_idx": 665,
     "str_idx": 3,
     "jp": "{CTRL:F9}こんな店なんてッ.全部ブッこわしてやる!{END}",
-    "en": "{CTRL:F9}I'll smash this whole dumb shop to pieces!{END}"
+    "en": "{CTRL:F9}I'll smash this whole{NEWLINE}dumb shop to pieces!{END}"
   },
   {
     "id": 2126,
     "desc_idx": 665,
     "str_idx": 10,
     "jp": "{CTRL:F9}こうなったら.神でも悪魔でもかまわない!{END}",
-    "en": "{CTRL:F9}At this point, I don't care if it's god or devil!{END}"
+    "en": "{CTRL:F9}At this point, I don't{NEWLINE}care if it's god or{WAIT:3C}{CTRL:F2}devil!{END}"
   },
   {
     "id": 2127,
@@ -5674,7 +5674,7 @@
     "desc_idx": 668,
     "str_idx": 10,
     "jp": "{CTRL:F9}ちょっと待って! まだ.あきらめないで,{END}",
-    "en": "{CTRL:F9}Hold on! Don't give up yet.{END}"
+    "en": "{CTRL:F9}Hold on! Don't give up{NEWLINE}yet.{END}"
   },
   {
     "id": 2166,
@@ -5702,14 +5702,14 @@
     "desc_idx": 669,
     "str_idx": 6,
     "jp": "{CTRL:F9}お父さんが.お兄ちゃんを殺そうとしたの!{END}",
-    "en": "{CTRL:F9}Dad tried to kill my brother!{END}"
+    "en": "{CTRL:F9}Dad tried to kill my{NEWLINE}brother!{END}"
   },
   {
     "id": 2175,
     "desc_idx": 669,
     "str_idx": 9,
     "jp": "{CTRL:F9}でも.そんなのお兄ちゃんのせいじゃない!{END}",
-    "en": "{CTRL:F9}But that wasn't his fault!{END}"
+    "en": "{CTRL:F9}But that wasn't his{NEWLINE}fault!{END}"
   },
   {
     "id": 2177,
@@ -5723,7 +5723,7 @@
     "desc_idx": 670,
     "str_idx": 2,
     "jp": "{CTRL:F9}もう誰も.傷つけたくないんだ!{END}",
-    "en": "{CTRL:F9}I don't want to hurt anyone else!{END}"
+    "en": "{CTRL:F9}I don't want to hurt{NEWLINE}anyone else!{END}"
   },
   {
     "id": 2189,
@@ -5779,14 +5779,14 @@
     "desc_idx": 673,
     "str_idx": 4,
     "jp": "知ってるなら話は早い,{END}",
-    "en": "If you know, that makes this quick.{END}"
+    "en": "If you know, that makes{NEWLINE}this quick.{END}"
   },
   {
     "id": 2229,
     "desc_idx": 673,
     "str_idx": 9,
     "jp": "受けてくれないのか? {END}",
-    "en": "Won't you accept it? {END}"
+    "en": "Won't you accept it?{END}"
   },
   {
     "id": 2237,
@@ -5835,21 +5835,21 @@
     "desc_idx": 680,
     "str_idx": 6,
     "jp": "すまないが.調べてもらえないか?{END}",
-    "en": "Sorry, could you check it out?{END}"
+    "en": "Sorry, could you check it{NEWLINE}out?{END}"
   },
   {
     "id": 2292,
     "desc_idx": 684,
     "str_idx": 3,
     "jp": "こうなったら.殺られる前に殺れだ,{END}",
-    "en": "At this point, it's kill or be killed.{END}"
+    "en": "At this point, it's kill{NEWLINE}or be killed.{END}"
   },
   {
     "id": 2296,
     "desc_idx": 684,
     "str_idx": 7,
     "jp": "その死神ギルドにねらわれてるお前は.一体何をしたんだ?{END}",
-    "en": "What did you do to get targeted by the Reaper Guild?{END}"
+    "en": "What did you do to get{NEWLINE}targeted by the Reaper{WAIT:3C}{CTRL:F2}Guild?{END}"
   },
   {
     "id": 2297,
@@ -5877,14 +5877,14 @@
     "desc_idx": 687,
     "str_idx": 4,
     "jp": "{CTRL:F9}つーか.広めてくれ!!{END}",
-    "en": "{CTRL:F9}Actually, spread the word!!{END}"
+    "en": "{CTRL:F9}Actually, spread the{NEWLINE}word!!{END}"
   },
   {
     "id": 2335,
     "desc_idx": 688,
     "str_idx": 2,
     "jp": "とにかく一度試してみたいから.{END}",
-    "en": "Anyway, I want to try it once, so...{END}"
+    "en": "Anyway, I want to try it{NEWLINE}once, so...{END}"
   },
   {
     "id": 2347,
@@ -5898,21 +5898,21 @@
     "desc_idx": 690,
     "str_idx": 1,
     "jp": "これがどういう事かわかるかね?{END}",
-    "en": "Do you know what this means?{END}"
+    "en": "Do you know what this{NEWLINE}means?{END}"
   },
   {
     "id": 2354,
     "desc_idx": 690,
     "str_idx": 2,
     "jp": "もしホッピーの習性が解明されれば.{END}",
-    "en": "If we uncover the Hoppy's habits...{END}"
+    "en": "If we uncover the Hoppy's{NEWLINE}habits...{END}"
   },
   {
     "id": 2363,
     "desc_idx": 690,
     "str_idx": 11,
     "jp": "最初からそういえばいいんだ,{END}",
-    "en": "You should've said so from the start.{END}"
+    "en": "You should've said so{NEWLINE}from the start.{END}"
   },
   {
     "id": 2373,
@@ -5926,14 +5926,14 @@
     "desc_idx": 692,
     "str_idx": 3,
     "jp": "何とかしては.もらえないだろうか?{BREAK}",
-    "en": "Could you please do something about it?{BREAK}"
+    "en": "Could you please do{NEWLINE}something about it?{BREAK}"
   },
   {
     "id": 2378,
     "desc_idx": 692,
     "str_idx": 4,
     "jp": "何とかしては.もらえないだろうか?{BREAK}",
-    "en": "Could you please do something about it?{BREAK}"
+    "en": "Could you please do{NEWLINE}something about it?{BREAK}"
   },
   {
     "id": 2379,
@@ -5961,7 +5961,7 @@
     "desc_idx": 694,
     "str_idx": 9,
     "jp": "     「風の貴公子 フェザーラッシュ!」{END}",
-    "en": "     \"Wind Noble: Feather Rush!\"{END}"
+    "en": "\"Wind Noble: Feather{NEWLINE}Rush!\"{END}"
   },
   {
     "id": 2397,
@@ -6024,7 +6024,7 @@
     "desc_idx": 704,
     "str_idx": 1,
     "jp": "{CTRL:F9}うわッ! やっぱりいたのか!{END}",
-    "en": "{CTRL:F9}Whoa! I knew you were here!{END}"
+    "en": "{CTRL:F9}Whoa! I knew you were{NEWLINE}here!{END}"
   },
   {
     "id": 2465,
@@ -6066,21 +6066,21 @@
     "desc_idx": 704,
     "str_idx": 11,
     "jp": "{CTRL:F9}勝手に後維者にすんじゃねェ!!{END}",
-    "en": "{CTRL:F9}Don't make me your successor without asking!!{END}"
+    "en": "{CTRL:F9}Don't make me your{NEWLINE}successor without{WAIT:3C}{CTRL:F2}asking!!{END}"
   },
   {
     "id": 2481,
     "desc_idx": 705,
     "str_idx": 3,
     "jp": "調査をおねがいできないか?{BREAK}",
-    "en": "Could you investigate this for me?{BREAK}"
+    "en": "Could you investigate{NEWLINE}this for me?{BREAK}"
   },
   {
     "id": 2482,
     "desc_idx": 705,
     "str_idx": 4,
     "jp": "調査をおねがいできないか?{BREAK}",
-    "en": "Could you investigate this for me?{BREAK}"
+    "en": "Could you investigate{NEWLINE}this for me?{BREAK}"
   },
   {
     "id": 2487,
@@ -6094,7 +6094,7 @@
     "desc_idx": 705,
     "str_idx": 11,
     "jp": "やはり無理な話だったかな?{END}",
-    "en": "Guess it was too much to ask, huh?{END}"
+    "en": "Guess it was too much to{NEWLINE}ask, huh?{END}"
   },
   {
     "id": 2491,
@@ -6136,7 +6136,7 @@
     "desc_idx": 708,
     "str_idx": 8,
     "jp": "{CTRL:F9}これでコウフンしない方がどうかしてる!{END}",
-    "en": "{CTRL:F9}You'd be crazy NOT to get excited!{END}"
+    "en": "{CTRL:F9}You'd be crazy NOT to get{NEWLINE}excited!{END}"
   },
   {
     "id": 2513,
@@ -6178,14 +6178,14 @@
     "desc_idx": 713,
     "str_idx": 8,
     "jp": "お前が人さわがせな商人か,{END}",
-    "en": "So you're the troublesome merchant.{END}"
+    "en": "So you're the troublesome{NEWLINE}merchant.{END}"
   },
   {
     "id": 2576,
     "desc_idx": 713,
     "str_idx": 20,
     "jp": "責任取ってよね～,{END}",
-    "en": "Take responsibility for this~{END}"
+    "en": "Take responsibility for{NEWLINE}this~{END}"
   },
   {
     "id": 2577,
@@ -6206,7 +6206,7 @@
     "desc_idx": 715,
     "str_idx": 2,
     "jp": "花には手を出してないぞー,{END}",
-    "en": "I didn't touch the flowers!{END}"
+    "en": "I didn't touch the{NEWLINE}flowers!{END}"
   },
   {
     "id": 2605,
@@ -6220,7 +6220,7 @@
     "desc_idx": 717,
     "str_idx": 0,
     "jp": "ブロッサを倒していただけたんですね?{END}",
-    "en": "You defeated the Blossa for us?{END}"
+    "en": "You defeated the Blossa{NEWLINE}for us?{END}"
   },
   {
     "id": 2609,
@@ -6248,7 +6248,7 @@
     "desc_idx": 719,
     "str_idx": 7,
     "jp": "何なんだ.一体!{END}",
-    "en": "What on earth is going on?!{END}"
+    "en": "What on earth is going{NEWLINE}on?!{END}"
   },
   {
     "id": 2656,
@@ -6262,7 +6262,7 @@
     "desc_idx": 724,
     "str_idx": 2,
     "jp": "すっかり元気がカラマワリだぞー!{END}",
-    "en": "All that energy is going to waste!{END}"
+    "en": "All that energy is going{NEWLINE}to waste!{END}"
   },
   {
     "id": 2665,
@@ -6276,7 +6276,7 @@
     "desc_idx": 725,
     "str_idx": 5,
     "jp": "「スピネの村」は 私のふるさとなの,{END}",
-    "en": "\"Spinel Village\" is my hometown.{END}"
+    "en": "\"Spinel Village\" is my{NEWLINE}hometown.{END}"
   },
   {
     "id": 2673,
@@ -6297,7 +6297,7 @@
     "desc_idx": 725,
     "str_idx": 27,
     "jp": "こんなに希望にみちた言葉.他にはないと思わない?{END}",
-    "en": "Don't you think there's no word more full of hope?{END}"
+    "en": "Don't you think there's{NEWLINE}no word more full of{WAIT:3C}{CTRL:F2}hope?{END}"
   },
   {
     "id": 2699,
@@ -6367,14 +6367,14 @@
     "desc_idx": 729,
     "str_idx": 6,
     "jp": "食いたいもんがあったのになー,{END}",
-    "en": "I had something I wanted to eat, too...{END}"
+    "en": "I had something I wanted{NEWLINE}to eat, too...{END}"
   },
   {
     "id": 2768,
     "desc_idx": 730,
     "str_idx": 1,
     "jp": "村のじいさんが依頼を出してるんだ,{END}",
-    "en": "The village elder posted a quest.{END}"
+    "en": "The village elder posted{NEWLINE}a quest.{END}"
   },
   {
     "id": 2787,
@@ -6430,7 +6430,7 @@
     "desc_idx": 733,
     "str_idx": 13,
     "jp": "これで 何とかまからんかのう?{END}",
-    "en": "Could you settle for this somehow?{END}"
+    "en": "Could you settle for this{NEWLINE}somehow?{END}"
   },
   {
     "id": 2840,
@@ -6493,7 +6493,7 @@
     "desc_idx": 735,
     "str_idx": 7,
     "jp": "え? {END}",
-    "en": "Huh? {END}"
+    "en": "Huh?{END}"
   },
   {
     "id": 2870,
@@ -6521,7 +6521,7 @@
     "desc_idx": 737,
     "str_idx": 9,
     "jp": "私が手を貸さなかったら.どうなってたか わかってる?{END}",
-    "en": "Do you know what would've happened if I hadn't stepped in?{END}"
+    "en": "Do you know what would've{NEWLINE}happened if I hadn't{WAIT:3C}{CTRL:F2}stepped in?{END}"
   },
   {
     "id": 2919,
@@ -6542,7 +6542,7 @@
     "desc_idx": 737,
     "str_idx": 26,
     "jp": "もう絶対.見失なう気は無いからねッ!{END}",
-    "en": "I'm never losing sight of you again!{END}"
+    "en": "I'm never losing sight of{NEWLINE}you again!{END}"
   },
   {
     "id": 2933,
@@ -6598,35 +6598,35 @@
     "desc_idx": 740,
     "str_idx": 2,
     "jp": "森から 追いはらってもらえないか?{BREAK}",
-    "en": "Could you drive them out of the woods?{BREAK}"
+    "en": "Could you drive them out{NEWLINE}of the woods?{BREAK}"
   },
   {
     "id": 2988,
     "desc_idx": 740,
     "str_idx": 3,
     "jp": "森から 追いはらってもらえないか?{BREAK}",
-    "en": "Could you drive them out of the woods?{BREAK}"
+    "en": "Could you drive them out{NEWLINE}of the woods?{BREAK}"
   },
   {
     "id": 2992,
     "desc_idx": 740,
     "str_idx": 7,
     "jp": "知っているとは思うが.{END}",
-    "en": "I'm sure you already know, but{END}"
+    "en": "I'm sure you already{NEWLINE}know, but{END}"
   },
   {
     "id": 2994,
     "desc_idx": 740,
     "str_idx": 9,
     "jp": "「達成じょうけん」はそこに書いてあるからな,{END}",
-    "en": "the \"Clear Conditions\" are written right there.{END}"
+    "en": "the \"Clear Conditions\"{NEWLINE}are written right there.{END}"
   },
   {
     "id": 2997,
     "desc_idx": 741,
     "str_idx": 0,
     "jp": "でっかい たてものが いっぱいだぞー!!{END}",
-    "en": "There are so many huge buildings!!{END}"
+    "en": "There are so many huge{NEWLINE}buildings!!{END}"
   },
   {
     "id": 2998,
@@ -6640,7 +6640,7 @@
     "desc_idx": 741,
     "str_idx": 2,
     "jp": "世界でただ一つ.{END}",
-    "en": "The only one in the world.{END}"
+    "en": "The only one in the{NEWLINE}world.{END}"
   },
   {
     "id": 3023,
@@ -6661,7 +6661,7 @@
     "desc_idx": 743,
     "str_idx": 10,
     "jp": "「ゆうれい船」には「ボス」がいるの～!{END}",
-    "en": "There's a \"Boss\" on the \"Ghost Ship\"~!{END}"
+    "en": "There's a \"Boss\" on the{NEWLINE}\"Ghost Ship\"~!{END}"
   },
   {
     "id": 3056,
@@ -6675,14 +6675,14 @@
     "desc_idx": 745,
     "str_idx": 21,
     "jp": "はやくさかな食べにいこーよー!{END}",
-    "en": "Let's hurry and go eat fish!{END}"
+    "en": "Let's hurry and go eat{NEWLINE}fish!{END}"
   },
   {
     "id": 3079,
     "desc_idx": 746,
     "str_idx": 0,
     "jp": "船旅も ずいぶん久しぶりだわ,{END}",
-    "en": "It's been ages since I traveled by ship.{END}"
+    "en": "It's been ages since I{NEWLINE}traveled by ship.{END}"
   },
   {
     "id": 3100,
@@ -6703,7 +6703,7 @@
     "desc_idx": 747,
     "str_idx": 13,
     "jp": "あいつらがどこにいるかわかったの?{END}",
-    "en": "Did you find out where they are?{END}"
+    "en": "Did you find out where{NEWLINE}they are?{END}"
   },
   {
     "id": 3123,
@@ -6745,7 +6745,7 @@
     "desc_idx": 749,
     "str_idx": 4,
     "jp": "オレのキライなニオイがプンプンするぞー,{END}",
-    "en": "It reeks of something I hate!{END}"
+    "en": "It reeks of something I{NEWLINE}hate!{END}"
   },
   {
     "id": 3144,
@@ -6759,7 +6759,7 @@
     "desc_idx": 749,
     "str_idx": 14,
     "jp": "くだらぬ事に手間をかけるな,{END}",
-    "en": "Don't waste time on trivialities.{END}"
+    "en": "Don't waste time on{NEWLINE}trivialities.{END}"
   },
   {
     "id": 3176,
@@ -6815,7 +6815,7 @@
     "desc_idx": 754,
     "str_idx": 26,
     "jp": "フィーネを責めるのは まちがってるだろうが!?{END}",
-    "en": "Blaming Feene is wrong, isn't it?!{END}"
+    "en": "Blaming Feene is wrong,{NEWLINE}isn't it?!{END}"
   },
   {
     "id": 3262,
@@ -6857,7 +6857,7 @@
     "desc_idx": 756,
     "str_idx": 55,
     "jp": "アイツの逃げた先は きっとそこだな,{END}",
-    "en": "That's gotta be where he ran off to.{END}"
+    "en": "That's gotta be where he{NEWLINE}ran off to.{END}"
   },
   {
     "id": 3289,
@@ -6941,21 +6941,21 @@
     "desc_idx": 760,
     "str_idx": 9,
     "jp": "本当は ここまでまき込むつもりは無かったんだけどね,{END}",
-    "en": "Honestly, I never meant to drag you this far into it.{END}"
+    "en": "Honestly, I never meant{NEWLINE}to drag you this far into{WAIT:3C}{CTRL:F2}it.{END}"
   },
   {
     "id": 3357,
     "desc_idx": 761,
     "str_idx": 2,
     "jp": "お聞きしたい事があるんです,{END}",
-    "en": "There's something I'd like to ask you.{END}"
+    "en": "There's something I'd{NEWLINE}like to ask you.{END}"
   },
   {
     "id": 3358,
     "desc_idx": 761,
     "str_idx": 3,
     "jp": "おじいさんが守っているという「力」について,{END}",
-    "en": "About the \"power\" they say you're guarding.{END}"
+    "en": "About the \"power\" they{NEWLINE}say you're guarding.{END}"
   },
   {
     "id": 3359,
@@ -6983,7 +6983,7 @@
     "desc_idx": 761,
     "str_idx": 25,
     "jp": "二人には別々の試練を与える,{END}",
-    "en": "I will give you two separate trials.{END}"
+    "en": "I will give you two{NEWLINE}separate trials.{END}"
   },
   {
     "id": 3383,
@@ -6997,14 +6997,14 @@
     "desc_idx": 761,
     "str_idx": 29,
     "jp": "それが何かは教えてもらえないんですか?{END}",
-    "en": "You won't tell us what it is?{END}"
+    "en": "You won't tell us what it{NEWLINE}is?{END}"
   },
   {
     "id": 3386,
     "desc_idx": 761,
     "str_idx": 31,
     "jp": "それも試練ってわけか,{END}",
-    "en": "So that's part of the trial too.{END}"
+    "en": "So that's part of the{NEWLINE}trial too.{END}"
   },
   {
     "id": 3401,
@@ -7025,7 +7025,7 @@
     "desc_idx": 763,
     "str_idx": 12,
     "jp": "灯台なんだから当たり前だろ,{END}",
-    "en": "Of course, it's a lighthouse.{END}"
+    "en": "Of course, it's a{NEWLINE}lighthouse.{END}"
   },
   {
     "id": 3421,
@@ -7067,7 +7067,7 @@
     "desc_idx": 765,
     "str_idx": 0,
     "jp": "やっぱり ホッピーしか出てこねえじゃねえか!{END}",
-    "en": "Nothing but Hoppies come out after all!{END}"
+    "en": "Nothing but Hoppies come{NEWLINE}out after all!{END}"
   },
   {
     "id": 3447,
@@ -7081,7 +7081,7 @@
     "desc_idx": 766,
     "str_idx": 2,
     "jp": "そんなに どならなくてもいいのに,{END}",
-    "en": "You don't have to yell so loud.{END}"
+    "en": "You don't have to yell so{NEWLINE}loud.{END}"
   },
   {
     "id": 3451,
@@ -7095,7 +7095,7 @@
     "desc_idx": 766,
     "str_idx": 11,
     "jp": "やっぱりとは聞き捨てならんのう,{END}",
-    "en": "'After all'? How rude of you.{END}"
+    "en": "'After all'? How rude of{NEWLINE}you.{END}"
   },
   {
     "id": 3460,
@@ -7116,7 +7116,7 @@
     "desc_idx": 766,
     "str_idx": 23,
     "jp": "王宮料理にも 使われるほどの 一品なんじゃがなあ,{END}",
-    "en": "It's a delicacy fit for royal cuisine, you know.{END}"
+    "en": "It's a delicacy fit for{NEWLINE}royal cuisine, you know.{END}"
   },
   {
     "id": 3473,
@@ -7137,14 +7137,14 @@
     "desc_idx": 767,
     "str_idx": 3,
     "jp": "そこから無事に～脱出できれば～お主をみとめてやろう～,{END}",
-    "en": "If you can~ escape safely~ I shall acknowledge you~{END}"
+    "en": "If you can~ escape{NEWLINE}safely~ I shall{WAIT:3C}{CTRL:F2}acknowledge you~{END}"
   },
   {
     "id": 3483,
     "desc_idx": 767,
     "str_idx": 7,
     "jp": "待っておるぞ～ホッホッホ～,{END}",
-    "en": "I'll be waiting~ Ho ho ho~.{END}"
+    "en": "I'll be waiting~ Ho ho{NEWLINE}ho~.{END}"
   },
   {
     "id": 3495,
@@ -7165,21 +7165,21 @@
     "desc_idx": 769,
     "str_idx": 4,
     "jp": "お主に「神の御力」の眠る遺跡の場所を教えてやろう,{END}",
-    "en": "I'll tell you where the ruins of 'God's Power' sleep.{END}"
+    "en": "I'll tell you where the{NEWLINE}ruins of 'God's Power'{WAIT:3C}{CTRL:F2}sleep.{END}"
   },
   {
     "id": 3510,
     "desc_idx": 769,
     "str_idx": 9,
     "jp": "まだ眠らせておいてやらんか,{END}",
-    "en": "Let it keep sleeping a while longer!{END}"
+    "en": "Let it keep sleeping a{NEWLINE}while longer!{END}"
   },
   {
     "id": 3516,
     "desc_idx": 769,
     "str_idx": 15,
     "jp": "さっさと行って「神の御力」を得てこんかい,{END}",
-    "en": "Hurry up and go claim 'God's Power'!{END}"
+    "en": "Hurry up and go claim{NEWLINE}'God's Power'!{END}"
   },
   {
     "id": 3531,
@@ -7207,7 +7207,7 @@
     "desc_idx": 770,
     "str_idx": 29,
     "jp": "役に立とうなどと 気負う必要はないんじゃよ,{END}",
-    "en": "You don't need to pressure yourself to be useful.{END}"
+    "en": "You don't need to{NEWLINE}pressure yourself to be{WAIT:3C}{CTRL:F2}useful.{END}"
   },
   {
     "id": 3551,
@@ -7221,14 +7221,14 @@
     "desc_idx": 771,
     "str_idx": 2,
     "jp": "いろいろあるじゃろうが がんばるのじゃぞ!{END}",
-    "en": "I know it's tough, but do your best!{END}"
+    "en": "I know it's tough, but do{NEWLINE}your best!{END}"
   },
   {
     "id": 3561,
     "desc_idx": 772,
     "str_idx": 1,
     "jp": "今度は本当だろうな?{END}",
-    "en": "You're telling the truth this time, right?{END}"
+    "en": "You're telling the truth{NEWLINE}this time, right?{END}"
   },
   {
     "id": 3563,
@@ -7242,7 +7242,7 @@
     "desc_idx": 772,
     "str_idx": 9,
     "jp": "正しくは「封印の印」じゃ,{END}",
-    "en": "Strictly speaking, it's the 'Seal Crest'.{END}"
+    "en": "Strictly speaking, it's{NEWLINE}the 'Seal Crest'.{END}"
   },
   {
     "id": 3576,
@@ -7263,7 +7263,7 @@
     "desc_idx": 773,
     "str_idx": 12,
     "jp": "何かが 石のまわりにうき出てるぞ,{END}",
-    "en": "Something is appearing around the stone!{END}"
+    "en": "Something is appearing{NEWLINE}around the stone!{END}"
   },
   {
     "id": 3596,
@@ -7284,7 +7284,7 @@
     "desc_idx": 774,
     "str_idx": 6,
     "jp": "おおかたどこぞの賞金稼ぎにでも やられたんだろうな,{END}",
-    "en": "Probably got roughed up by some bounty hunter.{END}"
+    "en": "Probably got roughed up{NEWLINE}by some bounty hunter.{END}"
   },
   {
     "id": 3609,
@@ -7305,7 +7305,7 @@
     "desc_idx": 775,
     "str_idx": 9,
     "jp": "こんな借りの返し方があるかよ,{END}",
-    "en": "Is this how you repay a debt?!{END}"
+    "en": "Is this how you repay a{NEWLINE}debt?!{END}"
   },
   {
     "id": 3650,
@@ -7361,21 +7361,21 @@
     "desc_idx": 779,
     "str_idx": 27,
     "jp": "私はこの「ラピスの村」の岩長をしているアスルという,{END}",
-    "en": "I am Asul, chief of Lapis Village.{END}"
+    "en": "I am Asul, chief of Lapis{NEWLINE}Village.{END}"
   },
   {
     "id": 3710,
     "desc_idx": 780,
     "str_idx": 5,
     "jp": "雷とは.神がくだす力を指している,{END}",
-    "en": "Thunder refers to the power bestowed by God.{END}"
+    "en": "Thunder refers to the{NEWLINE}power bestowed by God.{END}"
   },
   {
     "id": 3724,
     "desc_idx": 780,
     "str_idx": 19,
     "jp": "私が「神の雷」を受け維いできます!{END}",
-    "en": "I can inherit 'God's Thunder'!{END}"
+    "en": "I can inherit 'God's{NEWLINE}Thunder'!{END}"
   },
   {
     "id": 3736,
@@ -7459,7 +7459,7 @@
     "desc_idx": 784,
     "str_idx": 18,
     "jp": "一人旅もつまらねェしな,{END}",
-    "en": "Traveling alone is pretty boring anyway.{END}"
+    "en": "Traveling alone is pretty{NEWLINE}boring anyway.{END}"
   },
   {
     "id": 3833,
@@ -7480,14 +7480,14 @@
     "desc_idx": 786,
     "str_idx": 0,
     "jp": "また取られないように気をつけろよ,{END}",
-    "en": "Be careful not to lose it again.{END}"
+    "en": "Be careful not to lose it{NEWLINE}again.{END}"
   },
   {
     "id": 3855,
     "desc_idx": 787,
     "str_idx": 0,
     "jp": "こんな所に村があるとはな,{END}",
-    "en": "I didn't expect a village out here.{END}"
+    "en": "I didn't expect a village{NEWLINE}out here.{END}"
   },
   {
     "id": 3868,
@@ -7501,7 +7501,7 @@
     "desc_idx": 788,
     "str_idx": 1,
     "jp": "この先の城で待っているぞ!{END}",
-    "en": "I'll be waiting at the castle ahead!{END}"
+    "en": "I'll be waiting at the{NEWLINE}castle ahead!{END}"
   },
   {
     "id": 3880,
@@ -7522,14 +7522,14 @@
     "desc_idx": 790,
     "str_idx": 7,
     "jp": "        我が名は デュラヌス,{END}",
-    "en": "        My name is Duranus.{END}"
+    "en": "My name is Duranus.{END}"
   },
   {
     "id": 3904,
     "desc_idx": 790,
     "str_idx": 8,
     "jp": "      魔界の統治者 魔王デュラヌス!!{END}",
-    "en": "      Ruler of the Demon World, Demon King Duranus!!{END}"
+    "en": "Ruler of the Demon World,{NEWLINE}Demon King Duranus!!{END}"
   },
   {
     "id": 3929,
@@ -7543,7 +7543,7 @@
     "desc_idx": 792,
     "str_idx": 16,
     "jp": "ですからおねがいです!{END}",
-    "en": "That's why I'm begging you!{END}"
+    "en": "That's why I'm begging{NEWLINE}you!{END}"
   },
   {
     "id": 3982,
@@ -7578,7 +7578,7 @@
     "desc_idx": 793,
     "str_idx": 34,
     "jp": "しょせん ヒトなど 我らに 奪われるだけの存在なのだ!{END}",
-    "en": "Humans exist only to be robbed by us!{END}"
+    "en": "Humans exist only to be{NEWLINE}robbed by us!{END}"
   },
   {
     "id": 4030,
@@ -7592,21 +7592,21 @@
     "desc_idx": 796,
     "str_idx": 0,
     "jp": "どの依頼の話を聞くんだ?{BREAK}",
-    "en": "Which quest do you want to hear about?{BREAK}"
+    "en": "Which quest do you want{NEWLINE}to hear about?{BREAK}"
   },
   {
     "id": 4069,
     "desc_idx": 797,
     "str_idx": 0,
     "jp": "フェアリーワールドの水をつかさどる神殿{BREAK}",
-    "en": "Temple governing the waters of Fairy World{BREAK}"
+    "en": "Temple governing the{NEWLINE}waters of Fairy World{BREAK}"
   },
   {
     "id": 4070,
     "desc_idx": 798,
     "str_idx": 0,
     "jp": "攻撃魔法の効かないリスタールに要注意!{BREAK}",
-    "en": "Watch out for Lystal-immune to magic!{BREAK}"
+    "en": "Watch out for{NEWLINE}Lystal-immune to magic!{BREAK}"
   },
   {
     "id": 4071,
@@ -7634,7 +7634,7 @@
     "desc_idx": 801,
     "str_idx": 1,
     "jp": "プレイヤーが死亡した時生き返らせる（かくりつSP）{BREAK}",
-    "en": "Revive player on death (SP chance){BREAK}"
+    "en": "Revive on death (SP){BREAK}"
   },
   {
     "id": 4077,
@@ -7648,7 +7648,7 @@
     "desc_idx": 802,
     "str_idx": 1,
     "jp": "一撃でテキをそく死（かくりつSP）{BREAK}",
-    "en": "Instant-kill enemy in 1 hit (SP chance){BREAK}"
+    "en": "1-hit KO enemy (SP){BREAK}"
   },
   {
     "id": 4079,
@@ -7683,7 +7683,7 @@
     "desc_idx": 806,
     "str_idx": 1,
     "jp": "くだけたオーブのかけら（コインかくとく）{BREAK}",
-    "en": "Shattered Orb Shard (Earn Coins){BREAK}"
+    "en": "Orb Shard (Earn Coins){BREAK}"
   },
   {
     "id": 4087,
@@ -7739,7 +7739,7 @@
     "desc_idx": 812,
     "str_idx": 1,
     "jp": "まずは.ルールとテクニックを覚えよう{BREAK}",
-    "en": "First, learn the rules and techniques.{BREAK}"
+    "en": "First, learn the rules and{NEWLINE}techniques.{BREAK}"
   },
   {
     "id": 4098,
@@ -7781,7 +7781,7 @@
     "desc_idx": 816,
     "str_idx": 1,
     "jp": "スイスイすべる氷の床があるぞ!{BREAK}",
-    "en": "Watch out for slippery ice floors!{BREAK}"
+    "en": "Watch out for slippery ice{NEWLINE}floors!{BREAK}"
   },
   {
     "id": 4106,
@@ -7795,7 +7795,7 @@
     "desc_idx": 817,
     "str_idx": 1,
     "jp": "最終フロアーにはショップがあるのだ!{BREAK}",
-    "en": "There's a shop on the final floor!{BREAK}"
+    "en": "There's a shop on the final{NEWLINE}floor!{BREAK}"
   },
   {
     "id": 4108,
@@ -7858,7 +7858,7 @@
     "desc_idx": 822,
     "str_idx": 1,
     "jp": "広く険しいぞ たんさくアイテムをうまく使おう!{BREAK}",
-    "en": "Wide and tough! Use search items wisely!{BREAK}"
+    "en": "Wide and tough! Use search{NEWLINE}items wisely!{BREAK}"
   },
   {
     "id": 4118,
@@ -7886,7 +7886,7 @@
     "desc_idx": 825,
     "str_idx": 1,
     "jp": "果てしない氷の世界をつきすすめ{BREAK}",
-    "en": "Push through an endless world of ice.{BREAK}"
+    "en": "Push through an endless{NEWLINE}world of ice.{BREAK}"
   },
   {
     "id": 4124,
@@ -7907,7 +7907,7 @@
     "desc_idx": 827,
     "str_idx": 1,
     "jp": "不死身のゾンビに気をつけろ・・・{BREAK}",
-    "en": "Beware of the undying Zombies...{BREAK}"
+    "en": "Beware of the undying{NEWLINE}Zombies...{BREAK}"
   },
   {
     "id": 4128,
@@ -7921,7 +7921,7 @@
     "desc_idx": 828,
     "str_idx": 1,
     "jp": "最終フロアーには貴重品がいっぱい!{BREAK}",
-    "en": "The final floor is full of rare items!{BREAK}"
+    "en": "The final floor is full of{NEWLINE}rare items!{BREAK}"
   },
   {
     "id": 4130,
@@ -7935,7 +7935,7 @@
     "desc_idx": 829,
     "str_idx": 1,
     "jp": "ふくざつなフロアーに手ごわいテキがせいぞろい{BREAK}",
-    "en": "Complex floors packed with tough foes.{BREAK}"
+    "en": "Complex floors packed with{NEWLINE}tough foes.{BREAK}"
   },
   {
     "id": 4132,
@@ -7949,7 +7949,7 @@
     "desc_idx": 830,
     "str_idx": 1,
     "jp": "使った階段が消えてしまう毒ぬまダンジョン{BREAK}",
-    "en": "Poison swamp dungeon where used stairs vanish.{BREAK}"
+    "en": "Poison swamp dungeon where{NEWLINE}used stairs vanish.{BREAK}"
   },
   {
     "id": 4134,
@@ -8250,7 +8250,7 @@
     "desc_idx": 852,
     "str_idx": 1,
     "jp": "数増歩有効のダンジョン{BREAK}",
-    "en": "Dungeon with step-count boost active{BREAK}"
+    "en": "Dungeon with step-count{NEWLINE}boost active{BREAK}"
   },
   {
     "id": 4178,
@@ -8278,7 +8278,7 @@
     "desc_idx": 853,
     "str_idx": 4,
     "jp": "全員の設定が終了するまで.しばらくおまちください{BREAK}",
-    "en": "Please wait until everyone finishes setup.{BREAK}"
+    "en": "Wait for all players...{BREAK}"
   },
   {
     "id": 4196,
@@ -8327,28 +8327,28 @@
     "desc_idx": 870,
     "str_idx": 3,
     "jp": "ライン上に同じ絵が並ぶと.{BREAK}",
-    "en": "Match symbols on a line to win{BREAK}"
+    "en": "Match icons on lines to{BREAK}"
   },
   {
     "id": 4208,
     "desc_idx": 870,
     "str_idx": 4,
     "jp": "ODDSに示されたWINがもらえます,{BREAK}",
-    "en": "the WIN amount shown in ODDS.{BREAK}"
+    "en": "win the ODDS payout.{BREAK}"
   },
   {
     "id": 4209,
     "desc_idx": 870,
     "str_idx": 5,
     "jp": "   は全ての絵に置きかわるWILDシンボルです,{BREAK}",
-    "en": "   is a WILD symbol substituting for any icon.{BREAK}"
+    "en": "   WILD matches any icon.{BREAK}"
   },
   {
     "id": 4217,
     "desc_idx": 871,
     "str_idx": 4,
     "jp": "全員のエントリーが終了したらⒶボタンを押してください{BREAK}",
-    "en": "Press {G:290} once everyone has entered.{BREAK}"
+    "en": "Press {G:290} when all are ready.{BREAK}"
   },
   {
     "id": 4218,
@@ -9321,7 +9321,7 @@
     "desc_idx": 937,
     "str_idx": 1,
     "jp": "クリアできれば一人前の勇者だ{BREAK}",
-    "en": "Clear this to become a true hero.{BREAK}"
+    "en": "Clear this to become a true{NEWLINE}hero.{BREAK}"
   },
   {
     "id": 4359,
@@ -9384,7 +9384,7 @@
     "desc_idx": 942,
     "str_idx": 1,
     "jp": "部屋の中がすべるぞ{BREAK}",
-    "en": "The rooms inside are slippery!{BREAK}"
+    "en": "The rooms inside are{NEWLINE}slippery!{BREAK}"
   },
   {
     "id": 4369,
@@ -9482,7 +9482,7 @@
     "desc_idx": 951,
     "str_idx": 1,
     "jp": "カジノプレイが勝負を決める!{BREAK}",
-    "en": "Casino play decides the match!{BREAK}"
+    "en": "Casino play decides the{NEWLINE}match!{BREAK}"
   },
   {
     "id": 4387,
@@ -9587,7 +9587,7 @@
     "desc_idx": 959,
     "str_idx": 1,
     "jp": "ボウレイだらけの不気味な城だ{BREAK}",
-    "en": "An eerie castle full of Ghosts.{BREAK}"
+    "en": "An eerie castle full of{NEWLINE}Ghosts.{BREAK}"
   },
   {
     "id": 4403,
@@ -9636,7 +9636,7 @@
     "desc_idx": 963,
     "str_idx": 1,
     "jp": "宝石がたくさんおちてるぞ{BREAK}",
-    "en": "Lots of gems are lying around!{BREAK}"
+    "en": "Lots of gems are lying{NEWLINE}around!{BREAK}"
   },
   {
     "id": 4411,
@@ -9650,7 +9650,7 @@
     "desc_idx": 964,
     "str_idx": 1,
     "jp": "キョウキの一撃に気を付けろ{BREAK}",
-    "en": "Watch out for Madness strikes!{BREAK}"
+    "en": "Watch out for Madness{NEWLINE}strikes!{BREAK}"
   },
   {
     "id": 4413,
@@ -9671,7 +9671,7 @@
     "desc_idx": 966,
     "str_idx": 1,
     "jp": "会心の一撃にきたいしすぎると・・・{BREAK}",
-    "en": "Don't rely too much on criticals...{BREAK}"
+    "en": "Don't rely too much on{NEWLINE}criticals...{BREAK}"
   },
   {
     "id": 4417,
@@ -9720,7 +9720,7 @@
     "desc_idx": 970,
     "str_idx": 1,
     "jp": "ブライト効果で見通しがいいぞ{BREAK}",
-    "en": "Bright effect gives a clear view!{BREAK}"
+    "en": "Bright effect gives a clear{NEWLINE}view!{BREAK}"
   },
   {
     "id": 4425,
@@ -9811,7 +9811,7 @@
     "desc_idx": 977,
     "str_idx": 1,
     "jp": "せいとうはの最なんかんだ{BREAK}",
-    "en": "The ultimate classic challenge.{BREAK}"
+    "en": "The ultimate classic{NEWLINE}challenge.{BREAK}"
   },
   {
     "id": 4439,
@@ -9895,7 +9895,7 @@
     "desc_idx": 984,
     "str_idx": 1,
     "jp": "毒ぬまにゾンビがむらがっている・・・{BREAK}",
-    "en": "Zombies swarm in the poison swamp...{BREAK}"
+    "en": "Zombies swarm in the poison{NEWLINE}swamp...{BREAK}"
   },
   {
     "id": 4453,
@@ -9923,7 +9923,7 @@
     "desc_idx": 986,
     "str_idx": 1,
     "jp": "広い毒ぬまにホッピーが生息する{BREAK}",
-    "en": "Hoppies inhabit the wide poison swamp.{BREAK}"
+    "en": "Hoppies inhabit the wide{NEWLINE}poison swamp.{BREAK}"
   },
   {
     "id": 4457,
@@ -9986,7 +9986,7 @@
     "desc_idx": 992,
     "str_idx": 1,
     "jp": "20階だてのちょうこうそうだ{BREAK}",
-    "en": "A towering 20-story skyscraper!{BREAK}"
+    "en": "A towering 20-story{NEWLINE}skyscraper!{BREAK}"
   },
   {
     "id": 4469,
@@ -10000,7 +10000,7 @@
     "desc_idx": 993,
     "str_idx": 1,
     "jp": "使った階段が消えてしまうぞ!{BREAK}",
-    "en": "Stairs vanish once you use them!{BREAK}"
+    "en": "Stairs vanish once you use{NEWLINE}them!{BREAK}"
   },
   {
     "id": 4471,
@@ -10014,7 +10014,7 @@
     "desc_idx": 994,
     "str_idx": 1,
     "jp": "しんの実力と勝負運がためされる{BREAK}",
-    "en": "Tests your true skill and luck.{BREAK}"
+    "en": "Tests your true skill and{NEWLINE}luck.{BREAK}"
   },
   {
     "id": 4473,
@@ -10028,7 +10028,7 @@
     "desc_idx": 995,
     "str_idx": 1,
     "jp": "ここをきょてんに魔王のいるREAL城を目指せ!{BREAK}",
-    "en": "Use this base to reach REAL Castle!{BREAK}"
+    "en": "Use this base to reach REAL{NEWLINE}Castle!{BREAK}"
   },
   {
     "id": 4475,
@@ -10042,7 +10042,7 @@
     "desc_idx": 996,
     "str_idx": 1,
     "jp": "ここをきょてんに魔王のいるCLOSE城を目指せ! {BREAK}",
-    "en": "Use this base to reach CLOSE Castle!{BREAK}"
+    "en": "Use this base to reach CLOSE{NEWLINE}Castle!{BREAK}"
   },
   {
     "id": 4477,
@@ -10056,7 +10056,7 @@
     "desc_idx": 997,
     "str_idx": 1,
     "jp": "ここをきょてんに魔王のいるWILD城を目指せ!{BREAK}",
-    "en": "Use this base to reach WILD Castle!{BREAK}"
+    "en": "Use this base to reach WILD{NEWLINE}Castle!{BREAK}"
   },
   {
     "id": 4479,
@@ -10070,21 +10070,21 @@
     "desc_idx": 998,
     "str_idx": 1,
     "jp": "ここをきょてんに魔王のいるDEEP城を目指せ!{BREAK}",
-    "en": "Use this base to reach DEEP Castle!{BREAK}"
+    "en": "Use this base to reach DEEP{NEWLINE}Castle!{BREAK}"
   },
   {
     "id": 4481,
     "desc_idx": 999,
     "str_idx": 0,
     "jp": "しょうかん中の仲間が消えてしまいますがよろしいですか?{BREAK}",
-    "en": "Summoned allies will vanish. Is that OK?{BREAK}"
+    "en": "Summoned allies will vanish.{NEWLINE}Is that OK?{BREAK}"
   },
   {
     "id": 4482,
     "desc_idx": 1000,
     "str_idx": 0,
     "jp": "前の装備品の効果がなくなりますがよろしいですか?{BREAK}",
-    "en": "Replace current equipment effect?{BREAK}"
+    "en": "Replace current equipment{NEWLINE}effect?{BREAK}"
   },
   {
     "id": 4485,

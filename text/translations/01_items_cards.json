@@ -25,7 +25,7 @@
     "desc_idx": 13,
     "str_idx": 19,
     "jp": "脱出すればマジックカードを次の冒険で使えるよ,{BREAK}",
-    "en": "Escape to keep your Magic Cards for the next run.{BREAK}"
+    "en": "Escape to keep your{NEWLINE}Magic Cards for next run.{BREAK}"
   },
   {
     "id": 134,
@@ -67,7 +67,7 @@
     "desc_idx": 19,
     "str_idx": 0,
     "jp": "これで「究極のカード」が全部そろったぞ!!{END}",
-    "en": "Now you have all the Ultimate Cards!!{END}"
+    "en": "Now you have all the{NEWLINE}Ultimate Cards!!{END}"
   },
   {
     "id": 193,
@@ -102,7 +102,7 @@
     "desc_idx": 21,
     "str_idx": 27,
     "jp": "攻撃カードと補助カードと回復カードが出現します{BREAK}",
-    "en": "Attack, Support & Heal cards appear.{BREAK}"
+    "en": "Attack, Support & Heal.{BREAK}"
   },
   {
     "id": 203,
@@ -116,21 +116,21 @@
     "desc_idx": 21,
     "str_idx": 30,
     "jp": "ワンダーのカードが出現するかどうかを設定します{BREAK}",
-    "en": "Toggle Wonder Card appearances.{BREAK}"
+    "en": "Toggle Wonder Cards.{BREAK}"
   },
   {
     "id": 213,
     "desc_idx": 23,
     "str_idx": 3,
     "jp": "手持ちのカードをかくにんできるぞ,{NEWLINE}{BREAK}",
-    "en": "Check the cards you currently hold.{NEWLINE}{BREAK}"
+    "en": "Check your current cards.{BREAK}"
   },
   {
     "id": 221,
     "desc_idx": 26,
     "str_idx": 2,
     "jp": "マジックカードをえらんでください{BREAK}",
-    "en": "Select a Magic Card.{BREAK}"
+    "en": " Select a card.{BREAK}"
   },
   {
     "id": 227,
@@ -298,14 +298,14 @@
     "desc_idx": 76,
     "str_idx": 1,
     "jp": "装備するとモンスターカードを見つけやすくなる{BREAK}",
-    "en": "Equip to find Monster Cards easier.{BREAK}"
+    "en": "Equip to find Monster Cards{NEWLINE}easier.{BREAK}"
   },
   {
     "id": 343,
     "desc_idx": 77,
     "str_idx": 1,
     "jp": "装備するとポーションが仲間にも有効になる{BREAK}",
-    "en": "Equip: Potions also heal allies.{BREAK}"
+    "en": "Equip: Potions also heal{NEWLINE}allies.{BREAK}"
   },
   {
     "id": 347,
@@ -319,14 +319,14 @@
     "desc_idx": 80,
     "str_idx": 1,
     "jp": "持てるカードの数が1つ増える{BREAK}",
-    "en": "Increases card capacity by 1.{BREAK}"
+    "en": "Increases card capacity by{NEWLINE}1.{BREAK}"
   },
   {
     "id": 351,
     "desc_idx": 81,
     "str_idx": 1,
     "jp": "持てるカードの数が2つ増える{BREAK}",
-    "en": "Increases card capacity by 2.{BREAK}"
+    "en": "Increases card capacity by{NEWLINE}2.{BREAK}"
   },
   {
     "id": 368,
@@ -347,14 +347,14 @@
     "desc_idx": 94,
     "str_idx": 1,
     "jp": "カードホルダーのアイテムを1枚ゲット{BREAK}",
-    "en": "Take 1 card from Card Holder.{BREAK}"
+    "en": "Take 1 card from Card{NEWLINE}Holder.{BREAK}"
   },
   {
     "id": 379,
     "desc_idx": 95,
     "str_idx": 1,
     "jp": "カードホルダーのアイテムを2枚ゲット{BREAK}",
-    "en": "Take 2 cards from Card Holder.{BREAK}"
+    "en": "Take 2 cards from Card{NEWLINE}Holder.{BREAK}"
   },
   {
     "id": 390,
@@ -368,7 +368,7 @@
     "desc_idx": 102,
     "str_idx": 1,
     "jp": "はなれたテキにマルチファイアーの効果（4MP必要）{BREAK}",
-    "en": "Multi-Fire at range (costs 4 MP).{BREAK}"
+    "en": "Multi-Fire at range (costs 4{NEWLINE}MP).{BREAK}"
   },
   {
     "id": 398,
@@ -438,7 +438,7 @@
     "desc_idx": 260,
     "str_idx": 0,
     "jp": "ポーションをたっぷり持って.ちょうせんしよう!{BREAK}",
-    "en": "Stock up on Potions before entering!{BREAK}"
+    "en": "Stock up on Potions before{NEWLINE}entering!{BREAK}"
   },
   {
     "id": 856,
@@ -452,7 +452,7 @@
     "desc_idx": 272,
     "str_idx": 0,
     "jp": "ポケット数が少ないのでカードをしんちょうにえらぼう!{BREAK}",
-    "en": "Small pocket size! Pick cards carefully!{BREAK}"
+    "en": "Small pocket size! Pick{NEWLINE}cards carefully!{BREAK}"
   },
   {
     "id": 862,
@@ -466,14 +466,14 @@
     "desc_idx": 276,
     "str_idx": 0,
     "jp": "ヒールのカードを使えばダメージをかるくできるぞ!{BREAK}",
-    "en": "Use Heal cards to reduce damage!{BREAK}"
+    "en": "Use Heal cards to reduce{NEWLINE}damage!{BREAK}"
   },
   {
     "id": 865,
     "desc_idx": 277,
     "str_idx": 0,
     "jp": "まわりがよく見えるのでマルチけいカードが有効だぞ!{BREAK}",
-    "en": "Clear view! Multi cards work great!{BREAK}"
+    "en": "Clear view! Multi cards work{NEWLINE}great!{BREAK}"
   },
   {
     "id": 870,
@@ -487,7 +487,7 @@
     "desc_idx": 297,
     "str_idx": 0,
     "jp": "カジノでカードを補おう!{BREAK}",
-    "en": "Stock up on cards at the Casino!{BREAK}"
+    "en": "Stock up on cards at the{NEWLINE}Casino!{BREAK}"
   },
   {
     "id": 918,
@@ -501,42 +501,42 @@
     "desc_idx": 304,
     "str_idx": 0,
     "jp": "ソードけいカードが見つかりやすいぞ!{BREAK}",
-    "en": "Sword cards are easy to find here!{BREAK}"
+    "en": "Sword cards are easy to find{NEWLINE}here!{BREAK}"
   },
   {
     "id": 920,
     "desc_idx": 305,
     "str_idx": 0,
     "jp": "階段が消えるのでカードを拾い忘れないようにしよう{BREAK}",
-    "en": "Stairs vanish-grab cards first!{BREAK}"
+    "en": "Stairs vanish-grab cards{NEWLINE}first!{BREAK}"
   },
   {
     "id": 922,
     "desc_idx": 307,
     "str_idx": 0,
     "jp": "ファイアーけい.サンダーけいのカードが持ち込めないぞ{BREAK}",
-    "en": "Fire & Thunder cards cannot be brought in.{BREAK}"
+    "en": "Fire & Thunder cards cannot{NEWLINE}be brought in.{BREAK}"
   },
   {
     "id": 923,
     "desc_idx": 308,
     "str_idx": 0,
     "jp": "ポーションけいのカードが持ち込めないぞ{BREAK}",
-    "en": "Potion cards cannot be brought in.{BREAK}"
+    "en": "Potion cards cannot be{NEWLINE}brought in.{BREAK}"
   },
   {
     "id": 930,
     "desc_idx": 315,
     "str_idx": 0,
     "jp": "ソードけい.シールドけいが持ち込めないぞ{BREAK}",
-    "en": "Swords and Shields cannot be brought in.{BREAK}"
+    "en": "Swords and Shields cannot be{NEWLINE}brought in.{BREAK}"
   },
   {
     "id": 935,
     "desc_idx": 320,
     "str_idx": 0,
     "jp": "ヒールけいカードが持ち込めないぞ{BREAK}",
-    "en": "Heal cards cannot be brought in.{BREAK}"
+    "en": "Heal cards cannot be brought{NEWLINE}in.{BREAK}"
   },
   {
     "id": 964,
@@ -592,21 +592,21 @@
     "desc_idx": 385,
     "str_idx": 2,
     "jp": "今回の依頼の賞品はパワーシールドのカード1枚だぜ,{BREAK}",
-    "en": "Reward: 1x Power Shield card!{BREAK}"
+    "en": "Reward: 1x Power Shield{NEWLINE}card!{BREAK}"
   },
   {
     "id": 1007,
     "desc_idx": 386,
     "str_idx": 2,
     "jp": "今回の依頼の賞品はゴールドシールドのカード1枚だぜ,{BREAK}",
-    "en": "Job reward: 1 Gold Shield card.{BREAK}"
+    "en": "Job reward: 1 Gold Shield{NEWLINE}card.{BREAK}"
   },
   {
     "id": 1010,
     "desc_idx": 387,
     "str_idx": 2,
     "jp": "今回の依頼の賞品はグレートシールドのカード1枚だぜ,{BREAK}",
-    "en": "Job reward: 1 Great Shield card.{BREAK}"
+    "en": "Job reward: 1 Great Shield{NEWLINE}card.{BREAK}"
   },
   {
     "id": 1012,
@@ -634,7 +634,7 @@
     "desc_idx": 663,
     "str_idx": 4,
     "jp": "あいにく手持ちのカードだけじゃ足りなくてね,{END}",
-    "en": "Sadly, the cards I have aren't enough.{END}"
+    "en": "Sadly, the cards I have{NEWLINE}aren't enough.{END}"
   },
   {
     "id": 2120,
@@ -655,7 +655,7 @@
     "desc_idx": 672,
     "str_idx": 11,
     "jp": "家宝の「リフレクトシールド」のカードも差し上げます,{END}",
-    "en": "Please take our family heirloom, the Reflect Shield card.{END}"
+    "en": "Please take our family{NEWLINE}heirloom, the Reflect{WAIT:3C}{CTRL:F2}Shield card.{END}"
   },
   {
     "id": 4101,
@@ -669,7 +669,7 @@
     "desc_idx": 819,
     "str_idx": 1,
     "jp": "ポーションをたっぷり持って.ちょうせんしよう!{BREAK}",
-    "en": "Stock up on Potions before entering!{BREAK}"
+    "en": "Stock up on Potions before{NEWLINE}entering!{BREAK}"
   },
   {
     "id": 4201,
@@ -683,7 +683,7 @@
     "desc_idx": 869,
     "str_idx": 1,
     "jp": "持ちきれないカードはホルダーにおくります,{BREAK}",
-    "en": "Extra cards go to Card Holder.{BREAK}"
+    "en": "Extra cards go to Card{NEWLINE}Holder.{BREAK}"
   },
   {
     "id": 4203,
@@ -704,28 +704,28 @@
     "desc_idx": 870,
     "str_idx": 7,
     "jp": "カードが持ちきれなくなると.新たにかく得した{BREAK}",
-    "en": "When your hand is full, newly obtained{BREAK}"
+    "en": "If your hand is full, new{BREAK}"
   },
   {
     "id": 4212,
     "desc_idx": 870,
     "str_idx": 8,
     "jp": "マジックカードはカードホルダーに保管されます,{BREAK}",
-    "en": "Magic Cards are stored in Card Holder.{BREAK}"
+    "en": "cards go to Card Holder.{BREAK}"
   },
   {
     "id": 4378,
     "desc_idx": 947,
     "str_idx": 1,
     "jp": "強テキだらけ! カードは6枚せいげんだ{BREAK}",
-    "en": "Tough foes! Max 6 cards allowed.{BREAK}"
+    "en": "Tough foes! Max 6 cards{NEWLINE}allowed.{BREAK}"
   },
   {
     "id": 4380,
     "desc_idx": 948,
     "str_idx": 1,
     "jp": "めずらしいカードが見つかるぞ!{BREAK}",
-    "en": "Rare cards can be found here!{BREAK}"
+    "en": "Rare cards can be found{NEWLINE}here!{BREAK}"
   },
   {
     "id": 4400,
@@ -753,21 +753,21 @@
     "desc_idx": 991,
     "str_idx": 1,
     "jp": "モンスターカードが見つかるかも?{BREAK}",
-    "en": "You might find a Monster Card?{BREAK}"
+    "en": "You might find a Monster{NEWLINE}Card?{BREAK}"
   },
   {
     "id": 4483,
     "desc_idx": 1001,
     "str_idx": 0,
     "jp": "カードを使っても効果がありませんがよろしいですか?{BREAK}",
-    "en": "Card will have no effect. Use anyway?{BREAK}"
+    "en": "Card will have no effect.{NEWLINE}Use anyway?{BREAK}"
   },
   {
     "id": 4484,
     "desc_idx": 1002,
     "str_idx": 0,
     "jp": "カードを1枚しか取れませんがよろしいですか?{BREAK}",
-    "en": "You can only take 1 card. Continue?{BREAK}"
+    "en": "You can only take 1 card.{NEWLINE}Continue?{BREAK}"
   },
   {
     "id": 4507,

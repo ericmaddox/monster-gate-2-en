@@ -4,7 +4,7 @@
     "desc_idx": 3,
     "str_idx": 1,
     "jp": "ベビードラゴンの名前を入力してください{BREAK}",
-    "en": "Enter the Baby Dragon's name.{BREAK}"
+    "en": "Dragon's name:{BREAK}"
   },
   {
     "id": 69,
@@ -32,7 +32,7 @@
     "desc_idx": 88,
     "str_idx": 1,
     "jp": "テキを仲間モンスターにする（はなれたテキにも有効）{BREAK}",
-    "en": "Tames a foe (works at range).{BREAK}"
+    "en": "Tames a foe (ranged).{BREAK}"
   },
   {
     "id": 422,
@@ -319,7 +319,7 @@
     "desc_idx": 156,
     "str_idx": 1,
     "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（小）{BREAK}",
-    "en": "Ally summon: boost ranged attack (Small){BREAK}"
+    "en": "Ally: boost ranged attack{NEWLINE}(Small){BREAK}"
   },
   {
     "id": 534,
@@ -340,7 +340,7 @@
     "desc_idx": 159,
     "str_idx": 1,
     "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（小）{BREAK}",
-    "en": "Ally summon: boost ranged attack (Small){BREAK}"
+    "en": "Ally: boost ranged attack{NEWLINE}(Small){BREAK}"
   },
   {
     "id": 540,
@@ -368,7 +368,7 @@
     "desc_idx": 162,
     "str_idx": 1,
     "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（小）{BREAK}",
-    "en": "Ally summon: boost ranged attack (Small){BREAK}"
+    "en": "Ally: boost ranged attack{NEWLINE}(Small){BREAK}"
   },
   {
     "id": 547,
@@ -396,21 +396,21 @@
     "desc_idx": 165,
     "str_idx": 1,
     "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（小）{BREAK}",
-    "en": "Ally summon: boost ranged attack (Small){BREAK}"
+    "en": "Ally: boost ranged attack{NEWLINE}(Small){BREAK}"
   },
   {
     "id": 556,
     "desc_idx": 168,
     "str_idx": 1,
     "jp": "仲間モンスターしょうかん・防御力（小）{BREAK}",
-    "en": "Summon ally; small DEF boost.{BREAK}"
+    "en": "Summon ally; small DEF{NEWLINE}boost.{BREAK}"
   },
   {
     "id": 566,
     "desc_idx": 173,
     "str_idx": 1,
     "jp": "仲間モンスターしょうかん・テキを2回攻撃（かくりつ小）{BREAK}",
-    "en": "Ally summon: double attack (Low chance){BREAK}"
+    "en": "Ally: double attack (Low){BREAK}"
   },
   {
     "id": 609,
@@ -466,7 +466,7 @@
     "desc_idx": 180,
     "str_idx": 1,
     "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（中）{BREAK}",
-    "en": "Ally summon: boost ranged attack (Med){BREAK}"
+    "en": "Ally: boost ranged attack{NEWLINE}(Med){BREAK}"
   },
   {
     "id": 625,
@@ -480,7 +480,7 @@
     "desc_idx": 183,
     "str_idx": 1,
     "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（中）{BREAK}",
-    "en": "Ally summon: boost ranged attack (Med){BREAK}"
+    "en": "Ally: boost ranged attack{NEWLINE}(Med){BREAK}"
   },
   {
     "id": 628,
@@ -508,7 +508,7 @@
     "desc_idx": 186,
     "str_idx": 1,
     "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（中）{BREAK}",
-    "en": "Ally summon: boost ranged attack (Med){BREAK}"
+    "en": "Ally: boost ranged attack{NEWLINE}(Med){BREAK}"
   },
   {
     "id": 635,
@@ -536,21 +536,21 @@
     "desc_idx": 189,
     "str_idx": 1,
     "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（中）{BREAK}",
-    "en": "Ally summon: boost ranged attack (Med){BREAK}"
+    "en": "Ally: boost ranged attack{NEWLINE}(Med){BREAK}"
   },
   {
     "id": 644,
     "desc_idx": 192,
     "str_idx": 1,
     "jp": "仲間モンスターしょうかん・防御力（中）{BREAK}",
-    "en": "Summon ally; medium DEF boost.{BREAK}"
+    "en": "Summon ally; medium DEF{NEWLINE}boost.{BREAK}"
   },
   {
     "id": 654,
     "desc_idx": 197,
     "str_idx": 1,
     "jp": "仲間モンスターしょうかん・プレイヤーのHPを回復（小）{BREAK}",
-    "en": "Ally summon: heal player HP (Small){BREAK}"
+    "en": "Ally: heal player HP (Small){BREAK}"
   },
   {
     "id": 676,
@@ -606,7 +606,7 @@
     "desc_idx": 204,
     "str_idx": 1,
     "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（大）{BREAK}",
-    "en": "Ally summon: boost ranged attack (Large){BREAK}"
+    "en": "Ally: boost ranged attack{NEWLINE}(Large){BREAK}"
   },
   {
     "id": 692,
@@ -620,7 +620,7 @@
     "desc_idx": 207,
     "str_idx": 1,
     "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（大）{BREAK}",
-    "en": "Ally summon: boost ranged attack (Large){BREAK}"
+    "en": "Ally: boost ranged attack{NEWLINE}(Large){BREAK}"
   },
   {
     "id": 695,
@@ -648,7 +648,7 @@
     "desc_idx": 210,
     "str_idx": 1,
     "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（大）{BREAK}",
-    "en": "Ally summon: boost ranged attack (Large){BREAK}"
+    "en": "Ally: boost ranged attack{NEWLINE}(Large){BREAK}"
   },
   {
     "id": 702,
@@ -676,7 +676,7 @@
     "desc_idx": 213,
     "str_idx": 1,
     "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（大）{BREAK}",
-    "en": "Ally summon: boost ranged attack (Large){BREAK}"
+    "en": "Ally: boost ranged attack{NEWLINE}(Large){BREAK}"
   },
   {
     "id": 711,
@@ -690,14 +690,14 @@
     "desc_idx": 220,
     "str_idx": 1,
     "jp": "仲間モンスターしょうかん・テキを2回攻撃（かくりつ中）{BREAK}",
-    "en": "Ally summon: double attack (Med chance){BREAK}"
+    "en": "Ally: double attack (Med){BREAK}"
   },
   {
     "id": 721,
     "desc_idx": 221,
     "str_idx": 1,
     "jp": "仲間モンスターしょうかん・プレイヤーのHPを回復（中）{BREAK}",
-    "en": "Ally summon: heal player HP (Med){BREAK}"
+    "en": "Ally: heal player HP (Med){BREAK}"
   },
   {
     "id": 738,
@@ -753,7 +753,7 @@
     "desc_idx": 228,
     "str_idx": 1,
     "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（SP）{BREAK}",
-    "en": "Ally summon: boost ranged attack (SP){BREAK}"
+    "en": "Ally: boost ranged attack{NEWLINE}(SP){BREAK}"
   },
   {
     "id": 754,
@@ -767,7 +767,7 @@
     "desc_idx": 231,
     "str_idx": 1,
     "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（SP）{BREAK}",
-    "en": "Ally summon: boost ranged attack (SP){BREAK}"
+    "en": "Ally: boost ranged attack{NEWLINE}(SP){BREAK}"
   },
   {
     "id": 757,
@@ -788,7 +788,7 @@
     "desc_idx": 234,
     "str_idx": 1,
     "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（SP）{BREAK}",
-    "en": "Ally summon: boost ranged attack (SP){BREAK}"
+    "en": "Ally: boost ranged attack{NEWLINE}(SP){BREAK}"
   },
   {
     "id": 764,
@@ -816,7 +816,7 @@
     "desc_idx": 237,
     "str_idx": 1,
     "jp": "仲間モンスターしょうかん・えんきょり攻撃が強化（SP）{BREAK}",
-    "en": "Ally summon: boost ranged attack (SP){BREAK}"
+    "en": "Ally: boost ranged attack{NEWLINE}(SP){BREAK}"
   },
   {
     "id": 773,
@@ -830,28 +830,28 @@
     "desc_idx": 244,
     "str_idx": 1,
     "jp": "仲間モンスターしょうかん・テキを2回攻撃（かくりつ大）{BREAK}",
-    "en": "Ally summon: double attack (High chance){BREAK}"
+    "en": "Ally: double attack (High){BREAK}"
   },
   {
     "id": 783,
     "desc_idx": 245,
     "str_idx": 1,
     "jp": "仲間モンスターしょうかん・プレイヤーのHPを回復（大）{BREAK}",
-    "en": "Ally summon: heal player HP (Large){BREAK}"
+    "en": "Ally: heal player HP (Large){BREAK}"
   },
   {
     "id": 785,
     "desc_idx": 246,
     "str_idx": 1,
     "jp": "仲間モンスターしょうかん・プレイヤーのHPを回復（SP）{BREAK}",
-    "en": "Ally summon: heal player HP (SP){BREAK}"
+    "en": "Ally: heal player HP (SP){BREAK}"
   },
   {
     "id": 787,
     "desc_idx": 247,
     "str_idx": 1,
     "jp": "仲間キングモンスターをよび出す{BREAK}",
-    "en": "Summons an ally King Monster.{BREAK}"
+    "en": "Summons ally King Monster.{BREAK}"
   },
   {
     "id": 789,
@@ -865,14 +865,14 @@
     "desc_idx": 254,
     "str_idx": 0,
     "jp": "プーニャばかりのかんたんなダンジョン{BREAK}",
-    "en": "An easy dungeon full of Punyas.{BREAK}"
+    "en": "An easy dungeon full of{NEWLINE}Punyas.{BREAK}"
   },
   {
     "id": 801,
     "desc_idx": 255,
     "str_idx": 0,
     "jp": "キラービーばかりなので気楽にいこう!{BREAK}",
-    "en": "Just Killer Bees here, so take it easy!{BREAK}"
+    "en": "Just Killer Bees here, so{NEWLINE}take it easy!{BREAK}"
   },
   {
     "id": 803,
@@ -886,112 +886,112 @@
     "desc_idx": 259,
     "str_idx": 0,
     "jp": "モンスターの数は多いけど落ち着いていこう!{BREAK}",
-    "en": "Many monsters here, stay calm!{BREAK}"
+    "en": "Many monsters here, stay{NEWLINE}calm!{BREAK}"
   },
   {
     "id": 807,
     "desc_idx": 261,
     "str_idx": 0,
     "jp": "手強いモンスターがたくさん眠っているぞ{BREAK}",
-    "en": "Many tough monsters are sleeping.{BREAK}"
+    "en": "Many tough monsters are{NEWLINE}sleeping.{BREAK}"
   },
   {
     "id": 857,
     "desc_idx": 269,
     "str_idx": 0,
     "jp": "はじめから強いモンスターが出てくるので気を付けよう{BREAK}",
-    "en": "Watch out for strong foes early on!{BREAK}"
+    "en": "Watch out for strong foes{NEWLINE}early on!{BREAK}"
   },
   {
     "id": 869,
     "desc_idx": 281,
     "str_idx": 0,
     "jp": "神聖なる神殿には強力なモンスターがいっぱいだ{BREAK}",
-    "en": "The sacred temple holds strong foes.{BREAK}"
+    "en": "The sacred temple holds{NEWLINE}strong foes.{BREAK}"
   },
   {
     "id": 873,
     "desc_idx": 285,
     "str_idx": 0,
     "jp": "モンスターのはげしい攻撃に気を付けよう{BREAK}",
-    "en": "Watch out for fierce monster attacks!{BREAK}"
+    "en": "Watch out for fierce monster{NEWLINE}attacks!{BREAK}"
   },
   {
     "id": 876,
     "desc_idx": 288,
     "str_idx": 0,
     "jp": "2フロアーしかないけどモンスターは強力だ{BREAK}",
-    "en": "Only 2 floors, but tough monsters!{BREAK}"
+    "en": "Only 2 floors, but tough{NEWLINE}monsters!{BREAK}"
   },
   {
     "id": 902,
     "desc_idx": 291,
     "str_idx": 0,
     "jp": "スケルトン以外のモンスターに要注意!{BREAK}",
-    "en": "Watch out for foes besides Skeletons!{BREAK}"
+    "en": "Watch out for foes besides{NEWLINE}Skeletons!{BREAK}"
   },
   {
     "id": 907,
     "desc_idx": 296,
     "str_idx": 0,
     "jp": "キラービーけいのモンスターが多いぞ{BREAK}",
-    "en": "Lots of Killer Bee monsters here.{BREAK}"
+    "en": "Lots of Killer Bee monsters{NEWLINE}here.{BREAK}"
   },
   {
     "id": 914,
     "desc_idx": 299,
     "str_idx": 0,
     "jp": "攻撃力の高いマッドブルには気を付けよう{BREAK}",
-    "en": "Watch out for hard-hitting Mad Bulls!{BREAK}"
+    "en": "Watch out for hard-hitting{NEWLINE}Mad Bulls!{BREAK}"
   },
   {
     "id": 924,
     "desc_idx": 309,
     "str_idx": 0,
     "jp": "広いフロアーにたくさんのモンスターがうごめいているぞ{BREAK}",
-    "en": "Swarms of monsters roam the wide floors.{BREAK}"
+    "en": "Swarms of monsters roam the{NEWLINE}wide floors.{BREAK}"
   },
   {
     "id": 927,
     "desc_idx": 312,
     "str_idx": 0,
     "jp": "モンスターの強さのバラつきに注意しよう{BREAK}",
-    "en": "Watch out for varied foe strength.{BREAK}"
+    "en": "Watch out for varied foe{NEWLINE}strength.{BREAK}"
   },
   {
     "id": 929,
     "desc_idx": 314,
     "str_idx": 0,
     "jp": "せまいフロアーにモンスターがたくさんいるぞ{BREAK}",
-    "en": "Many monsters in tight floors!{BREAK}"
+    "en": "Many monsters in tight{NEWLINE}floors!{BREAK}"
   },
   {
     "id": 933,
     "desc_idx": 318,
     "str_idx": 0,
     "jp": "たくさんのタイプのモンスターが出現するぞ{BREAK}",
-    "en": "Many types of monsters appear!{BREAK}"
+    "en": "Many types of monsters{NEWLINE}appear!{BREAK}"
   },
   {
     "id": 934,
     "desc_idx": 319,
     "str_idx": 0,
     "jp": "眠っているモンスターがいないぞ{BREAK}",
-    "en": "No monsters are sleeping here.{BREAK}"
+    "en": "No monsters are sleeping{NEWLINE}here.{BREAK}"
   },
   {
     "id": 937,
     "desc_idx": 322,
     "str_idx": 0,
     "jp": "発生してくるモンスターに気を付けよう{BREAK}",
-    "en": "Watch out for spawning monsters!{BREAK}"
+    "en": "Watch out for spawning{NEWLINE}monsters!{BREAK}"
   },
   {
     "id": 949,
     "desc_idx": 334,
     "str_idx": 0,
     "jp": "ドラゴン族の眠るダンジョンだ!{BREAK}",
-    "en": "A dungeon where dragons slumber!{BREAK}"
+    "en": "A dungeon where dragons{NEWLINE}slumber!{BREAK}"
   },
   {
     "id": 1023,
@@ -1026,14 +1026,14 @@
     "desc_idx": 399,
     "str_idx": 0,
     "jp": "モンスターのヒーリングにてこずるぞ{BREAK}",
-    "en": "Monster healing is troublesome!{BREAK}"
+    "en": "Monster healing is{NEWLINE}troublesome!{BREAK}"
   },
   {
     "id": 1189,
     "desc_idx": 454,
     "str_idx": 0,
     "jp": "キラービーの森を.無事に通り抜ければ.依頼は完了だ,{BREAK}",
-    "en": "Make it safely through Killer Bee{NEWLINE}Woods to complete this quest.{BREAK}"
+    "en": "Pass Killer Bee Woods!{BREAK}"
   },
   {
     "id": 1272,
@@ -1285,14 +1285,14 @@
     "desc_idx": 599,
     "str_idx": 3,
     "jp": "そのボスモンスターを.倒して来てもらえないか?{BREAK}",
-    "en": "Could you defeat that boss monster?{BREAK}"
+    "en": "Could you defeat that{NEWLINE}boss monster?{BREAK}"
   },
   {
     "id": 1557,
     "desc_idx": 599,
     "str_idx": 4,
     "jp": "そのボスモンスターを.倒して来てもらえないか?{BREAK}",
-    "en": "Could you defeat that boss monster?{BREAK}"
+    "en": "Could you defeat that{NEWLINE}boss monster?{BREAK}"
   },
   {
     "id": 2563,
@@ -1306,56 +1306,56 @@
     "desc_idx": 733,
     "str_idx": 2,
     "jp": "モンスターを退治してくれる人かね?{END}",
-    "en": "Are you here to slay the monsters?{END}"
+    "en": "Are you here to slay the{NEWLINE}monsters?{END}"
   },
   {
     "id": 3085,
     "desc_idx": 746,
     "str_idx": 6,
     "jp": "モンスターがこの船に乗り込んで来やがったんだ!{END}",
-    "en": "Monsters boarded this ship!{END}"
+    "en": "Monsters boarded this{NEWLINE}ship!{END}"
   },
   {
     "id": 3171,
     "desc_idx": 752,
     "str_idx": 10,
     "jp": "お前が モンスターゲートを封印すると ほざいたからだ!{END}",
-    "en": "Because you boasted about sealing the Monster Gate!{END}"
+    "en": "Because you boasted about{NEWLINE}sealing the Monster Gate!{END}"
   },
   {
     "id": 3526,
     "desc_idx": 770,
     "str_idx": 8,
     "jp": "モンスターゲートを封印したいからですけど,{END}",
-    "en": "Because we want to seal the Monster Gate.{END}"
+    "en": "Because we want to seal{NEWLINE}the Monster Gate.{END}"
   },
   {
     "id": 4080,
     "desc_idx": 803,
     "str_idx": 1,
     "jp": "仲間モンスターしょうかん・テキを2回攻撃（かくりつSP）{BREAK}",
-    "en": "Summon ally monster; 2x attack (Chance SP).{BREAK}"
+    "en": "Ally: 2x attack (SP).{BREAK}"
   },
   {
     "id": 4082,
     "desc_idx": 804,
     "str_idx": 1,
     "jp": "仲間キングモンスターをよび出す{BREAK}",
-    "en": "Summons an ally King Monster.{BREAK}"
+    "en": "Summons ally King Monster.{BREAK}"
   },
   {
     "id": 4084,
     "desc_idx": 805,
     "str_idx": 1,
     "jp": "仲間キングモンスターをよび出す{BREAK}",
-    "en": "Summons an ally King Monster.{BREAK}"
+    "en": "Summons ally King Monster.{BREAK}"
   },
   {
     "id": 4103,
     "desc_idx": 815,
     "str_idx": 1,
     "jp": "モンスターだらけ・・・でも眠ってる{BREAK}",
-    "en": "Full of monsters... but sleeping.{BREAK}"
+    "en": "Full of monsters... but{NEWLINE}sleeping.{BREAK}"
   },
   {
     "id": 4119,
@@ -1376,14 +1376,14 @@
     "desc_idx": 826,
     "str_idx": 1,
     "jp": "きょうぼうなモンスターが生息する{BREAK}",
-    "en": "Ferocious monsters dwell here.{BREAK}"
+    "en": "Ferocious monsters dwell{NEWLINE}here.{BREAK}"
   },
   {
     "id": 4135,
     "desc_idx": 831,
     "str_idx": 1,
     "jp": "モンスターぐんだんとの果てしない戦いだ!{BREAK}",
-    "en": "An endless battle with the monster army!{BREAK}"
+    "en": "An endless battle with the{NEWLINE}monster army!{BREAK}"
   },
   {
     "id": 4366,
@@ -1418,7 +1418,7 @@
     "desc_idx": 969,
     "str_idx": 1,
     "jp": "モンスターのいっせい攻撃に注意{BREAK}",
-    "en": "Watch out for monster ambushes!{BREAK}"
+    "en": "Watch out for monster{NEWLINE}ambushes!{BREAK}"
   },
   {
     "id": 4440,
@@ -1439,14 +1439,14 @@
     "desc_idx": 988,
     "str_idx": 1,
     "jp": "強れつな毒ぬまにモンスターがせいぞろいだ!{BREAK}",
-    "en": "Monsters line a deadly poison swamp!{BREAK}"
+    "en": "Monsters line a deadly{NEWLINE}poison swamp!{BREAK}"
   },
   {
     "id": 4462,
     "desc_idx": 989,
     "str_idx": 1,
     "jp": "これぞモンスターゲート最終章!{BREAK}",
-    "en": "This is Monster Gate's final chapter!{BREAK}"
+    "en": "This is Monster Gate's final{NEWLINE}chapter!{BREAK}"
   },
   {
     "id": 4498,
@@ -1467,6 +1467,6 @@
     "desc_idx": 1012,
     "str_idx": 1,
     "jp": "  これ以上.モンスターをしょうかんできません{BREAK}",
-    "en": "  Cannot summon any more monsters.{BREAK}"
+    "en": "Cannot summon any more{NEWLINE}monsters.{BREAK}"
   }
 ]
