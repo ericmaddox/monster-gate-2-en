@@ -1,5 +1,11 @@
 # Release Notes
 
+## v1.0.1 — English Translation Release
+
+### Changes in v1.0.1
+- **Compact BPS Patch (`TargetCopy`):** Reduced `monster_gate_2_en.bps` from ~8.4 MB to **423 KB** (`423,051` bytes) by encoding repeated `0xFF` expansion padding with BPS `TargetCopy`, improving compatibility and load speed on web and mobile patchers while producing the exact same target ROM (`CRC32: E0246534`).
+- **Level-Clear Graphic:** Translated the level-clear `カード獲得` OAM sprite (`0x2A7124`–`0x2A7924`) to **`CARD GET!`** in the matching chrome-horizon style.
+
 ## v1.0.0 — English Translation Release
 
 ### Highlights
