@@ -1,5 +1,19 @@
 [
   {
+    "id": 0,
+    "desc_idx": 0,
+    "str_idx": 0,
+    "jp": "今回の依頼の賞金は{VAR:20}コインだぜ,{BREAK}",
+    "en": "Reward: {VAR:20} Coins.{BREAK}"
+  },
+  {
+    "id": 1,
+    "desc_idx": 0,
+    "str_idx": 1,
+    "jp": "今回の依頼の賞品は{BREAK}",
+    "en": "The prize for this quest is{BREAK}"
+  },
+  {
     "id": 2,
     "desc_idx": 0,
     "str_idx": 2,
@@ -14,11 +28,669 @@
     "en": " card x{VAR:20}!{BREAK}"
   },
   {
+    "id": 4,
+    "desc_idx": 1,
+    "str_idx": 0,
+    "jp": "どこにもいないぞ?{END}",
+    "en": "They're nowhere to be{NEWLINE}found!{END}"
+  },
+  {
+    "id": 5,
+    "desc_idx": 1,
+    "str_idx": 1,
+    "jp": "おっかしいなー,{WAIT:1E} ニオイは この城に続いてたんだぞー?{END}",
+    "en": "Weird...{WAIT:1E} The scent led to{NEWLINE}this castle!{END}"
+  },
+  {
+    "id": 6,
+    "desc_idx": 1,
+    "str_idx": 2,
+    "jp": "やれやれ,{END}",
+    "en": "Good grief.{END}"
+  },
+  {
+    "id": 7,
+    "desc_idx": 1,
+    "str_idx": 3,
+    "jp": "・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}ん?{WAIT:1E} あれは?{END}",
+    "en": ".{WAIT:0A}.{WAIT:0A}.{WAIT:0A}Hm?{WAIT:1E} What's that?{END}"
+  },
+  {
+    "id": 8,
+    "desc_idx": 1,
+    "str_idx": 4,
+    "jp": "なんだ.{WAIT:0F}この光る「石」は?{WAIT:1E}{NEWLINE}宝石か?{WAIT:1E} いや.{WAIT:0F}それにしても おかしいな・{WAIT:0A}・{WAIT:0A}・{WAIT:0A},{END}",
+    "en": "What's{WAIT:0F} this glowing{NEWLINE}'stone'?{WAIT:1E} A gem?{WAIT:1E} No,{WAIT:0F}{WAIT:3C}{CTRL:F2}still, it's strange.{WAIT:0A}.{WAIT:0A}.{WAIT:0A}{END}"
+  },
+  {
+    "id": 9,
+    "desc_idx": 1,
+    "str_idx": 5,
+    "jp": "変な石だぞー,{WAIT:1E}{END}",
+    "en": "It's a weird stone!{WAIT:1E}{END}"
+  },
+  {
+    "id": 10,
+    "desc_idx": 1,
+    "str_idx": 6,
+    "jp": "・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}あー!!{WAIT:1E}{NEWLINE}この「石」から ボウシと同じニオイがするぞー!{END}",
+    "en": ".{WAIT:0A}.{WAIT:0A}.{WAIT:0A}.{WAIT:0A}.{WAIT:0A}.{WAIT:0A}Aah!!{WAIT:1E} This 'stone'{NEWLINE}smells like the hat!{END}"
+  },
+  {
+    "id": 11,
+    "desc_idx": 1,
+    "str_idx": 7,
+    "jp": "でも.{WAIT:0F}変なニオイも混じってるぞー!?{END}",
+    "en": "But{WAIT:0F} there's a weird smell{NEWLINE}mixed in too!?{END}"
+  },
+  {
+    "id": 12,
+    "desc_idx": 1,
+    "str_idx": 8,
+    "jp": "変なニオイ?{END}",
+    "en": "A weird smell?{END}"
+  },
+  {
+    "id": 13,
+    "desc_idx": 1,
+    "str_idx": 9,
+    "jp": "・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}・{WAIT:0A},{WAIT:1E}{NEWLINE}他に手がかりもねェし.{WAIT:0F}そのニオイをたどってみるか,{END}",
+    "en": ".{WAIT:0A}.{WAIT:0A}.{WAIT:0A}.{WAIT:0A}.{WAIT:0A}.{WAIT:0A}{WAIT:1E} No other clues.{WAIT:0F}{NEWLINE}Let's follow that scent.{END}"
+  },
+  {
+    "id": 14,
+    "desc_idx": 1,
+    "str_idx": 10,
+    "jp": "ひょっとしたら 高く売れるかもしれねェし.{WAIT:0F}{NEWLINE}この「石」も 一応 持っていくかな,{END}",
+    "en": "Might sell for a high{NEWLINE}price,{WAIT:0F} so I'll take this{WAIT:3C}{CTRL:F2}'stone' along too.{END}"
+  },
+  {
+    "id": 15,
+    "desc_idx": 1,
+    "str_idx": 11,
+    "jp": "高く売れるといいのかー?{END}",
+    "en": "Hope it sells for a lot!{END}"
+  },
+  {
+    "id": 16,
+    "desc_idx": 1,
+    "str_idx": 12,
+    "jp": "・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}そりゃ安いよりはいいだろ,{END}",
+    "en": ".{WAIT:0A}.{WAIT:0A}.{WAIT:0A}Better than selling{NEWLINE}cheap.{END}"
+  },
+  {
+    "id": 17,
+    "desc_idx": 1,
+    "str_idx": 13,
+    "jp": "そっかー,{WAIT:1E} お金大好きなんだなー,{END}",
+    "en": "I see,{WAIT:1E} you really love{NEWLINE}money!{END}"
+  },
+  {
+    "id": 18,
+    "desc_idx": 1,
+    "str_idx": 14,
+    "jp": "・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}・{WAIT:0A},{END}",
+    "en": ".{WAIT:0A}.{WAIT:0A}.{WAIT:0A}.{WAIT:0A}.{WAIT:0A}.{WAIT:0A}{END}"
+  },
+  {
+    "id": 19,
+    "desc_idx": 2,
+    "str_idx": 0,
+    "jp": "ゲームのレベルをえらんでください{BREAK}",
+    "en": "Choose game difficulty.{BREAK}"
+  },
+  {
+    "id": 20,
+    "desc_idx": 3,
+    "str_idx": 0,
+    "jp": "主人公の名前を入力してください{BREAK}",
+    "en": "Hero's name:{BREAK}"
+  },
+  {
+    "id": 21,
+    "desc_idx": 3,
+    "str_idx": 1,
+    "jp": "ベビードラゴンの名前を入力してください{BREAK}",
+    "en": "Dragon's name:{BREAK}"
+  },
+  {
+    "id": 22,
+    "desc_idx": 3,
+    "str_idx": 2,
+    "jp": "プレイヤーの名前を入力してください{BREAK}",
+    "en": "Player's name:{BREAK}"
+  },
+  {
+    "id": 23,
+    "desc_idx": 3,
+    "str_idx": 3,
+    "jp": "この名前でよろしいですか?{BREAK}",
+    "en": "Is this name OK?{BREAK}"
+  },
+  {
+    "id": 24,
+    "desc_idx": 3,
+    "str_idx": 4,
+    "jp": "▶はい  いいえ{BREAK}",
+    "en": "{G:277}Yes  No{BREAK}"
+  },
+  {
+    "id": 25,
+    "desc_idx": 3,
+    "str_idx": 5,
+    "jp": " はい ▶いいえ{BREAK}",
+    "en": " Yes {G:277}No{BREAK}"
+  },
+  {
+    "id": 26,
+    "desc_idx": 4,
+    "str_idx": 0,
+    "jp": "これでよろしいですか?{BREAK}",
+    "en": "Is this OK?{BREAK}"
+  },
+  {
+    "id": 27,
+    "desc_idx": 4,
+    "str_idx": 1,
+    "jp": "▶はい  いいえ{BREAK}",
+    "en": "{G:277}Yes  No{BREAK}"
+  },
+  {
+    "id": 28,
+    "desc_idx": 4,
+    "str_idx": 2,
+    "jp": " はい ▶いいえ{BREAK}",
+    "en": " Yes {G:277}No{BREAK}"
+  },
+  {
+    "id": 29,
+    "desc_idx": 5,
+    "str_idx": 0,
+    "jp": "今回の依頼の賞金は500コインだぜ,{BREAK}",
+    "en": "Reward: 500 Coins.{BREAK}"
+  },
+  {
+    "id": 30,
+    "desc_idx": 6,
+    "str_idx": 0,
+    "jp": "ロード場所をえらんでください{BREAK}",
+    "en": "Select a slot to load.{BREAK}"
+  },
+  {
+    "id": 31,
+    "desc_idx": 6,
+    "str_idx": 1,
+    "jp": "このデータをロードしますか?{BREAK}",
+    "en": "Load save data?{BREAK}"
+  },
+  {
+    "id": 32,
+    "desc_idx": 6,
+    "str_idx": 2,
+    "jp": "▶はい  いいえ{BREAK}",
+    "en": "{G:277}Yes  No{BREAK}"
+  },
+  {
+    "id": 33,
+    "desc_idx": 6,
+    "str_idx": 3,
+    "jp": " はい ▶いいえ{BREAK}",
+    "en": " Yes {G:277}No{BREAK}"
+  },
+  {
+    "id": 34,
+    "desc_idx": 6,
+    "str_idx": 4,
+    "jp": "データがありません{BREAK}",
+    "en": "No save data found.{BREAK}"
+  },
+  {
+    "id": 35,
+    "desc_idx": 7,
+    "str_idx": 0,
+    "jp": "あらそったあとがあるな,{WAIT:1E} ・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}ここでさらわれたか,{END}",
+    "en": "Signs of a struggle.{WAIT:1E}{NEWLINE}.{WAIT:0A}.{WAIT:0A}.{WAIT:0A}Taken here?{END}"
+  },
+  {
+    "id": 36,
+    "desc_idx": 7,
+    "str_idx": 1,
+    "jp": "こんなの落ちてたぞー!{END}",
+    "en": "Look what I found on the{NEWLINE}ground!{END}"
+  },
+  {
+    "id": 37,
+    "desc_idx": 7,
+    "str_idx": 2,
+    "jp": "子供のボウシ?{WAIT:1E} さらわれた子供のものか,{END}",
+    "en": "A kid's hat?{WAIT:1E} Belongs to{NEWLINE}the missing boy?{END}"
+  },
+  {
+    "id": 38,
+    "desc_idx": 7,
+    "str_idx": 3,
+    "jp": "オレ.{WAIT:0F}ボウシのニオイたどれるぞー!{END}",
+    "en": "I can{WAIT:0F} track the hat's{NEWLINE}scent!{END}"
+  },
+  {
+    "id": 39,
+    "desc_idx": 7,
+    "str_idx": 4,
+    "jp": "そうか,{WAIT:1E} あんないできるか?{END}",
+    "en": "Really?{WAIT:1E} Can you lead the{NEWLINE}way?{END}"
+  },
+  {
+    "id": 40,
+    "desc_idx": 7,
+    "str_idx": 5,
+    "jp": "おう!{WAIT:1E} このまま.{WAIT:0F}まっすぐ行くといいぞ!{END}",
+    "en": "Yeah!{WAIT:1E} Just{WAIT:0F} head straight{NEWLINE}this way!{END}"
+  },
+  {
+    "id": 41,
+    "desc_idx": 7,
+    "str_idx": 6,
+    "jp": "まっすぐか,{WAIT:1E}「きりの城」のほうだな,{WAIT:1E}{NEWLINE}・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}行ってみるか,{END}",
+    "en": "Straight ahead?{WAIT:1E} Toward{NEWLINE}'Fog Castle'.{WAIT:1E} .{WAIT:0A}.{WAIT:0A}.{WAIT:0A}Let's go{WAIT:3C}{CTRL:F2}check it out.{END}"
+  },
+  {
+    "id": 42,
+    "desc_idx": 8,
+    "str_idx": 0,
+    "jp": "タイプをえらんでください{BREAK}",
+    "en": "Select a type.{BREAK}"
+  },
+  {
+    "id": 43,
+    "desc_idx": 8,
+    "str_idx": 1,
+    "jp": "攻撃.防御のバランスにすぐれた{NEWLINE} スタンダードなキャラクター{BREAK}",
+    "en": "Balanced ATK &{NEWLINE}DEF. Standard.{BREAK}"
+  },
+  {
+    "id": 44,
+    "desc_idx": 8,
+    "str_idx": 2,
+    "jp": "攻撃力はひくいが.視界がひろく{NEWLINE}   魔法がパワーアップ{BREAK}",
+    "en": "Low ATK, wide{NEWLINE}view, high MP.{BREAK}"
+  },
+  {
+    "id": 45,
+    "desc_idx": 8,
+    "str_idx": 3,
+    "jp": "攻撃・魔法は.今ひとつだけど{NEWLINE}カード集めのセンスはバツグン{BREAK}",
+    "en": "Fair ATK/MP,{NEWLINE}great luck!{BREAK}"
+  },
+  {
+    "id": 46,
+    "desc_idx": 8,
+    "str_idx": 4,
+    "jp": " 攻撃.防御.魔法どれも強力{NEWLINE}動くとHPがへるのがじゃくてん{BREAK}",
+    "en": "High stats, HP{NEWLINE}drains moving.{BREAK}"
+  },
+  {
+    "id": 47,
+    "desc_idx": 8,
+    "str_idx": 5,
+    "jp": " すべての能力をかねそなえた{NEWLINE}    伝説の賞金稼ぎ{BREAK}",
+    "en": "Famed hunter.{NEWLINE}Excels in all.{BREAK}"
+  },
+  {
+    "id": 48,
+    "desc_idx": 8,
+    "str_idx": 6,
+    "jp": "  人間と獣人がきり変わる{NEWLINE} せんりゃくてきなキャラクター{BREAK}",
+    "en": "Human & beast{NEWLINE}shape-shifter.{BREAK}"
+  },
+  {
+    "id": 49,
+    "desc_idx": 9,
+    "str_idx": 0,
+    "jp": "ヒミツの合いことばを入力しよう{BREAK}",
+    "en": "Enter the secret password.{BREAK}"
+  },
+  {
+    "id": 50,
+    "desc_idx": 9,
+    "str_idx": 1,
+    "jp": "データさくじょがめんに移動します{BREAK}",
+    "en": "Go to Delete Data screen.{BREAK}"
+  },
+  {
+    "id": 51,
+    "desc_idx": 9,
+    "str_idx": 2,
+    "jp": "データコピーがめんに移動します{BREAK}",
+    "en": "Go to Copy Data screen.{BREAK}"
+  },
+  {
+    "id": 52,
+    "desc_idx": 10,
+    "str_idx": 0,
+    "jp": "せかいせいはをめざしてお友達と戦おう!{BREAK}",
+    "en": "Battle friends! Conquer all!{BREAK}"
+  },
+  {
+    "id": 53,
+    "desc_idx": 10,
+    "str_idx": 1,
+    "jp": "だれが最初にクリアできるかきょうそうだ!{BREAK}",
+    "en": "Race to clear it first!{BREAK}"
+  },
+  {
+    "id": 54,
+    "desc_idx": 10,
+    "str_idx": 2,
+    "jp": "スタンプラリーだ!{BREAK}",
+    "en": "It's a Stamp Rally!{BREAK}"
+  },
+  {
+    "id": 55,
+    "desc_idx": 11,
+    "str_idx": 0,
+    "jp": "言っておくが.{WAIT:0F}この依頼は いったん引き受けちまうと{NEWLINE}「断れない」からな,{WAIT:1E} よく考えて引き受けろよ,{END}",
+    "en": "Fair warning:{WAIT:0F} once you{NEWLINE}take this job, you can't{WAIT:3C}{CTRL:F2}quit.{WAIT:1E} Think carefully!{END}"
+  },
+  {
+    "id": 56,
+    "desc_idx": 11,
+    "str_idx": 1,
+    "jp": "村の東の森で あそんでいた息子が.{WAIT:0F}{NEWLINE}ひとばんたっても戻ってこないんです,{END}",
+    "en": "My son was playing in the{NEWLINE}east woods,{WAIT:0F} and hasn't{WAIT:3C}{CTRL:F2}come home all night.{END}"
+  },
+  {
+    "id": 57,
+    "desc_idx": 11,
+    "str_idx": 2,
+    "jp": "一緒にいた子の話だと.{WAIT:0F}かくれんぼをしたっきり{NEWLINE}姿が見えなくなってしまったらしくて.{WAIT:0F}{END}",
+    "en": "His friend said{WAIT:0F} they{NEWLINE}played hide-and-seek, and{WAIT:3C}{CTRL:F2}he vanished without a{NEWLINE}trace.{WAIT:0F}{END}"
+  },
+  {
+    "id": 58,
+    "desc_idx": 11,
+    "str_idx": 3,
+    "jp": "どこを探しても 見つからないんです,{WAIT:1E}{NEWLINE}ひょっとしたらモンスターに・{WAIT:0A}・{WAIT:0A}・{WAIT:0A},{END}",
+    "en": "We can't find him{NEWLINE}anywhere.{WAIT:1E} Could a monster{WAIT:3C}{CTRL:F2}have.{WAIT:0A}.{WAIT:0A}.{WAIT:0A}?{END}"
+  },
+  {
+    "id": 59,
+    "desc_idx": 11,
+    "str_idx": 4,
+    "jp": "ああッ.{WAIT:0F}おねがいです!{WAIT:1E} 息子を探してください!{BREAK}",
+    "en": "Oh,{WAIT:0F} please!{WAIT:1E} Please find{NEWLINE}my son!{BREAK}"
+  },
+  {
+    "id": 60,
+    "desc_idx": 11,
+    "str_idx": 5,
+    "jp": "ああッ.{WAIT:0F}おねがいです!{WAIT:1E} 息子を探してください!{BREAK}",
+    "en": "Oh,{WAIT:0F} please!{WAIT:1E} Please find{NEWLINE}my son!{BREAK}"
+  },
+  {
+    "id": 61,
+    "desc_idx": 11,
+    "str_idx": 6,
+    "jp": "わかったよ,{WAIT:1E}{NEWLINE}とにかく.{WAIT:0F}一度 その東にある森に行ってみる,{END}",
+    "en": "Got it.{WAIT:1E} First,{WAIT:0F} I'll check{NEWLINE}the east woods.{END}"
+  },
+  {
+    "id": 62,
+    "desc_idx": 11,
+    "str_idx": 7,
+    "jp": "子供のとくちょうも教えてくれ,{END}",
+    "en": "Tell me what the kid{NEWLINE}looks like too.{END}"
+  },
+  {
+    "id": 63,
+    "desc_idx": 11,
+    "str_idx": 8,
+    "jp": "年は5才で.{WAIT:0F}かみの色はくろです,{WAIT:1E}{NEWLINE}あとは・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}「ボウシ」をかぶって出て行きました,{END}",
+    "en": "He's 5,{WAIT:0F} with black hair.{WAIT:1E}{NEWLINE}Also.{WAIT:0A}.{WAIT:0A}.{WAIT:0A} he was wearing a{WAIT:3C}{CTRL:F2}'hat'.{END}"
+  },
+  {
+    "id": 64,
+    "desc_idx": 11,
+    "str_idx": 9,
+    "jp": "よし.{WAIT:0F}すぐに連れて帰るから.{WAIT:0F}ここで待ってろ,{END}",
+    "en": "Alright.{WAIT:0F} I'll bring him{NEWLINE}right back.{WAIT:0F} Wait here.{END}"
+  },
+  {
+    "id": 65,
+    "desc_idx": 11,
+    "str_idx": 10,
+    "jp": "よろしくおねがいします・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}ッ{WAIT:0A}!{END}",
+    "en": "Please help us.{WAIT:0A}.{WAIT:0A}.{WAIT:0A}{WAIT:0A}!{END}"
+  },
+  {
+    "id": 66,
+    "desc_idx": 11,
+    "str_idx": 11,
+    "jp": "賞金稼ぎなのに.{WAIT:0F}引き受けてくれないんですか!?{WAIT:1E}{NEWLINE}子供が行方不明なのに・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}ひどい・{WAIT:0A}・{WAIT:0A}・{WAIT:0A},{END}",
+    "en": "You're a bounty hunter,{WAIT:0F}{NEWLINE}yet you refuse!?{WAIT:1E} A child{WAIT:3C}{CTRL:F2}is missing.{WAIT:0A}.{WAIT:0A}.{WAIT:0A} How{NEWLINE}cruel.{WAIT:0A}.{WAIT:0A}.{WAIT:0A}{END}"
+  },
+  {
+    "id": 67,
+    "desc_idx": 12,
+    "str_idx": 0,
+    "jp": "依頼を見るのか?{BREAK}",
+    "en": "Want to see the quests?{BREAK}"
+  },
+  {
+    "id": 68,
+    "desc_idx": 12,
+    "str_idx": 1,
+    "jp": "依頼を断るのか?{BREAK}",
+    "en": "Cancel this quest?{BREAK}"
+  },
+  {
+    "id": 69,
+    "desc_idx": 12,
+    "str_idx": 2,
+    "jp": "モンスターブックを見るのか?{BREAK}",
+    "en": "View the Monster Book?{BREAK}"
+  },
+  {
+    "id": 70,
+    "desc_idx": 12,
+    "str_idx": 3,
+    "jp": "なんだ.もう帰るのか?{BREAK}",
+    "en": "What, leaving already?{BREAK}"
+  },
+  {
+    "id": 71,
+    "desc_idx": 12,
+    "str_idx": 4,
+    "jp": "この依頼を断るのか? 一度断っちまうと.受けなおす事は{NEWLINE}出来ねェぜ? それでもいいんだな?  ▶はい  いいえ{BREAK}",
+    "en": "Refuse this job? You can't{NEWLINE}retake it.  {G:277}Yes  No{BREAK}"
+  },
+  {
+    "id": 72,
+    "desc_idx": 12,
+    "str_idx": 5,
+    "jp": "この依頼を断るのか? 一度断っちまうと.受けなおす事は{NEWLINE}出来ねェぜ? それでもいいんだな?   はい ▶いいえ{BREAK}",
+    "en": "Refuse this job? You can't{NEWLINE}retake it.   Yes {G:277}No{BREAK}"
+  },
+  {
+    "id": 73,
+    "desc_idx": 12,
+    "str_idx": 6,
+    "jp": "じゃあ.そう依頼主に言っとくぜ,{BREAK}",
+    "en": "Okay, I'll tell the client.{BREAK}"
+  },
+  {
+    "id": 74,
+    "desc_idx": 12,
+    "str_idx": 7,
+    "jp": "お前があんまりもたもたしてるから.{NEWLINE}依頼主からキャンセルされちまったぞ,{BREAK}",
+    "en": "You took too long, so the{NEWLINE}client canceled the job.{BREAK}"
+  },
+  {
+    "id": 75,
+    "desc_idx": 12,
+    "str_idx": 8,
+    "jp": "今度から.受けた依頼はすぐに解決してやれよ,{BREAK}",
+    "en": "Finish the quest you took{NEWLINE}right away next time.{BREAK}"
+  },
+  {
+    "id": 76,
+    "desc_idx": 12,
+    "str_idx": 9,
+    "jp": "まだ{BREAK}",
+    "en": "Still{BREAK}"
+  },
+  {
+    "id": 77,
+    "desc_idx": 12,
+    "str_idx": 10,
+    "jp": "での依頼が終わってないぜ,{BREAK}",
+    "en": "'s quest isn't finished yet.{BREAK}"
+  },
+  {
+    "id": 78,
+    "desc_idx": 12,
+    "str_idx": 11,
+    "jp": "依頼のかけ持ちはいけねェな,{BREAK}",
+    "en": "Only one quest at a time.{BREAK}"
+  },
+  {
+    "id": 79,
+    "desc_idx": 12,
+    "str_idx": 12,
+    "jp": "今のところ仕事はないみたいだぜ,{BREAK}",
+    "en": "No jobs available right now.{BREAK}"
+  },
+  {
+    "id": 80,
+    "desc_idx": 13,
+    "str_idx": 0,
+    "jp": "✚ボタンで主人公が動くよ,{BREAK}",
+    "en": "Use {G:284} to move the{NEWLINE}hero.{BREAK}"
+  },
+  {
     "id": 81,
     "desc_idx": 13,
     "str_idx": 1,
     "jp": "マジックカードを集めるんだ,{BREAK}",
     "en": "Collect Magic Cards!{BREAK}"
+  },
+  {
+    "id": 82,
+    "desc_idx": 13,
+    "str_idx": 2,
+    "jp": "テキがきたぞ!{NEWLINE}じっとしていればテキも動かない,あわてるな,{BREAK}",
+    "en": "An enemy! If you stand{NEWLINE}still, it won't move.{BREAK}"
+  },
+  {
+    "id": 83,
+    "desc_idx": 13,
+    "str_idx": 3,
+    "jp": "Ⓐボタンでダメージを与えろ,{BREAK}",
+    "en": "Press {G:290} to deal damage.{BREAK}"
+  },
+  {
+    "id": 84,
+    "desc_idx": 13,
+    "str_idx": 4,
+    "jp": "まずテキの方向（ ）を向いてね,{NEWLINE}Ⓑボタンを押しながら✚ボタンを押せば向きがかわるよ,{BREAK}",
+    "en": "Face foe (  ) first!{NEWLINE}Hold {G:291} + {G:284} to turn.{BREAK}"
+  },
+  {
+    "id": 85,
+    "desc_idx": 13,
+    "str_idx": 5,
+    "jp": "もう1回攻撃だ,{BREAK}",
+    "en": "Attack one more time!{BREAK}"
+  },
+  {
+    "id": 86,
+    "desc_idx": 13,
+    "str_idx": 6,
+    "jp": "{BREAK}",
+    "en": "{BREAK}"
+  },
+  {
+    "id": 87,
+    "desc_idx": 13,
+    "str_idx": 7,
+    "jp": "はじめての部屋にはいるとHPとMPが回復するのだ,{NEWLINE}MPはマジックカードを使うのに必要だよ,{BREAK}",
+    "en": "New rooms restore HP/MP.{NEWLINE}MP is for Magic Cards.{BREAK}"
+  },
+  {
+    "id": 88,
+    "desc_idx": 13,
+    "str_idx": 8,
+    "jp": "マジックカードがあるぞ!{NEWLINE}カードの上を歩けば拾えるよ,{BREAK}",
+    "en": "A Magic Card! Walk over{NEWLINE}a card to pick it up.{BREAK}"
+  },
+  {
+    "id": 89,
+    "desc_idx": 13,
+    "str_idx": 9,
+    "jp": "こうやってカードを集めよう,{NEWLINE}Lボタンを押せばマジックカードのせんたくができるぞ,{BREAK}",
+    "en": "Collect cards like this.{NEWLINE}Press L to choose one.{BREAK}"
+  },
+  {
+    "id": 90,
+    "desc_idx": 13,
+    "str_idx": 10,
+    "jp": "近づくと先手をとられてしまう,{NEWLINE}1回空振り（Ⓐボタン）で様子をみよう,{BREAK}",
+    "en": "Approach & it hits first.{NEWLINE}Press {G:290} to wait a turn.{BREAK}"
+  },
+  {
+    "id": 91,
+    "desc_idx": 13,
+    "str_idx": 11,
+    "jp": "自分から近づくな,{NEWLINE}空振り（Ⓐボタン）で様子をみよう,{BREAK}",
+    "en": "Don't walk up yet!{NEWLINE}Press {G:290} to watch it.{BREAK}"
+  },
+  {
+    "id": 92,
+    "desc_idx": 13,
+    "str_idx": 12,
+    "jp": "テキの方向を向いて攻撃だ,{BREAK}",
+    "en": "Face the enemy & attack!{BREAK}"
+  },
+  {
+    "id": 93,
+    "desc_idx": 13,
+    "str_idx": 13,
+    "jp": "テキが多い時は通路に戻ろう,{BREAK}",
+    "en": "Fall back to a hallway{NEWLINE}if you're outnumbered.{BREAK}"
+  },
+  {
+    "id": 94,
+    "desc_idx": 13,
+    "str_idx": 14,
+    "jp": "これでテキは1体,{NEWLINE}攻撃しよう!{BREAK}",
+    "en": "One enemy left!{NEWLINE}Finish it off!{BREAK}"
+  },
+  {
+    "id": 95,
+    "desc_idx": 13,
+    "str_idx": 15,
+    "jp": "ふかいところへ行く通路がある,{NEWLINE}さっそく行ってみよう,{BREAK}",
+    "en": "A path going deeper!{NEWLINE}Let's head down now.{BREAK}"
+  },
+  {
+    "id": 96,
+    "desc_idx": 13,
+    "str_idx": 16,
+    "jp": "深く行くほどテキが強くなるから気をつけてね,{BREAK}",
+    "en": "Foes get stronger deeper{NEWLINE}in. Be careful!{BREAK}"
+  },
+  {
+    "id": 97,
+    "desc_idx": 13,
+    "str_idx": 17,
+    "jp": "最終フロアーだ,{NEWLINE}早いところモンスターを全部倒そう,{BREAK}",
+    "en": "The final floor! Defeat{NEWLINE}all monsters quickly.{BREAK}"
+  },
+  {
+    "id": 98,
+    "desc_idx": 13,
+    "str_idx": 18,
+    "jp": "出口があるぞ!{NEWLINE}そこからいつでも脱出できるよ,{BREAK}",
+    "en": "There's the exit! You can{NEWLINE}escape from it anytime.{BREAK}"
   },
   {
     "id": 99,
@@ -28,11 +700,256 @@
     "en": "Escape to keep your{NEWLINE}Magic Cards for next run.{BREAK}"
   },
   {
+    "id": 100,
+    "desc_idx": 13,
+    "str_idx": 20,
+    "jp": "テキの方向を向いてから攻撃しよう,{NEWLINE}Ⓑボタンを押しながら✚ボタンでその場で向きがかわるよ,{BREAK}",
+    "en": "Face foes to attack.{NEWLINE}Hold {G:291} + {G:284} to turn.{BREAK}"
+  },
+  {
+    "id": 101,
+    "desc_idx": 13,
+    "str_idx": 21,
+    "jp": "HPが残り少ない!がんばれ,{BREAK}",
+    "en": "HP is low! Stay strong!{BREAK}"
+  },
+  {
+    "id": 102,
+    "desc_idx": 13,
+    "str_idx": 22,
+    "jp": "このままでは危ない,{NEWLINE}いったん脱出するのも作戦だ,{BREAK}",
+    "en": "Too dangerous! Escaping{NEWLINE}now is a smart tactic.{BREAK}"
+  },
+  {
+    "id": 103,
+    "desc_idx": 13,
+    "str_idx": 23,
+    "jp": "HPが少なくなってきた,{NEWLINE}新しい部屋で回復しよう,{BREAK}",
+    "en": "HP is getting low. Heal{NEWLINE}up in a new room.{BREAK}"
+  },
+  {
+    "id": 104,
+    "desc_idx": 13,
+    "str_idx": 24,
+    "jp": "このままでは危ない,{NEWLINE}新しい部屋にいけば回復できるのだけど:{BREAK}",
+    "en": "It's risky, though a new{NEWLINE}room would heal you...{BREAK}"
+  },
+  {
+    "id": 105,
+    "desc_idx": 13,
+    "str_idx": 25,
+    "jp": "HPが少なくなってきた,{NEWLINE}マジックカードを使えば回復できるよ,{BREAK}",
+    "en": "HP is getting low. Use a{NEWLINE}Magic Card to heal!{BREAK}"
+  },
+  {
+    "id": 106,
+    "desc_idx": 13,
+    "str_idx": 26,
+    "jp": "テキと戦っていくうちに強くなってくるぞ,{BREAK}",
+    "en": "You'll grow stronger as{NEWLINE}you fight enemies.{BREAK}"
+  },
+  {
+    "id": 107,
+    "desc_idx": 13,
+    "str_idx": 27,
+    "jp": "SELECTボタン+Lボタンのくみ合わせで{NEWLINE}マップのひょうじ方法をかえられるよ,{BREAK}",
+    "en": "Press SELECT + L to{NEWLINE}change map display.{BREAK}"
+  },
+  {
+    "id": 108,
+    "desc_idx": 13,
+    "str_idx": 28,
+    "jp": "SELECTボタン+Rボタンのくみ合わせで{NEWLINE}マップのひょうじサイズをかえられるよ,{BREAK}",
+    "en": "Press SELECT + R to{NEWLINE}resize the map display.{BREAK}"
+  },
+  {
+    "id": 109,
+    "desc_idx": 13,
+    "str_idx": 29,
+    "jp": "Rボタンをかるく押せばナナメ移動モードになるよ,{NEWLINE}ナナメ移動をミスしたくない時に使おう!{BREAK}",
+    "en": "Tap R for diagonal move.{NEWLINE}Use it to avoid missteps!{BREAK}"
+  },
+  {
+    "id": 110,
+    "desc_idx": 13,
+    "str_idx": 30,
+    "jp": "ゲームを中だんしたい時はSTARTボタンを押して.{NEWLINE}ポーズがめんになってから電源スイッチを切ってね,{BREAK}",
+    "en": "Press START to pause{NEWLINE}before turning power off.{BREAK}"
+  },
+  {
+    "id": 111,
+    "desc_idx": 13,
+    "str_idx": 31,
+    "jp": "MPはマジックカードを「へんかん」しても回復できるよ,{NEWLINE}「へんかん」はカードせんたく中に✚ボタンの下を押そう!{END}",
+    "en": "Press Down on {G:284} on a{NEWLINE}card to convert it to MP!{END}"
+  },
+  {
+    "id": 112,
+    "desc_idx": 13,
+    "str_idx": 32,
+    "jp": "魔人は何か行動をすると.こんなふうに1ポイントダメージを{NEWLINE}うけるんだ! つねにHPの残りに注意して冒険しよう!{BREAK}",
+    "en": "Majin loses 1 HP per{NEWLINE}action! Watch your HP!{BREAK}"
+  },
+  {
+    "id": 113,
+    "desc_idx": 13,
+    "str_idx": 33,
+    "jp": "氷の床だ!上にのると何かにぶつかるまですべってしまうぞ,{NEWLINE}ナナメ移動をうまく使って.かいひしよう!{BREAK}",
+    "en": "Ice floor! You'll slide.{NEWLINE}Use R diagonals to dodge!{BREAK}"
+  },
+  {
+    "id": 114,
+    "desc_idx": 13,
+    "str_idx": 34,
+    "jp": "全部のモンスターを倒したぞ,{NEWLINE}出口へ向かおう,{BREAK}",
+    "en": "All monsters defeated!{NEWLINE}Head for the exit.{BREAK}"
+  },
+  {
+    "id": 115,
+    "desc_idx": 13,
+    "str_idx": 35,
+    "jp": "▲{BREAK}",
+    "en": "{G:336}{BREAK}"
+  },
+  {
+    "id": 116,
+    "desc_idx": 13,
+    "str_idx": 36,
+    "jp": "◤{BREAK}",
+    "en": "{G:335}{BREAK}"
+  },
+  {
+    "id": 117,
+    "desc_idx": 13,
+    "str_idx": 37,
+    "jp": "◀{BREAK}",
+    "en": "{G:334}{BREAK}"
+  },
+  {
+    "id": 118,
+    "desc_idx": 13,
+    "str_idx": 38,
+    "jp": "◣{BREAK}",
+    "en": "{G:340}{BREAK}"
+  },
+  {
+    "id": 119,
+    "desc_idx": 13,
+    "str_idx": 39,
+    "jp": "▼{BREAK}",
+    "en": "{G:339}{BREAK}"
+  },
+  {
+    "id": 120,
+    "desc_idx": 13,
+    "str_idx": 40,
+    "jp": "◢{BREAK}",
+    "en": "{G:338}{BREAK}"
+  },
+  {
+    "id": 121,
+    "desc_idx": 13,
+    "str_idx": 41,
+    "jp": "▶{BREAK}",
+    "en": "{G:277}{BREAK}"
+  },
+  {
+    "id": 122,
+    "desc_idx": 13,
+    "str_idx": 42,
+    "jp": "◥{BREAK}",
+    "en": "{G:337}{BREAK}"
+  },
+  {
+    "id": 123,
+    "desc_idx": 14,
+    "str_idx": 0,
+    "jp": "依頼リスト      賞金%賞品{BREAK}",
+    "en": "Quest List      Gold/Prize{BREAK}"
+  },
+  {
+    "id": 124,
+    "desc_idx": 15,
+    "str_idx": 0,
+    "jp": "シークレットワード{BREAK}",
+    "en": "Secret Word{BREAK}"
+  },
+  {
+    "id": 125,
+    "desc_idx": 15,
+    "str_idx": 1,
+    "jp": "を入力してください{BREAK}",
+    "en": " - please enter.{BREAK}"
+  },
+  {
+    "id": 126,
+    "desc_idx": 15,
+    "str_idx": 2,
+    "jp": "がまちがっています{BREAK}",
+    "en": " is wrong!{BREAK}"
+  },
+  {
+    "id": 127,
+    "desc_idx": 16,
+    "str_idx": 0,
+    "jp": "セーブデータをえらんでください{BREAK}",
+    "en": "Select save data.{BREAK}"
+  },
+  {
+    "id": 128,
+    "desc_idx": 16,
+    "str_idx": 1,
+    "jp": "このまま始めると以前のセーブデータは消えてしまいます,{NEWLINE}よろしいですか?{BREAK}",
+    "en": "This will erase your old{NEWLINE}save data. Is that okay?{BREAK}"
+  },
+  {
+    "id": 129,
+    "desc_idx": 16,
+    "str_idx": 2,
+    "jp": "▶はい  いいえ{BREAK}",
+    "en": "{G:277}Yes  No{BREAK}"
+  },
+  {
+    "id": 130,
+    "desc_idx": 16,
+    "str_idx": 3,
+    "jp": " はい ▶いいえ{BREAK}",
+    "en": " Yes {G:277}No{BREAK}"
+  },
+  {
+    "id": 131,
+    "desc_idx": 16,
+    "str_idx": 4,
+    "jp": "セーブ用データはありません,セーブできる場所はありません,{BREAK}",
+    "en": "No save data or slot found.{BREAK}"
+  },
+  {
+    "id": 132,
+    "desc_idx": 16,
+    "str_idx": 5,
+    "jp": "このシークレットワードは.すでに入力されています{BREAK}",
+    "en": "Secret Word already used.{BREAK}"
+  },
+  {
+    "id": 133,
+    "desc_idx": 16,
+    "str_idx": 6,
+    "jp": "かくししょくぎょう・魔人が使用かのうになりました{BREAK}",
+    "en": "Class \"Majin\" is unlocked!{BREAK}"
+  },
+  {
     "id": 134,
     "desc_idx": 16,
     "str_idx": 7,
     "jp": "クリアボーナスとしてカードをかくとくしました,{BREAK}",
     "en": "Got a card as a clear bonus!{BREAK}"
+  },
+  {
+    "id": 135,
+    "desc_idx": 16,
+    "str_idx": 8,
+    "jp": "かくししょくぎょう・レジェンドが使用かのうになりました{BREAK}",
+    "en": "Hidden class 'Legend' open!{BREAK}"
   },
   {
     "id": 136,
@@ -49,11 +966,39 @@
     "en": " card obtained!{BREAK}"
   },
   {
+    "id": 138,
+    "desc_idx": 16,
+    "str_idx": 11,
+    "jp": "ホーリーライト{BREAK}",
+    "en": "Holy Light{BREAK}"
+  },
+  {
     "id": 139,
     "desc_idx": 16,
     "str_idx": 12,
     "jp": "セイントソード{BREAK}",
     "en": "Saint Sword{BREAK}"
+  },
+  {
+    "id": 140,
+    "desc_idx": 16,
+    "str_idx": 13,
+    "jp": "フレイムロッド{BREAK}",
+    "en": "Flame Rod{BREAK}"
+  },
+  {
+    "id": 141,
+    "desc_idx": 16,
+    "str_idx": 14,
+    "jp": "インビジブル{BREAK}",
+    "en": "Invisible{BREAK}"
+  },
+  {
+    "id": 142,
+    "desc_idx": 16,
+    "str_idx": 15,
+    "jp": "ハリケーン{BREAK}",
+    "en": "Hurricane{BREAK}"
   },
   {
     "id": 143,
@@ -63,11 +1008,347 @@
     "en": "Mirror Shield{BREAK}"
   },
   {
+    "id": 144,
+    "desc_idx": 17,
+    "str_idx": 0,
+    "jp": "データをえらんでください{BREAK}",
+    "en": "Select data.{BREAK}"
+  },
+  {
+    "id": 145,
+    "desc_idx": 17,
+    "str_idx": 1,
+    "jp": "このデータをさくじょしますか?{BREAK}",
+    "en": "Delete save data?{BREAK}"
+  },
+  {
+    "id": 146,
+    "desc_idx": 17,
+    "str_idx": 2,
+    "jp": "ｎｏ．{VAR:21} のデータをコピーしますか?{BREAK}",
+    "en": "Copy No.{VAR:21} data?{BREAK}"
+  },
+  {
+    "id": 147,
+    "desc_idx": 17,
+    "str_idx": 3,
+    "jp": "▶はい  いいえ{BREAK}",
+    "en": "{G:277}Yes  No{BREAK}"
+  },
+  {
+    "id": 148,
+    "desc_idx": 17,
+    "str_idx": 4,
+    "jp": " はい ▶いいえ{BREAK}",
+    "en": " Yes {G:277}No{BREAK}"
+  },
+  {
+    "id": 149,
+    "desc_idx": 17,
+    "str_idx": 5,
+    "jp": "データをさくじょしました{BREAK}",
+    "en": "Data was deleted.{BREAK}"
+  },
+  {
+    "id": 150,
+    "desc_idx": 17,
+    "str_idx": 6,
+    "jp": "ｎｏ．{VAR:21} のセーブデータは消えてしまいます,{NEWLINE}うわがきしますか?{BREAK}",
+    "en": "Save No.{VAR:21} will be erased.{NEWLINE}Overwrite it?{BREAK}"
+  },
+  {
+    "id": 151,
+    "desc_idx": 17,
+    "str_idx": 7,
+    "jp": "データをコピーしました{BREAK}",
+    "en": "Data copied.{BREAK}"
+  },
+  {
+    "id": 152,
+    "desc_idx": 18,
+    "str_idx": 0,
+    "jp": "今回の依頼の賞金は500コインだぜ,{BREAK}",
+    "en": "Reward: 500 Coins.{BREAK}"
+  },
+  {
     "id": 153,
     "desc_idx": 19,
     "str_idx": 0,
     "jp": "これで「究極のカード」が全部そろったぞ!!{END}",
     "en": "Now you have all the{NEWLINE}Ultimate Cards!!{END}"
+  },
+  {
+    "id": 154,
+    "desc_idx": 19,
+    "str_idx": 1,
+    "jp": "すごいじゃないか.{WAIT:0F}{F6:13}{WAIT:1E}{NEWLINE}本当に全部集められるとは思わなかったぜ!{END}",
+    "en": "Amazing,{WAIT:0F} {F6:13}!{WAIT:1E} I never{NEWLINE}thought you'd collect{WAIT:3C}{CTRL:F2}them all!{END}"
+  },
+  {
+    "id": 155,
+    "desc_idx": 19,
+    "str_idx": 2,
+    "jp": "一体 何がおこるのかしら?{WAIT:1E}{NEWLINE}はやくやってみてよ.{WAIT:0F}{F6:34}{END}",
+    "en": "I wonder what'll happen?{WAIT:1E}{NEWLINE}Hurry and try it,{WAIT:0F} {F6:34}!{END}"
+  },
+  {
+    "id": 156,
+    "desc_idx": 19,
+    "str_idx": 3,
+    "jp": "・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}{NEWLINE}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{WAIT:05}・{END}",
+    "en": ".{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}{NEWLINE}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}.{WAIT:05}{END}"
+  },
+  {
+    "id": 157,
+    "desc_idx": 19,
+    "str_idx": 4,
+    "jp": "何をだ?{END}",
+    "en": "What is?{END}"
+  },
+  {
+    "id": 158,
+    "desc_idx": 19,
+    "str_idx": 5,
+    "jp": "・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}さあ,{END}",
+    "en": ".{WAIT:0A}.{WAIT:0A}.{WAIT:0A}.{WAIT:0A}.{WAIT:0A}.{WAIT:0A}Who knows?{END}"
+  },
+  {
+    "id": 159,
+    "desc_idx": 19,
+    "str_idx": 6,
+    "jp": "ワッハッハッ!{WAIT:1E} まさに宝のもちぐされってやつだな,{WAIT:1E}{NEWLINE}オレも.{WAIT:0F}何がおこるかまではわからんぞ,{END}",
+    "en": "Wahaha!{WAIT:1E} Talk about wasted{NEWLINE}treasure!{WAIT:1E} Even I{WAIT:0F} don't{WAIT:3C}{CTRL:F2}know what'll happen.{END}"
+  },
+  {
+    "id": 160,
+    "desc_idx": 19,
+    "str_idx": 7,
+    "jp": "多分.{WAIT:0F}カードにうら書きされているこの文がヒントなのよ,{END}",
+    "en": "Maybe{WAIT:0F} the text on the{NEWLINE}back of the card is a{WAIT:3C}{CTRL:F2}clue.{END}"
+  },
+  {
+    "id": 161,
+    "desc_idx": 19,
+    "str_idx": 8,
+    "jp": "「悪しきとびらの前にて 希望を捨てよ{NEWLINE} さすれば 永久の未来を得るであろう」{END}",
+    "en": "'Abandon hope before the{NEWLINE}wicked door, and thou{WAIT:3C}{CTRL:F2}shalt gain an eternal{NEWLINE}future.'{END}"
+  },
+  {
+    "id": 162,
+    "desc_idx": 19,
+    "str_idx": 9,
+    "jp": "っていうやつか?{END}",
+    "en": "That's the one?{END}"
+  },
+  {
+    "id": 163,
+    "desc_idx": 19,
+    "str_idx": 10,
+    "jp": "「悪しきとびら」は多分.{WAIT:0F}モンスターゲートの事だろうけど.{WAIT:0F}「希望を捨てよ」っていうのが・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}{END}",
+    "en": "'Wicked door' probably{WAIT:0F}{NEWLINE}means a Monster Gate, but{WAIT:0F}{WAIT:3C}{CTRL:F2}'abandon hope' is.{WAIT:0A}.{WAIT:0A}.{WAIT:0A}{END}"
+  },
+  {
+    "id": 164,
+    "desc_idx": 19,
+    "str_idx": 11,
+    "jp": "えんぎでもねェよなあ,{END}",
+    "en": "That's bad luck, isn't{NEWLINE}it?{END}"
+  },
+  {
+    "id": 165,
+    "desc_idx": 19,
+    "str_idx": 12,
+    "jp": "言い伝えってのも.{WAIT:0F}しょせんは昔話だからな,{WAIT:1E}{NEWLINE}あんまり信用しないほうがいいかもしれねェぞ,{END}",
+    "en": "Legends are{WAIT:0F} just old{NEWLINE}tales after all.{WAIT:1E} Better{WAIT:3C}{CTRL:F2}not put too much faith in{NEWLINE}them.{END}"
+  },
+  {
+    "id": 166,
+    "desc_idx": 19,
+    "str_idx": 13,
+    "jp": "まあ.{WAIT:0F}持っているだけなら もんだいは無さそうだな,{END}",
+    "en": "Well,{WAIT:0F} just holding onto{NEWLINE}them shouldn't hurt.{END}"
+  },
+  {
+    "id": 167,
+    "desc_idx": 19,
+    "str_idx": 14,
+    "jp": "モンスターゲートの前に立った時.{WAIT:0F}一体何がおこるかは{NEWLINE}行ってみてのお楽しみってわけか,{END}",
+    "en": "What happens at the{NEWLINE}Monster Gate{WAIT:0F} will be a{WAIT:3C}{CTRL:F2}surprise when we get{NEWLINE}there.{END}"
+  },
+  {
+    "id": 168,
+    "desc_idx": 19,
+    "str_idx": 15,
+    "jp": "良くないことが おこらないといいけど・{WAIT:0A}・{WAIT:0A}・{WAIT:0A},{END}",
+    "en": "I just hope nothing bad{NEWLINE}happens.{WAIT:0A}.{WAIT:0A}.{WAIT:0A}{END}"
+  },
+  {
+    "id": 169,
+    "desc_idx": 20,
+    "str_idx": 0,
+    "jp": "フリー アタック{BREAK}",
+    "en": "Free Attack{BREAK}"
+  },
+  {
+    "id": 170,
+    "desc_idx": 20,
+    "str_idx": 1,
+    "jp": "{VAR:42}{BREAK}",
+    "en": "{VAR:42}{BREAK}"
+  },
+  {
+    "id": 171,
+    "desc_idx": 20,
+    "str_idx": 2,
+    "jp": "このダンジョンをプレイしますか?{BREAK}",
+    "en": "Play this dungeon?{BREAK}"
+  },
+  {
+    "id": 172,
+    "desc_idx": 20,
+    "str_idx": 3,
+    "jp": "▶はい  いいえ{BREAK}",
+    "en": "{G:277}Yes  No{BREAK}"
+  },
+  {
+    "id": 173,
+    "desc_idx": 20,
+    "str_idx": 4,
+    "jp": " はい ▶いいえ{BREAK}",
+    "en": " Yes {G:277}No{BREAK}"
+  },
+  {
+    "id": 174,
+    "desc_idx": 20,
+    "str_idx": 5,
+    "jp": "スピード バトル{BREAK}",
+    "en": "Speed Battle{BREAK}"
+  },
+  {
+    "id": 175,
+    "desc_idx": 21,
+    "str_idx": 0,
+    "jp": "  ワールドモードのお城をかけてお友達と戦おう!{NEWLINE}    いちばんポイントの多かった人の勝ち!{BREAK}",
+    "en": "Battle over World castles!{NEWLINE}Highest points wins!{BREAK}"
+  },
+  {
+    "id": 176,
+    "desc_idx": 21,
+    "str_idx": 1,
+    "jp": "  ダンジョンもカードもみんな同じじょうけん,{NEWLINE}   だれが最初にクリアするかきょうそうだ!{BREAK}",
+    "en": "Same dungeon & cards.{NEWLINE}Race to clear it first!{BREAK}"
+  },
+  {
+    "id": 177,
+    "desc_idx": 21,
+    "str_idx": 2,
+    "jp": "▶ マルチカートリッジ{NEWLINE}  1カートリッジ{BREAK}",
+    "en": "{G:277} Multi-Pak{NEWLINE}  Single-Pak{BREAK}"
+  },
+  {
+    "id": 178,
+    "desc_idx": 21,
+    "str_idx": 3,
+    "jp": "  マルチカートリッジ{NEWLINE}▶ 1カートリッジ{BREAK}",
+    "en": "  Multi-Pak{NEWLINE}{G:277} Single-Pak{BREAK}"
+  },
+  {
+    "id": 179,
+    "desc_idx": 21,
+    "str_idx": 4,
+    "jp": "人数分の「モンスターゲート」カートリッジが必要,{NEWLINE}いろんな設定で対戦できるよ!{BREAK}",
+    "en": "Needs 1 cart per player.{NEWLINE}Custom battle settings!{BREAK}"
+  },
+  {
+    "id": 180,
+    "desc_idx": 21,
+    "str_idx": 5,
+    "jp": "「モンスターゲート」カートリッジ1つで{NEWLINE}4人まで対戦できるよ!{BREAK}",
+    "en": "Up to 4 players can battle{NEWLINE}with just 1 cartridge!{BREAK}"
+  },
+  {
+    "id": 181,
+    "desc_idx": 21,
+    "str_idx": 6,
+    "jp": "全員のエントリーが終了したらⒶボタンを押してください{BREAK}",
+    "en": "Press {G:290} when all are ready.{BREAK}"
+  },
+  {
+    "id": 182,
+    "desc_idx": 21,
+    "str_idx": 7,
+    "jp": "あなたは2Pです しばらくおまちください{BREAK}",
+    "en": "You are 2P. Please wait.{BREAK}"
+  },
+  {
+    "id": 183,
+    "desc_idx": 21,
+    "str_idx": 8,
+    "jp": "あなたは3Pです しばらくおまちください{BREAK}",
+    "en": "You are 3P. Please wait.{BREAK}"
+  },
+  {
+    "id": 184,
+    "desc_idx": 21,
+    "str_idx": 9,
+    "jp": "あなたは4Pです しばらくおまちください{BREAK}",
+    "en": "You are 4P. Please wait.{BREAK}"
+  },
+  {
+    "id": 185,
+    "desc_idx": 21,
+    "str_idx": 10,
+    "jp": "しばらくおまちください{BREAK}",
+    "en": "Please wait...{BREAK}"
+  },
+  {
+    "id": 186,
+    "desc_idx": 21,
+    "str_idx": 11,
+    "jp": "STARTボタンとSELECTボタンを押しながら{NEWLINE}電源を入れなおしてください,{BREAK}",
+    "en": "Hold START + SELECT and{NEWLINE}turn the power back on.{BREAK}"
+  },
+  {
+    "id": 187,
+    "desc_idx": 21,
+    "str_idx": 12,
+    "jp": "本体の電源.通信ケーブルの接続をかくにんしてください{NEWLINE}タイトルへ戻ります{BREAK}",
+    "en": "Check power & Link Cable.{NEWLINE}Returning to Title.{BREAK}"
+  },
+  {
+    "id": 188,
+    "desc_idx": 21,
+    "str_idx": 13,
+    "jp": "対戦時間を決めよう,{BREAK}",
+    "en": "Set the match time.{BREAK}"
+  },
+  {
+    "id": 189,
+    "desc_idx": 21,
+    "str_idx": 14,
+    "jp": "城数を決めよう,{BREAK}",
+    "en": "Set the number of castles.{BREAK}"
+  },
+  {
+    "id": 190,
+    "desc_idx": 21,
+    "str_idx": 15,
+    "jp": "城レベルを決めよう,{BREAK}",
+    "en": "Set the castle level.{BREAK}"
+  },
+  {
+    "id": 191,
+    "desc_idx": 21,
+    "str_idx": 16,
+    "jp": "チームを決めよう,{BREAK}",
+    "en": "Choose your teams.{BREAK}"
+  },
+  {
+    "id": 192,
+    "desc_idx": 21,
+    "str_idx": 17,
+    "jp": "コイン数を決めよう,{BREAK}",
+    "en": "Set Coin count.{BREAK}"
   },
   {
     "id": 193,
@@ -77,11 +1358,46 @@
     "en": "Set Card count.{BREAK}"
   },
   {
+    "id": 194,
+    "desc_idx": 21,
+    "str_idx": 19,
+    "jp": "レベルを決めよう,{BREAK}",
+    "en": "Set the level.{BREAK}"
+  },
+  {
     "id": 195,
     "desc_idx": 21,
     "str_idx": 20,
     "jp": "カードはどうする?{BREAK}",
     "en": "Card settings?{BREAK}"
+  },
+  {
+    "id": 196,
+    "desc_idx": 21,
+    "str_idx": 21,
+    "jp": "マップはどうする?{BREAK}",
+    "en": "How about the map?{BREAK}"
+  },
+  {
+    "id": 197,
+    "desc_idx": 21,
+    "str_idx": 22,
+    "jp": "ワンダーはどうする?{BREAK}",
+    "en": "How about Wonders?{BREAK}"
+  },
+  {
+    "id": 198,
+    "desc_idx": 21,
+    "str_idx": 23,
+    "jp": "実況はどうする?{BREAK}",
+    "en": "How about commentary?{BREAK}"
+  },
+  {
+    "id": 199,
+    "desc_idx": 21,
+    "str_idx": 24,
+    "jp": "次に進みます,{BREAK}",
+    "en": "Proceeding to next.{BREAK}"
   },
   {
     "id": 200,
@@ -112,11 +1428,67 @@
     "en": "Only Heal cards appear.{BREAK}"
   },
   {
+    "id": 204,
+    "desc_idx": 21,
+    "str_idx": 29,
+    "jp": "全体マップが見えるかどうかを設定します{BREAK}",
+    "en": "Toggle full map visibility.{BREAK}"
+  },
+  {
     "id": 205,
     "desc_idx": 21,
     "str_idx": 30,
     "jp": "ワンダーのカードが出現するかどうかを設定します{BREAK}",
     "en": "Toggle Wonder Cards.{BREAK}"
+  },
+  {
+    "id": 206,
+    "desc_idx": 21,
+    "str_idx": 31,
+    "jp": "実況が流れるかどうか設定します{BREAK}",
+    "en": "Toggle live commentary.{BREAK}"
+  },
+  {
+    "id": 207,
+    "desc_idx": 21,
+    "str_idx": 32,
+    "jp": "対戦相手の姿が見えるかどうか設定します{BREAK}",
+    "en": "Toggle opponent visibility.{BREAK}"
+  },
+  {
+    "id": 208,
+    "desc_idx": 22,
+    "str_idx": 0,
+    "jp": "     データをセーブしました,{NEWLINE}   電源スイッチを切っても大丈夫です,{NEWLINE}  STARTボタンでゲームにもどります,{BREAK}",
+    "en": "     Data saved.{NEWLINE}  Safe to turn off power.{NEWLINE} Press START to continue.{BREAK}"
+  },
+  {
+    "id": 209,
+    "desc_idx": 22,
+    "str_idx": 1,
+    "jp": "     セーブ出来ませんでした,{NEWLINE}{NEWLINE}  STARTボタンでゲームにもどります,{BREAK}",
+    "en": "     Could not save.{NEWLINE}{NEWLINE} Press START to continue.{BREAK}"
+  },
+  {
+    "id": 210,
+    "desc_idx": 23,
+    "str_idx": 0,
+    "jp": "ギルドへむかうぞ,{NEWLINE}{BREAK}",
+    "en": "Heading to the Guild.{NEWLINE}{BREAK}"
+  },
+  {
+    "id": 211,
+    "desc_idx": 23,
+    "str_idx": 1,
+    "jp": "カジノへむかうぞ,{BREAK}",
+    "en": "Heading to the Casino.{BREAK}"
+  },
+  {
+    "id": 212,
+    "desc_idx": 23,
+    "str_idx": 2,
+    "jp": "ショップへむかうぞ,{BREAK}",
+    "en": "Heading to the Shop.{BREAK}"
   },
   {
     "id": 213,
@@ -126,11 +1498,95 @@
     "en": "Check your current cards.{BREAK}"
   },
   {
+    "id": 214,
+    "desc_idx": 23,
+    "str_idx": 4,
+    "jp": "クリアしたことのあるダンジョンを冒険できるぞ,{NEWLINE}{BREAK}",
+    "en": "Explore cleared dungeons.{BREAK}"
+  },
+  {
+    "id": 215,
+    "desc_idx": 24,
+    "str_idx": 0,
+    "jp": "仲間のプリーストが消えると依頼が達成できないので{BREAK}",
+    "en": "If your Priest ally falls,{NEWLINE}the quest will fail,{BREAK}"
+  },
+  {
+    "id": 216,
+    "desc_idx": 24,
+    "str_idx": 1,
+    "jp": "    モンスターをしょうかんできません{BREAK}",
+    "en": "    Cannot summon monsters.{BREAK}"
+  },
+  {
+    "id": 217,
+    "desc_idx": 25,
+    "str_idx": 0,
+    "jp": "{CTRL:F4}     データをセーブしました,{CTRL:F4}{NEWLINE}{CTRL:F4}   電源スイッチを切っても大丈夫です,{CTRL:F4}{NEWLINE}{CTRL:F4}  STARTボタンでゲームにもどります,{CTRL:F4}{BREAK}",
+    "en": "{CTRL:F4}     Data saved.{CTRL:F4}{NEWLINE}{CTRL:F4}  Safe to turn off power.{CTRL:F4}{NEWLINE}{CTRL:F4} Press START to continue.{CTRL:F4}{BREAK}"
+  },
+  {
+    "id": 218,
+    "desc_idx": 25,
+    "str_idx": 1,
+    "jp": "{CTRL:F4}     セーブ出来ませんでした,{CTRL:F4}{NEWLINE}{NEWLINE}{CTRL:F4}  STARTボタンでゲームにもどります,{CTRL:F4}{BREAK}",
+    "en": "{CTRL:F4}     Could not save.{CTRL:F4}{NEWLINE}{NEWLINE}{CTRL:F4} Press START to continue.{CTRL:F4}{BREAK}"
+  },
+  {
+    "id": 219,
+    "desc_idx": 26,
+    "str_idx": 0,
+    "jp": "ダンジョンに持っていく{BREAK}",
+    "en": "Take to dungeon{BREAK}"
+  },
+  {
+    "id": 220,
+    "desc_idx": 26,
+    "str_idx": 1,
+    "jp": "かくにんしたい{BREAK}",
+    "en": "Check details{BREAK}"
+  },
+  {
     "id": 221,
     "desc_idx": 26,
     "str_idx": 2,
     "jp": "マジックカードをえらんでください{BREAK}",
     "en": " Select a card.{BREAK}"
+  },
+  {
+    "id": 222,
+    "desc_idx": 26,
+    "str_idx": 3,
+    "jp": "回復{BREAK}",
+    "en": "Heal{BREAK}"
+  },
+  {
+    "id": 223,
+    "desc_idx": 26,
+    "str_idx": 4,
+    "jp": "攻撃{BREAK}",
+    "en": "Attack{BREAK}"
+  },
+  {
+    "id": 224,
+    "desc_idx": 26,
+    "str_idx": 5,
+    "jp": "装備{BREAK}",
+    "en": "Equip{BREAK}"
+  },
+  {
+    "id": 225,
+    "desc_idx": 26,
+    "str_idx": 6,
+    "jp": "補助{BREAK}",
+    "en": "Support{BREAK}"
+  },
+  {
+    "id": 226,
+    "desc_idx": 26,
+    "str_idx": 7,
+    "jp": "モンスター{BREAK}",
+    "en": "Monster{BREAK}"
   },
   {
     "id": 227,
@@ -147,11 +1603,165 @@
     "en": "Check cards.{BREAK}"
   },
   {
+    "id": 229,
+    "desc_idx": 27,
+    "str_idx": 0,
+    "jp": "イベントアイテムを入手しました{BREAK}",
+    "en": "Obtained an event item.{BREAK}"
+  },
+  {
+    "id": 230,
+    "desc_idx": 28,
+    "str_idx": 0,
+    "jp": "イベントアイテムを入手しました{BREAK}",
+    "en": "Obtained an event item.{BREAK}"
+  },
+  {
+    "id": 231,
+    "desc_idx": 29,
+    "str_idx": 0,
+    "jp": "イベントアイテムを入手しました{BREAK}",
+    "en": "Obtained an event item.{BREAK}"
+  },
+  {
+    "id": 232,
+    "desc_idx": 30,
+    "str_idx": 0,
+    "jp": "今回の賞品は「究極のカード」だったのか!{WAIT:1E}{NEWLINE}よかったな.{WAIT:0F}{F6:11}{END}",
+    "en": "So the prize was an{NEWLINE}'Ultimate Card'!{WAIT:1E} Nice{WAIT:3C}{CTRL:F2}going,{WAIT:0F} {F6:11}!{END}"
+  },
+  {
+    "id": 233,
+    "desc_idx": 30,
+    "str_idx": 1,
+    "jp": "「究極のカード」?{WAIT:1E} 何なんだ.{WAIT:0F}それ?{END}",
+    "en": "'Ultimate Card'?{WAIT:1E} What's{WAIT:0F}{NEWLINE}that?{END}"
+  },
+  {
+    "id": 234,
+    "desc_idx": 30,
+    "str_idx": 2,
+    "jp": "古い言い伝えにも残っている.{WAIT:0F}{NEWLINE}とてつもない力をひめたカードなんだ,{END}",
+    "en": "Old legends speak of{NEWLINE}them:{WAIT:0F} cards hiding{WAIT:3C}{CTRL:F2}immense power.{END}"
+  },
+  {
+    "id": 235,
+    "desc_idx": 30,
+    "str_idx": 3,
+    "jp": "現存している「究極のカード」は全部で6枚あって.{WAIT:0F}{NEWLINE}その全てを集めた者は神に並ぶ力を得ると云われてるんだ,{END}",
+    "en": "Only 6 'Ultimate Cards'{NEWLINE}exist.{WAIT:0F} Collecting all 6{WAIT:3C}{CTRL:F2}grants godlike power.{END}"
+  },
+  {
+    "id": 236,
+    "desc_idx": 30,
+    "str_idx": 4,
+    "jp": "へェ.{WAIT:0F}オレには ただのカードにしか見えないけどな,{END}",
+    "en": "Huh.{WAIT:0F} Looks like a normal{NEWLINE}card to me.{END}"
+  },
+  {
+    "id": 237,
+    "desc_idx": 30,
+    "str_idx": 5,
+    "jp": "・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}ん?{WAIT:1E} カードのうらに何か書いてあるぞ,{WAIT:1E}{NEWLINE}絵みたいだな・{WAIT:0A}・{WAIT:0A}・{WAIT:0A},{END}",
+    "en": ".{WAIT:0A}.{WAIT:0A}.{WAIT:0A}Hm?{WAIT:1E} Something's{NEWLINE}written on the back.{WAIT:1E}{WAIT:3C}{CTRL:F2}Looks like a drawing.{WAIT:0A}.{WAIT:0A}.{WAIT:0A}{END}"
+  },
+  {
+    "id": 238,
+    "desc_idx": 30,
+    "str_idx": 6,
+    "jp": "どれどれ?{WAIT:1E} 私にも見せてよ,{END}",
+    "en": "Let's see!{WAIT:1E} Show me too.{END}"
+  },
+  {
+    "id": 239,
+    "desc_idx": 30,
+    "str_idx": 7,
+    "jp": "・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}!{WAIT:0A}!{END}",
+    "en": ".{WAIT:0A}.{WAIT:0A}.{WAIT:0A}!{WAIT:0A}!{END}"
+  },
+  {
+    "id": 240,
+    "desc_idx": 30,
+    "str_idx": 8,
+    "jp": "これ.{WAIT:0F}絵じゃなくて文字よ!{WAIT:1E}{NEWLINE}私が見つけた「封印の書」と同じものだわ!{END}",
+    "en": "These{WAIT:0F} aren't drawings,{NEWLINE}they're letters!{WAIT:1E} Same as{WAIT:3C}{CTRL:F2}the 'Book of Seals' I{NEWLINE}found!{END}"
+  },
+  {
+    "id": 241,
+    "desc_idx": 30,
+    "str_idx": 9,
+    "jp": "なんて書いてあるんだ?{END}",
+    "en": "What does it say?{END}"
+  },
+  {
+    "id": 242,
+    "desc_idx": 30,
+    "str_idx": 10,
+    "jp": "ちょっとまって,{WAIT:1E} えーっとね・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}{END}",
+    "en": "Hold on,{WAIT:1E} let's see.{WAIT:0A}.{WAIT:0A}.{WAIT:0A}.{WAIT:0A}.{WAIT:0A}.{WAIT:0A}{END}"
+  },
+  {
+    "id": 243,
+    "desc_idx": 30,
+    "str_idx": 11,
+    "jp": "     悪しきとびらの前にて 希望を捨てよ{NEWLINE}     さすれば 永久の未来を得るであろう{END}",
+    "en": "Abandon hope before the{NEWLINE}wicked door, and thou{WAIT:3C}{CTRL:F2}shalt gain an eternal{NEWLINE}future.{END}"
+  },
+  {
+    "id": 244,
+    "desc_idx": 30,
+    "str_idx": 12,
+    "jp": "どういう意味だ?{END}",
+    "en": "What does that mean?{END}"
+  },
+  {
+    "id": 245,
+    "desc_idx": 30,
+    "str_idx": 13,
+    "jp": "・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}さあ,{END}",
+    "en": ".{WAIT:0A}.{WAIT:0A}.{WAIT:0A}.{WAIT:0A}.{WAIT:0A}.{WAIT:0A}Who knows?{END}"
+  },
+  {
+    "id": 246,
+    "desc_idx": 30,
+    "str_idx": 14,
+    "jp": "せっかくだから.{WAIT:0F}{NEWLINE}「究極のカード」を6枚全部集めてみたらどうだ?{END}",
+    "en": "Since you've got one,{WAIT:0F} why{NEWLINE}not collect all 6{WAIT:3C}{CTRL:F2}'Ultimate Cards'?{END}"
+  },
+  {
+    "id": 247,
+    "desc_idx": 30,
+    "str_idx": 15,
+    "jp": "もしかしたら.{WAIT:0F}{NEWLINE}何かとんでもない事が起こるかもしれないぞ?{END}",
+    "en": "Who knows,{WAIT:0F} something{NEWLINE}crazy might happen!{END}"
+  },
+  {
+    "id": 248,
+    "desc_idx": 30,
+    "str_idx": 16,
+    "jp": "そうだな.{WAIT:0F}考えておくよ,{END}",
+    "en": "Yeah,{WAIT:0F} I'll think about{NEWLINE}it.{END}"
+  },
+  {
+    "id": 249,
+    "desc_idx": 30,
+    "str_idx": 17,
+    "jp": "・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}・{WAIT:0A},{END}",
+    "en": ".{WAIT:0A}.{WAIT:0A}.{WAIT:0A}.{WAIT:0A}.{WAIT:0A}.{WAIT:0A}{END}"
+  },
+  {
     "id": 250,
     "desc_idx": 31,
     "str_idx": 0,
     "jp": "ポーション{VAR:40}{BREAK}",
     "en": "Potion {VAR:40}{BREAK}"
+  },
+  {
+    "id": 251,
+    "desc_idx": 31,
+    "str_idx": 1,
+    "jp": "HPを{VAR:40}回復{BREAK}",
+    "en": "Restores {VAR:40} HP.{BREAK}"
   },
   {
     "id": 252,
@@ -161,11 +1771,179 @@
     "en": "Fire{BREAK}"
   },
   {
+    "id": 253,
+    "desc_idx": 32,
+    "str_idx": 1,
+    "jp": "テキに{VAR:40}ダメージ（はなれたテキにも有効）{BREAK}",
+    "en": "{VAR:40} DMG to foe (ranged){BREAK}"
+  },
+  {
     "id": 254,
     "desc_idx": 33,
     "str_idx": 0,
     "jp": "マルチファイアー{BREAK}",
     "en": "Multi-Fire{BREAK}"
+  },
+  {
+    "id": 255,
+    "desc_idx": 33,
+    "str_idx": 1,
+    "jp": "見えている全テキに{VAR:40}ダメージ!{BREAK}",
+    "en": "{VAR:40} DMG to all visible foes!{BREAK}"
+  },
+  {
+    "id": 256,
+    "desc_idx": 34,
+    "str_idx": 0,
+    "jp": "スリープ{BREAK}",
+    "en": "Sleep{BREAK}"
+  },
+  {
+    "id": 257,
+    "desc_idx": 34,
+    "str_idx": 1,
+    "jp": "テキを眠らせる（はなれたテキにも有効）{BREAK}",
+    "en": "Sleeps a foe (ranged).{BREAK}"
+  },
+  {
+    "id": 258,
+    "desc_idx": 35,
+    "str_idx": 0,
+    "jp": "マルチスリープ{BREAK}",
+    "en": "Multi-Sleep{BREAK}"
+  },
+  {
+    "id": 259,
+    "desc_idx": 35,
+    "str_idx": 1,
+    "jp": "見えている全テキを眠らせる{BREAK}",
+    "en": "Sleeps all visible foes.{BREAK}"
+  },
+  {
+    "id": 260,
+    "desc_idx": 36,
+    "str_idx": 0,
+    "jp": "パニック{BREAK}",
+    "en": "Panic{BREAK}"
+  },
+  {
+    "id": 261,
+    "desc_idx": 36,
+    "str_idx": 1,
+    "jp": "テキを混乱させる（はなれたテキにも有効）{BREAK}",
+    "en": "Confuses a foe (ranged).{BREAK}"
+  },
+  {
+    "id": 262,
+    "desc_idx": 37,
+    "str_idx": 0,
+    "jp": "マルチパニック{BREAK}",
+    "en": "Multi-Panic{BREAK}"
+  },
+  {
+    "id": 263,
+    "desc_idx": 37,
+    "str_idx": 1,
+    "jp": "見えている全テキを混乱させる{BREAK}",
+    "en": "Confuses all visible foes.{BREAK}"
+  },
+  {
+    "id": 264,
+    "desc_idx": 38,
+    "str_idx": 0,
+    "jp": "スロー{BREAK}",
+    "en": "Slow{BREAK}"
+  },
+  {
+    "id": 265,
+    "desc_idx": 38,
+    "str_idx": 1,
+    "jp": "テキの動きを遅くする（はなれたテキにも有効）{BREAK}",
+    "en": "Slows a foe (ranged).{BREAK}"
+  },
+  {
+    "id": 266,
+    "desc_idx": 39,
+    "str_idx": 0,
+    "jp": "マルチスロー{BREAK}",
+    "en": "Multi-Slow{BREAK}"
+  },
+  {
+    "id": 267,
+    "desc_idx": 39,
+    "str_idx": 1,
+    "jp": "見えている全テキの動きを遅くする{BREAK}",
+    "en": "Slows all visible foes.{BREAK}"
+  },
+  {
+    "id": 268,
+    "desc_idx": 40,
+    "str_idx": 0,
+    "jp": "マルチショック{BREAK}",
+    "en": "Multi-Shock{BREAK}"
+  },
+  {
+    "id": 269,
+    "desc_idx": 40,
+    "str_idx": 1,
+    "jp": "見えている全テキをおびえさせる{BREAK}",
+    "en": "Frightens all visible foes.{BREAK}"
+  },
+  {
+    "id": 270,
+    "desc_idx": 41,
+    "str_idx": 0,
+    "jp": "スピードアップ{BREAK}",
+    "en": "Speed Up{BREAK}"
+  },
+  {
+    "id": 271,
+    "desc_idx": 41,
+    "str_idx": 1,
+    "jp": "一定時間動きが速くなる{BREAK}",
+    "en": "Temporarily speeds up move.{BREAK}"
+  },
+  {
+    "id": 272,
+    "desc_idx": 42,
+    "str_idx": 0,
+    "jp": "ワンダー{BREAK}",
+    "en": "Wonder{BREAK}"
+  },
+  {
+    "id": 273,
+    "desc_idx": 42,
+    "str_idx": 1,
+    "jp": "何がおこるかは運しだい{BREAK}",
+    "en": "What happens is up to luck.{BREAK}"
+  },
+  {
+    "id": 274,
+    "desc_idx": 43,
+    "str_idx": 0,
+    "jp": "{BREAK}",
+    "en": "{BREAK}"
+  },
+  {
+    "id": 275,
+    "desc_idx": 43,
+    "str_idx": 1,
+    "jp": "ダンジョンクリア（コインかくとく）{BREAK}",
+    "en": "Dungeon Clear (Earn Coins){BREAK}"
+  },
+  {
+    "id": 276,
+    "desc_idx": 44,
+    "str_idx": 0,
+    "jp": "アイテムめいてすと    使用MP回復MP{BREAK}",
+    "en": "Item Test          Use MP / Rec MP{BREAK}"
+  },
+  {
+    "id": 277,
+    "desc_idx": 44,
+    "str_idx": 1,
+    "jp": "くわしいせつめい{BREAK}",
+    "en": "Details{BREAK}"
   },
   {
     "id": 278,
@@ -175,11 +1953,25 @@
     "en": "Potion {VAR:40}{BREAK}"
   },
   {
+    "id": 279,
+    "desc_idx": 45,
+    "str_idx": 1,
+    "jp": "HPを{VAR:40}回復{BREAK}",
+    "en": "Restores {VAR:40} HP.{BREAK}"
+  },
+  {
     "id": 280,
     "desc_idx": 46,
     "str_idx": 0,
     "jp": "ポーション{VAR:40}{BREAK}",
     "en": "Potion {VAR:40}{BREAK}"
+  },
+  {
+    "id": 281,
+    "desc_idx": 46,
+    "str_idx": 1,
+    "jp": "HPを{VAR:40}回復{BREAK}",
+    "en": "Restores {VAR:40} HP.{BREAK}"
   },
   {
     "id": 282,
@@ -189,11 +1981,25 @@
     "en": "Potion {VAR:40}{BREAK}"
   },
   {
+    "id": 283,
+    "desc_idx": 47,
+    "str_idx": 1,
+    "jp": "HPを{VAR:40}回復{BREAK}",
+    "en": "Restores {VAR:40} HP.{BREAK}"
+  },
+  {
     "id": 284,
     "desc_idx": 48,
     "str_idx": 0,
     "jp": "ポーションMAX{BREAK}",
     "en": "Potion MAX{BREAK}"
+  },
+  {
+    "id": 285,
+    "desc_idx": 48,
+    "str_idx": 1,
+    "jp": "HPを全回復{BREAK}",
+    "en": "Fully heals HP.{BREAK}"
   },
   {
     "id": 286,
@@ -203,11 +2009,25 @@
     "en": "Potion SP{BREAK}"
   },
   {
+    "id": 287,
+    "desc_idx": 49,
+    "str_idx": 1,
+    "jp": "味方全員のHPを全回復する{BREAK}",
+    "en": "Fully heals all allies' HP.{BREAK}"
+  },
+  {
     "id": 288,
     "desc_idx": 50,
     "str_idx": 0,
     "jp": "ファイアー{BREAK}",
     "en": "Fire{BREAK}"
+  },
+  {
+    "id": 289,
+    "desc_idx": 50,
+    "str_idx": 1,
+    "jp": "テキに{VAR:40}ダメージ（はなれたテキにも有効）{BREAK}",
+    "en": "{VAR:40} DMG to foe (ranged){BREAK}"
   },
   {
     "id": 290,
@@ -217,11 +2037,25 @@
     "en": "Multi-Fire{BREAK}"
   },
   {
+    "id": 291,
+    "desc_idx": 51,
+    "str_idx": 1,
+    "jp": "見えている全テキに{VAR:40}ダメージ!{BREAK}",
+    "en": "{VAR:40} DMG to all visible foes!{BREAK}"
+  },
+  {
     "id": 292,
     "desc_idx": 52,
     "str_idx": 0,
     "jp": "サンダー{BREAK}",
     "en": "Thunder{BREAK}"
+  },
+  {
+    "id": 293,
+    "desc_idx": 52,
+    "str_idx": 1,
+    "jp": "テキに{VAR:40}ダメージ（はなれたテキにも有効）{BREAK}",
+    "en": "{VAR:40} DMG to foe (ranged){BREAK}"
   },
   {
     "id": 294,
@@ -231,11 +2065,25 @@
     "en": "Multi-Thunder{BREAK}"
   },
   {
+    "id": 295,
+    "desc_idx": 53,
+    "str_idx": 1,
+    "jp": "見えている全テキに{VAR:40}ダメージ!{BREAK}",
+    "en": "{VAR:40} DMG to all visible foes!{BREAK}"
+  },
+  {
     "id": 296,
     "desc_idx": 54,
     "str_idx": 0,
     "jp": "メテオ{BREAK}",
     "en": "Meteor{BREAK}"
+  },
+  {
+    "id": 297,
+    "desc_idx": 54,
+    "str_idx": 1,
+    "jp": "テキに{VAR:40}ダメージ（はなれたテキにも有効）{BREAK}",
+    "en": "{VAR:40} DMG to foe (ranged){BREAK}"
   },
   {
     "id": 298,
@@ -245,11 +2093,207 @@
     "en": "Multi-Meteor{BREAK}"
   },
   {
+    "id": 299,
+    "desc_idx": 55,
+    "str_idx": 1,
+    "jp": "見えている全テキに{VAR:40}ダメージ!{BREAK}",
+    "en": "{VAR:40} DMG to all visible foes!{BREAK}"
+  },
+  {
+    "id": 300,
+    "desc_idx": 56,
+    "str_idx": 0,
+    "jp": "スピア{BREAK}",
+    "en": "Spear{BREAK}"
+  },
+  {
+    "id": 301,
+    "desc_idx": 56,
+    "str_idx": 1,
+    "jp": "正面方向の全テキを貫通攻撃する{BREAK}",
+    "en": "Pierces all foes in front.{BREAK}"
+  },
+  {
+    "id": 302,
+    "desc_idx": 57,
+    "str_idx": 0,
+    "jp": "スリープ{BREAK}",
+    "en": "Sleep{BREAK}"
+  },
+  {
+    "id": 303,
+    "desc_idx": 57,
+    "str_idx": 1,
+    "jp": "テキを眠らせる（はなれたテキにも有効）{BREAK}",
+    "en": "Sleeps a foe (ranged).{BREAK}"
+  },
+  {
+    "id": 304,
+    "desc_idx": 58,
+    "str_idx": 0,
+    "jp": "マルチスリープ{BREAK}",
+    "en": "Multi-Sleep{BREAK}"
+  },
+  {
+    "id": 305,
+    "desc_idx": 58,
+    "str_idx": 1,
+    "jp": "見えている全テキを眠らせる{BREAK}",
+    "en": "Sleeps all visible foes.{BREAK}"
+  },
+  {
+    "id": 306,
+    "desc_idx": 59,
+    "str_idx": 0,
+    "jp": "パニック{BREAK}",
+    "en": "Panic{BREAK}"
+  },
+  {
+    "id": 307,
+    "desc_idx": 59,
+    "str_idx": 1,
+    "jp": "テキを混乱させる（はなれたテキにも有効）{BREAK}",
+    "en": "Confuses a foe (ranged).{BREAK}"
+  },
+  {
+    "id": 308,
+    "desc_idx": 60,
+    "str_idx": 0,
+    "jp": "マルチパニック{BREAK}",
+    "en": "Multi-Panic{BREAK}"
+  },
+  {
+    "id": 309,
+    "desc_idx": 60,
+    "str_idx": 1,
+    "jp": "見えている全テキを混乱させる{BREAK}",
+    "en": "Confuses all visible foes.{BREAK}"
+  },
+  {
+    "id": 310,
+    "desc_idx": 61,
+    "str_idx": 0,
+    "jp": "スロー{BREAK}",
+    "en": "Slow{BREAK}"
+  },
+  {
+    "id": 311,
+    "desc_idx": 61,
+    "str_idx": 1,
+    "jp": "テキの動きを遅くする（はなれたテキにも有効）{BREAK}",
+    "en": "Slows a foe (ranged).{BREAK}"
+  },
+  {
+    "id": 312,
+    "desc_idx": 62,
+    "str_idx": 0,
+    "jp": "マルチスロー{BREAK}",
+    "en": "Multi-Slow{BREAK}"
+  },
+  {
+    "id": 313,
+    "desc_idx": 62,
+    "str_idx": 1,
+    "jp": "見えている全テキの動きを遅くする{BREAK}",
+    "en": "Slows all visible foes.{BREAK}"
+  },
+  {
+    "id": 314,
+    "desc_idx": 63,
+    "str_idx": 0,
+    "jp": "マルチショック{BREAK}",
+    "en": "Multi-Shock{BREAK}"
+  },
+  {
+    "id": 315,
+    "desc_idx": 63,
+    "str_idx": 1,
+    "jp": "見えている全テキをおびえさせる{BREAK}",
+    "en": "Frightens all visible foes.{BREAK}"
+  },
+  {
+    "id": 316,
+    "desc_idx": 64,
+    "str_idx": 0,
+    "jp": "ブライト{BREAK}",
+    "en": "Light{BREAK}"
+  },
+  {
+    "id": 317,
+    "desc_idx": 64,
+    "str_idx": 1,
+    "jp": "フロアー内にて視界が広がる{BREAK}",
+    "en": "Expands vision on floor.{BREAK}"
+  },
+  {
+    "id": 318,
+    "desc_idx": 65,
+    "str_idx": 0,
+    "jp": "マップ{BREAK}",
+    "en": "Map{BREAK}"
+  },
+  {
+    "id": 319,
+    "desc_idx": 65,
+    "str_idx": 1,
+    "jp": "フロアーのマップを完成する{BREAK}",
+    "en": "Reveals entire floor map.{BREAK}"
+  },
+  {
+    "id": 320,
+    "desc_idx": 66,
+    "str_idx": 0,
+    "jp": "サーチ{BREAK}",
+    "en": "Search{BREAK}"
+  },
+  {
+    "id": 321,
+    "desc_idx": 66,
+    "str_idx": 1,
+    "jp": "フロアーのテキの位置を把握する{BREAK}",
+    "en": "Shows all foes on the floor.{BREAK}"
+  },
+  {
+    "id": 322,
+    "desc_idx": 67,
+    "str_idx": 0,
+    "jp": "スピードアップ{BREAK}",
+    "en": "Speed Up{BREAK}"
+  },
+  {
+    "id": 323,
+    "desc_idx": 67,
+    "str_idx": 1,
+    "jp": "一定時間動きが速くなる{BREAK}",
+    "en": "Temporarily speeds up move.{BREAK}"
+  },
+  {
+    "id": 324,
+    "desc_idx": 68,
+    "str_idx": 0,
+    "jp": "バリア{BREAK}",
+    "en": "Barrier{BREAK}"
+  },
+  {
+    "id": 325,
+    "desc_idx": 68,
+    "str_idx": 1,
+    "jp": "一定時間ムテキになる{BREAK}",
+    "en": "Become invincible briefly.{BREAK}"
+  },
+  {
     "id": 326,
     "desc_idx": 69,
     "str_idx": 0,
     "jp": "ヒール100{BREAK}",
     "en": "Heal 100{BREAK}"
+  },
+  {
+    "id": 327,
+    "desc_idx": 69,
+    "str_idx": 1,
+    "jp": "歩きながらHPを回復できる（{VAR:40}ターン）{BREAK}",
+    "en": "Heal HP walking ({VAR:40} turns){BREAK}"
   },
   {
     "id": 328,
@@ -259,11 +2303,25 @@
     "en": "Heal 200{BREAK}"
   },
   {
+    "id": 329,
+    "desc_idx": 70,
+    "str_idx": 1,
+    "jp": "歩きながらHPを回復できる（{VAR:40}ターン）{BREAK}",
+    "en": "Heal HP walking ({VAR:40} turns){BREAK}"
+  },
+  {
     "id": 330,
     "desc_idx": 71,
     "str_idx": 0,
     "jp": "ヒール300{BREAK}",
     "en": "Heal 300{BREAK}"
+  },
+  {
+    "id": 331,
+    "desc_idx": 71,
+    "str_idx": 1,
+    "jp": "歩きながらHPを回復できる（{VAR:40}ターン）{BREAK}",
+    "en": "Heal HP walking ({VAR:40} turns){BREAK}"
   },
   {
     "id": 332,
@@ -273,11 +2331,25 @@
     "en": "Long Sword{BREAK}"
   },
   {
+    "id": 333,
+    "desc_idx": 72,
+    "str_idx": 1,
+    "jp": "装備すると攻撃力がアップ!{BREAK}",
+    "en": "Equip to boost ATK!{BREAK}"
+  },
+  {
     "id": 334,
     "desc_idx": 73,
     "str_idx": 0,
     "jp": "グレートソード{BREAK}",
     "en": "Great Sword{BREAK}"
+  },
+  {
+    "id": 335,
+    "desc_idx": 73,
+    "str_idx": 1,
+    "jp": "装備すると攻撃力が大幅アップ!{BREAK}",
+    "en": "Equip to greatly boost ATK!{BREAK}"
   },
   {
     "id": 336,
@@ -287,11 +2359,32 @@
     "en": "Power Shield{BREAK}"
   },
   {
+    "id": 337,
+    "desc_idx": 74,
+    "str_idx": 1,
+    "jp": "装備すると防御力がアップ!{BREAK}",
+    "en": "Equip to boost DEF!{BREAK}"
+  },
+  {
     "id": 338,
     "desc_idx": 75,
     "str_idx": 0,
     "jp": "グレートシールド{BREAK}",
     "en": "Great Shield{BREAK}"
+  },
+  {
+    "id": 339,
+    "desc_idx": 75,
+    "str_idx": 1,
+    "jp": "装備すると防御力が大幅アップ!{BREAK}",
+    "en": "Equip to greatly boost DEF!{BREAK}"
+  },
+  {
+    "id": 340,
+    "desc_idx": 76,
+    "str_idx": 0,
+    "jp": "ハンターリング{BREAK}",
+    "en": "Hunter Ring{BREAK}"
   },
   {
     "id": 341,
@@ -301,11 +2394,39 @@
     "en": "Equip to find Monster Cards{NEWLINE}easier.{BREAK}"
   },
   {
+    "id": 342,
+    "desc_idx": 77,
+    "str_idx": 0,
+    "jp": "ヘルプリング{BREAK}",
+    "en": "Help Ring{BREAK}"
+  },
+  {
     "id": 343,
     "desc_idx": 77,
     "str_idx": 1,
     "jp": "装備するとポーションが仲間にも有効になる{BREAK}",
     "en": "Equip: Potions also heal{NEWLINE}allies.{BREAK}"
+  },
+  {
+    "id": 344,
+    "desc_idx": 78,
+    "str_idx": 0,
+    "jp": "リバイブリング{BREAK}",
+    "en": "Revive Ring{BREAK}"
+  },
+  {
+    "id": 345,
+    "desc_idx": 78,
+    "str_idx": 1,
+    "jp": "装備すると死んでも1度だけ復活できる{BREAK}",
+    "en": "Equip: Revive once upon{NEWLINE}death.{BREAK}"
+  },
+  {
+    "id": 346,
+    "desc_idx": 79,
+    "str_idx": 0,
+    "jp": "ラッキーリング{BREAK}",
+    "en": "Lucky Ring{BREAK}"
   },
   {
     "id": 347,
@@ -315,11 +2436,25 @@
     "en": "Equip to halve card MP cost.{BREAK}"
   },
   {
+    "id": 348,
+    "desc_idx": 80,
+    "str_idx": 0,
+    "jp": "ポケット+1{BREAK}",
+    "en": "Pocket +1{BREAK}"
+  },
+  {
     "id": 349,
     "desc_idx": 80,
     "str_idx": 1,
     "jp": "持てるカードの数が1つ増える{BREAK}",
     "en": "Increases card capacity by{NEWLINE}1.{BREAK}"
+  },
+  {
+    "id": 350,
+    "desc_idx": 81,
+    "str_idx": 0,
+    "jp": "ポケット+2{BREAK}",
+    "en": "Pocket +2{BREAK}"
   },
   {
     "id": 351,
@@ -329,11 +2464,158 @@
     "en": "Increases card capacity by{NEWLINE}2.{BREAK}"
   },
   {
+    "id": 352,
+    "desc_idx": 82,
+    "str_idx": 0,
+    "jp": "パワーアップ{BREAK}",
+    "en": "Power Up{BREAK}"
+  },
+  {
+    "id": 353,
+    "desc_idx": 82,
+    "str_idx": 1,
+    "jp": "攻撃力・防御力・HP・MPを増加させる{BREAK}",
+    "en": "Boosts ATK, DEF, HP, and MP.{BREAK}"
+  },
+  {
+    "id": 354,
+    "desc_idx": 83,
+    "str_idx": 0,
+    "jp": "テレポート{BREAK}",
+    "en": "Teleport{BREAK}"
+  },
+  {
+    "id": 355,
+    "desc_idx": 83,
+    "str_idx": 1,
+    "jp": "フロアー内の別の場所に移動する{BREAK}",
+    "en": "Warp to another spot on the{NEWLINE}floor.{BREAK}"
+  },
+  {
+    "id": 356,
+    "desc_idx": 84,
+    "str_idx": 0,
+    "jp": "エスケープ{BREAK}",
+    "en": "Escape{BREAK}"
+  },
+  {
+    "id": 357,
+    "desc_idx": 84,
+    "str_idx": 1,
+    "jp": "ダンジョンを脱出する{BREAK}",
+    "en": "Escape from the dungeon.{BREAK}"
+  },
+  {
+    "id": 358,
+    "desc_idx": 85,
+    "str_idx": 0,
+    "jp": "コレクト{BREAK}",
+    "en": "Collect{BREAK}"
+  },
+  {
+    "id": 359,
+    "desc_idx": 85,
+    "str_idx": 1,
+    "jp": "かく得コインをその場で所持コインに変える{BREAK}",
+    "en": "Converts earned coins{NEWLINE}immediately.{BREAK}"
+  },
+  {
+    "id": 360,
+    "desc_idx": 86,
+    "str_idx": 0,
+    "jp": "ショップ{BREAK}",
+    "en": "Shop{BREAK}"
+  },
+  {
+    "id": 361,
+    "desc_idx": 86,
+    "str_idx": 1,
+    "jp": "ショップが現れる{BREAK}",
+    "en": "Summons a Shop.{BREAK}"
+  },
+  {
+    "id": 362,
+    "desc_idx": 87,
+    "str_idx": 0,
+    "jp": "カジノ{BREAK}",
+    "en": "Casino{BREAK}"
+  },
+  {
+    "id": 363,
+    "desc_idx": 87,
+    "str_idx": 1,
+    "jp": "カジノが現れる{BREAK}",
+    "en": "Summons a Casino.{BREAK}"
+  },
+  {
+    "id": 364,
+    "desc_idx": 88,
+    "str_idx": 0,
+    "jp": "ハンター{BREAK}",
+    "en": "Hunter{BREAK}"
+  },
+  {
+    "id": 365,
+    "desc_idx": 88,
+    "str_idx": 1,
+    "jp": "テキを仲間モンスターにする（はなれたテキにも有効）{BREAK}",
+    "en": "Tames a foe (ranged).{BREAK}"
+  },
+  {
+    "id": 366,
+    "desc_idx": 89,
+    "str_idx": 0,
+    "jp": "マルチハンター{BREAK}",
+    "en": "Multi Hunter{BREAK}"
+  },
+  {
+    "id": 367,
+    "desc_idx": 89,
+    "str_idx": 1,
+    "jp": "部屋内のテキを仲間モンスターにする（最大{VAR:40}ひき）{BREAK}",
+    "en": "Recruit enemies in room as{NEWLINE}allies (max {VAR:40}){BREAK}"
+  },
+  {
     "id": 368,
     "desc_idx": 90,
     "str_idx": 0,
     "jp": "マジックポーション{BREAK}",
     "en": "Magic Potion{BREAK}"
+  },
+  {
+    "id": 369,
+    "desc_idx": 90,
+    "str_idx": 1,
+    "jp": "MPを全回復{BREAK}",
+    "en": "Fully heals all MP.{BREAK}"
+  },
+  {
+    "id": 370,
+    "desc_idx": 91,
+    "str_idx": 0,
+    "jp": "ポイズン{BREAK}",
+    "en": "Poison{BREAK}"
+  },
+  {
+    "id": 371,
+    "desc_idx": 91,
+    "str_idx": 1,
+    "jp": "テキを毒化する（5ダメージ%ターン）{BREAK}",
+    "en": "Poisons a foe (5 DMG/turn).{BREAK}"
+  },
+  {
+    "id": 372,
+    "desc_idx": 92,
+    "str_idx": 0,
+    "jp": "マルチポイズン{BREAK}",
+    "en": "Multi-Poison{BREAK}"
+  },
+  {
+    "id": 373,
+    "desc_idx": 92,
+    "str_idx": 1,
+    "jp": "見えている全テキを毒化する（5ダメージ%ターン）{BREAK}",
+    "en": "Poisons all visible foes (5{NEWLINE}DMG/turn).{BREAK}"
   },
   {
     "id": 374,
@@ -343,11 +2625,32 @@
     "en": "Gold Sword{BREAK}"
   },
   {
+    "id": 375,
+    "desc_idx": 93,
+    "str_idx": 1,
+    "jp": "自分より強いテキを倒すとより多くのコインを得る{BREAK}",
+    "en": "Earn bonus coins from{NEWLINE}stronger foes.{BREAK}"
+  },
+  {
+    "id": 376,
+    "desc_idx": 94,
+    "str_idx": 0,
+    "jp": "コール+1{BREAK}",
+    "en": "Call +1{BREAK}"
+  },
+  {
     "id": 377,
     "desc_idx": 94,
     "str_idx": 1,
     "jp": "カードホルダーのアイテムを1枚ゲット{BREAK}",
     "en": "Take 1 card from Card{NEWLINE}Holder.{BREAK}"
+  },
+  {
+    "id": 378,
+    "desc_idx": 95,
+    "str_idx": 0,
+    "jp": "コール+2{BREAK}",
+    "en": "Call +2{BREAK}"
   },
   {
     "id": 379,
@@ -357,11 +2660,95 @@
     "en": "Take 2 cards from Card{NEWLINE}Holder.{BREAK}"
   },
   {
+    "id": 380,
+    "desc_idx": 96,
+    "str_idx": 0,
+    "jp": "チェンジ{BREAK}",
+    "en": "Change{BREAK}"
+  },
+  {
+    "id": 381,
+    "desc_idx": 96,
+    "str_idx": 1,
+    "jp": "そのダンジョンに限り希望のキャラクターにチェンジできる{BREAK}",
+    "en": "Change to chosen character{NEWLINE}for this dungeon{BREAK}"
+  },
+  {
+    "id": 382,
+    "desc_idx": 97,
+    "str_idx": 0,
+    "jp": "トニックリング{BREAK}",
+    "en": "Tonic Ring{BREAK}"
+  },
+  {
+    "id": 383,
+    "desc_idx": 97,
+    "str_idx": 1,
+    "jp": "装備するとはじめての部屋で回復が2倍になる{BREAK}",
+    "en": "Doubles healing in new{NEWLINE}rooms.{BREAK}"
+  },
+  {
+    "id": 384,
+    "desc_idx": 98,
+    "str_idx": 0,
+    "jp": "デス{BREAK}",
+    "en": "Death{BREAK}"
+  },
+  {
+    "id": 385,
+    "desc_idx": 98,
+    "str_idx": 1,
+    "jp": "テキを必ず倒す（使用時に能力が下がる）{BREAK}",
+    "en": "Instantly defeats a foe{NEWLINE}(lowers stats).{BREAK}"
+  },
+  {
+    "id": 386,
+    "desc_idx": 99,
+    "str_idx": 0,
+    "jp": "ブレンド{BREAK}",
+    "en": "Blend{BREAK}"
+  },
+  {
+    "id": 387,
+    "desc_idx": 99,
+    "str_idx": 1,
+    "jp": "ブレンド屋が現れる{BREAK}",
+    "en": "Summons a Blender Shop.{BREAK}"
+  },
+  {
+    "id": 388,
+    "desc_idx": 100,
+    "str_idx": 0,
+    "jp": "ホーリーライト{BREAK}",
+    "en": "Holy Light{BREAK}"
+  },
+  {
+    "id": 389,
+    "desc_idx": 100,
+    "str_idx": 1,
+    "jp": "一定のかくりつでテキの攻撃をむこうかする{BREAK}",
+    "en": "Chance to negate enemy{NEWLINE}attacks.{BREAK}"
+  },
+  {
     "id": 390,
     "desc_idx": 101,
     "str_idx": 0,
     "jp": "セイントソード{BREAK}",
     "en": "Saint Sword{BREAK}"
+  },
+  {
+    "id": 391,
+    "desc_idx": 101,
+    "str_idx": 1,
+    "jp": "テキを倒すと一定ポイントHP回復（+攻撃力アップ）{BREAK}",
+    "en": "Defeating foes heals HP{NEWLINE}(+ATK up).{BREAK}"
+  },
+  {
+    "id": 392,
+    "desc_idx": 102,
+    "str_idx": 0,
+    "jp": "フレイムロッド{BREAK}",
+    "en": "Flame Rod{BREAK}"
   },
   {
     "id": 393,
@@ -371,11 +2758,60 @@
     "en": "Multi-Fire at range (costs 4{NEWLINE}MP).{BREAK}"
   },
   {
+    "id": 394,
+    "desc_idx": 103,
+    "str_idx": 0,
+    "jp": "インビジブル{BREAK}",
+    "en": "Invisible{BREAK}"
+  },
+  {
+    "id": 395,
+    "desc_idx": 103,
+    "str_idx": 1,
+    "jp": "トウメイになってテキからえんきょり攻撃をうけなくなる{BREAK}",
+    "en": "Turn invisible; immune to{NEWLINE}ranged attacks{BREAK}"
+  },
+  {
+    "id": 396,
+    "desc_idx": 104,
+    "str_idx": 0,
+    "jp": "ハリケーン{BREAK}",
+    "en": "Hurricane{BREAK}"
+  },
+  {
+    "id": 397,
+    "desc_idx": 104,
+    "str_idx": 1,
+    "jp": "見えている全テキを他の部屋へとばす{BREAK}",
+    "en": "Warps all visible foes to{NEWLINE}other rooms.{BREAK}"
+  },
+  {
     "id": 398,
     "desc_idx": 105,
     "str_idx": 0,
     "jp": "リフレクトシールド{BREAK}",
     "en": "Mirror Shield{BREAK}"
+  },
+  {
+    "id": 399,
+    "desc_idx": 105,
+    "str_idx": 1,
+    "jp": "うけたダメージの一部をテキにはんしゃ（+防御力アップ）{BREAK}",
+    "en": "Reflect part of damage taken{NEWLINE}(+DEF up){BREAK}"
+  },
+  {
+    "id": 400,
+    "desc_idx": 106,
+    "str_idx": 0,
+    "jp": "ワンダー{BREAK}",
+    "en": "Wonder{BREAK}"
+  },
+  {
+    "id": 401,
+    "desc_idx": 106,
+    "str_idx": 1,
+    "jp": "使うと対戦相手に何かが起こる!{BREAK}",
+    "en": "Triggers an effect on your{NEWLINE}rival!{BREAK}"
   },
   {
     "id": 402,
@@ -385,409 +2821,136 @@
     "en": "Gold Shield{BREAK}"
   },
   {
-    "id": 467,
-    "desc_idx": 139,
+    "id": 403,
+    "desc_idx": 107,
     "str_idx": 1,
-    "jp": "ファイアーけいカードの持ちこみをきんし{BREAK}",
-    "en": "Fire cards prohibited.{BREAK}"
+    "jp": "自分より強いテキを倒すとより多くのコインを得る{BREAK}",
+    "en": "Earn bonus coins from{NEWLINE}stronger foes.{BREAK}"
   },
   {
-    "id": 469,
-    "desc_idx": 140,
+    "id": 404,
+    "desc_idx": 108,
+    "str_idx": 0,
+    "jp": "マップリング{BREAK}",
+    "en": "Map Ring{BREAK}"
+  },
+  {
+    "id": 405,
+    "desc_idx": 108,
     "str_idx": 1,
-    "jp": "サンダーけいカードの持ちこみをきんし{BREAK}",
-    "en": "Thunder cards prohibited.{BREAK}"
+    "jp": "装備するとつねにマップの効果がある{BREAK}",
+    "en": "Equip for permanent Map{NEWLINE}effect.{BREAK}"
   },
   {
-    "id": 471,
-    "desc_idx": 141,
+    "id": 406,
+    "desc_idx": 109,
+    "str_idx": 0,
+    "jp": "ブライトリング{BREAK}",
+    "en": "Light Ring{BREAK}"
+  },
+  {
+    "id": 407,
+    "desc_idx": 109,
     "str_idx": 1,
-    "jp": "メテオけいカードの持ちこみをきんし{BREAK}",
-    "en": "Meteor cards prohibited.{BREAK}"
+    "jp": "装備するとつねにブライトの効果がある{BREAK}",
+    "en": "Equip for permanent Bright{NEWLINE}effect.{BREAK}"
   },
   {
-    "id": 473,
-    "desc_idx": 142,
+    "id": 408,
+    "desc_idx": 110,
+    "str_idx": 0,
+    "jp": "サーチリング{BREAK}",
+    "en": "Search Ring{BREAK}"
+  },
+  {
+    "id": 409,
+    "desc_idx": 110,
     "str_idx": 1,
-    "jp": "ポーションけいカードの持ちこみをきんし{BREAK}",
-    "en": "Potion cards prohibited.{BREAK}"
+    "jp": "装備するとつねにサーチの効果がある{BREAK}",
+    "en": "Equip for permanent Search{NEWLINE}effect.{BREAK}"
   },
   {
-    "id": 475,
-    "desc_idx": 143,
+    "id": 410,
+    "desc_idx": 111,
+    "str_idx": 0,
+    "jp": "ゴールドリング{BREAK}",
+    "en": "Gold Ring{BREAK}"
+  },
+  {
+    "id": 411,
+    "desc_idx": 111,
     "str_idx": 1,
-    "jp": "ヒールけいカードの持ちこみをきんし{BREAK}",
-    "en": "Heal cards prohibited.{BREAK}"
+    "jp": "自分より強いテキを倒すとより多くのコインを得る{BREAK}",
+    "en": "Earn bonus coins from{NEWLINE}stronger foes.{BREAK}"
   },
   {
-    "id": 477,
-    "desc_idx": 144,
+    "id": 412,
+    "desc_idx": 112,
+    "str_idx": 0,
+    "jp": "ウルトラスリープ{BREAK}",
+    "en": "Ultra Sleep{BREAK}"
+  },
+  {
+    "id": 413,
+    "desc_idx": 112,
     "str_idx": 1,
-    "jp": "ソードけいカードの持ちこみをきんし{BREAK}",
-    "en": "Sword cards prohibited.{BREAK}"
+    "jp": "見えている{CTRL:F4}どんなテキでも{CTRL:F4}眠らせる!{BREAK}",
+    "en": "Puts {CTRL:F4}any visible enemy{CTRL:F4} to{NEWLINE}sleep!{BREAK}"
   },
   {
-    "id": 479,
-    "desc_idx": 145,
+    "id": 414,
+    "desc_idx": 113,
+    "str_idx": 0,
+    "jp": "ウルトラパニック{BREAK}",
+    "en": "Ultra Panic{BREAK}"
+  },
+  {
+    "id": 415,
+    "desc_idx": 113,
     "str_idx": 1,
-    "jp": "シールドけいカードの持ちこみをきんし{BREAK}",
-    "en": "Shield cards prohibited.{BREAK}"
+    "jp": "見えている{CTRL:F4}どんなテキでも{CTRL:F4}混乱させる!{BREAK}",
+    "en": "Confuses {CTRL:F4}any visible enemy{CTRL:F4}!{BREAK}"
   },
   {
-    "id": 806,
-    "desc_idx": 260,
+    "id": 416,
+    "desc_idx": 114,
     "str_idx": 0,
-    "jp": "ポーションをたっぷり持って.ちょうせんしよう!{BREAK}",
-    "en": "Stock up on Potions before{NEWLINE}entering!{BREAK}"
+    "jp": "ウルトラスロー{BREAK}",
+    "en": "Ultra Slow{BREAK}"
   },
   {
-    "id": 856,
-    "desc_idx": 268,
-    "str_idx": 0,
-    "jp": "カジノを使ってカードをゲットしよう!{BREAK}",
-    "en": "Use the Casino to get cards!{BREAK}"
-  },
-  {
-    "id": 860,
-    "desc_idx": 272,
-    "str_idx": 0,
-    "jp": "ポケット数が少ないのでカードをしんちょうにえらぼう!{BREAK}",
-    "en": "Small pocket size! Pick{NEWLINE}cards carefully!{BREAK}"
-  },
-  {
-    "id": 862,
-    "desc_idx": 274,
-    "str_idx": 0,
-    "jp": "まずはカードを拾うことからはじめよう!{BREAK}",
-    "en": "Start by picking up cards!{BREAK}"
-  },
-  {
-    "id": 864,
-    "desc_idx": 276,
-    "str_idx": 0,
-    "jp": "ヒールのカードを使えばダメージをかるくできるぞ!{BREAK}",
-    "en": "Use Heal cards to reduce{NEWLINE}damage!{BREAK}"
-  },
-  {
-    "id": 865,
-    "desc_idx": 277,
-    "str_idx": 0,
-    "jp": "まわりがよく見えるのでマルチけいカードが有効だぞ!{BREAK}",
-    "en": "Clear view! Multi cards work{NEWLINE}great!{BREAK}"
-  },
-  {
-    "id": 870,
-    "desc_idx": 282,
-    "str_idx": 0,
-    "jp": "回復けいカードを多めに持っていこう!{BREAK}",
-    "en": "Bring plenty of Heal cards!{BREAK}"
-  },
-  {
-    "id": 908,
-    "desc_idx": 297,
-    "str_idx": 0,
-    "jp": "カジノでカードを補おう!{BREAK}",
-    "en": "Stock up on cards at the{NEWLINE}Casino!{BREAK}"
-  },
-  {
-    "id": 918,
-    "desc_idx": 303,
-    "str_idx": 0,
-    "jp": "攻撃カードを探そう!{BREAK}",
-    "en": "Search for Attack cards!{BREAK}"
-  },
-  {
-    "id": 919,
-    "desc_idx": 304,
-    "str_idx": 0,
-    "jp": "ソードけいカードが見つかりやすいぞ!{BREAK}",
-    "en": "Sword cards are easy to find{NEWLINE}here!{BREAK}"
-  },
-  {
-    "id": 920,
-    "desc_idx": 305,
-    "str_idx": 0,
-    "jp": "階段が消えるのでカードを拾い忘れないようにしよう{BREAK}",
-    "en": "Stairs vanish-grab cards{NEWLINE}first!{BREAK}"
-  },
-  {
-    "id": 922,
-    "desc_idx": 307,
-    "str_idx": 0,
-    "jp": "ファイアーけい.サンダーけいのカードが持ち込めないぞ{BREAK}",
-    "en": "Fire & Thunder cards cannot{NEWLINE}be brought in.{BREAK}"
-  },
-  {
-    "id": 923,
-    "desc_idx": 308,
-    "str_idx": 0,
-    "jp": "ポーションけいのカードが持ち込めないぞ{BREAK}",
-    "en": "Potion cards cannot be{NEWLINE}brought in.{BREAK}"
-  },
-  {
-    "id": 930,
-    "desc_idx": 315,
-    "str_idx": 0,
-    "jp": "ソードけい.シールドけいが持ち込めないぞ{BREAK}",
-    "en": "Swords and Shields cannot be{NEWLINE}brought in.{BREAK}"
-  },
-  {
-    "id": 935,
-    "desc_idx": 320,
-    "str_idx": 0,
-    "jp": "ヒールけいカードが持ち込めないぞ{BREAK}",
-    "en": "Heal cards cannot be brought{NEWLINE}in.{BREAK}"
-  },
-  {
-    "id": 964,
-    "desc_idx": 348,
+    "id": 417,
+    "desc_idx": 114,
     "str_idx": 1,
-    "jp": "今回の依頼の賞品はヒール300のカード1枚だぜ,{BREAK}",
-    "en": "Reward: 1x Heal 300 card!{BREAK}"
+    "jp": "見えている{CTRL:F4}どんなテキでも{CTRL:F4}動きを遅くする!{BREAK}",
+    "en": "Slows {CTRL:F4}any visible enemy{CTRL:F4}!{BREAK}"
   },
   {
-    "id": 989,
-    "desc_idx": 373,
+    "id": 418,
+    "desc_idx": 115,
     "str_idx": 0,
-    "jp": "今回の依頼の賞品はポーションのカード3枚だぜ,{BREAK}",
-    "en": "Reward: 3x Potion cards!{BREAK}"
+    "jp": "ウルトラショック{BREAK}",
+    "en": "Ultra Shock{BREAK}"
   },
   {
-    "id": 995,
-    "desc_idx": 378,
+    "id": 419,
+    "desc_idx": 115,
+    "str_idx": 1,
+    "jp": "見えている{CTRL:F4}どんなテキでも{CTRL:F4}おびえさせる!{BREAK}",
+    "en": "Frightens {CTRL:F4}any visible enemy{CTRL:F4}!{BREAK}"
+  },
+  {
+    "id": 420,
+    "desc_idx": 116,
     "str_idx": 0,
-    "jp": "今回の依頼の賞品はバリアのカード1枚だぜ,{BREAK}",
-    "en": "Reward: 1x Barrier card!{BREAK}"
+    "jp": "{VAR:02}MP{BREAK}",
+    "en": "{VAR:02}MP{BREAK}"
   },
   {
-    "id": 997,
-    "desc_idx": 380,
-    "str_idx": 0,
-    "jp": "今回の依頼の賞品は死神のカード1枚だぜ,{BREAK}",
-    "en": "Reward: 1x Grim Reaper card!{BREAK}"
-  },
-  {
-    "id": 998,
-    "desc_idx": 381,
-    "str_idx": 0,
-    "jp": "今回の依頼の賞品はインビジブルのカード1枚だぜ,{BREAK}",
-    "en": "Reward: 1x Invisible card!{BREAK}"
-  },
-  {
-    "id": 999,
-    "desc_idx": 382,
-    "str_idx": 0,
-    "jp": "今回の依頼の賞品はホーリーライトのカード1枚だぜ,{BREAK}",
-    "en": "Reward: 1x Holy Light card!{BREAK}"
-  },
-  {
-    "id": 1000,
-    "desc_idx": 383,
-    "str_idx": 0,
-    "jp": "今回の依頼の賞品はホッピーのカード5枚だぜ,{BREAK}",
-    "en": "Reward: 5x Hoppy cards!{BREAK}"
-  },
-  {
-    "id": 1004,
-    "desc_idx": 385,
-    "str_idx": 2,
-    "jp": "今回の依頼の賞品はパワーシールドのカード1枚だぜ,{BREAK}",
-    "en": "Reward: 1x Power Shield{NEWLINE}card!{BREAK}"
-  },
-  {
-    "id": 1007,
-    "desc_idx": 386,
-    "str_idx": 2,
-    "jp": "今回の依頼の賞品はゴールドシールドのカード1枚だぜ,{BREAK}",
-    "en": "Job reward: 1 Gold Shield{NEWLINE}card.{BREAK}"
-  },
-  {
-    "id": 1010,
-    "desc_idx": 387,
-    "str_idx": 2,
-    "jp": "今回の依頼の賞品はグレートシールドのカード1枚だぜ,{BREAK}",
-    "en": "Job reward: 1 Great Shield{NEWLINE}card.{BREAK}"
-  },
-  {
-    "id": 1012,
-    "desc_idx": 388,
+    "id": 421,
+    "desc_idx": 116,
     "str_idx": 1,
-    "jp": "今回の依頼の賞品はキングドラゴンのカード1枚だぜ,{BREAK}",
-    "en": "Reward: 1x King Dragon card!{BREAK}"
-  },
-  {
-    "id": 1013,
-    "desc_idx": 389,
-    "str_idx": 0,
-    "jp": "今回の依頼の賞品はハリケーンのカード1枚だぜ,{BREAK}",
-    "en": "Reward: 1x Hurricane card!{BREAK}"
-  },
-  {
-    "id": 1588,
-    "desc_idx": 603,
-    "str_idx": 5,
-    "jp": "{CTRL:F9}そりゃヒールだ!{END}",
-    "en": "{CTRL:F9}That's Heal!{END}"
-  },
-  {
-    "id": 2102,
-    "desc_idx": 663,
-    "str_idx": 4,
-    "jp": "あいにく手持ちのカードだけじゃ足りなくてね,{END}",
-    "en": "Sadly, the cards I have{NEWLINE}aren't enough.{END}"
-  },
-  {
-    "id": 2120,
-    "desc_idx": 665,
-    "str_idx": 4,
-    "jp": "メテオのカードを持ってこい!{BREAK}",
-    "en": "Bring a Meteor card!{BREAK}"
-  },
-  {
-    "id": 2121,
-    "desc_idx": 665,
-    "str_idx": 5,
-    "jp": "メテオのカードを持ってこい!{BREAK}",
-    "en": "Bring a Meteor card!{BREAK}"
-  },
-  {
-    "id": 2212,
-    "desc_idx": 672,
-    "str_idx": 11,
-    "jp": "家宝の「リフレクトシールド」のカードも差し上げます,{END}",
-    "en": "Please take our family{NEWLINE}heirloom, the Reflect{WAIT:3C}{CTRL:F2}Shield card.{END}"
-  },
-  {
-    "id": 4101,
-    "desc_idx": 814,
-    "str_idx": 1,
-    "jp": "ケムンパはファイアーで倒そう!{BREAK}",
-    "en": "Defeat Kemunpa with Fire!{BREAK}"
-  },
-  {
-    "id": 4111,
-    "desc_idx": 819,
-    "str_idx": 1,
-    "jp": "ポーションをたっぷり持って.ちょうせんしよう!{BREAK}",
-    "en": "Stock up on Potions before{NEWLINE}entering!{BREAK}"
-  },
-  {
-    "id": 4201,
-    "desc_idx": 869,
-    "str_idx": 0,
-    "jp": "カードをかくとくしました!{BREAK}",
-    "en": "Got a card!{BREAK}"
-  },
-  {
-    "id": 4202,
-    "desc_idx": 869,
-    "str_idx": 1,
-    "jp": "持ちきれないカードはホルダーにおくります,{BREAK}",
-    "en": "Extra cards go to Card{NEWLINE}Holder.{BREAK}"
-  },
-  {
-    "id": 4203,
-    "desc_idx": 869,
-    "str_idx": 2,
-    "jp": "かくとくしたカードはホルダーにおくります,{BREAK}",
-    "en": "Sent card to Holder.{BREAK}"
-  },
-  {
-    "id": 4210,
-    "desc_idx": 870,
-    "str_idx": 6,
-    "jp": "      がそろうとマジックカードがもらえます,{BREAK}",
-    "en": "      3 cards win a card!{BREAK}"
-  },
-  {
-    "id": 4211,
-    "desc_idx": 870,
-    "str_idx": 7,
-    "jp": "カードが持ちきれなくなると.新たにかく得した{BREAK}",
-    "en": "If your hand is full, new{BREAK}"
-  },
-  {
-    "id": 4212,
-    "desc_idx": 870,
-    "str_idx": 8,
-    "jp": "マジックカードはカードホルダーに保管されます,{BREAK}",
-    "en": "cards go to Card Holder.{BREAK}"
-  },
-  {
-    "id": 4378,
-    "desc_idx": 947,
-    "str_idx": 1,
-    "jp": "強テキだらけ! カードは6枚せいげんだ{BREAK}",
-    "en": "Tough foes! Max 6 cards{NEWLINE}allowed.{BREAK}"
-  },
-  {
-    "id": 4380,
-    "desc_idx": 948,
-    "str_idx": 1,
-    "jp": "めずらしいカードが見つかるぞ!{BREAK}",
-    "en": "Rare cards can be found{NEWLINE}here!{BREAK}"
-  },
-  {
-    "id": 4400,
-    "desc_idx": 958,
-    "str_idx": 1,
-    "jp": "ポーションが足りなくなるぞ{BREAK}",
-    "en": "You'll run short on Potions!{BREAK}"
-  },
-  {
-    "id": 4414,
-    "desc_idx": 965,
-    "str_idx": 1,
-    "jp": "カードが6枚しか持てないのだ{BREAK}",
-    "en": "You can only carry 6 cards.{BREAK}"
-  },
-  {
-    "id": 4428,
-    "desc_idx": 972,
-    "str_idx": 1,
-    "jp": "マルチカードをうまく使おう!{BREAK}",
-    "en": "Use Multi cards wisely!{BREAK}"
-  },
-  {
-    "id": 4466,
-    "desc_idx": 991,
-    "str_idx": 1,
-    "jp": "モンスターカードが見つかるかも?{BREAK}",
-    "en": "You might find a Monster{NEWLINE}Card?{BREAK}"
-  },
-  {
-    "id": 4483,
-    "desc_idx": 1001,
-    "str_idx": 0,
-    "jp": "カードを使っても効果がありませんがよろしいですか?{BREAK}",
-    "en": "Card will have no effect.{NEWLINE}Use anyway?{BREAK}"
-  },
-  {
-    "id": 4484,
-    "desc_idx": 1002,
-    "str_idx": 0,
-    "jp": "カードを1枚しか取れませんがよろしいですか?{BREAK}",
-    "en": "You can only take 1 card.{NEWLINE}Continue?{BREAK}"
-  },
-  {
-    "id": 4507,
-    "desc_idx": 1009,
-    "str_idx": 1,
-    "jp": "どのカードを買いますか?{BREAK}",
-    "en": "Which card will you buy?{BREAK}"
-  },
-  {
-    "id": 4508,
-    "desc_idx": 1009,
-    "str_idx": 2,
-    "jp": "どのカードを売りますか?{BREAK}",
-    "en": "Which card will you sell?{BREAK}"
-  },
-  {
-    "id": 4514,
-    "desc_idx": 1009,
-    "str_idx": 8,
-    "jp": "売ることのできるマジックカードがありません{BREAK}",
-    "en": "No Magic Cards to sell.{BREAK}"
+    "jp": "を{CTRL:F4}{VAR:20}MP{CTRL:F4}に{CTRL:F4}へんかん{CTRL:F4}します{BREAK}",
+    "en": "Convert to {VAR:20}MP.{BREAK}"
   }
 ]

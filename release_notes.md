@@ -1,5 +1,14 @@
 # Release Notes
 
+## v1.0.2 — Bugfix & Font Polish Release
+
+### Changes in v1.0.2
+- **Character Name Insertion Fix (`{F6}` Opcode):** Fixed a 1-byte vs 2-byte encoding discrepancy for opcode `0xF6` (Hero/Dragon Name Insertion) that caused a stray 5th character (`"E"` or `"n"`) to appear after 4-letter character names in NPC dialogue, and aligned the 6 default player name entries at `0x0F5AD4` while restoring the adjacent Secret Word table at `0x0F5AF4`.
+- **World Map Bottom-Right Banner Clear Fix:** Widened the World Map bottom-right text clear region (`0x08E74C`, `0x09082A`) from `(x=15, w=13)` to `(x=1, w=27)`, clamped the bottom-right OAM nameplate width at `0x08DFBF`, and fitted `Desc 397` objective strings (`id=1021..1024`) so switching modes with `R` or moving the cursor never leaves leftover text fragments onscreen.
+- **Monster Book / Glossary Text Wrapping & Name Tag Box Fix:** Reformatted all 125 Monster Book descriptions (`Desc 470..596`) to strictly fit the 2-line, 13-column right-page scroll box (`w=13, h=2`), tightened the `"NAME"` header kerning in `0x1868F8`, and widened the Name Tag clear/draw box (`0x0476F8..0x047944`) from `(x=20, w=10)` to `(x=19, w=11)` so monster names and notes never clip or leave stale glyphs behind.
+- **Monster Naming Consistency (`Poonya`):** Standardized all references to `Poonya` (`Poonyas`) across monster names, Monster Book descriptions, card descriptions, and story dialogue.
+- **Bold 8×16 & 8×8 Number Glyphs (`0`–`9`):** Replaced the thin 1px-stroke Japanese digits (`GID 187..196` at `0x385B7C`, `0x7774B8..0x7792F8`, and `0x39639C`) with bold `7×11` heavy 2px–3px stroke digits so numbers in dialogue and cutscenes match the weight and height of the surrounding English font.
+
 ## v1.0.1 — English Translation Release
 
 ### Changes in v1.0.1

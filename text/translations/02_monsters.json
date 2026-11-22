@@ -39,7 +39,7 @@
     "desc_idx": 117,
     "str_idx": 0,
     "jp": "プーニャ{BREAK}",
-    "en": "Poona{BREAK}"
+    "en": "Poonya{BREAK}"
   },
   {
     "id": 423,
@@ -270,7 +270,7 @@
     "desc_idx": 151,
     "str_idx": 0,
     "jp": "プーニャ{BREAK}",
-    "en": "Poona{BREAK}"
+    "en": "Poonya{BREAK}"
   },
   {
     "id": 523,
@@ -417,7 +417,7 @@
     "desc_idx": 175,
     "str_idx": 0,
     "jp": "プーニャ{BREAK}",
-    "en": "Poona{BREAK}"
+    "en": "Poonya{BREAK}"
   },
   {
     "id": 611,
@@ -557,7 +557,7 @@
     "desc_idx": 199,
     "str_idx": 0,
     "jp": "プーニャ{BREAK}",
-    "en": "Poona{BREAK}"
+    "en": "Poonya{BREAK}"
   },
   {
     "id": 678,
@@ -704,7 +704,7 @@
     "desc_idx": 223,
     "str_idx": 0,
     "jp": "キングプーニャ{BREAK}",
-    "en": "King Poona{BREAK}"
+    "en": "King Poonya{BREAK}"
   },
   {
     "id": 740,
@@ -865,7 +865,7 @@
     "desc_idx": 254,
     "str_idx": 0,
     "jp": "プーニャばかりのかんたんなダンジョン{BREAK}",
-    "en": "An easy dungeon full of{NEWLINE}Punyas.{BREAK}"
+    "en": "An easy dungeon full of{NEWLINE}Poonyas.{BREAK}"
   },
   {
     "id": 801,
@@ -998,14 +998,14 @@
     "desc_idx": 397,
     "str_idx": 2,
     "jp": "モンスターを全てたおせ!{BREAK}",
-    "en": "Defeat all monsters!{BREAK}"
+    "en": "Defeat All!{BREAK}"
   },
   {
     "id": 1026,
     "desc_idx": 398,
     "str_idx": 0,
     "jp": "プーニャの森{BREAK}",
-    "en": "Punya Woods{BREAK}"
+    "en": "Poonya Woods{BREAK}"
   },
   {
     "id": 1027,
@@ -1040,14 +1040,14 @@
     "desc_idx": 471,
     "str_idx": 0,
     "jp": "プーニャ{BREAK}",
-    "en": "Poona{BREAK}"
+    "en": "Poonya{BREAK}"
   },
   {
     "id": 1274,
     "desc_idx": 472,
     "str_idx": 0,
     "jp": "プーニャ{BREAK}",
-    "en": "Poona{BREAK}"
+    "en": "Poonya{BREAK}"
   },
   {
     "id": 1276,
@@ -1068,14 +1068,14 @@
     "desc_idx": 479,
     "str_idx": 0,
     "jp": "ベビードラゴン{BREAK}",
-    "en": "Baby Dragon{BREAK}"
+    "en": "BabyDragon{BREAK}"
   },
   {
     "id": 1294,
     "desc_idx": 482,
     "str_idx": 0,
     "jp": "キラービーぐん{BREAK}",
-    "en": "Killer Bee Swarm{BREAK}"
+    "en": "Bee Swarm{BREAK}"
   },
   {
     "id": 1306,
@@ -1096,21 +1096,21 @@
     "desc_idx": 497,
     "str_idx": 0,
     "jp": "キングドラゴン{BREAK}",
-    "en": "King Dragon{BREAK}"
+    "en": "KingDragon{BREAK}"
   },
   {
     "id": 1328,
     "desc_idx": 499,
     "str_idx": 0,
     "jp": "プーニャ{BREAK}",
-    "en": "Poona{BREAK}"
+    "en": "Poonya{BREAK}"
   },
   {
     "id": 1330,
     "desc_idx": 500,
     "str_idx": 0,
     "jp": "キングプーニャ{BREAK}",
-    "en": "King Poona{BREAK}"
+    "en": "KingPoonya{BREAK}"
   },
   {
     "id": 1332,
@@ -1145,14 +1145,14 @@
     "desc_idx": 513,
     "str_idx": 0,
     "jp": "ベビードラゴン{BREAK}",
-    "en": "Baby Dragon{BREAK}"
+    "en": "BabyDragon{BREAK}"
   },
   {
     "id": 1358,
     "desc_idx": 514,
     "str_idx": 0,
     "jp": "プリンスドラゴン{BREAK}",
-    "en": "Prince Dragon{BREAK}"
+    "en": "Pr. Dragon{BREAK}"
   },
   {
     "id": 1384,
@@ -1166,7 +1166,7 @@
     "desc_idx": 528,
     "str_idx": 0,
     "jp": "ウィングドラゴン{BREAK}",
-    "en": "Wing Dragon{BREAK}"
+    "en": "WingDragon{BREAK}"
   },
   {
     "id": 1400,
@@ -1180,7 +1180,7 @@
     "desc_idx": 545,
     "str_idx": 0,
     "jp": "キングドラゴン{BREAK}",
-    "en": "King Dragon{BREAK}"
+    "en": "KingDragon{BREAK}"
   },
   {
     "id": 1422,
@@ -1194,7 +1194,7 @@
     "desc_idx": 547,
     "str_idx": 0,
     "jp": "プーニャ{BREAK}",
-    "en": "Poona{BREAK}"
+    "en": "Poonya{BREAK}"
   },
   {
     "id": 1426,
@@ -1215,7 +1215,7 @@
     "desc_idx": 554,
     "str_idx": 0,
     "jp": "ベビードラゴン{BREAK}",
-    "en": "Baby Dragon{BREAK}"
+    "en": "BabyDragon{BREAK}"
   },
   {
     "id": 1452,
@@ -1236,14 +1236,14 @@
     "desc_idx": 570,
     "str_idx": 0,
     "jp": "キングドラゴン{BREAK}",
-    "en": "King Dragon{BREAK}"
+    "en": "KingDragon{BREAK}"
   },
   {
     "id": 1471,
     "desc_idx": 571,
     "str_idx": 0,
     "jp": "キングプーニャ{BREAK}",
-    "en": "King Poona{BREAK}"
+    "en": "KingPoonya{BREAK}"
   },
   {
     "id": 1473,
@@ -1264,14 +1264,14 @@
     "desc_idx": 578,
     "str_idx": 0,
     "jp": "プリンスドラゴン{BREAK}",
-    "en": "Prince Dragon{BREAK}"
+    "en": "Pr. Dragon{BREAK}"
   },
   {
     "id": 1499,
     "desc_idx": 585,
     "str_idx": 0,
     "jp": "ウィングドラゴン{BREAK}",
-    "en": "Wing Dragon{BREAK}"
+    "en": "WingDragon{BREAK}"
   },
   {
     "id": 1517,
@@ -1299,7 +1299,7 @@
     "desc_idx": 713,
     "str_idx": 7,
     "jp": "{CTRL:F9}ああッ! プーニャのボウシだぞー!{END}",
-    "en": "{CTRL:F9}Whoa! A Punya hat!{END}"
+    "en": "{CTRL:F9}Whoa! A Poonya hat!{END}"
   },
   {
     "id": 2826,

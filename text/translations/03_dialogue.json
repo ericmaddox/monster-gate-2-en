@@ -1992,7 +1992,7 @@
     "desc_idx": 404,
     "str_idx": 0,
     "jp": "依頼主に「プーニャ」のカードを「3枚」渡せば{NEWLINE}依頼は完了だ,{BREAK}",
-    "en": "Give 3 'Punya' cards to the{NEWLINE}client{NEWLINE}to complete the job.{BREAK}"
+    "en": "Give 3 'Poonya' cards to the{NEWLINE}client{NEWLINE}to complete the job.{BREAK}"
   },
   {
     "id": 1138,
@@ -2832,686 +2832,686 @@
     "desc_idx": 471,
     "str_idx": 1,
     "jp": "{CTRL:F4}最初に出会ったモンスタ{CTRL:F4}{NEWLINE}{CTRL:F4}ー,キケン性はひくい{BREAK}",
-    "en": "{CTRL:F4}The first monster you{CTRL:F4}{NEWLINE}{CTRL:F4}meet. Low danger.{BREAK}"
+    "en": "{CTRL:F4}1st foe met.{CTRL:F4}{NEWLINE}{CTRL:F4}Low danger.{BREAK}"
   },
   {
     "id": 1275,
     "desc_idx": 472,
     "str_idx": 1,
     "jp": "{CTRL:F4}色が変わってもやっぱり{CTRL:F4}{NEWLINE}{CTRL:F4}プーニャはプーニャ{BREAK}",
-    "en": "{CTRL:F4}Even in a new color,{CTRL:F4}{NEWLINE}{CTRL:F4}a Poonya is a Poonya.{BREAK}"
+    "en": "{CTRL:F4}New color,{CTRL:F4}{NEWLINE}{CTRL:F4}still Poonya.{BREAK}"
   },
   {
     "id": 1277,
     "desc_idx": 473,
     "str_idx": 1,
     "jp": "{CTRL:F4}人をおそうハチ,モンス{CTRL:F4}{NEWLINE}{CTRL:F4}ターとしてはよわい{BREAK}",
-    "en": "{CTRL:F4}A bee that attacks,{CTRL:F4}{NEWLINE}{CTRL:F4}but weak as a monster.{BREAK}"
+    "en": "{CTRL:F4}Stings folk,{CTRL:F4}{NEWLINE}{CTRL:F4}weak monster.{BREAK}"
   },
   {
     "id": 1279,
     "desc_idx": 474,
     "str_idx": 1,
     "jp": "{CTRL:F4}自分からは近よらない{CTRL:F4}{NEWLINE}{CTRL:F4}おくびょうなモンスター{BREAK}",
-    "en": "{CTRL:F4}A timid monster that{CTRL:F4}{NEWLINE}{CTRL:F4}keeps its distance.{BREAK}"
+    "en": "{CTRL:F4}Timid monster{CTRL:F4}{NEWLINE}{CTRL:F4}stays back.{BREAK}"
   },
   {
     "id": 1281,
     "desc_idx": 475,
     "str_idx": 1,
     "jp": "{CTRL:F4}ガイコツのばけもの,{CTRL:F4}{NEWLINE}{CTRL:F4}あなどるとキケンだぞ!{BREAK}",
-    "en": "{CTRL:F4}A skeletal fiend.{CTRL:F4}{NEWLINE}{CTRL:F4}Don't underestimate it!{BREAK}"
+    "en": "{CTRL:F4}Bony fiend.{CTRL:F4}{NEWLINE}{CTRL:F4}Stay alert!{BREAK}"
   },
   {
     "id": 1283,
     "desc_idx": 476,
     "str_idx": 1,
     "jp": "{CTRL:F4}モクモクした体をもつ,{CTRL:F4}{NEWLINE}{CTRL:F4}ファイアーがゆうこう{BREAK}",
-    "en": "{CTRL:F4}Has a smoky body.{CTRL:F4}{NEWLINE}{CTRL:F4}Weak to Fire magic.{BREAK}"
+    "en": "{CTRL:F4}Smoky body.{CTRL:F4}{NEWLINE}{CTRL:F4}Weak to Fire.{BREAK}"
   },
   {
     "id": 1285,
     "desc_idx": 477,
     "str_idx": 1,
     "jp": "{CTRL:F4}自分の体力を回復する{CTRL:F4}{NEWLINE}{CTRL:F4}から手ごわいぞ!{BREAK}",
-    "en": "{CTRL:F4}Heals its own HP,{CTRL:F4}{NEWLINE}{CTRL:F4}making it tough!{BREAK}"
+    "en": "{CTRL:F4}Heals own HP.{CTRL:F4}{NEWLINE}{CTRL:F4}Tough foe!{BREAK}"
   },
   {
     "id": 1287,
     "desc_idx": 478,
     "str_idx": 1,
     "jp": "{CTRL:F4}強力な剣とがんじょうな{CTRL:F4}{NEWLINE}{CTRL:F4}体がとくちょうだ!{BREAK}",
-    "en": "{CTRL:F4}Known for its strong{CTRL:F4}{NEWLINE}{CTRL:F4}sword and sturdy body!{BREAK}"
+    "en": "{CTRL:F4}Strong sword{CTRL:F4}{NEWLINE}{CTRL:F4}& tough body!{BREAK}"
   },
   {
     "id": 1289,
     "desc_idx": 479,
     "str_idx": 1,
     "jp": "{CTRL:F4}はなれていても炎を{CTRL:F4}{NEWLINE}{CTRL:F4}吐いてくるから注意!{BREAK}",
-    "en": "{CTRL:F4}Watch out! It breathes{CTRL:F4}{NEWLINE}{CTRL:F4}fire from afar!{BREAK}"
+    "en": "{CTRL:F4}Breathes fire{CTRL:F4}{NEWLINE}{CTRL:F4}from afar!{BREAK}"
   },
   {
     "id": 1291,
     "desc_idx": 480,
     "str_idx": 1,
     "jp": "{CTRL:F4}とおくから魔法で攻撃{CTRL:F4}{NEWLINE}{CTRL:F4}してくるイヤなやつ{BREAK}",
-    "en": "{CTRL:F4}An annoying foe that{CTRL:F4}{NEWLINE}{CTRL:F4}casts magic from afar.{BREAK}"
+    "en": "{CTRL:F4}Casts magic{CTRL:F4}{NEWLINE}{CTRL:F4}from afar.{BREAK}"
   },
   {
     "id": 1293,
     "desc_idx": 481,
     "str_idx": 1,
     "jp": "{CTRL:F4}自分やまわりのモンスタ{CTRL:F4}{NEWLINE}{CTRL:F4}ーの体力を回復するぞ{BREAK}",
-    "en": "{CTRL:F4}Heals itself and{CTRL:F4}{NEWLINE}{CTRL:F4}nearby monsters!{BREAK}"
+    "en": "{CTRL:F4}Heals itself{CTRL:F4}{NEWLINE}{CTRL:F4}& nearby foes{BREAK}"
   },
   {
     "id": 1295,
     "desc_idx": 482,
     "str_idx": 1,
     "jp": "{CTRL:F4}キラービーがむれを{CTRL:F4}{NEWLINE}{CTRL:F4}なして強力になったぞ!{BREAK}",
-    "en": "{CTRL:F4}Killer Bees swarming{CTRL:F4}{NEWLINE}{CTRL:F4}together for strength!{BREAK}"
+    "en": "{CTRL:F4}Bees swarming{CTRL:F4}{NEWLINE}{CTRL:F4}for strength!{BREAK}"
   },
   {
     "id": 1297,
     "desc_idx": 483,
     "str_idx": 1,
     "jp": "{CTRL:F4}倒しても復活するぞ!{CTRL:F4}{NEWLINE}{CTRL:F4}眠らせるといいかも{BREAK}",
-    "en": "{CTRL:F4}Revives when slain!{CTRL:F4}{NEWLINE}{CTRL:F4}Try putting it to sleep.{BREAK}"
+    "en": "{CTRL:F4}Revives! Put{CTRL:F4}{NEWLINE}{CTRL:F4}it to sleep.{BREAK}"
   },
   {
     "id": 1299,
     "desc_idx": 484,
     "str_idx": 1,
     "jp": "{CTRL:F4}ちていをおよぐサメだ!{CTRL:F4}{NEWLINE}{CTRL:F4}きょうぼうだぞ!{BREAK}",
-    "en": "{CTRL:F4}A shark that swims{CTRL:F4}{NEWLINE}{CTRL:F4}underground! Ferocious!{BREAK}"
+    "en": "{CTRL:F4}Fierce shark{CTRL:F4}{NEWLINE}{CTRL:F4}under ground!{BREAK}"
   },
   {
     "id": 1301,
     "desc_idx": 485,
     "str_idx": 1,
     "jp": "{CTRL:F4}明るくなると花びらが{CTRL:F4}{NEWLINE}{CTRL:F4}開いて攻撃してくるぞ!{BREAK}",
-    "en": "{CTRL:F4}Opens its petals in{CTRL:F4}{NEWLINE}{CTRL:F4}light and attacks!{BREAK}"
+    "en": "{CTRL:F4}Opens petals{CTRL:F4}{NEWLINE}{CTRL:F4}in the light!{BREAK}"
   },
   {
     "id": 1303,
     "desc_idx": 486,
     "str_idx": 1,
     "jp": "{CTRL:F4}こうてつにおおわれたカ{CTRL:F4}{NEWLINE}{CTRL:F4}タい体がとくちょうだ!{BREAK}",
-    "en": "{CTRL:F4}Known for its hard,{CTRL:F4}{NEWLINE}{CTRL:F4}steel-clad body!{BREAK}"
+    "en": "{CTRL:F4}Hard, sturdy{CTRL:F4}{NEWLINE}{CTRL:F4}steel body!{BREAK}"
   },
   {
     "id": 1305,
     "desc_idx": 487,
     "str_idx": 1,
     "jp": "{CTRL:F4}魔法攻撃が効かない{CTRL:F4}{NEWLINE}{CTRL:F4}やっかいなモンスターだ{BREAK}",
-    "en": "{CTRL:F4}A troublesome foe{CTRL:F4}{NEWLINE}{CTRL:F4}immune to magic.{BREAK}"
+    "en": "{CTRL:F4}Annoying foe{CTRL:F4}{NEWLINE}{CTRL:F4}magic-immune.{BREAK}"
   },
   {
     "id": 1307,
     "desc_idx": 488,
     "str_idx": 1,
     "jp": "{CTRL:F4}きょうじんな体力をもち{CTRL:F4}{NEWLINE}{CTRL:F4}炎を吐いてくるぞ!{BREAK}",
-    "en": "{CTRL:F4}Has massive HP and{CTRL:F4}{NEWLINE}{CTRL:F4}breathes fire!{BREAK}"
+    "en": "{CTRL:F4}Huge HP and{CTRL:F4}{NEWLINE}{CTRL:F4}fire breath!{BREAK}"
   },
   {
     "id": 1309,
     "desc_idx": 489,
     "str_idx": 1,
     "jp": "{CTRL:F4}こうらのカタさがやっか{CTRL:F4}{NEWLINE}{CTRL:F4}いなモンスターだ!{BREAK}",
-    "en": "{CTRL:F4}A troublesome foe{CTRL:F4}{NEWLINE}{CTRL:F4}with a rock-hard shell!{BREAK}"
+    "en": "{CTRL:F4}Tough foe in{CTRL:F4}{NEWLINE}{CTRL:F4}a hard shell!{BREAK}"
   },
   {
     "id": 1311,
     "desc_idx": 490,
     "str_idx": 1,
     "jp": "{CTRL:F4}するどいカマでたましい{CTRL:F4}{NEWLINE}{CTRL:F4}をつみとろうとする{BREAK}",
-    "en": "{CTRL:F4}Tries to reap souls{CTRL:F4}{NEWLINE}{CTRL:F4}with its sharp scythe.{BREAK}"
+    "en": "{CTRL:F4}Reaps souls{CTRL:F4}{NEWLINE}{CTRL:F4}with scythe.{BREAK}"
   },
   {
     "id": 1313,
     "desc_idx": 491,
     "str_idx": 1,
     "jp": "{CTRL:F4}モンスターの体力を{CTRL:F4}{NEWLINE}{CTRL:F4}回復する事があるぞ{BREAK}",
-    "en": "{CTRL:F4}Sometimes heals the{CTRL:F4}{NEWLINE}{CTRL:F4}HP of other monsters.{BREAK}"
+    "en": "{CTRL:F4}Heals the HP{CTRL:F4}{NEWLINE}{CTRL:F4}of other foes{BREAK}"
   },
   {
     "id": 1315,
     "desc_idx": 492,
     "str_idx": 1,
     "jp": "{CTRL:F4}とがったツノでごうかい{CTRL:F4}{NEWLINE}{CTRL:F4}に体当たりしてくるぞ!{BREAK}",
-    "en": "{CTRL:F4}Charges wildly with{CTRL:F4}{NEWLINE}{CTRL:F4}its sharp horns!{BREAK}"
+    "en": "{CTRL:F4}Charges wild{CTRL:F4}{NEWLINE}{CTRL:F4}with horns!{BREAK}"
   },
   {
     "id": 1317,
     "desc_idx": 493,
     "str_idx": 1,
     "jp": "{CTRL:F4}殺人こうせんを放つ{CTRL:F4}{NEWLINE}{CTRL:F4}不気味な目玉だ!{BREAK}",
-    "en": "{CTRL:F4}An eerie eyeball that{CTRL:F4}{NEWLINE}{CTRL:F4}fires deadly beams!{BREAK}"
+    "en": "{CTRL:F4}Eerie eye w/{CTRL:F4}{NEWLINE}{CTRL:F4}deadly beams!{BREAK}"
   },
   {
     "id": 1319,
     "desc_idx": 494,
     "str_idx": 1,
     "jp": "{CTRL:F4}ふだんは地中にひそんで{CTRL:F4}{NEWLINE}{CTRL:F4}いる手ごわいやつ!{BREAK}",
-    "en": "{CTRL:F4}A tough foe that{CTRL:F4}{NEWLINE}{CTRL:F4}hides underground!{BREAK}"
+    "en": "{CTRL:F4}Tough foe,{CTRL:F4}{NEWLINE}{CTRL:F4}hides below!{BREAK}"
   },
   {
     "id": 1321,
     "desc_idx": 495,
     "str_idx": 1,
     "jp": "{CTRL:F4}体力.攻撃力ともに{CTRL:F4}{NEWLINE}{CTRL:F4}最強レベルだ!{BREAK}",
-    "en": "{CTRL:F4}Both its HP and ATK{CTRL:F4}{NEWLINE}{CTRL:F4}are top-tier!{BREAK}"
+    "en": "{CTRL:F4}Both HP & ATK{CTRL:F4}{NEWLINE}{CTRL:F4}are top-tier!{BREAK}"
   },
   {
     "id": 1323,
     "desc_idx": 496,
     "str_idx": 1,
     "jp": "{CTRL:F4}4本の剣をはげしくふり{CTRL:F4}{NEWLINE}{CTRL:F4}回して攻撃してくるぞ!{BREAK}",
-    "en": "{CTRL:F4}Attacks fiercely by{CTRL:F4}{NEWLINE}{CTRL:F4}swinging four swords!{BREAK}"
+    "en": "{CTRL:F4}Fierce swings{CTRL:F4}{NEWLINE}{CTRL:F4}w/ 4 swords!{BREAK}"
   },
   {
     "id": 1325,
     "desc_idx": 497,
     "str_idx": 1,
     "jp": "{CTRL:F4}ドラゴンをはるかに{CTRL:F4}{NEWLINE}{CTRL:F4}上回る最強モンスター!{BREAK}",
-    "en": "{CTRL:F4}The strongest monster,{CTRL:F4}{NEWLINE}{CTRL:F4}far above Dragons!{BREAK}"
+    "en": "{CTRL:F4}Strongest foe{CTRL:F4}{NEWLINE}{CTRL:F4}above Dragon!{BREAK}"
   },
   {
     "id": 1327,
     "desc_idx": 498,
     "str_idx": 1,
     "jp": "{CTRL:F4}冒険で力つきた者のねん{CTRL:F4}{NEWLINE}{CTRL:F4}がモンスターになった{BREAK}",
-    "en": "{CTRL:F4}Formed from the regrets{CTRL:F4}{NEWLINE}{CTRL:F4}of fallen adventurers.{BREAK}"
+    "en": "{CTRL:F4}Born of dead{CTRL:F4}{NEWLINE}{CTRL:F4}heroes' rue.{BREAK}"
   },
   {
     "id": 1329,
     "desc_idx": 499,
     "str_idx": 1,
     "jp": "{CTRL:F4}けなげに後ろからついて{CTRL:F4}{NEWLINE}{CTRL:F4}くる,・・・かわいい{BREAK}",
-    "en": "{CTRL:F4}Follows faithfully{CTRL:F4}{NEWLINE}{CTRL:F4}behind you... Cute!{BREAK}"
+    "en": "{CTRL:F4}Follows right{CTRL:F4}{NEWLINE}{CTRL:F4}behind. Cute!{BREAK}"
   },
   {
     "id": 1331,
     "desc_idx": 500,
     "str_idx": 1,
     "jp": "{CTRL:F4}部屋に入った時の{CTRL:F4}{NEWLINE}{CTRL:F4}HP・MP回復がUP{BREAK}",
-    "en": "{CTRL:F4}Boosts HP/MP recovery{CTRL:F4}{NEWLINE}{CTRL:F4}when entering a room.{BREAK}"
+    "en": "{CTRL:F4}Boosts room{CTRL:F4}{NEWLINE}{CTRL:F4}HP/MP regen.{BREAK}"
   },
   {
     "id": 1333,
     "desc_idx": 501,
     "str_idx": 1,
     "jp": "{CTRL:F4}むれていても.強さは{CTRL:F4}{NEWLINE}{CTRL:F4}キラービーと変わらない{BREAK}",
-    "en": "{CTRL:F4}Even in a swarm, its{CTRL:F4}{NEWLINE}{CTRL:F4}power is like one Bee.{BREAK}"
+    "en": "{CTRL:F4}Even swarming{CTRL:F4}{NEWLINE}{CTRL:F4}hits as 1 bee{BREAK}"
   },
   {
     "id": 1335,
     "desc_idx": 502,
     "str_idx": 1,
     "jp": "{CTRL:F4}女王様の力で攻撃力が{CTRL:F4}{NEWLINE}{CTRL:F4}数段上がったぞ!{BREAK}",
-    "en": "{CTRL:F4}The Queen's power{CTRL:F4}{NEWLINE}{CTRL:F4}greatly raised its ATK!{BREAK}"
+    "en": "{CTRL:F4}Queen's power{CTRL:F4}{NEWLINE}{CTRL:F4}boosted ATK!{BREAK}"
   },
   {
     "id": 1337,
     "desc_idx": 503,
     "str_idx": 1,
     "jp": "{CTRL:F4}プレイヤーと一緒なら{CTRL:F4}{NEWLINE}{CTRL:F4}何もこわくないぞ!{BREAK}",
-    "en": "{CTRL:F4}With the player,{CTRL:F4}{NEWLINE}{CTRL:F4}it fears nothing!{BREAK}"
+    "en": "{CTRL:F4}With you, it{CTRL:F4}{NEWLINE}{CTRL:F4}fears naught!{BREAK}"
   },
   {
     "id": 1339,
     "desc_idx": 504,
     "str_idx": 1,
     "jp": "{CTRL:F4}すばやい動きで{CTRL:F4}{NEWLINE}{CTRL:F4}モンスターを2回攻撃!{BREAK}",
-    "en": "{CTRL:F4}Strikes monsters{CTRL:F4}{NEWLINE}{CTRL:F4}twice with swift moves!{BREAK}"
+    "en": "{CTRL:F4}Swift moves{CTRL:F4}{NEWLINE}{CTRL:F4}hit 2 times!{BREAK}"
   },
   {
     "id": 1341,
     "desc_idx": 505,
     "str_idx": 1,
     "jp": "{CTRL:F4}後ろをふりむけばドクロ{CTRL:F4}{NEWLINE}{CTRL:F4}がほほえんでくれるぞ{BREAK}",
-    "en": "{CTRL:F4}Look back and a skull{CTRL:F4}{NEWLINE}{CTRL:F4}will smile at you.{BREAK}"
+    "en": "{CTRL:F4}Look back: a{CTRL:F4}{NEWLINE}{CTRL:F4}skull smiles.{BREAK}"
   },
   {
     "id": 1343,
     "desc_idx": 506,
     "str_idx": 1,
     "jp": "{CTRL:F4}スケルトンの王は{CTRL:F4}{NEWLINE}{CTRL:F4}攻撃力も王様クラス{BREAK}",
-    "en": "{CTRL:F4}The Skeleton King has{CTRL:F4}{NEWLINE}{CTRL:F4}king-class ATK too.{BREAK}"
+    "en": "{CTRL:F4}Skeleton King{CTRL:F4}{NEWLINE}{CTRL:F4}w/ king ATK.{BREAK}"
   },
   {
     "id": 1345,
     "desc_idx": 507,
     "str_idx": 1,
     "jp": "{CTRL:F4}大丈夫,ファイアー{CTRL:F4}{NEWLINE}{CTRL:F4}なんかには負けないぞ!{BREAK}",
-    "en": "{CTRL:F4}Don't worry, it won't{CTRL:F4}{NEWLINE}{CTRL:F4}lose to Fire magic!{BREAK}"
+    "en": "{CTRL:F4}Won't lose to{CTRL:F4}{NEWLINE}{CTRL:F4}Fire magic!{BREAK}"
   },
   {
     "id": 1347,
     "desc_idx": 508,
     "str_idx": 1,
     "jp": "{CTRL:F4}ケムンパの王様,{CTRL:F4}{NEWLINE}{CTRL:F4}攻撃力が上がった{BREAK}",
-    "en": "{CTRL:F4}King of Kemunpas.{CTRL:F4}{NEWLINE}{CTRL:F4}Its ATK has increased.{BREAK}"
+    "en": "{CTRL:F4}Kemunpa King.{CTRL:F4}{NEWLINE}{CTRL:F4}Higher ATK!{BREAK}"
   },
   {
     "id": 1349,
     "desc_idx": 509,
     "str_idx": 1,
     "jp": "{CTRL:F4}気まぐれでプレイヤーの{CTRL:F4}{NEWLINE}{CTRL:F4}体力を回復してくれるぞ{BREAK}",
-    "en": "{CTRL:F4}Heals the player's HP{CTRL:F4}{NEWLINE}{CTRL:F4}on a whim.{BREAK}"
+    "en": "{CTRL:F4}Heals your HP{CTRL:F4}{NEWLINE}{CTRL:F4}on a whim.{BREAK}"
   },
   {
     "id": 1351,
     "desc_idx": 510,
     "str_idx": 1,
     "jp": "{CTRL:F4}より強力な回復力で{CTRL:F4}{NEWLINE}{CTRL:F4}プレイヤーをサポート{BREAK}",
-    "en": "{CTRL:F4}Supports the player{CTRL:F4}{NEWLINE}{CTRL:F4}with stronger healing.{BREAK}"
+    "en": "{CTRL:F4}Supports you{CTRL:F4}{NEWLINE}{CTRL:F4}w/ big heals.{BREAK}"
   },
   {
     "id": 1353,
     "desc_idx": 511,
     "str_idx": 1,
     "jp": "{CTRL:F4}強力な剣も.仲間に{CTRL:F4}{NEWLINE}{CTRL:F4}なればたのもしいぞ!{BREAK}",
-    "en": "{CTRL:F4}That strong sword is{CTRL:F4}{NEWLINE}{CTRL:F4}reliable as an ally!{BREAK}"
+    "en": "{CTRL:F4}Strong sword,{CTRL:F4}{NEWLINE}{CTRL:F4}trusty ally!{BREAK}"
   },
   {
     "id": 1355,
     "desc_idx": 512,
     "str_idx": 1,
     "jp": "{CTRL:F4}ゴブリンの首領は強大な{CTRL:F4}{NEWLINE}{CTRL:F4}力で部下達をねじふせる{BREAK}",
-    "en": "{CTRL:F4}The Goblin boss rules{CTRL:F4}{NEWLINE}{CTRL:F4}minions with raw power.{BREAK}"
+    "en": "{CTRL:F4}Goblin boss{CTRL:F4}{NEWLINE}{CTRL:F4}w/ raw power.{BREAK}"
   },
   {
     "id": 1357,
     "desc_idx": 513,
     "str_idx": 1,
     "jp": "{CTRL:F4}小さな体で.けなげに{CTRL:F4}{NEWLINE}{CTRL:F4}プレイヤーをサポート{BREAK}",
-    "en": "{CTRL:F4}Supports the player{CTRL:F4}{NEWLINE}{CTRL:F4}with its tiny body.{BREAK}"
+    "en": "{CTRL:F4}Supports you{CTRL:F4}{NEWLINE}{CTRL:F4}w/ tiny body.{BREAK}"
   },
   {
     "id": 1359,
     "desc_idx": 514,
     "str_idx": 1,
     "jp": "{CTRL:F4}進化をとげた炎は{CTRL:F4}{NEWLINE}{CTRL:F4}もはやドラゴン並だぞ!{BREAK}",
-    "en": "{CTRL:F4}Its evolved flames{CTRL:F4}{NEWLINE}{CTRL:F4}rival a Dragon's!{BREAK}"
+    "en": "{CTRL:F4}Evolved flame{CTRL:F4}{NEWLINE}{CTRL:F4}rivals Dragon{BREAK}"
   },
   {
     "id": 1361,
     "desc_idx": 515,
     "str_idx": 1,
     "jp": "{CTRL:F4}えんきょり攻撃が{CTRL:F4}{NEWLINE}{CTRL:F4}たのもしい仲間{BREAK}",
-    "en": "{CTRL:F4}A reliable ally with{CTRL:F4}{NEWLINE}{CTRL:F4}long-range attacks.{BREAK}"
+    "en": "{CTRL:F4}Trusty ally{CTRL:F4}{NEWLINE}{CTRL:F4}attacks afar.{BREAK}"
   },
   {
     "id": 1363,
     "desc_idx": 516,
     "str_idx": 1,
     "jp": "{CTRL:F4}魔法を極めた魔道士,{CTRL:F4}{NEWLINE}{CTRL:F4}光がテキを切りさく{BREAK}",
-    "en": "{CTRL:F4}A master mage whose{CTRL:F4}{NEWLINE}{CTRL:F4}light slices foes.{BREAK}"
+    "en": "{CTRL:F4}Master mage;{CTRL:F4}{NEWLINE}{CTRL:F4}light slices!{BREAK}"
   },
   {
     "id": 1365,
     "desc_idx": 517,
     "str_idx": 1,
     "jp": "{CTRL:F4}仲間になると.たまに{CTRL:F4}{NEWLINE}{CTRL:F4}本当に死んでしまうぞ!{BREAK}",
-    "en": "{CTRL:F4}As an ally, it may{CTRL:F4}{NEWLINE}{CTRL:F4}actually die for real!{BREAK}"
+    "en": "{CTRL:F4}As ally, may{CTRL:F4}{NEWLINE}{CTRL:F4}die for real!{BREAK}"
   },
   {
     "id": 1367,
     "desc_idx": 518,
     "str_idx": 1,
     "jp": "{CTRL:F4}死にぎわに毒をまきちら{CTRL:F4}{NEWLINE}{CTRL:F4}して消えるゾンビだ!{BREAK}",
-    "en": "{CTRL:F4}A zombie that scatters{CTRL:F4}{NEWLINE}{CTRL:F4}poison as it dies!{BREAK}"
+    "en": "{CTRL:F4}Spreads toxic{CTRL:F4}{NEWLINE}{CTRL:F4}gas on death!{BREAK}"
   },
   {
     "id": 1369,
     "desc_idx": 519,
     "str_idx": 1,
     "jp": "{CTRL:F4}ちていをおよぐサメだ!{CTRL:F4}{NEWLINE}{CTRL:F4}きょうぼうだぞ!{BREAK}",
-    "en": "{CTRL:F4}A shark that swims{CTRL:F4}{NEWLINE}{CTRL:F4}underground! Ferocious!{BREAK}"
+    "en": "{CTRL:F4}Fierce shark{CTRL:F4}{NEWLINE}{CTRL:F4}under ground!{BREAK}"
   },
   {
     "id": 1371,
     "desc_idx": 520,
     "str_idx": 1,
     "jp": "{CTRL:F4}アタマのツノは{CTRL:F4}{NEWLINE}{CTRL:F4}3マス貫通攻撃だ!{BREAK}",
-    "en": "{CTRL:F4}Its head horn pierces{CTRL:F4}{NEWLINE}{CTRL:F4}3 tiles in a line!{BREAK}"
+    "en": "{CTRL:F4}Horn pierces{CTRL:F4}{NEWLINE}{CTRL:F4}3 tiles deep!{BREAK}"
   },
   {
     "id": 1373,
     "desc_idx": 521,
     "str_idx": 1,
     "jp": "{CTRL:F4}きずなの力で.もう{CTRL:F4}{NEWLINE}{CTRL:F4}花が閉じることはない{BREAK}",
-    "en": "{CTRL:F4}By the power of bonds,{CTRL:F4}{NEWLINE}{CTRL:F4}its petals stay open.{BREAK}"
+    "en": "{CTRL:F4}Bond's power{CTRL:F4}{NEWLINE}{CTRL:F4}opens petals.{BREAK}"
   },
   {
     "id": 1375,
     "desc_idx": 522,
     "str_idx": 1,
     "jp": "{CTRL:F4}攻撃した相手にポイズン{CTRL:F4}{NEWLINE}{CTRL:F4}の効果を与えるぞ{BREAK}",
-    "en": "{CTRL:F4}Inflicts Poison on{CTRL:F4}{NEWLINE}{CTRL:F4}foes it attacks.{BREAK}"
+    "en": "{CTRL:F4}Poisons foes{CTRL:F4}{NEWLINE}{CTRL:F4}it attacks.{BREAK}"
   },
   {
     "id": 1377,
     "desc_idx": 523,
     "str_idx": 1,
     "jp": "{CTRL:F4}プログラムを変えて.{CTRL:F4}{NEWLINE}{CTRL:F4}プレイヤーをサポート{BREAK}",
-    "en": "{CTRL:F4}Reprogrammed to{CTRL:F4}{NEWLINE}{CTRL:F4}support the player.{BREAK}"
+    "en": "{CTRL:F4}Recoded to{CTRL:F4}{NEWLINE}{CTRL:F4}aid the hero.{BREAK}"
   },
   {
     "id": 1379,
     "desc_idx": 524,
     "str_idx": 1,
     "jp": "{CTRL:F4}急所をついた攻撃は.{CTRL:F4}{NEWLINE}{CTRL:F4}相手の眠りをさそう!{BREAK}",
-    "en": "{CTRL:F4}Vital strikes can{CTRL:F4}{NEWLINE}{CTRL:F4}put foes to sleep!{BREAK}"
+    "en": "{CTRL:F4}Crits can put{CTRL:F4}{NEWLINE}{CTRL:F4}foes to sleep{BREAK}"
   },
   {
     "id": 1381,
     "desc_idx": 525,
     "str_idx": 1,
     "jp": "{CTRL:F4}テキのえんきょり攻撃{CTRL:F4}{NEWLINE}{CTRL:F4}なんか効かないぞ!{BREAK}",
-    "en": "{CTRL:F4}Enemy ranged attacks{CTRL:F4}{NEWLINE}{CTRL:F4}have no effect on it!{BREAK}"
+    "en": "{CTRL:F4}Immune to foe{CTRL:F4}{NEWLINE}{CTRL:F4}ranged shots!{BREAK}"
   },
   {
     "id": 1383,
     "desc_idx": 526,
     "str_idx": 1,
     "jp": "{CTRL:F4}ガーディアンに対して{CTRL:F4}{NEWLINE}{CTRL:F4}絶大な攻撃力をほこる{BREAK}",
-    "en": "{CTRL:F4}Boasts immense ATK{CTRL:F4}{NEWLINE}{CTRL:F4}against Guardians.{BREAK}"
+    "en": "{CTRL:F4}Huge ATK vs.{CTRL:F4}{NEWLINE}{CTRL:F4}Guardians.{BREAK}"
   },
   {
     "id": 1385,
     "desc_idx": 527,
     "str_idx": 1,
     "jp": "{CTRL:F4}仲間になるとたのもしい{CTRL:F4}{NEWLINE}{CTRL:F4}モンスター,実はメス{BREAK}",
-    "en": "{CTRL:F4}A reliable ally.{CTRL:F4}{NEWLINE}{CTRL:F4}Actually female.{BREAK}"
+    "en": "{CTRL:F4}Trusty ally.{CTRL:F4}{NEWLINE}{CTRL:F4}Actually girl{BREAK}"
   },
   {
     "id": 1387,
     "desc_idx": 528,
     "str_idx": 1,
     "jp": "{CTRL:F4}ドラゴンの成体じゃなく{CTRL:F4}{NEWLINE}{CTRL:F4}ても攻撃力は高いぞ{BREAK}",
-    "en": "{CTRL:F4}Not fully grown yet,{CTRL:F4}{NEWLINE}{CTRL:F4}but its ATK is high!{BREAK}"
+    "en": "{CTRL:F4}Still young,{CTRL:F4}{NEWLINE}{CTRL:F4}yet high ATK!{BREAK}"
   },
   {
     "id": 1389,
     "desc_idx": 529,
     "str_idx": 1,
     "jp": "{CTRL:F4}絶大な防御力!後ろを{CTRL:F4}{NEWLINE}{CTRL:F4}あずけられる頼もしい奴{BREAK}",
-    "en": "{CTRL:F4}Huge DEF! A trusty{CTRL:F4}{NEWLINE}{CTRL:F4}ally to guard your back.{BREAK}"
+    "en": "{CTRL:F4}Huge DEF! An{CTRL:F4}{NEWLINE}{CTRL:F4}ally shield.{BREAK}"
   },
   {
     "id": 1391,
     "desc_idx": 530,
     "str_idx": 1,
     "jp": "{CTRL:F4}こうらのカタさは倍以上{CTRL:F4}{NEWLINE}{CTRL:F4},誰もキズつけられない{BREAK}",
-    "en": "{CTRL:F4}Shell is twice as hard.{CTRL:F4}{NEWLINE}{CTRL:F4}None can scratch it.{BREAK}"
+    "en": "{CTRL:F4}2x hard shell{CTRL:F4}{NEWLINE}{CTRL:F4}blocks all!{BREAK}"
   },
   {
     "id": 1393,
     "desc_idx": 531,
     "str_idx": 1,
     "jp": "{CTRL:F4}プレイヤーにあだなす者{CTRL:F4}{NEWLINE}{CTRL:F4}のたましいをつみとる{BREAK}",
-    "en": "{CTRL:F4}Reaps the souls of{CTRL:F4}{NEWLINE}{CTRL:F4}the player's enemies.{BREAK}"
+    "en": "{CTRL:F4}Reaps souls{CTRL:F4}{NEWLINE}{CTRL:F4}of your foes.{BREAK}"
   },
   {
     "id": 1395,
     "desc_idx": 532,
     "str_idx": 1,
     "jp": "{CTRL:F4}死神のカマが.怪しく{CTRL:F4}{NEWLINE}{CTRL:F4}するどく光をおびた!{BREAK}",
-    "en": "{CTRL:F4}The Reaper's scythe{CTRL:F4}{NEWLINE}{CTRL:F4}gleams ominously!{BREAK}"
+    "en": "{CTRL:F4}Reaper scythe{CTRL:F4}{NEWLINE}{CTRL:F4}glows darkly!{BREAK}"
   },
   {
     "id": 1397,
     "desc_idx": 533,
     "str_idx": 1,
     "jp": "{CTRL:F4}強力な回復能力で{CTRL:F4}{NEWLINE}{CTRL:F4}プレイヤーをサポート{BREAK}",
-    "en": "{CTRL:F4}Supports the player{CTRL:F4}{NEWLINE}{CTRL:F4}with strong healing.{BREAK}"
+    "en": "{CTRL:F4}Aids you with{CTRL:F4}{NEWLINE}{CTRL:F4}strong heals.{BREAK}"
   },
   {
     "id": 1399,
     "desc_idx": 534,
     "str_idx": 1,
     "jp": "{CTRL:F4}聖なる光でどんな大ケガ{CTRL:F4}{NEWLINE}{CTRL:F4}もたちまち回復!{BREAK}",
-    "en": "{CTRL:F4}Sacred light heals{CTRL:F4}{NEWLINE}{CTRL:F4}any wound instantly!{BREAK}"
+    "en": "{CTRL:F4}Holy light{CTRL:F4}{NEWLINE}{CTRL:F4}heals wounds!{BREAK}"
   },
   {
     "id": 1401,
     "desc_idx": 535,
     "str_idx": 1,
     "jp": "{CTRL:F4}勇ましいツノで.{CTRL:F4}{NEWLINE}{CTRL:F4}プレイヤーを守りぬく!{BREAK}",
-    "en": "{CTRL:F4}Protects the player{CTRL:F4}{NEWLINE}{CTRL:F4}with brave horns!{BREAK}"
+    "en": "{CTRL:F4}Guards hero{CTRL:F4}{NEWLINE}{CTRL:F4}w/ bold horns{BREAK}"
   },
   {
     "id": 1403,
     "desc_idx": 536,
     "str_idx": 1,
     "jp": "{CTRL:F4}ツノが強化されて攻撃力{CTRL:F4}{NEWLINE}{CTRL:F4}が格段に上がったぞ{BREAK}",
-    "en": "{CTRL:F4}Upgraded horns boost{CTRL:F4}{NEWLINE}{CTRL:F4}its ATK dramatically!{BREAK}"
+    "en": "{CTRL:F4}New horns{CTRL:F4}{NEWLINE}{CTRL:F4}boost ATK up!{BREAK}"
   },
   {
     "id": 1405,
     "desc_idx": 537,
     "str_idx": 1,
     "jp": "{CTRL:F4}あついまなざしで{CTRL:F4}{NEWLINE}{CTRL:F4}モンスターを焼きつくす{BREAK}",
-    "en": "{CTRL:F4}Burns monsters to ash{CTRL:F4}{NEWLINE}{CTRL:F4}with a fiery gaze.{BREAK}"
+    "en": "{CTRL:F4}Fiery gaze{CTRL:F4}{NEWLINE}{CTRL:F4}burns foes.{BREAK}"
   },
   {
     "id": 1407,
     "desc_idx": 538,
     "str_idx": 1,
     "jp": "{CTRL:F4}焼けつく炎はてつをも{CTRL:F4}{NEWLINE}{CTRL:F4}とかす強力な一撃だ!{BREAK}",
-    "en": "{CTRL:F4}Its searing flames{CTRL:F4}{NEWLINE}{CTRL:F4}can even melt iron!{BREAK}"
+    "en": "{CTRL:F4}Searing flame{CTRL:F4}{NEWLINE}{CTRL:F4}melts iron!{BREAK}"
   },
   {
     "id": 1409,
     "desc_idx": 539,
     "str_idx": 1,
     "jp": "{CTRL:F4}プレイヤーを守るために{CTRL:F4}{NEWLINE}{CTRL:F4}地中にもぐるのはやめた{BREAK}",
-    "en": "{CTRL:F4}Stopped burrowing to{CTRL:F4}{NEWLINE}{CTRL:F4}protect the player.{BREAK}"
+    "en": "{CTRL:F4}Quit digging{CTRL:F4}{NEWLINE}{CTRL:F4}to guard you.{BREAK}"
   },
   {
     "id": 1411,
     "desc_idx": 540,
     "str_idx": 1,
     "jp": "{CTRL:F4}ガーディアンに対して{CTRL:F4}{NEWLINE}{CTRL:F4}絶大な攻撃力をほこる{BREAK}",
-    "en": "{CTRL:F4}Boasts immense ATK{CTRL:F4}{NEWLINE}{CTRL:F4}against Guardians.{BREAK}"
+    "en": "{CTRL:F4}Huge ATK vs.{CTRL:F4}{NEWLINE}{CTRL:F4}Guardians.{BREAK}"
   },
   {
     "id": 1413,
     "desc_idx": 541,
     "str_idx": 1,
     "jp": "{CTRL:F4}近づくテキを.どうもうな{CTRL:F4}{NEWLINE}{CTRL:F4}ツメで切りさくぞ!{BREAK}",
-    "en": "{CTRL:F4}Tears nearby foes{CTRL:F4}{NEWLINE}{CTRL:F4}with ferocious claws!{BREAK}"
+    "en": "{CTRL:F4}Rends foes w/{CTRL:F4}{NEWLINE}{CTRL:F4}fierce claws!{BREAK}"
   },
   {
     "id": 1415,
     "desc_idx": 542,
     "str_idx": 1,
     "jp": "{CTRL:F4}連れ歩くだけでプレイヤ{CTRL:F4}{NEWLINE}{CTRL:F4}ーに勇気がわいてくる{BREAK}",
-    "en": "{CTRL:F4}Just bringing it along{CTRL:F4}{NEWLINE}{CTRL:F4}inspires courage.{BREAK}"
+    "en": "{CTRL:F4}Its presence{CTRL:F4}{NEWLINE}{CTRL:F4}gives courage{BREAK}"
   },
   {
     "id": 1417,
     "desc_idx": 543,
     "str_idx": 1,
     "jp": "{CTRL:F4}4本の剣を振り回して{CTRL:F4}{NEWLINE}{CTRL:F4}プレイヤーをえんご{BREAK}",
-    "en": "{CTRL:F4}Backs up the player{CTRL:F4}{NEWLINE}{CTRL:F4}with four swords.{BREAK}"
+    "en": "{CTRL:F4}Backs you up{CTRL:F4}{NEWLINE}{CTRL:F4}w/ 4 swords.{BREAK}"
   },
   {
     "id": 1419,
     "desc_idx": 544,
     "str_idx": 1,
     "jp": "{CTRL:F4}必殺の一撃はテキをアッ{CTRL:F4}{NEWLINE}{CTRL:F4}という間になぎはらう!{BREAK}",
-    "en": "{CTRL:F4}Its lethal strike{CTRL:F4}{NEWLINE}{CTRL:F4}mows foes down fast!{BREAK}"
+    "en": "{CTRL:F4}Deadly strike{CTRL:F4}{NEWLINE}{CTRL:F4}mows foes!{BREAK}"
   },
   {
     "id": 1421,
     "desc_idx": 545,
     "str_idx": 1,
     "jp": "{CTRL:F4}最強のテキは最強の仲間{CTRL:F4}{NEWLINE}{CTRL:F4}となる,実はオス{BREAK}",
-    "en": "{CTRL:F4}Strongest foe becomes{CTRL:F4}{NEWLINE}{CTRL:F4}ally. Actually male.{BREAK}"
+    "en": "{CTRL:F4}Top foe, now{CTRL:F4}{NEWLINE}{CTRL:F4}ally. A male.{BREAK}"
   },
   {
     "id": 1423,
     "desc_idx": 546,
     "str_idx": 1,
     "jp": "{CTRL:F4}神聖なる剣は.全ての{CTRL:F4}{NEWLINE}{CTRL:F4}邪なるモノを焼きつくす{BREAK}",
-    "en": "{CTRL:F4}Its sacred sword{CTRL:F4}{NEWLINE}{CTRL:F4}burns away all evil.{BREAK}"
+    "en": "{CTRL:F4}Sacred sword{CTRL:F4}{NEWLINE}{CTRL:F4}purges evil.{BREAK}"
   },
   {
     "id": 1425,
     "desc_idx": 547,
     "str_idx": 1,
     "jp": "{CTRL:F4}小さいなりに.さんぞく{CTRL:F4}{NEWLINE}{CTRL:F4}をひきいる事もある{BREAK}",
-    "en": "{CTRL:F4}Small as it is, it{CTRL:F4}{NEWLINE}{CTRL:F4}sometimes leads bandits.{BREAK}"
+    "en": "{CTRL:F4}Small, yet it{CTRL:F4}{NEWLINE}{CTRL:F4}leads bandits{BREAK}"
   },
   {
     "id": 1427,
     "desc_idx": 548,
     "str_idx": 1,
     "jp": "{CTRL:F4}森やどうくつにひそんで{CTRL:F4}{NEWLINE}{CTRL:F4}いる事が多い{BREAK}",
-    "en": "{CTRL:F4}Often lurks in{CTRL:F4}{NEWLINE}{CTRL:F4}forests and caves.{BREAK}"
+    "en": "{CTRL:F4}Lurks inside{CTRL:F4}{NEWLINE}{CTRL:F4}woods & caves{BREAK}"
   },
   {
     "id": 1429,
     "desc_idx": 549,
     "str_idx": 1,
     "jp": "{CTRL:F4}ボスになったとたん{CTRL:F4}{NEWLINE}{CTRL:F4}強気なモンスターに変身{BREAK}",
-    "en": "{CTRL:F4}Turns bold the moment{CTRL:F4}{NEWLINE}{CTRL:F4}it becomes a boss.{BREAK}"
+    "en": "{CTRL:F4}Grows bold as{CTRL:F4}{NEWLINE}{CTRL:F4}a boss foe.{BREAK}"
   },
   {
     "id": 1431,
     "desc_idx": 550,
     "str_idx": 1,
     "jp": "{CTRL:F4}ガイコツのばけもの,{CTRL:F4}{NEWLINE}{CTRL:F4}あなどるとキケンだぞ!{BREAK}",
-    "en": "{CTRL:F4}A skeletal fiend.{CTRL:F4}{NEWLINE}{CTRL:F4}Don't underestimate it!{BREAK}"
+    "en": "{CTRL:F4}Bony fiend.{CTRL:F4}{NEWLINE}{CTRL:F4}Stay alert!{BREAK}"
   },
   {
     "id": 1433,
     "desc_idx": 551,
     "str_idx": 1,
     "jp": "{CTRL:F4}ファイアーもあまり効か{CTRL:F4}{NEWLINE}{CTRL:F4}ない,実力で勝負だ!{BREAK}",
-    "en": "{CTRL:F4}Resists Fire well.{CTRL:F4}{NEWLINE}{CTRL:F4}Fight with pure skill!{BREAK}"
+    "en": "{CTRL:F4}Resists Fire.{CTRL:F4}{NEWLINE}{CTRL:F4}Use pure grit{BREAK}"
   },
   {
     "id": 1435,
     "desc_idx": 552,
     "str_idx": 1,
     "jp": "{CTRL:F4}自分の体力を回復する{CTRL:F4}{NEWLINE}{CTRL:F4}から手ごわいぞ!{BREAK}",
-    "en": "{CTRL:F4}Heals its own HP,{CTRL:F4}{NEWLINE}{CTRL:F4}making it tough!{BREAK}"
+    "en": "{CTRL:F4}Heals own HP.{CTRL:F4}{NEWLINE}{CTRL:F4}Tough foe!{BREAK}"
   },
   {
     "id": 1437,
     "desc_idx": 553,
     "str_idx": 1,
     "jp": "{CTRL:F4}強力な剣とがんじょうな{CTRL:F4}{NEWLINE}{CTRL:F4}体がとくちょうだ!{BREAK}",
-    "en": "{CTRL:F4}Known for its strong{CTRL:F4}{NEWLINE}{CTRL:F4}sword and sturdy body!{BREAK}"
+    "en": "{CTRL:F4}Strong sword{CTRL:F4}{NEWLINE}{CTRL:F4}& tough body!{BREAK}"
   },
   {
     "id": 1439,
     "desc_idx": 554,
     "str_idx": 1,
     "jp": "{CTRL:F4}はなれていても炎を{CTRL:F4}{NEWLINE}{CTRL:F4}吐いてくるから注意!{BREAK}",
-    "en": "{CTRL:F4}Watch out! It breathes{CTRL:F4}{NEWLINE}{CTRL:F4}fire from afar!{BREAK}"
+    "en": "{CTRL:F4}Breathes fire{CTRL:F4}{NEWLINE}{CTRL:F4}from afar!{BREAK}"
   },
   {
     "id": 1441,
     "desc_idx": 555,
     "str_idx": 1,
     "jp": "{CTRL:F4}とおくから魔法で攻撃{CTRL:F4}{NEWLINE}{CTRL:F4}してくるイヤなやつ{BREAK}",
-    "en": "{CTRL:F4}An annoying foe that{CTRL:F4}{NEWLINE}{CTRL:F4}casts magic from afar.{BREAK}"
+    "en": "{CTRL:F4}Casts magic{CTRL:F4}{NEWLINE}{CTRL:F4}from afar.{BREAK}"
   },
   {
     "id": 1443,
     "desc_idx": 556,
     "str_idx": 1,
     "jp": "{CTRL:F4}倒しても復活するぞ!{CTRL:F4}{NEWLINE}{CTRL:F4}眠らせるといいかも{BREAK}",
-    "en": "{CTRL:F4}Revives when slain!{CTRL:F4}{NEWLINE}{CTRL:F4}Try putting it to sleep.{BREAK}"
+    "en": "{CTRL:F4}Revives! Put{CTRL:F4}{NEWLINE}{CTRL:F4}it to sleep.{BREAK}"
   },
   {
     "id": 1445,
     "desc_idx": 557,
     "str_idx": 1,
     "jp": "{CTRL:F4}ちていをおよぐサメだ!{CTRL:F4}{NEWLINE}{CTRL:F4}きょうぼうだぞ!{BREAK}",
-    "en": "{CTRL:F4}A shark that swims{CTRL:F4}{NEWLINE}{CTRL:F4}underground! Ferocious!{BREAK}"
+    "en": "{CTRL:F4}Fierce shark{CTRL:F4}{NEWLINE}{CTRL:F4}under ground!{BREAK}"
   },
   {
     "id": 1447,
     "desc_idx": 558,
     "str_idx": 1,
     "jp": "{CTRL:F4}ボスだから.暗やみでも{CTRL:F4}{NEWLINE}{CTRL:F4}花が開いているぞ!{BREAK}",
-    "en": "{CTRL:F4}As a boss, its petals{CTRL:F4}{NEWLINE}{CTRL:F4}open even in the dark!{BREAK}"
+    "en": "{CTRL:F4}Boss petals{CTRL:F4}{NEWLINE}{CTRL:F4}bloom in dark{BREAK}"
   },
   {
     "id": 1449,
     "desc_idx": 559,
     "str_idx": 1,
     "jp": "{CTRL:F4}こうてつにおおわれたカ{CTRL:F4}{NEWLINE}{CTRL:F4}タい体がとくちょうだ!{BREAK}",
-    "en": "{CTRL:F4}Known for its hard,{CTRL:F4}{NEWLINE}{CTRL:F4}steel-clad body!{BREAK}"
+    "en": "{CTRL:F4}Hard, sturdy{CTRL:F4}{NEWLINE}{CTRL:F4}steel body!{BREAK}"
   },
   {
     "id": 1451,
     "desc_idx": 560,
     "str_idx": 1,
     "jp": "{CTRL:F4}魔法攻撃が効かない{CTRL:F4}{NEWLINE}{CTRL:F4}やっかいなモンスターだ{BREAK}",
-    "en": "{CTRL:F4}A troublesome foe{CTRL:F4}{NEWLINE}{CTRL:F4}immune to magic.{BREAK}"
+    "en": "{CTRL:F4}Annoying foe{CTRL:F4}{NEWLINE}{CTRL:F4}magic-immune.{BREAK}"
   },
   {
     "id": 1453,
     "desc_idx": 561,
     "str_idx": 1,
     "jp": "{CTRL:F4}きょうじんな体力をもち{CTRL:F4}{NEWLINE}{CTRL:F4}炎を吐いてくるぞ!{BREAK}",
-    "en": "{CTRL:F4}Has massive HP and{CTRL:F4}{NEWLINE}{CTRL:F4}breathes fire!{BREAK}"
+    "en": "{CTRL:F4}Huge HP and{CTRL:F4}{NEWLINE}{CTRL:F4}fire breath!{BREAK}"
   },
   {
     "id": 1455,
     "desc_idx": 562,
     "str_idx": 1,
     "jp": "{CTRL:F4}こうらのカタさがやっか{CTRL:F4}{NEWLINE}{CTRL:F4}いなモンスターだ!{BREAK}",
-    "en": "{CTRL:F4}A troublesome foe{CTRL:F4}{NEWLINE}{CTRL:F4}with a rock-hard shell!{BREAK}"
+    "en": "{CTRL:F4}Tough foe in{CTRL:F4}{NEWLINE}{CTRL:F4}a hard shell!{BREAK}"
   },
   {
     "id": 1457,
     "desc_idx": 563,
     "str_idx": 1,
     "jp": "{CTRL:F4}するどいカマでたましい{CTRL:F4}{NEWLINE}{CTRL:F4}をつみとろうとする{BREAK}",
-    "en": "{CTRL:F4}Tries to reap souls{CTRL:F4}{NEWLINE}{CTRL:F4}with its sharp scythe.{BREAK}"
+    "en": "{CTRL:F4}Reaps souls{CTRL:F4}{NEWLINE}{CTRL:F4}with scythe.{BREAK}"
   },
   {
     "id": 1459,
     "desc_idx": 564,
     "str_idx": 1,
     "jp": "{CTRL:F4}モンスターの体力を{CTRL:F4}{NEWLINE}{CTRL:F4}回復する事があるぞ{BREAK}",
-    "en": "{CTRL:F4}Sometimes heals the{CTRL:F4}{NEWLINE}{CTRL:F4}HP of other monsters.{BREAK}"
+    "en": "{CTRL:F4}Heals the HP{CTRL:F4}{NEWLINE}{CTRL:F4}of other foes{BREAK}"
   },
   {
     "id": 1461,
     "desc_idx": 565,
     "str_idx": 1,
     "jp": "{CTRL:F4}とがったツノでごうかい{CTRL:F4}{NEWLINE}{CTRL:F4}に体当たりしてくるぞ!{BREAK}",
-    "en": "{CTRL:F4}Charges wildly with{CTRL:F4}{NEWLINE}{CTRL:F4}its sharp horns!{BREAK}"
+    "en": "{CTRL:F4}Charges wild{CTRL:F4}{NEWLINE}{CTRL:F4}with horns!{BREAK}"
   },
   {
     "id": 1463,
     "desc_idx": 566,
     "str_idx": 1,
     "jp": "{CTRL:F4}殺人こうせんを放つ{CTRL:F4}{NEWLINE}{CTRL:F4}不気味な目玉だ!{BREAK}",
-    "en": "{CTRL:F4}An eerie eyeball that{CTRL:F4}{NEWLINE}{CTRL:F4}fires deadly beams!{BREAK}"
+    "en": "{CTRL:F4}Eerie eye w/{CTRL:F4}{NEWLINE}{CTRL:F4}deadly beams!{BREAK}"
   },
   {
     "id": 1465,
     "desc_idx": 567,
     "str_idx": 1,
     "jp": "{CTRL:F4}もうれつないきおいで{CTRL:F4}{NEWLINE}{CTRL:F4}突進してくるぞ!{BREAK}",
-    "en": "{CTRL:F4}Charges forward with{CTRL:F4}{NEWLINE}{CTRL:F4}furious momentum!{BREAK}"
+    "en": "{CTRL:F4}Charges ahead{CTRL:F4}{NEWLINE}{CTRL:F4}with fury!{BREAK}"
   },
   {
     "id": 1467,
     "desc_idx": 568,
     "str_idx": 1,
     "jp": "{CTRL:F4}体力.攻撃力ともに{CTRL:F4}{NEWLINE}{CTRL:F4}最強レベルだ!{BREAK}",
-    "en": "{CTRL:F4}Both its HP and ATK{CTRL:F4}{NEWLINE}{CTRL:F4}are top-tier!{BREAK}"
+    "en": "{CTRL:F4}Both HP & ATK{CTRL:F4}{NEWLINE}{CTRL:F4}are top-tier!{BREAK}"
   },
   {
     "id": 1468,
@@ -3525,189 +3525,189 @@
     "desc_idx": 570,
     "str_idx": 1,
     "jp": "{CTRL:F4}ドラゴンをはるかに{CTRL:F4}{NEWLINE}{CTRL:F4}上回る最強モンスター!{BREAK}",
-    "en": "{CTRL:F4}The strongest monster,{CTRL:F4}{NEWLINE}{CTRL:F4}far above Dragons!{BREAK}"
+    "en": "{CTRL:F4}Strongest foe{CTRL:F4}{NEWLINE}{CTRL:F4}above Dragon!{BREAK}"
   },
   {
     "id": 1472,
     "desc_idx": 571,
     "str_idx": 1,
     "jp": "{CTRL:F4}プーニャの王様,フェア{CTRL:F4}{NEWLINE}{CTRL:F4}リーの森に住んでいた{BREAK}",
-    "en": "{CTRL:F4}King of Poonyas. Lived{CTRL:F4}{NEWLINE}{CTRL:F4}in Fairy Forest.{BREAK}"
+    "en": "{CTRL:F4}Poonya King{CTRL:F4}{NEWLINE}{CTRL:F4}of Fairy Wood{BREAK}"
   },
   {
     "id": 1474,
     "desc_idx": 572,
     "str_idx": 1,
     "jp": "{CTRL:F4}女王様キラービー,{CTRL:F4}{NEWLINE}{CTRL:F4}アラハバチの森にいた{BREAK}",
-    "en": "{CTRL:F4}Queen Killer Bee.{CTRL:F4}{NEWLINE}{CTRL:F4}Lived in Arahaba Woods.{BREAK}"
+    "en": "{CTRL:F4}Bee Queen of{CTRL:F4}{NEWLINE}{CTRL:F4}Arahaba Woods{BREAK}"
   },
   {
     "id": 1476,
     "desc_idx": 573,
     "str_idx": 1,
     "jp": "{CTRL:F4}身がるなホッピー,{CTRL:F4}{NEWLINE}{CTRL:F4}ホッピー谷にいた{BREAK}",
-    "en": "{CTRL:F4}Nimble Hoppy. Lived{CTRL:F4}{NEWLINE}{CTRL:F4}in Hoppy Valley.{BREAK}"
+    "en": "{CTRL:F4}Swift Hoppy{CTRL:F4}{NEWLINE}{CTRL:F4}of Hoppy Vale{BREAK}"
   },
   {
     "id": 1478,
     "desc_idx": 574,
     "str_idx": 1,
     "jp": "{CTRL:F4}ナナシ墓地で死者をあや{CTRL:F4}{NEWLINE}{CTRL:F4}つっていたスケルトン{BREAK}",
-    "en": "{CTRL:F4}A Skeleton raising the{CTRL:F4}{NEWLINE}{CTRL:F4}dead at Nanashi Grave.{BREAK}"
+    "en": "{CTRL:F4}Raised dead{CTRL:F4}{NEWLINE}{CTRL:F4}at Nameless.{BREAK}"
   },
   {
     "id": 1480,
     "desc_idx": 575,
     "str_idx": 1,
     "jp": "{CTRL:F4}水不足を心配して雨を{CTRL:F4}{NEWLINE}{CTRL:F4}降らせていたケムンパ{BREAK}",
-    "en": "{CTRL:F4}A Kemunpa making rain{CTRL:F4}{NEWLINE}{CTRL:F4}over drought worries.{BREAK}"
+    "en": "{CTRL:F4}Kemunpa who{CTRL:F4}{NEWLINE}{CTRL:F4}brought rain.{BREAK}"
   },
   {
     "id": 1482,
     "desc_idx": 576,
     "str_idx": 1,
     "jp": "{CTRL:F4}邪教の教主として人間を{CTRL:F4}{NEWLINE}{CTRL:F4}だましていたプリースト{BREAK}",
-    "en": "{CTRL:F4}A cult-leader Priest{CTRL:F4}{NEWLINE}{CTRL:F4}who deceived humans.{BREAK}"
+    "en": "{CTRL:F4}Cult Priest{CTRL:F4}{NEWLINE}{CTRL:F4}tricked folk.{BREAK}"
   },
   {
     "id": 1484,
     "desc_idx": 577,
     "str_idx": 1,
     "jp": "{CTRL:F4}王女をさらいに来たゴブ{CTRL:F4}{NEWLINE}{CTRL:F4}リン,山ぞくの首領だ{BREAK}",
-    "en": "{CTRL:F4}Bandit Goblin chief{CTRL:F4}{NEWLINE}{CTRL:F4}after the Princess.{BREAK}"
+    "en": "{CTRL:F4}Bandit Goblin{CTRL:F4}{NEWLINE}{CTRL:F4}boss. Greedy.{BREAK}"
   },
   {
     "id": 1486,
     "desc_idx": 578,
     "str_idx": 1,
     "jp": "{CTRL:F4}これからキングドラゴン{CTRL:F4}{NEWLINE}{CTRL:F4}になるベビードラゴン{BREAK}",
-    "en": "{CTRL:F4}A Baby Dragon set to{CTRL:F4}{NEWLINE}{CTRL:F4}become a King Dragon.{BREAK}"
+    "en": "{CTRL:F4}Baby Dragon{CTRL:F4}{NEWLINE}{CTRL:F4}next to rule.{BREAK}"
   },
   {
     "id": 1488,
     "desc_idx": 579,
     "str_idx": 1,
     "jp": "{CTRL:F4}こりずに二度も土地を{CTRL:F4}{NEWLINE}{CTRL:F4}呪っていた魔道士の首領{BREAK}",
-    "en": "{CTRL:F4}Mage leader who cursed{CTRL:F4}{NEWLINE}{CTRL:F4}the land twice.{BREAK}"
+    "en": "{CTRL:F4}Mage boss who{CTRL:F4}{NEWLINE}{CTRL:F4}cursed twice.{BREAK}"
   },
   {
     "id": 1490,
     "desc_idx": 580,
     "str_idx": 1,
     "jp": "{CTRL:F4}この世への強い未練が.{CTRL:F4}{NEWLINE}{CTRL:F4}男をグールに変えた{BREAK}",
-    "en": "{CTRL:F4}Strong regrets turned{CTRL:F4}{NEWLINE}{CTRL:F4}this man into a Ghoul.{BREAK}"
+    "en": "{CTRL:F4}Deep regrets{CTRL:F4}{NEWLINE}{CTRL:F4}made a Ghoul.{BREAK}"
   },
   {
     "id": 1492,
     "desc_idx": 581,
     "str_idx": 1,
     "jp": "{CTRL:F4}一匹で船をもはかいする{CTRL:F4}{NEWLINE}{CTRL:F4}力を持つ,宝物が好き{BREAK}",
-    "en": "{CTRL:F4}Strong enough to sink{CTRL:F4}{NEWLINE}{CTRL:F4}ships. Loves treasure.{BREAK}"
+    "en": "{CTRL:F4}Sinks ships &{CTRL:F4}{NEWLINE}{CTRL:F4}loves booty.{BREAK}"
   },
   {
     "id": 1494,
     "desc_idx": 582,
     "str_idx": 1,
     "jp": "{CTRL:F4}大地をさばくに変えて{CTRL:F4}{NEWLINE}{CTRL:F4}しまった強力なブロッサ{BREAK}",
-    "en": "{CTRL:F4}A mighty Blossa that{CTRL:F4}{NEWLINE}{CTRL:F4}turned land to desert.{BREAK}"
+    "en": "{CTRL:F4}Mighty Blossa{CTRL:F4}{NEWLINE}{CTRL:F4}dried lands.{BREAK}"
   },
   {
     "id": 1496,
     "desc_idx": 583,
     "str_idx": 1,
     "jp": "{CTRL:F4}フランクじいさん作,{CTRL:F4}{NEWLINE}{CTRL:F4}攻撃力は高いが・・・{BREAK}",
-    "en": "{CTRL:F4}Made by Old Frank.{CTRL:F4}{NEWLINE}{CTRL:F4}High ATK, but...{BREAK}"
+    "en": "{CTRL:F4}Old Frank's{CTRL:F4}{NEWLINE}{CTRL:F4}high-ATK bot.{BREAK}"
   },
   {
     "id": 1498,
     "desc_idx": 584,
     "str_idx": 1,
     "jp": "{CTRL:F4}かがみの世界を支配して{CTRL:F4}{NEWLINE}{CTRL:F4}いたリスタールの王{BREAK}",
-    "en": "{CTRL:F4}King of Lystals who{CTRL:F4}{NEWLINE}{CTRL:F4}ruled the mirror world.{BREAK}"
+    "en": "{CTRL:F4}Lystal King{CTRL:F4}{NEWLINE}{CTRL:F4}of mirrors.{BREAK}"
   },
   {
     "id": 1500,
     "desc_idx": 585,
     "str_idx": 1,
     "jp": "{CTRL:F4}成体になりきれなかった{CTRL:F4}{NEWLINE}{CTRL:F4}ドラゴン,メス?オス?{BREAK}",
-    "en": "{CTRL:F4}An immature Dragon.{CTRL:F4}{NEWLINE}{CTRL:F4}Female? Or male?{BREAK}"
+    "en": "{CTRL:F4}Young Dragon.{CTRL:F4}{NEWLINE}{CTRL:F4}Girl or boy?{BREAK}"
   },
   {
     "id": 1502,
     "desc_idx": 586,
     "str_idx": 1,
     "jp": "{CTRL:F4}ドンドコ山道に生息する{CTRL:F4}{NEWLINE}{CTRL:F4}ハンマーシェルのボス{BREAK}",
-    "en": "{CTRL:F4}Hammershell boss of{CTRL:F4}{NEWLINE}{CTRL:F4}Dondoko Mountain Pass.{BREAK}"
+    "en": "{CTRL:F4}Shell boss of{CTRL:F4}{NEWLINE}{CTRL:F4}Dondoko Pass.{BREAK}"
   },
   {
     "id": 1504,
     "desc_idx": 587,
     "str_idx": 1,
     "jp": "{CTRL:F4}廃都にひそみ.シャドウ{CTRL:F4}{NEWLINE}{CTRL:F4}をあやつる死神キング{BREAK}",
-    "en": "{CTRL:F4}Reaper King hiding in{CTRL:F4}{NEWLINE}{CTRL:F4}ruins, ruling Shadows.{BREAK}"
+    "en": "{CTRL:F4}Reaper King{CTRL:F4}{NEWLINE}{CTRL:F4}of Shadows.{BREAK}"
   },
   {
     "id": 1506,
     "desc_idx": 588,
     "str_idx": 1,
     "jp": "{CTRL:F4}邪法を使い.死人をも{CTRL:F4}{NEWLINE}{CTRL:F4}生き返らせるビショップ{BREAK}",
-    "en": "{CTRL:F4}A Bishop using dark{CTRL:F4}{NEWLINE}{CTRL:F4}arts to raise the dead.{BREAK}"
+    "en": "{CTRL:F4}Dark Bishop{CTRL:F4}{NEWLINE}{CTRL:F4}raising dead.{BREAK}"
   },
   {
     "id": 1508,
     "desc_idx": 589,
     "str_idx": 1,
     "jp": "{CTRL:F4}ブルの怒りは大地の怒り{CTRL:F4}{NEWLINE}{CTRL:F4}とも言われている{BREAK}",
-    "en": "{CTRL:F4}They say Bull's wrath{CTRL:F4}{NEWLINE}{CTRL:F4}is the earth's wrath.{BREAK}"
+    "en": "{CTRL:F4}Bull's wrath{CTRL:F4}{NEWLINE}{CTRL:F4}shakes earth.{BREAK}"
   },
   {
     "id": 1510,
     "desc_idx": 590,
     "str_idx": 1,
     "jp": "{CTRL:F4}炎の力を手に入れて{CTRL:F4}{NEWLINE}{CTRL:F4}強力になったエビルアイ{BREAK}",
-    "en": "{CTRL:F4}An Evil Eye powered{CTRL:F4}{NEWLINE}{CTRL:F4}up by the force of fire.{BREAK}"
+    "en": "{CTRL:F4}Evil Eye fed{CTRL:F4}{NEWLINE}{CTRL:F4}by fire power{BREAK}"
   },
   {
     "id": 1512,
     "desc_idx": 591,
     "str_idx": 1,
     "jp": "{CTRL:F4}水の神殿を乗っ取って.{CTRL:F4}{NEWLINE}{CTRL:F4}全部こおらせてしまった{BREAK}",
-    "en": "{CTRL:F4}Seized the Water{CTRL:F4}{NEWLINE}{CTRL:F4}Temple and froze it.{BREAK}"
+    "en": "{CTRL:F4}Froze over{CTRL:F4}{NEWLINE}{CTRL:F4}Water Temple.{BREAK}"
   },
   {
     "id": 1514,
     "desc_idx": 592,
     "str_idx": 1,
     "jp": "{CTRL:F4}赤い月の下で獣化してし{CTRL:F4}{NEWLINE}{CTRL:F4}まったあわれな少年の姿{BREAK}",
-    "en": "{CTRL:F4}A poor boy turned{CTRL:F4}{NEWLINE}{CTRL:F4}beast under a red moon.{BREAK}"
+    "en": "{CTRL:F4}Boy turned{CTRL:F4}{NEWLINE}{CTRL:F4}beast by moon{BREAK}"
   },
   {
     "id": 1516,
     "desc_idx": 593,
     "str_idx": 1,
     "jp": "{CTRL:F4}主人のルスにさびしく{CTRL:F4}{NEWLINE}{CTRL:F4}なってあばれた石ぞう{BREAK}",
-    "en": "{CTRL:F4}A stone statue that{CTRL:F4}{NEWLINE}{CTRL:F4}rampaged out of loneliness.{BREAK}"
+    "en": "{CTRL:F4}Lonely statue{CTRL:F4}{NEWLINE}{CTRL:F4}went berserk.{BREAK}"
   },
   {
     "id": 1518,
     "desc_idx": 594,
     "str_idx": 1,
     "jp": "{CTRL:F4}神の雷を守って神殿に{CTRL:F4}{NEWLINE}{CTRL:F4}住む世界最強のドラゴン{BREAK}",
-    "en": "{CTRL:F4}Strongest Dragon,{CTRL:F4}{NEWLINE}{CTRL:F4}guarding God's Thunder.{BREAK}"
+    "en": "{CTRL:F4}Top Dragon of{CTRL:F4}{NEWLINE}{CTRL:F4}God's Thunder{BREAK}"
   },
   {
     "id": 1520,
     "desc_idx": 595,
     "str_idx": 1,
     "jp": "{CTRL:F4}魔王の左うで,ひじょう{CTRL:F4}{NEWLINE}{CTRL:F4}にざんぎゃくな性格{BREAK}",
-    "en": "{CTRL:F4}Demon Lord's left{CTRL:F4}{NEWLINE}{CTRL:F4}hand. Extremely cruel.{BREAK}"
+    "en": "{CTRL:F4}Demon Lord's{CTRL:F4}{NEWLINE}{CTRL:F4}cruel L-hand.{BREAK}"
   },
   {
     "id": 1522,
     "desc_idx": 596,
     "str_idx": 1,
     "jp": "{CTRL:F4}魔王の右うで,つねに{CTRL:F4}{NEWLINE}{CTRL:F4}誰かを見下している{BREAK}",
-    "en": "{CTRL:F4}Demon Lord's right{CTRL:F4}{NEWLINE}{CTRL:F4}hand. Looks down on all.{BREAK}"
+    "en": "{CTRL:F4}Demon Lord's{CTRL:F4}{NEWLINE}{CTRL:F4}proud R-hand.{BREAK}"
   },
   {
     "id": 1526,
@@ -7228,7 +7228,7 @@
     "desc_idx": 663,
     "str_idx": 9,
     "jp": "調べた所だと.{WAIT:0F}不眠しょうになった村人は全員{NEWLINE}プーニャのぼうしをかぶった商人に会っているんだ,{END}",
-    "en": "From what I found,{WAIT:0F} every{NEWLINE}villager with insomnia{WAIT:3C}{CTRL:F2}met a merchant wearing a{NEWLINE}Punya hat.{END}"
+    "en": "From what I found,{WAIT:0F} every{NEWLINE}villager with insomnia{WAIT:3C}{CTRL:F2}met a merchant wearing a{NEWLINE}Poonya hat.{END}"
   },
   {
     "id": 2109,
@@ -9783,7 +9783,7 @@
     "desc_idx": 713,
     "str_idx": 2,
     "jp": "あいつの依頼だから.{WAIT:0F}きっと相当な枚数を要求するぜ,{WAIT:1E}{NEWLINE}「プーニャ」のカードを「100枚」とかな,{END}",
-    "en": "Knowing them,{WAIT:0F} they'll{NEWLINE}demand a crazy amount.{WAIT:1E}{WAIT:3C}{CTRL:F2}Like{WAIT:0F} \"100 Punya cards\" or{NEWLINE}something.{END}"
+    "en": "Knowing them,{WAIT:0F} they'll{NEWLINE}demand a crazy amount.{WAIT:1E}{WAIT:3C}{CTRL:F2}Like{WAIT:0F} \"100 Poonya cards\" or{NEWLINE}something.{END}"
   },
   {
     "id": 2559,
@@ -9818,14 +9818,14 @@
     "desc_idx": 713,
     "str_idx": 9,
     "jp": "       「真心のプーニャブランド～」{WAIT:1E}{NEWLINE}「あなたのお気に入りをプーニャで作ってみませんか～?」{END}",
-    "en": "\"Sincere Punya Brand~\"{WAIT:1E}{NEWLINE}\"Want to craft your faves{WAIT:3C}{CTRL:F2}with Punya~?\"{END}"
+    "en": "\"Sincere Poonya Brand~\"{WAIT:1E}{NEWLINE}\"Want to craft your faves{WAIT:3C}{CTRL:F2}with Poonya~?\"{END}"
   },
   {
     "id": 2566,
     "desc_idx": 713,
     "str_idx": 10,
     "jp": "プーニャ商人のプリム・サニーで～す,{WAIT:1E}{NEWLINE}「プニちゃん」って呼んでね,{END}",
-    "en": "I'm Prim Sunny the Punya{NEWLINE}merchant~{WAIT:1E} Call me{WAIT:3C}{CTRL:F2}\"Puni-chan\"!{END}"
+    "en": "I'm Prim Sunny the Poonya{NEWLINE}merchant~{WAIT:1E} Call me{WAIT:3C}{CTRL:F2}\"Puni-chan\"!{END}"
   },
   {
     "id": 2567,
@@ -9909,7 +9909,7 @@
     "desc_idx": 713,
     "str_idx": 24,
     "jp": "「プーニャ」のカードを～{WAIT:1E}「100枚」集めてほしいの～,{END}",
-    "en": "I need you to collect~{WAIT:1E}{NEWLINE}\"100\" Punya cards~{END}"
+    "en": "I need you to collect~{WAIT:1E}{NEWLINE}\"100\" Poonya cards~{END}"
   },
   {
     "id": 2581,
@@ -10686,7 +10686,7 @@
     "desc_idx": 726,
     "str_idx": 0,
     "jp": "ん?{WAIT:1E}{NEWLINE}なんだ.{WAIT:0F}あのプーニャ?{WAIT:1E} 見た事のない色をしているな,{END}",
-    "en": "Hm?{WAIT:1E} What's with{WAIT:0F} that{NEWLINE}Punya?{WAIT:1E} Never seen that{WAIT:3C}{CTRL:F2}color before.{END}"
+    "en": "Hm?{WAIT:1E} What's with{WAIT:0F} that{NEWLINE}Poonya?{WAIT:1E} Never seen that{WAIT:3C}{CTRL:F2}color before.{END}"
   },
   {
     "id": 2708,
@@ -10728,7 +10728,7 @@
     "desc_idx": 726,
     "str_idx": 6,
     "jp": "・{WAIT:0A}・{WAIT:0A}・{WAIT:0A}それにしても.{WAIT:0F}人間がプーニャになっていたのか?{END}",
-    "en": ".{WAIT:0A}.{WAIT:0A}.{WAIT:0A}Still,{WAIT:0F} a human turned{NEWLINE}into a Punya?{END}"
+    "en": ".{WAIT:0A}.{WAIT:0A}.{WAIT:0A}Still,{WAIT:0F} a human turned{NEWLINE}into a Poonya?{END}"
   },
   {
     "id": 2714,
@@ -12338,14 +12338,14 @@
     "desc_idx": 740,
     "str_idx": 0,
     "jp": "最近.{WAIT:0F}この村の西にある森で.{WAIT:0F}{NEWLINE}プーニャがいじょうに増えているんだよ,{END}",
-    "en": "Lately,{WAIT:0F} in the forest{NEWLINE}west of this village,{WAIT:0F}{WAIT:3C}{CTRL:F2}Punyas have been{NEWLINE}multiplying like crazy.{END}"
+    "en": "Lately,{WAIT:0F} in the forest{NEWLINE}west of this village,{WAIT:0F}{WAIT:3C}{CTRL:F2}Poonyas have been{NEWLINE}multiplying like crazy.{END}"
   },
   {
     "id": 2986,
     "desc_idx": 740,
     "str_idx": 1,
     "jp": "プーニャといえども.{WAIT:0F}モンスターだからな,{END}",
-    "en": "Even Punyas{WAIT:0F} are still{NEWLINE}monsters.{END}"
+    "en": "Even Poonyas{WAIT:0F} are still{NEWLINE}monsters.{END}"
   },
   {
     "id": 2989,
@@ -13367,7 +13367,7 @@
     "desc_idx": 750,
     "str_idx": 0,
     "jp": "おお.{WAIT:0F}プーニャを追いはらってきてくれたんだな,{WAIT:1E}{NEWLINE}賞金はギルドにあずけてあるから.{WAIT:0F}取りに行くといい,{END}",
-    "en": "Oh,{WAIT:0F} you chased off the{NEWLINE}Punyas!{WAIT:1E} I left your{WAIT:3C}{CTRL:F2}reward at the Guild,{WAIT:0F} so{NEWLINE}go pick it up.{END}"
+    "en": "Oh,{WAIT:0F} you chased off the{NEWLINE}Poonyas!{WAIT:1E} I left your{WAIT:3C}{CTRL:F2}reward at the Guild,{WAIT:0F} so{NEWLINE}go pick it up.{END}"
   },
   {
     "id": 3158,

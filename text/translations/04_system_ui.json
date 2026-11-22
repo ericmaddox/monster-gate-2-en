@@ -3574,21 +3574,21 @@
     "desc_idx": 397,
     "str_idx": 0,
     "jp": "最終フロア-をめざせ!{BREAK}",
-    "en": "Reach the final floor!{BREAK}"
+    "en": "Final Floor!{BREAK}"
   },
   {
     "id": 1022,
     "desc_idx": 397,
     "str_idx": 1,
     "jp": "ダンジョンをぬけろ!{BREAK}",
-    "en": "Escape the dungeon!{BREAK}"
+    "en": "Escape Here!{BREAK}"
   },
   {
     "id": 1024,
     "desc_idx": 397,
     "str_idx": 3,
     "jp": "BOSSをたおせ!{BREAK}",
-    "en": "Defeat the BOSS!{BREAK}"
+    "en": "Defeat BOSS!{BREAK}"
   },
   {
     "id": 1025,
@@ -4470,7 +4470,7 @@
     "desc_idx": 484,
     "str_idx": 0,
     "jp": "グランシャーク{BREAK}",
-    "en": "Grand Shark{BREAK}"
+    "en": "GrandShark{BREAK}"
   },
   {
     "id": 1300,
@@ -4498,7 +4498,7 @@
     "desc_idx": 489,
     "str_idx": 0,
     "jp": "ハンマーシェル{BREAK}",
-    "en": "Hammer Shell{BREAK}"
+    "en": "Hmr. Shell{BREAK}"
   },
   {
     "id": 1310,
@@ -4589,7 +4589,7 @@
     "desc_idx": 510,
     "str_idx": 0,
     "jp": "ハイプリースト{BREAK}",
-    "en": "High Priest{BREAK}"
+    "en": "HighPriest{BREAK}"
   },
   {
     "id": 1352,
@@ -4617,7 +4617,7 @@
     "desc_idx": 516,
     "str_idx": 0,
     "jp": "マジックマスター{BREAK}",
-    "en": "Magic Master{BREAK}"
+    "en": "MageMaster{BREAK}"
   },
   {
     "id": 1364,
@@ -4638,14 +4638,14 @@
     "desc_idx": 519,
     "str_idx": 0,
     "jp": "グランシャーク{BREAK}",
-    "en": "Grand Shark{BREAK}"
+    "en": "GrandShark{BREAK}"
   },
   {
     "id": 1370,
     "desc_idx": 520,
     "str_idx": 0,
     "jp": "グレートトゥース{BREAK}",
-    "en": "Great Teeth{BREAK}"
+    "en": "GreatTeeth{BREAK}"
   },
   {
     "id": 1372,
@@ -4694,7 +4694,7 @@
     "desc_idx": 529,
     "str_idx": 0,
     "jp": "ハンマーシェル{BREAK}",
-    "en": "Hammer Shell{BREAK}"
+    "en": "Hmr. Shell{BREAK}"
   },
   {
     "id": 1390,
@@ -4841,7 +4841,7 @@
     "desc_idx": 557,
     "str_idx": 0,
     "jp": "グランシャーク{BREAK}",
-    "en": "Grand Shark{BREAK}"
+    "en": "GrandShark{BREAK}"
   },
   {
     "id": 1446,
@@ -4869,7 +4869,7 @@
     "desc_idx": 562,
     "str_idx": 0,
     "jp": "ハンマーシェル{BREAK}",
-    "en": "Hammer Shell{BREAK}"
+    "en": "Hmr. Shell{BREAK}"
   },
   {
     "id": 1456,
@@ -4925,7 +4925,7 @@
     "desc_idx": 576,
     "str_idx": 0,
     "jp": "ハイプリースト{BREAK}",
-    "en": "High Priest{BREAK}"
+    "en": "HighPriest{BREAK}"
   },
   {
     "id": 1483,
@@ -4939,7 +4939,7 @@
     "desc_idx": 579,
     "str_idx": 0,
     "jp": "マジックマスター{BREAK}",
-    "en": "Magic Master{BREAK}"
+    "en": "MageMaster{BREAK}"
   },
   {
     "id": 1489,
@@ -4953,7 +4953,7 @@
     "desc_idx": 581,
     "str_idx": 0,
     "jp": "グレートトゥース{BREAK}",
-    "en": "Great Teeth{BREAK}"
+    "en": "GreatTeeth{BREAK}"
   },
   {
     "id": 1493,
