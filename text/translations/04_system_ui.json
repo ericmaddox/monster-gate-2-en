@@ -774,42 +774,42 @@
     "desc_idx": 26,
     "str_idx": 0,
     "jp": "ダンジョンに持っていく{BREAK}",
-    "en": "Take to dungeon{BREAK}"
+    "en": "Pick dungeon {BREAK}"
   },
   {
     "id": 220,
     "desc_idx": 26,
     "str_idx": 1,
     "jp": "かくにんしたい{BREAK}",
-    "en": "Check details{BREAK}"
+    "en": "Inspect your {BREAK}"
   },
   {
     "id": 222,
     "desc_idx": 26,
     "str_idx": 3,
     "jp": "回復{BREAK}",
-    "en": "Heal{BREAK}"
+    "en": "Heal cards{BREAK}"
   },
   {
     "id": 223,
     "desc_idx": 26,
     "str_idx": 4,
     "jp": "攻撃{BREAK}",
-    "en": "Attack{BREAK}"
+    "en": "Attack cards{BREAK}"
   },
   {
     "id": 224,
     "desc_idx": 26,
     "str_idx": 5,
     "jp": "装備{BREAK}",
-    "en": "Equip{BREAK}"
+    "en": "Equip cards{BREAK}"
   },
   {
     "id": 225,
     "desc_idx": 26,
     "str_idx": 6,
     "jp": "補助{BREAK}",
-    "en": "Support{BREAK}"
+    "en": "Support cards{BREAK}"
   },
   {
     "id": 229,

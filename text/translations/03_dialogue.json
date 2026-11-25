@@ -270,7 +270,7 @@
     "desc_idx": 13,
     "str_idx": 4,
     "jp": "まずテキの方向（ ）を向いてね,{NEWLINE}Ⓑボタンを押しながら✚ボタンを押せば向きがかわるよ,{BREAK}",
-    "en": "Face foe (  ) first!{NEWLINE}Hold {G:291} + {G:284} to turn.{BREAK}"
+    "en": "Face foe ( ) first!{NEWLINE}Hold {G:291} + {G:284} to turn.{BREAK}"
   },
   {
     "id": 87,
@@ -9783,7 +9783,7 @@
     "desc_idx": 713,
     "str_idx": 2,
     "jp": "あいつの依頼だから.{WAIT:0F}きっと相当な枚数を要求するぜ,{WAIT:1E}{NEWLINE}「プーニャ」のカードを「100枚」とかな,{END}",
-    "en": "Knowing them,{WAIT:0F} they'll{NEWLINE}demand a crazy amount.{WAIT:1E}{WAIT:3C}{CTRL:F2}Like{WAIT:0F} \"100 Poonya cards\" or{NEWLINE}something.{END}"
+    "en": "Knowing them,{WAIT:0F} they'll{NEWLINE}demand a crazy amount.{WAIT:1E}{WAIT:3C}{CTRL:F2}Like{WAIT:0F} \"100 Poonya cards\"{NEWLINE}or something.{END}"
   },
   {
     "id": 2559,

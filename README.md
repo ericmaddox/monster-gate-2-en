@@ -3,7 +3,7 @@
 An unofficial English fan-translation project for Konami's *Monster Gate 2: Dai Inaru Dungeon* (*モンスターゲート2 大いなるダンジョン*, 2003, Game Code `A6GJ`) on the Game Boy Advance.
 
 > [!NOTE]
-> **Version 1.0.2 (Release):** All 4,543 game strings (1,017 script descriptors), 8×16 & 8×8 fonts, 107 unique Card HUD/List name sprites, the English character naming screen, opening intro slides, level-clear `CARD GET!` graphic, and all UI/menu/banner graphics are translated. If you encounter any bugs, text clipping, or untranslated elements, please report them on the [Issues page](https://github.com/ericmaddox/monster-gate-2-en/issues).
+> **Version 1.0.3 (Release):** All 4,543 game strings (1,017 script descriptors), 8×16 & 8×8 fonts, 107 unique Card HUD/List name sprites, the English character naming screen, opening intro slides, level-clear `CARD GET!` graphic, and all UI/menu/banner graphics are translated. If you encounter any bugs, text clipping, or untranslated elements, please report them on the [Issues page](https://github.com/ericmaddox/monster-gate-2-en/issues).
 
 ---
 
@@ -31,21 +31,21 @@ An unofficial English fan-translation project for Konami's *Monster Gate 2: Dai 
 
 Apply the patch **only** to a clean, unmodified Japanese *Monster Gate 2* (`A6GJ`) GBA ROM matching these exact checksums:
 
-| Property | Clean Japanese Base ROM | Patched English ROM (`v1.0.2`) |
+| Property | Clean Japanese Base ROM | Patched English ROM (`v1.0.3`) |
 | --- | --- | --- |
 | **Game Title / Code** | `MONSTERGATE2` / `A6GJ` | `MONSTERGATE2` / `A6GJ` |
 | **File Size** | `8,388,608` bytes (8 MB) | `16,777,216` bytes (16 MB) |
-| **CRC32** | `05AC7685` | `295F4895` |
-| **MD5** | `2C5221FBCBD75A985D68451CF7FA6C8E` | `9BA761EE884AA398780A62B39D25E77B` |
-| **SHA-1** | `A2C5E2AAC656A953A339ADC22C672BE86DF515FE` | `D646BB3573C27F28B9BFEEBD0520BC65A57E2F5D` |
+| **CRC32** | `05AC7685` | `30DC69B6` |
+| **MD5** | `2C5221FBCBD75A985D68451CF7FA6C8E` | `A9B834854F3AD8EC635453FCA2F53B38` |
+| **SHA-1** | `A2C5E2AAC656A953A339ADC22C672BE86DF515FE` | `4D44033921C1FEBE7D1D337DD0AFF14DDDEC2314` |
 
 ---
 
 ## Patching Instructions
 
-1. Download the latest release (`v1.0.2`) from [Releases](https://github.com/ericmaddox/monster-gate-2-en/releases) (or extract `patches/monster_gate_2_en_v1.0.2.zip`).
+1. Download the latest release (`v1.0.3`) from [Releases](https://github.com/ericmaddox/monster-gate-2-en/releases) (or extract `patches/monster_gate_2_en_v1.0.3.zip`).
 2. Use [Flips (Floating IPS)](https://www.romhacking.net/utilities/1040/) or [RomPatcher.js](https://www.marcrobledo.com/RomPatcher.js/) to apply **`monster_gate_2_en.bps`** (recommended, includes source/target CRC32 validation) or `monster_gate_2_en.ips` to your clean Japanese ROM.
-3. Verify the resulting ROM matches the **Patched English ROM (`v1.0.2`)** checksums above, then load it in an accurate GBA emulator such as [mGBA](https://mgba.io/).
+3. Verify the resulting ROM matches the **Patched English ROM (`v1.0.3`)** checksums above, then load it in an accurate GBA emulator such as [mGBA](https://mgba.io/).
 
 ---
 
@@ -67,7 +67,7 @@ Apply the patch **only** to a clean, unmodified Japanese *Monster Gate 2* (`A6GJ
 
 ## Repository Contents
 
-- `patches/monster_gate_2_en_v1.0.2.zip` — Release archive containing `.bps` and `.ips` patches
+- `patches/monster_gate_2_en_v1.0.3.zip` — Release archive containing `.bps` and `.ips` patches
 - `images/` — Showcase screenshots of the English translation
 - `text/` — Raw Japanese text dump (`raw_dump.json`) and categorized English translations (`01_items_cards.json`, `02_monsters.json`, `03_dialogue.json`, `04_system_ui.json`, `all_strings.json`)
 - `font/` — Extracted/patched 8×16 and 8×8 font binaries, glyph tables, and contact sheet

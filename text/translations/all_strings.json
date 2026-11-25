@@ -592,7 +592,7 @@
     "desc_idx": 13,
     "str_idx": 4,
     "jp": "まずテキの方向（ ）を向いてね,{NEWLINE}Ⓑボタンを押しながら✚ボタンを押せば向きがかわるよ,{BREAK}",
-    "en": "Face foe (  ) first!{NEWLINE}Hold {G:291} + {G:284} to turn.{BREAK}"
+    "en": "Face foe ( ) first!{NEWLINE}Hold {G:291} + {G:284} to turn.{BREAK}"
   },
   {
     "id": 85,
@@ -1537,70 +1537,70 @@
     "desc_idx": 26,
     "str_idx": 0,
     "jp": "ダンジョンに持っていく{BREAK}",
-    "en": "Take to dungeon{BREAK}"
+    "en": "Pick dungeon {BREAK}"
   },
   {
     "id": 220,
     "desc_idx": 26,
     "str_idx": 1,
     "jp": "かくにんしたい{BREAK}",
-    "en": "Check details{BREAK}"
+    "en": "Inspect your {BREAK}"
   },
   {
     "id": 221,
     "desc_idx": 26,
     "str_idx": 2,
     "jp": "マジックカードをえらんでください{BREAK}",
-    "en": " Select a card.{BREAK}"
+    "en": "Magic Cards{BREAK}"
   },
   {
     "id": 222,
     "desc_idx": 26,
     "str_idx": 3,
     "jp": "回復{BREAK}",
-    "en": "Heal{BREAK}"
+    "en": "Heal cards{BREAK}"
   },
   {
     "id": 223,
     "desc_idx": 26,
     "str_idx": 4,
     "jp": "攻撃{BREAK}",
-    "en": "Attack{BREAK}"
+    "en": "Attack cards{BREAK}"
   },
   {
     "id": 224,
     "desc_idx": 26,
     "str_idx": 5,
     "jp": "装備{BREAK}",
-    "en": "Equip{BREAK}"
+    "en": "Equip cards{BREAK}"
   },
   {
     "id": 225,
     "desc_idx": 26,
     "str_idx": 6,
     "jp": "補助{BREAK}",
-    "en": "Support{BREAK}"
+    "en": "Support cards{BREAK}"
   },
   {
     "id": 226,
     "desc_idx": 26,
     "str_idx": 7,
     "jp": "モンスター{BREAK}",
-    "en": "Monster{BREAK}"
+    "en": "Monster cards{BREAK}"
   },
   {
     "id": 227,
     "desc_idx": 26,
     "str_idx": 8,
     "jp": "カードをえらびます{BREAK}",
-    "en": "Choose cards.{BREAK}"
+    "en": "Choose {BREAK}"
   },
   {
     "id": 228,
     "desc_idx": 26,
     "str_idx": 9,
     "jp": "カードをかくにんします{BREAK}",
-    "en": "Check cards.{BREAK}"
+    "en": "Check {BREAK}"
   },
   {
     "id": 229,

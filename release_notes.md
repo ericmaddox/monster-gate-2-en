@@ -1,5 +1,13 @@
 # Release Notes
 
+## v1.0.3 — UI & Text Polish Release
+
+### Changes in v1.0.3
+- **Tutorial Directional Arrow Alignment (`Face foe (🔼) first!`):** Updated tutorial prompt `id=84` (`Desc 13, Str 4`) and shifted the directional arrow tile column at `0x0464B8` from `X = 9` to `X = 11` so the arrow icon renders cleanly inside `( )`.
+- **Guild `Quest List` `"REWARD"` Header Fix:** Corrected the column offset in `0x12835A` (`0x128382` / `0x1283C2` instead of `0x12837C` / `0x1283BC`), updated the tile count at `0x1287E8` to `0x5C`, and cleared `y = 3` kanji-top remnants so `"REWARD"` renders cleanly alongside `"QUEST LIST"`.
+- **Card List & Deck Setup Category Descriptions:** Reordered the verb prefix and category strings across all 8 category handlers (`0x06D6EC..0x06E7B6`) and clamped `pad_width` so all 5 tabs display natural English (`Check Heal cards`, `Check Attack cards`, `Check Equip cards`, `Check Support cards`, `Check Monster cards` in Card List, and `Choose <Category> cards` in Deck Setup) without wrapping across the 32-column BG tilemap and slicing the initial `S` or `M`.
+- **`B: WORLD MAP` Shadow Cleanup:** Cleaned interior rows `y = 0..6` across all 4 fade frames (`tiles 266, 273, 280, 287` at `0x115D48`) to remove the leftover bottom shadow pixels from the original Japanese prompt.
+
 ## v1.0.2 — Bugfix & Font Polish Release
 
 ### Changes in v1.0.2
